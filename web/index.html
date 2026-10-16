@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Needle Drop</title>
+<meta name="description" content="Find the right song for a scene: describe it or drop in a clip, get a licensed-aware shortlist you can play against it.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="needle" aria-hidden="true"></span><h1>Needle Drop</h1></div>
+  <p class="tag">Find the right song for a scene. Every pick comes with its license, and nothing is called cleared without a verified source.</p>
+  <span id="mode" class="mode"></span>
+</header>
+
+<main>
+  <section class="panel input">
+    <div class="tabs" role="tablist">
+      <button role="tab" class="tab active" data-tab="text" aria-selected="true">Describe a scene</button>
+      <button role="tab" class="tab" data-tab="clip" aria-selected="false">Drop a clip</button>
+      <button role="tab" class="tab" data-tab="manual" aria-selected="false">Pick the vibe</button>
+    </div>
+
+    <div class="tabpane" id="pane-text">
+      <textarea id="scene" rows="5" placeholder="e.g. Two old friends say goodbye at a rainy train station; one boards and the train pulls away."></textarea>
+      <div class="examples" id="examples"></div>
+    </div>
+
+    <div class="tabpane hidden" id="pane-clip">
+      <label id="drop" class="drop" for="clipfile">
+        <input type="file" id="clipfile" accept="video/*" hidden>
+        <span class="drop-icon" aria-hidden="true">⬇</span>
+        <span><b>Drag a clip here</b> or click to choose. The first 30 seconds are analyzed.</span>
+      </label>
+      <video id="preview" class="hidden" controls muted playsinline></video>
+      <div class="row">
+        <label class="small">Subtitles (.srt, optional) <input type="file" id="srtfile" accept=".srt"></label>
+        <button class="ghost small" id="sample-chase" type="button">Use sample: night chase</button>
+        <button class="ghost small" id="sample-dawn" type="button">Use sample: quiet dawn</button>
+      </div>
+      <textarea id="clipnote" rows="2" placeholder="Optional note for the music supervisor, e.g. 'make it ironic'"></textarea>
+    </div>
+
+    <div class="tabpane hidden" id="pane-manual">
+      <p class="hint">Runs entirely in your browser over the catalog tags. No server needed.</p>
+      <div class="chips" id="mood-chips"></div>
+      <div class="chips" id="genre-chips"></div>
+      <label class="small energy">Energy <input type="range" id="energy" min="0" max="1" step="0.05" value="0.5"><output id="energy-out">0.50</output></label>
+    </div>
+
+    <div class="controls">
+      <label class="small">Intended use
+        <select id="use">
+          <option value="monetized" selected>Monetized YouTube / social</option>
+          <option value="personal">Personal, non-monetized</option>
+          <option value="client">Client or ad work</option>
+        </select>
+      </label>
+      <label class="small check"><input type="checkbox" id="cleared-only"> Cleared only</label>
+      <button id="go" class="primary">Find music</button>
+    </div>
+    <div id="status" class="status" aria-live="polite"></div>
+  </section>
+
+  <section class="panel results hidden" id="results">
+    <div class="brief" id="brief"></div>
+    <div class="analysis hidden" id="analysis"></div>
+    <div class="warnings" id="warnings"></div>
+    <ol class="shortlist" id="shortlist"></ol>
+    <details class="trace" id="trace"><summary>Agent trace, tokens and cost</summary><div id="trace-body"></div></details>
+  </section>
+</main>
+
+<footer>
+  <span id="spend"></span>
+  <span>Catalog: MTG-Jamendo (CC-licensed tracks from Jamendo). Licenses are checked against the dataset's per-track license file; reconfirm on jamendo.com before publishing.</span>
+</footer>
+<audio id="player" preload="none"></audio>
+<script src="app.js"></script>
+</body>
+</html>

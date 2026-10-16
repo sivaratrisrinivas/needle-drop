@@ -1,0 +1,4160 @@
+[
+ {
+  "pair_id": "goodfellas-layla#6",
+  "scene_id": "goodfellas-layla",
+  "film": "Goodfellas",
+  "year": 1990,
+  "scene": "After a big heist, the bodies of the crew are discovered one by one: in a car, in a garbage truck, hanging in a meat truck, in slow, mournful tracking shots.",
+  "song": "Layla (piano exit)",
+  "song_artist": "Derek and the Dominos",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1278731",
+  "title": "Empty Hearts",
+  "artist": "Pablo Samonta",
+  "moods": [
+   "melancholic",
+   "sad"
+  ],
+  "genres": [
+   "ambient",
+   "classical",
+   "soundtrack"
+  ],
+  "instruments": [],
+  "energy": 0.275,
+  "page_url": "https://www.jamendo.com/track/1278731",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1278731&format=mp31",
+  "brief_moods": [
+   "sad",
+   "emotional",
+   "peaceful"
+  ],
+  "brief_genres": [
+   "classical",
+   "folk",
+   "ambient",
+   "soundtrack"
+  ],
+  "brief_energy": 0.15
+ },
+ {
+  "pair_id": "mean-streets-opening#6",
+  "scene_id": "mean-streets-opening",
+  "film": "Mean Streets",
+  "year": 1973,
+  "scene": "A young man in Little Italy wakes from a bad dream, looks in the mirror and lies back down; grainy home movies of friends and a christening play over the titles.",
+  "song": "Be My Baby",
+  "song_artist": "The Ronettes",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1239471",
+  "title": "80s",
+  "artist": "Chill Carrier",
+  "moods": [
+   "uplifting"
+  ],
+  "genres": [
+   "80s",
+   "electronic",
+   "pop"
+  ],
+  "instruments": [
+   "vocoder"
+  ],
+  "energy": 0.65,
+  "page_url": "https://www.jamendo.com/track/1239471",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1239471&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "80s",
+   "poprock",
+   "soul"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "waynes-world-car#6",
+  "scene_id": "waynes-world-car",
+  "film": "Wayne's World",
+  "year": 1992,
+  "scene": "Five friends cram into a beat-up car at night, sing along to a rock opera on the radio, then all headbang together in sync.",
+  "song": "Bohemian Rhapsody",
+  "song_artist": "Queen",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1209623",
+  "title": "Rock",
+  "artist": "Matti Paalanen",
+  "moods": [
+   "energetic",
+   "happy",
+   "motivational",
+   "positive",
+   "uplifting"
+  ],
+  "genres": [
+   "grunge",
+   "pop",
+   "rock"
+  ],
+  "instruments": [
+   "drums",
+   "guitar"
+  ],
+  "energy": 0.72,
+  "page_url": "https://www.jamendo.com/track/1209623",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1209623&format=mp31",
+  "brief_moods": [
+   "happy",
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "rocknroll",
+   "soul",
+   "popfolk"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "pulp-fiction-twist#1",
+  "scene_id": "pulp-fiction-twist",
+  "film": "Pulp Fiction",
+  "year": 1994,
+  "scene": "In a retro 1950s-themed restaurant, a hitman and his boss's wife kick off their shoes and do a playful, deadpan twist dance on a small stage for a trophy.",
+  "song": "You Never Can Tell",
+  "song_artist": "Chuck Berry",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "shawshank-opera#1",
+  "scene_id": "shawshank-opera",
+  "film": "The Shawshank Redemption",
+  "year": 1994,
+  "scene": "A prisoner locks himself in the warden's office and plays a record over the prison loudspeakers; in the yard every inmate stops and stares upward, transfixed.",
+  "song": "Sull'aria (Le nozze di Figaro)",
+  "song_artist": "Wolfgang Amadeus Mozart",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1111990",
+  "title": "Gentle Heart",
+  "artist": "Podington Bear",
+  "moods": [
+   "emotional",
+   "nostalgic",
+   "sweet"
+  ],
+  "genres": [
+   "classical",
+   "electronic"
+  ],
+  "instruments": [
+   "glockenspiel",
+   "piano",
+   "synthesizer",
+   "viola"
+  ],
+  "energy": 0.4,
+  "page_url": "https://www.jamendo.com/track/1111990",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1111990&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "60s",
+   "poprock",
+   "classicrock"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "kill-bill-snow-duel#1",
+  "scene_id": "kill-bill-snow-duel",
+  "film": "Kill Bill: Vol. 1",
+  "year": 2003,
+  "scene": "In a snow-covered Japanese garden at night, two women face each other with katanas for a final duel, the fight building to a single fatal stroke.",
+  "song": "Don't Let Me Be Misunderstood",
+  "song_artist": "Santa Esmeralda",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1185784",
+  "title": "Sad piano",
+  "artist": "Matti Paalanen",
+  "moods": [
+   "corporate",
+   "emotional",
+   "sad",
+   "sentimental"
+  ],
+  "genres": [
+   "ambient",
+   "chillout",
+   "classical"
+  ],
+  "instruments": [
+   "piano"
+  ],
+  "energy": 0.4,
+  "page_url": "https://www.jamendo.com/track/1185784",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1185784&format=mp31",
+  "brief_moods": [
+   "sad",
+   "emotional",
+   "peaceful"
+  ],
+  "brief_genres": [
+   "classical",
+   "folk",
+   "jazzfunk"
+  ],
+  "brief_energy": 0.15
+ },
+ {
+  "pair_id": "reservoir-dogs-ear#1",
+  "scene_id": "reservoir-dogs-ear",
+  "film": "Reservoir Dogs",
+  "year": 1992,
+  "scene": "Alone in an empty warehouse with a cop who is tied to a chair and gagged, a gangster in a black suit saunters around him with breezy swagger, almost dancing, then pulls out a razor and slices off the cop's ear.",
+  "song": "Stuck in the Middle with You",
+  "song_artist": "Stealers Wheel",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "donnie-darko-ending#1",
+  "scene_id": "donnie-darko-ending",
+  "film": "Donnie Darko",
+  "year": 2001,
+  "scene": "Dawn in a quiet suburb: a slow montage of people waking alone in their beds, each sensing something they cannot remember, after a boy has died.",
+  "song": "Mad World",
+  "song_artist": "Gary Jules",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1397348",
+  "title": "Piano",
+  "artist": "Frozen Silence",
+  "moods": [
+   "emotional",
+   "sad"
+  ],
+  "genres": [
+   "classical",
+   "easylistening"
+  ],
+  "instruments": [
+   "piano"
+  ],
+  "energy": 0.325,
+  "page_url": "https://www.jamendo.com/track/1397348",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1397348&format=mp31",
+  "brief_moods": [
+   "sad",
+   "emotional",
+   "peaceful"
+  ],
+  "brief_genres": [
+   "classical",
+   "folk"
+  ],
+  "brief_energy": 0.15
+ },
+ {
+  "pair_id": "departed-boston#1",
+  "scene_id": "departed-boston",
+  "film": "The Departed",
+  "year": 2006,
+  "scene": "Gritty Boston streets: an undercover cop is pulled deeper into an Irish mob crew, shakedowns and brawls cut together at a rough, brawling pace.",
+  "song": "I'm Shipping Up to Boston",
+  "song_artist": "Dropkick Murphys",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "kill-bill-bang-bang#6",
+  "scene_id": "kill-bill-bang-bang",
+  "film": "Kill Bill: Vol. 1",
+  "year": 2003,
+  "scene": "A bloodied bride lies on a chapel floor; her former lover tells her this is him at his most masochistic and shoots her in the head. Black-and-white opening credits follow.",
+  "song": "Bang Bang (My Baby Shot Me Down)",
+  "song_artist": "Nancy Sinatra",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1250061",
+  "title": "Good Mood Ukulele Pop 13",
+  "artist": "Auditone Music Library",
+  "moods": [
+   "advertising",
+   "fun",
+   "happy"
+  ],
+  "genres": [
+   "easylistening",
+   "pop",
+   "poprock"
+  ],
+  "instruments": [
+   "guitar"
+  ],
+  "energy": 0.683,
+  "page_url": "https://www.jamendo.com/track/1250061",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1250061&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "almost-famous-bus#6",
+  "scene_id": "almost-famous-bus",
+  "film": "Almost Famous",
+  "year": 2000,
+  "scene": "After a bitter fight, a sullen rock band sits in silence on their tour bus; one by one they start singing along to a song on the radio until everyone is smiling.",
+  "song": "Tiny Dancer",
+  "song_artist": "Elton John",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1360562",
+  "title": "Your Happy Face (loop)",
+  "artist": "alumo",
+  "moods": [
+   "fun",
+   "happy",
+   "upbeat"
+  ],
+  "genres": [
+   "pop",
+   "popfolk"
+  ],
+  "instruments": [
+   "marimba",
+   "piano",
+   "ukulele"
+  ],
+  "energy": 0.75,
+  "page_url": "https://www.jamendo.com/track/1360562",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1360562&format=mp31",
+  "brief_moods": [
+   "happy",
+   "nostalgic",
+   "romantic"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "synthwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "goodfellas-helicopter#6",
+  "scene_id": "goodfellas-helicopter",
+  "film": "Goodfellas",
+  "year": 1990,
+  "scene": "A paranoid, coke-fuelled day: a gangster races between drug deals and stirring a sauce at home, convinced a helicopter is following him.",
+  "song": "Jump into the Fire",
+  "song_artist": "Harry Nilsson",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "pulp-fiction-mia#6",
+  "scene_id": "pulp-fiction-mia",
+  "film": "Pulp Fiction",
+  "year": 1994,
+  "scene": "Alone in her dim living room, a woman sways sensually to a record while her date argues with himself in the bathroom, moments before she snorts heroin by mistake.",
+  "song": "Girl, You'll Be a Woman Soon",
+  "song_artist": "Urge Overkill",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1135221",
+  "title": "Strings in the Earth and Air",
+  "artist": "Aufklarung",
+  "moods": [
+   "dream",
+   "melancholic",
+   "peaceful",
+   "poetry"
+  ],
+  "genres": [
+   "folk"
+  ],
+  "instruments": [
+   "cello",
+   "flute",
+   "guitar",
+   "harp",
+   "violin"
+  ],
+  "energy": 0.3,
+  "page_url": "https://www.jamendo.com/track/1135221",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1135221&format=mp31",
+  "brief_moods": [
+   "melancholic",
+   "weird"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "soul",
+   "punkrock"
+  ],
+  "brief_energy": 0.15
+ },
+ {
+  "pair_id": "breakfast-club-fist#1",
+  "scene_id": "breakfast-club-fist",
+  "film": "The Breakfast Club",
+  "year": 1985,
+  "scene": "Saturday detention ends; the rebel walks across the empty school football field and punches his fist into the air as the image freezes.",
+  "song": "Don't You (Forget About Me)",
+  "song_artist": "Simple Minds",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1078431",
+  "title": "Trendstranded",
+  "artist": "Michael Ellis",
+  "moods": [
+   "fun"
+  ],
+  "genres": [
+   "pop",
+   "poprock",
+   "progressive",
+   "rock"
+  ],
+  "instruments": [
+   "acousticguitar",
+   "bass",
+   "drummachine",
+   "drums",
+   "electricguitar",
+   "mellotron",
+   "piano",
+   "synthesizer",
+   "voice"
+  ],
+  "energy": 0.75,
+  "page_url": "https://www.jamendo.com/track/1078431",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1078431&format=mp31",
+  "brief_moods": [
+   "optimistic",
+   "reflective",
+   "success"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "synthwave"
+  ],
+  "brief_energy": 0.9
+ },
+ {
+  "pair_id": "fight-club-ending#1",
+  "scene_id": "fight-club-ending",
+  "film": "Fight Club",
+  "year": 1999,
+  "scene": "A man and a woman hold hands in an empty office tower at night and watch, through the window, as skyscrapers across the city collapse in controlled explosions.",
+  "song": "Where Is My Mind?",
+  "song_artist": "Pixies",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "jackie-brown-opening#6",
+  "scene_id": "jackie-brown-opening",
+  "film": "Jackie Brown",
+  "year": 1997,
+  "scene": "A flight attendant in a blue uniform glides along an airport moving walkway in profile, cool and unhurried, then hurries to work as the credits roll.",
+  "song": "Across 110th Street",
+  "song_artist": "Bobby Womack",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1127796",
+  "title": "A Certain Kind of Mood",
+  "artist": "timeless",
+  "moods": [
+   "groovy"
+  ],
+  "genres": [
+   "easylistening",
+   "lounge"
+  ],
+  "instruments": [
+   "acousticguitar",
+   "bass",
+   "brass",
+   "drummachine",
+   "drums",
+   "electricguitar",
+   "hammond",
+   "synthesizer"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1127796",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1127796&format=mp31",
+  "brief_moods": [
+   "cool",
+   "commercial",
+   "calm"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "easylistening"
+  ],
+  "brief_energy": 0.55
+ },
+ {
+  "pair_id": "dirty-dancing-lift#6",
+  "scene_id": "dirty-dancing-lift",
+  "film": "Dirty Dancing",
+  "year": 1987,
+  "scene": "At a summer resort's end-of-season show, a dance instructor pulls a young woman on stage; they dance, she runs and he lifts her overhead as the whole room joins in.",
+  "song": "(I've Had) The Time of My Life",
+  "song_artist": "Bill Medley & Jennifer Warnes",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1093612",
+  "title": "Optimistic",
+  "artist": "Akashic Records",
+  "moods": [
+   "happy",
+   "motivational",
+   "optimistic"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1093612",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1093612&format=mp31",
+  "brief_moods": [
+   "happy",
+   "optimistic",
+   "celebration"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "synthwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "trainspotting-overdose#1",
+  "scene_id": "trainspotting-overdose",
+  "film": "Trainspotting",
+  "year": 1996,
+  "scene": "A man overdoses on heroin and sinks into the red carpet as if into a grave, then is dragged to a taxi and dumped at a hospital.",
+  "song": "Perfect Day",
+  "song_artist": "Lou Reed",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "kill-bill-entourage#6",
+  "scene_id": "kill-bill-entourage",
+  "film": "Kill Bill: Vol. 1",
+  "year": 2003,
+  "scene": "A crime boss and her sword-carrying bodyguards stride in slow motion through a Tokyo restaurant, a wall of black suits, utterly in control.",
+  "song": "Battle Without Honor or Humanity",
+  "song_artist": "Tomoyasu Hotei",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "dirty-dancing-lift#1",
+  "scene_id": "dirty-dancing-lift",
+  "film": "Dirty Dancing",
+  "year": 1987,
+  "scene": "At a summer resort's end-of-season show, a dance instructor pulls a young woman on stage; they dance, she runs and he lifts her overhead as the whole room joins in.",
+  "song": "(I've Had) The Time of My Life",
+  "song_artist": "Bill Medley & Jennifer Warnes",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1234363",
+  "title": "15_This is Spring",
+  "artist": "MFYM",
+  "moods": [
+   "energetic",
+   "happy",
+   "optimistic",
+   "uplifting"
+  ],
+  "genres": [
+   "folk",
+   "pop",
+   "popfolk"
+  ],
+  "instruments": [
+   "ukulele"
+  ],
+  "energy": 0.75,
+  "page_url": "https://www.jamendo.com/track/1234363",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1234363&format=mp31",
+  "brief_moods": [
+   "happy",
+   "optimistic",
+   "celebration"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "synthwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "easy-rider-highway#1",
+  "scene_id": "easy-rider-highway",
+  "film": "Easy Rider",
+  "year": 1969,
+  "scene": "Two bikers on chopper motorcycles ride along an open desert highway, free and wild, the landscape rolling past.",
+  "song": "Born to Be Wild",
+  "song_artist": "Steppenwolf",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1236892",
+  "title": "208_Happiness",
+  "artist": "MFYM",
+  "moods": [
+   "energetic",
+   "happy",
+   "inspiring",
+   "upbeat"
+  ],
+  "genres": [
+   "pop",
+   "popfolk",
+   "poprock"
+  ],
+  "instruments": [
+   "acousticguitar",
+   "percussion"
+  ],
+  "energy": 0.75,
+  "page_url": "https://www.jamendo.com/track/1236892",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1236892&format=mp31",
+  "brief_moods": [
+   "happy",
+   "romantic"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "top-gun-deck#6",
+  "scene_id": "top-gun-deck",
+  "film": "Top Gun",
+  "year": 1986,
+  "scene": "Fighter jets launch off an aircraft carrier deck at sunrise in silhouette, deck crews signaling, afterburners roaring.",
+  "song": "Danger Zone",
+  "song_artist": "Kenny Loggins",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:640122",
+  "title": "Druids March",
+  "artist": "Psychadelik Pedestrian",
+  "moods": [
+   "powerful",
+   "uplifting"
+  ],
+  "genres": [
+   "ambient",
+   "atmospheric",
+   "electronic"
+  ],
+  "instruments": [
+   "drums",
+   "piano"
+  ],
+  "energy": 0.75,
+  "page_url": "https://www.jamendo.com/track/640122",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=640122&format=mp31",
+  "brief_moods": [
+   "heroic",
+   "powerful",
+   "uplifting"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthwave",
+   "electronic"
+  ],
+  "brief_energy": 0.9
+ },
+ {
+  "pair_id": "trainspotting-overdose#6",
+  "scene_id": "trainspotting-overdose",
+  "film": "Trainspotting",
+  "year": 1996,
+  "scene": "A man overdoses on heroin and sinks into the red carpet as if into a grave, then is dragged to a taxi and dumped at a hospital.",
+  "song": "Perfect Day",
+  "song_artist": "Lou Reed",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "donnie-darko-ending#6",
+  "scene_id": "donnie-darko-ending",
+  "film": "Donnie Darko",
+  "year": 2001,
+  "scene": "Dawn in a quiet suburb: a slow montage of people waking alone in their beds, each sensing something they cannot remember, after a boy has died.",
+  "song": "Mad World",
+  "song_artist": "Gary Jules",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1368979",
+  "title": "Way Home",
+  "artist": "Mit-Rich",
+  "moods": [
+   "sad"
+  ],
+  "genres": [
+   "classical",
+   "folk",
+   "world"
+  ],
+  "instruments": [
+   "piano"
+  ],
+  "energy": 0.25,
+  "page_url": "https://www.jamendo.com/track/1368979",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1368979&format=mp31",
+  "brief_moods": [
+   "sad",
+   "emotional",
+   "peaceful"
+  ],
+  "brief_genres": [
+   "classical",
+   "folk"
+  ],
+  "brief_energy": 0.15
+ },
+ {
+  "pair_id": "trainspotting-opening#6",
+  "scene_id": "trainspotting-opening",
+  "film": "Trainspotting",
+  "year": 1996,
+  "scene": "Young heroin addicts sprint down an Edinburgh street fleeing store security, one laughing as he's hit by a car, while a voiceover sneers about choosing life.",
+  "song": "Lust for Life",
+  "song_artist": "Iggy Pop",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "graduate-bus#6",
+  "scene_id": "graduate-bus",
+  "film": "The Graduate",
+  "year": 1967,
+  "scene": "A young couple who just fled her wedding sit at the back of a bus, giddy and laughing, until their smiles slowly fade into uncertainty.",
+  "song": "The Sound of Silence",
+  "song_artist": "Simon & Garfunkel",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1185784",
+  "title": "Sad piano",
+  "artist": "Matti Paalanen",
+  "moods": [
+   "corporate",
+   "emotional",
+   "sad",
+   "sentimental"
+  ],
+  "genres": [
+   "ambient",
+   "chillout",
+   "classical"
+  ],
+  "instruments": [
+   "piano"
+  ],
+  "energy": 0.4,
+  "page_url": "https://www.jamendo.com/track/1185784",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1185784&format=mp31",
+  "brief_moods": [
+   "sad",
+   "anxious",
+   "emotional"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "soul",
+   "punkrock"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "drive-opening#6",
+  "scene_id": "drive-opening",
+  "film": "Drive",
+  "year": 2011,
+  "scene": "After a tense nighttime getaway, a silent driver cruises the empty neon-lit freeways of Los Angeles as pink script opening credits appear.",
+  "song": "Nightcall",
+  "song_artist": "Kavinsky",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1081839",
+  "title": "Chill Theme 1",
+  "artist": "Alexander Lisenkov",
+  "moods": [
+   "calm",
+   "quiet",
+   "soft"
+  ],
+  "genres": [
+   "easylistening",
+   "electronic",
+   "lounge"
+  ],
+  "instruments": [
+   "electricguitar",
+   "piano",
+   "synthesizer"
+  ],
+  "energy": 0.175,
+  "page_url": "https://www.jamendo.com/track/1081839",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1081839&format=mp31",
+  "brief_moods": [
+   "calm",
+   "reflective",
+   "cool"
+  ],
+  "brief_genres": [
+   "synthwave",
+   "electronic",
+   "80s"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "django-flashback#1",
+  "scene_id": "django-flashback",
+  "film": "Django Unchained",
+  "year": 2012,
+  "scene": "A freed man remembers his wife trying to run away from a plantation and being whipped as punishment, the memories intercut with his ride across the snow.",
+  "song": "Freedom",
+  "song_artist": "Anthony Hamilton & Elayna Boynton",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1111990",
+  "title": "Gentle Heart",
+  "artist": "Podington Bear",
+  "moods": [
+   "emotional",
+   "nostalgic",
+   "sweet"
+  ],
+  "genres": [
+   "classical",
+   "electronic"
+  ],
+  "instruments": [
+   "glockenspiel",
+   "piano",
+   "synthesizer",
+   "viola"
+  ],
+  "energy": 0.4,
+  "page_url": "https://www.jamendo.com/track/1111990",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1111990&format=mp31",
+  "brief_moods": [
+   "sad",
+   "nostalgic",
+   "emotional"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "punkrock",
+   "soul"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "american-psycho-axe#1",
+  "scene_id": "american-psycho-axe",
+  "film": "American Psycho",
+  "year": 2000,
+  "scene": "An investment banker in a raincoat lectures his drunk colleague about a pop band's artistic growth while laying newspapers on the floor, then swings an axe into his head.",
+  "song": "Hip to Be Square",
+  "song_artist": "Huey Lewis and the News",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "lost-in-translation-goodbye#1",
+  "scene_id": "lost-in-translation-goodbye",
+  "film": "Lost in Translation",
+  "year": 2003,
+  "scene": "In a crowded Tokyo street, an older man catches up with a young woman, embraces her and whispers something we cannot hear before they part for good.",
+  "song": "Just Like Honey",
+  "song_artist": "The Jesus and Mary Chain",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1111990",
+  "title": "Gentle Heart",
+  "artist": "Podington Bear",
+  "moods": [
+   "emotional",
+   "nostalgic",
+   "sweet"
+  ],
+  "genres": [
+   "classical",
+   "electronic"
+  ],
+  "instruments": [
+   "glockenspiel",
+   "piano",
+   "synthesizer",
+   "viola"
+  ],
+  "energy": 0.4,
+  "page_url": "https://www.jamendo.com/track/1111990",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1111990&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "soul",
+   "punkrock"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "zombieland-opening#6",
+  "scene_id": "zombieland-opening",
+  "film": "Zombieland",
+  "year": 2009,
+  "scene": "Super-slow-motion carnage in an overrun America: zombies tear through a wedding, a strip club and a fire truck crash as the title fills the screen.",
+  "song": "For Whom the Bell Tolls",
+  "song_artist": "Metallica",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1250061",
+  "title": "Good Mood Ukulele Pop 13",
+  "artist": "Auditone Music Library",
+  "moods": [
+   "advertising",
+   "fun",
+   "happy"
+  ],
+  "genres": [
+   "easylistening",
+   "pop",
+   "poprock"
+  ],
+  "instruments": [
+   "guitar"
+  ],
+  "energy": 0.683,
+  "page_url": "https://www.jamendo.com/track/1250061",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1250061&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "drive-canal#1",
+  "scene_id": "drive-canal",
+  "film": "Drive",
+  "year": 2011,
+  "scene": "A quiet stunt driver takes his neighbor and her young son for a drive along the Los Angeles river channel at golden hour, glances and small smiles instead of words.",
+  "song": "A Real Hero",
+  "song_artist": "College & Electric Youth",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1056407",
+  "title": "Guitar Romantic",
+  "artist": "Plastic3",
+  "moods": [
+   "dream"
+  ],
+  "genres": [
+   "chillout",
+   "easylistening"
+  ],
+  "instruments": [
+   "acousticguitar",
+   "drums",
+   "electricguitar",
+   "piano",
+   "synthesizer"
+  ],
+  "energy": 0.3,
+  "page_url": "https://www.jamendo.com/track/1056407",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1056407&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic",
+   "peaceful"
+  ],
+  "brief_genres": [
+   "80s",
+   "poprock",
+   "synthwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "kill-bill-bang-bang#1",
+  "scene_id": "kill-bill-bang-bang",
+  "film": "Kill Bill: Vol. 1",
+  "year": 2003,
+  "scene": "A bloodied bride lies on a chapel floor; her former lover tells her this is him at his most masochistic and shoots her in the head. Black-and-white opening credits follow.",
+  "song": "Bang Bang (My Baby Shot Me Down)",
+  "song_artist": "Nancy Sinatra",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "inglourious-makeup#6",
+  "scene_id": "inglourious-makeup",
+  "film": "Inglourious Basterds",
+  "year": 2009,
+  "scene": "A young woman prepares for revenge on the night of a Nazi film premiere: she applies red lipstick and war-paint rouge, loads a gun, and looks down at the crowd from a window.",
+  "song": "Cat People (Putting Out Fire)",
+  "song_artist": "David Bowie",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "platoon-elias#1",
+  "scene_id": "platoon-elias",
+  "film": "Platoon",
+  "year": 1986,
+  "scene": "A wounded soldier is chased out of the jungle by enemy troops; from a departing helicopter his comrades watch him fall to his knees, arms raised, as he is shot.",
+  "song": "Adagio for Strings",
+  "song_artist": "Samuel Barber",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1149882",
+  "title": "Autumn Melancholy",
+  "artist": "VocalMix",
+  "moods": [
+   "emotional",
+   "melancholic",
+   "sad"
+  ],
+  "genres": [
+   "darkambient",
+   "electronic",
+   "experimental"
+  ],
+  "instruments": [
+   "computer",
+   "drums",
+   "synthesizer"
+  ],
+  "energy": 0.317,
+  "page_url": "https://www.jamendo.com/track/1149882",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1149882&format=mp31",
+  "brief_moods": [
+   "sad",
+   "emotional"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthwave",
+   "electronic"
+  ],
+  "brief_energy": 0.9
+ },
+ {
+  "pair_id": "ouatih-neon#6",
+  "scene_id": "ouatih-neon",
+  "film": "Once Upon a Time in Hollywood",
+  "year": 2019,
+  "scene": "Dusk in 1969 Los Angeles: one by one, neon signs on movie theaters and diners flicker on while characters drive home, a wistful montage of a city at the end of an era.",
+  "song": "California Dreamin' (Jos\u00e9 Feliciano version)",
+  "song_artist": "Jos\u00e9 Feliciano",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:677104",
+  "title": "Straight to the beat",
+  "artist": "Starlight",
+  "moods": [
+   "melodic"
+  ],
+  "genres": [
+   "chillout",
+   "easylistening",
+   "electronic",
+   "jungle"
+  ],
+  "instruments": [
+   "keyboard",
+   "synthesizer"
+  ],
+  "energy": 0.45,
+  "page_url": "https://www.jamendo.com/track/677104",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=677104&format=mp31",
+  "brief_moods": [
+   "melodic",
+   "nostalgic",
+   "reflective"
+  ],
+  "brief_genres": [
+   "60s",
+   "synthpop",
+   "electronic"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "jackie-brown-opening#1",
+  "scene_id": "jackie-brown-opening",
+  "film": "Jackie Brown",
+  "year": 1997,
+  "scene": "A flight attendant in a blue uniform glides along an airport moving walkway in profile, cool and unhurried, then hurries to work as the credits roll.",
+  "song": "Across 110th Street",
+  "song_artist": "Bobby Womack",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1274099",
+  "title": "Chill Easy Listening Guitar (Sister)",
+  "artist": "Plastic3",
+  "moods": [
+   "background",
+   "calm",
+   "dream",
+   "thoughtful"
+  ],
+  "genres": [
+   "chillout",
+   "easylistening",
+   "lounge"
+  ],
+  "instruments": [],
+  "energy": 0.267,
+  "page_url": "https://www.jamendo.com/track/1274099",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1274099&format=mp31",
+  "brief_moods": [
+   "cool",
+   "commercial",
+   "calm"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "easylistening"
+  ],
+  "brief_energy": 0.55
+ },
+ {
+  "pair_id": "waynes-world-car#1",
+  "scene_id": "waynes-world-car",
+  "film": "Wayne's World",
+  "year": 1992,
+  "scene": "Five friends cram into a beat-up car at night, sing along to a rock opera on the radio, then all headbang together in sync.",
+  "song": "Bohemian Rhapsody",
+  "song_artist": "Queen",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1072126",
+  "title": "Happy Catchy Rock",
+  "artist": "Plastic3",
+  "moods": [
+   "background",
+   "happy",
+   "positive"
+  ],
+  "genres": [
+   "poprock"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "electricguitar",
+   "piano"
+  ],
+  "energy": 0.567,
+  "page_url": "https://www.jamendo.com/track/1072126",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1072126&format=mp31",
+  "brief_moods": [
+   "happy",
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "rocknroll",
+   "soul",
+   "popfolk"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "goodfellas-copa#6",
+  "scene_id": "goodfellas-copa",
+  "film": "Goodfellas",
+  "year": 1990,
+  "scene": "A young gangster takes his date through the back entrance of a nightclub in one long unbroken shot, down stairs and through the kitchen to a table set up just for them.",
+  "song": "Then He Kissed Me",
+  "song_artist": "The Crystals",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "romantic",
+   "celebration"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "synthwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "perks-tunnel#6",
+  "scene_id": "perks-tunnel",
+  "film": "The Perks of Being a Wallflower",
+  "year": 2012,
+  "scene": "A teenage girl stands up in the back of a pickup truck as it speeds through a tunnel at night, arms spread wide in the wind, while her friends watch in awe.",
+  "song": "Heroes",
+  "song_artist": "David Bowie",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1236870",
+  "title": "112_A Happy New Day",
+  "artist": "MFYM",
+  "moods": [
+   "energetic",
+   "inspiring",
+   "optimistic",
+   "uplifting"
+  ],
+  "genres": [
+   "electronic",
+   "pop",
+   "rock"
+  ],
+  "instruments": [
+   "electricguitar"
+  ],
+  "energy": 0.717,
+  "page_url": "https://www.jamendo.com/track/1236870",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1236870&format=mp31",
+  "brief_moods": [
+   "optimistic",
+   "romantic",
+   "energetic"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "baby-driver-bellbottoms#1",
+  "scene_id": "baby-driver-bellbottoms",
+  "film": "Baby Driver",
+  "year": 2017,
+  "scene": "A getaway driver in sunglasses waits outside a bank, drumming on the wheel; when his crew bursts out he launches into a screeching, drifting car chase through Atlanta traffic.",
+  "song": "Bellbottoms",
+  "song_artist": "The Jon Spencer Blues Explosion",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:945192",
+  "title": "Sunshine",
+  "artist": "Disconauts Music Production",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "dance",
+   "dancepop",
+   "house",
+   "pop"
+  ],
+  "instruments": [
+   "synthesizer"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/945192",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=945192&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "american-psycho-axe#6",
+  "scene_id": "american-psycho-axe",
+  "film": "American Psycho",
+  "year": 2000,
+  "scene": "An investment banker in a raincoat lectures his drunk colleague about a pop band's artistic growth while laying newspapers on the floor, then swings an axe into his head.",
+  "song": "Hip to Be Square",
+  "song_artist": "Huey Lewis and the News",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "little-miss-sunshine-dance#6",
+  "scene_id": "little-miss-sunshine-dance",
+  "film": "Little Miss Sunshine",
+  "year": 2006,
+  "scene": "At a children's beauty pageant, a little girl performs a wildly inappropriate dance routine her grandfather taught her, and her whole family jumps on stage to join her.",
+  "song": "Super Freak",
+  "song_artist": "Rick James",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1066520",
+  "title": "Happy Day",
+  "artist": "MFYM",
+  "moods": [
+   "advertising",
+   "festive",
+   "happy",
+   "positive",
+   "uplifting"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "accordion",
+   "celesta",
+   "drums",
+   "pipeorgan",
+   "ukulele"
+  ],
+  "energy": 0.65,
+  "page_url": "https://www.jamendo.com/track/1066520",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1066520&format=mp31",
+  "brief_moods": [
+   "happy",
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "guardians2-groot#1",
+  "scene_id": "guardians2-groot",
+  "film": "Guardians of the Galaxy Vol. 2",
+  "year": 2017,
+  "scene": "While a team of heroes battles a giant tentacled space monster in the background, a tiny tree creature dances obliviously in the foreground.",
+  "song": "Mr. Blue Sky",
+  "song_artist": "Electric Light Orchestra",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "synthwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "baby-driver-shootout#1",
+  "scene_id": "baby-driver-shootout",
+  "film": "Baby Driver",
+  "year": 2017,
+  "scene": "A gun deal in a meat warehouse goes wrong and erupts into a shootout, every gunshot landing on the beat like a percussion section.",
+  "song": "Tequila",
+  "song_artist": "The Button Down Brass",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:945192",
+  "title": "Sunshine",
+  "artist": "Disconauts Music Production",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "dance",
+   "dancepop",
+   "house",
+   "pop"
+  ],
+  "instruments": [
+   "synthesizer"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/945192",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=945192&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "zombieland-opening#1",
+  "scene_id": "zombieland-opening",
+  "film": "Zombieland",
+  "year": 2009,
+  "scene": "Super-slow-motion carnage in an overrun America: zombies tear through a wedding, a strip club and a fire truck crash as the title fills the screen.",
+  "song": "For Whom the Bell Tolls",
+  "song_artist": "Metallica",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "mean-streets-opening#1",
+  "scene_id": "mean-streets-opening",
+  "film": "Mean Streets",
+  "year": 1973,
+  "scene": "A young man in Little Italy wakes from a bad dream, looks in the mirror and lies back down; grainy home movies of friends and a christening play over the titles.",
+  "song": "Be My Baby",
+  "song_artist": "The Ronettes",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1340340",
+  "title": "Nostalgia (piano improvisation)",
+  "artist": "Andrey_Serg",
+  "moods": [
+   "nostalgic",
+   "romantic"
+  ],
+  "genres": [
+   "atmospheric",
+   "classical",
+   "improvisation"
+  ],
+  "instruments": [
+   "drums",
+   "piano"
+  ],
+  "energy": 0.35,
+  "page_url": "https://www.jamendo.com/track/1340340",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1340340&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "80s",
+   "poprock",
+   "soul"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "baby-driver-shootout#6",
+  "scene_id": "baby-driver-shootout",
+  "film": "Baby Driver",
+  "year": 2017,
+  "scene": "A gun deal in a meat warehouse goes wrong and erupts into a shootout, every gunshot landing on the beat like a percussion section.",
+  "song": "Tequila",
+  "song_artist": "The Button Down Brass",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "departed-boston#6",
+  "scene_id": "departed-boston",
+  "film": "The Departed",
+  "year": 2006,
+  "scene": "Gritty Boston streets: an undercover cop is pulled deeper into an Irish mob crew, shakedowns and brawls cut together at a rough, brawling pace.",
+  "song": "I'm Shipping Up to Boston",
+  "song_artist": "Dropkick Murphys",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "jojo-rabbit-opening#1",
+  "scene_id": "jojo-rabbit-opening",
+  "film": "Jojo Rabbit",
+  "year": 2019,
+  "scene": "A ten-year-old boy runs excitedly through a small German town in 1945 in his youth uniform, intercut with archival footage of adoring crowds at Nazi rallies.",
+  "song": "Komm, gib mir deine Hand",
+  "song_artist": "The Beatles",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1072126",
+  "title": "Happy Catchy Rock",
+  "artist": "Plastic3",
+  "moods": [
+   "background",
+   "happy",
+   "positive"
+  ],
+  "genres": [
+   "poprock"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "electricguitar",
+   "piano"
+  ],
+  "energy": 0.567,
+  "page_url": "https://www.jamendo.com/track/1072126",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1072126&format=mp31",
+  "brief_moods": [
+   "happy",
+   "nostalgic",
+   "romantic"
+  ],
+  "brief_genres": [
+   "80s",
+   "poprock",
+   "synthwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "kill-bill-snow-duel#6",
+  "scene_id": "kill-bill-snow-duel",
+  "film": "Kill Bill: Vol. 1",
+  "year": 2003,
+  "scene": "In a snow-covered Japanese garden at night, two women face each other with katanas for a final duel, the fight building to a single fatal stroke.",
+  "song": "Don't Let Me Be Misunderstood",
+  "song_artist": "Santa Esmeralda",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1346883",
+  "title": "Mendelsshon - Barcarola op. 62 n. 5",
+  "artist": "Aufklarung",
+  "moods": [
+   "lullaby",
+   "melancholic",
+   "peaceful"
+  ],
+  "genres": [
+   "ambient",
+   "chillout",
+   "classical"
+  ],
+  "instruments": [
+   "piano"
+  ],
+  "energy": 0.3,
+  "page_url": "https://www.jamendo.com/track/1346883",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1346883&format=mp31",
+  "brief_moods": [
+   "sad",
+   "emotional",
+   "peaceful"
+  ],
+  "brief_genres": [
+   "classical",
+   "folk",
+   "jazzfunk"
+  ],
+  "brief_energy": 0.15
+ },
+ {
+  "pair_id": "guardians-opening#6",
+  "scene_id": "guardians-opening",
+  "film": "Guardians of the Galaxy",
+  "year": 2014,
+  "scene": "A space adventurer in a mask strolls through an abandoned alien ruin, dancing, kicking alien creatures aside and using one as a microphone as the title card appears.",
+  "song": "Come and Get Your Love",
+  "song_artist": "Redbone",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1360562",
+  "title": "Your Happy Face (loop)",
+  "artist": "alumo",
+  "moods": [
+   "fun",
+   "happy",
+   "upbeat"
+  ],
+  "genres": [
+   "pop",
+   "popfolk"
+  ],
+  "instruments": [
+   "marimba",
+   "piano",
+   "ukulele"
+  ],
+  "energy": 0.75,
+  "page_url": "https://www.jamendo.com/track/1360562",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1360562&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "rocky-iii-training#6",
+  "scene_id": "rocky-iii-training",
+  "film": "Rocky III",
+  "year": 1982,
+  "scene": "A boxer who has lost his edge trains to win back his title: sparring, running on the beach, sweating through punishing workouts in a montage.",
+  "song": "Eye of the Tiger",
+  "song_artist": "Survivor",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:989872",
+  "title": "12",
+  "artist": "Kellee Maize",
+  "moods": [
+   "energetic"
+  ],
+  "genres": [
+   "electronic",
+   "hiphop",
+   "pop"
+  ],
+  "instruments": [
+   "drums",
+   "keyboard"
+  ],
+  "energy": 0.9,
+  "page_url": "https://www.jamendo.com/track/989872",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=989872&format=mp31",
+  "brief_moods": [
+   "energetic",
+   "motivational",
+   "upbeat"
+  ],
+  "brief_genres": [
+   "80s",
+   "hiphop",
+   "electropop"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "pulp-fiction-opening#1",
+  "scene_id": "pulp-fiction-opening",
+  "film": "Pulp Fiction",
+  "year": 1994,
+  "scene": "Two lovers in a diner leap onto their seats and announce a hold-up; the image freezes and bold opening titles slam onto the screen.",
+  "song": "Misirlou",
+  "song_artist": "Dick Dale & His Del-Tones",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "pulp-fiction-mia#1",
+  "scene_id": "pulp-fiction-mia",
+  "film": "Pulp Fiction",
+  "year": 1994,
+  "scene": "Alone in her dim living room, a woman sways sensually to a record while her date argues with himself in the bathroom, moments before she snorts heroin by mistake.",
+  "song": "Girl, You'll Be a Woman Soon",
+  "song_artist": "Urge Overkill",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1255879",
+  "title": "Melancholic blues",
+  "artist": "zerothehero",
+  "moods": [
+   "slow"
+  ],
+  "genres": [
+   "70s",
+   "blues",
+   "psychedelic"
+  ],
+  "instruments": [
+   "guitar"
+  ],
+  "energy": 0.15,
+  "page_url": "https://www.jamendo.com/track/1255879",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1255879&format=mp31",
+  "brief_moods": [
+   "melancholic",
+   "weird"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "soul",
+   "punkrock"
+  ],
+  "brief_energy": 0.15
+ },
+ {
+  "pair_id": "baby-driver-bellbottoms#6",
+  "scene_id": "baby-driver-bellbottoms",
+  "film": "Baby Driver",
+  "year": 2017,
+  "scene": "A getaway driver in sunglasses waits outside a bank, drumming on the wheel; when his crew bursts out he launches into a screeching, drifting car chase through Atlanta traffic.",
+  "song": "Bellbottoms",
+  "song_artist": "The Jon Spencer Blues Explosion",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1254809",
+  "title": "Dancing Summer Club Loop 60s",
+  "artist": "Plastic3",
+  "moods": [
+   "happy",
+   "upbeat"
+  ],
+  "genres": [
+   "club",
+   "dance",
+   "dancepop",
+   "synthpop"
+  ],
+  "instruments": [],
+  "energy": 0.75,
+  "page_url": "https://www.jamendo.com/track/1254809",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1254809&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "rocky-iii-training#1",
+  "scene_id": "rocky-iii-training",
+  "film": "Rocky III",
+  "year": 1982,
+  "scene": "A boxer who has lost his edge trains to win back his title: sparring, running on the beach, sweating through punishing workouts in a montage.",
+  "song": "Eye of the Tiger",
+  "song_artist": "Survivor",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1250049",
+  "title": "Electro Pop Dance Party 11",
+  "artist": "Auditone Music Library",
+  "moods": [
+   "energetic",
+   "fun",
+   "happy",
+   "party"
+  ],
+  "genres": [
+   "dance",
+   "electropop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "synthesizer"
+  ],
+  "energy": 0.8,
+  "page_url": "https://www.jamendo.com/track/1250049",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1250049&format=mp31",
+  "brief_moods": [
+   "energetic",
+   "motivational",
+   "upbeat"
+  ],
+  "brief_genres": [
+   "80s",
+   "hiphop",
+   "electropop"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "apocalypse-now-opening#6",
+  "scene_id": "apocalypse-now-opening",
+  "film": "Apocalypse Now",
+  "year": 1979,
+  "scene": "A jungle tree line explodes in napalm while helicopters drift through yellow smoke; a soldier lies sweating in a Saigon hotel room, ceiling fan dissolving into rotor blades.",
+  "song": "The End",
+  "song_artist": "The Doors",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1341472",
+  "title": "Dance Mix 86",
+  "artist": "Pollys in the Stars",
+  "moods": [
+   "dancing"
+  ],
+  "genres": [
+   "newwave",
+   "rock",
+   "synthpop"
+  ],
+  "instruments": [],
+  "energy": 0.5,
+  "page_url": "https://www.jamendo.com/track/1341472",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1341472&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "shaun-of-the-dead-pub#1",
+  "scene_id": "shaun-of-the-dead-pub",
+  "film": "Shaun of the Dead",
+  "year": 2004,
+  "scene": "Trapped in a pub, a group of friends beat a zombie landlord with pool cues in rhythm while the jukebox plays and the lights flash.",
+  "song": "Don't Stop Me Now",
+  "song_artist": "Queen",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "goodfellas-copa#1",
+  "scene_id": "goodfellas-copa",
+  "film": "Goodfellas",
+  "year": 1990,
+  "scene": "A young gangster takes his date through the back entrance of a nightclub in one long unbroken shot, down stairs and through the kitchen to a table set up just for them.",
+  "song": "Then He Kissed Me",
+  "song_artist": "The Crystals",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1391337",
+  "title": "Joy to the World",
+  "artist": "BDKSonic",
+  "moods": [
+   "celebration",
+   "christmas",
+   "happy"
+  ],
+  "genres": [
+   "easylistening",
+   "orchestral",
+   "pop"
+  ],
+  "instruments": [
+   "organ"
+  ],
+  "energy": 0.625,
+  "page_url": "https://www.jamendo.com/track/1391337",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1391337&format=mp31",
+  "brief_moods": [
+   "happy",
+   "romantic",
+   "celebration"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "synthwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "say-anything-boombox#6",
+  "scene_id": "say-anything-boombox",
+  "film": "Say Anything...",
+  "year": 1989,
+  "scene": "At dawn, a heartbroken young man stands outside his girlfriend's bedroom window holding a boombox high above his head without saying a word.",
+  "song": "In Your Eyes",
+  "song_artist": "Peter Gabriel",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1271916",
+  "title": "Someday",
+  "artist": "Auquid",
+  "moods": [
+   "dream"
+  ],
+  "genres": [
+   "80s",
+   "electronic",
+   "synthpop",
+   "synthwave"
+  ],
+  "instruments": [],
+  "energy": 0.3,
+  "page_url": "https://www.jamendo.com/track/1271916",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1271916&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "80s",
+   "poprock",
+   "synthwave"
+  ],
+  "brief_energy": 0.55
+ },
+ {
+  "pair_id": "risky-business-socks#1",
+  "scene_id": "risky-business-socks",
+  "film": "Risky Business",
+  "year": 1983,
+  "scene": "With his parents away, a teenager in a shirt, socks and underwear slides across the hardwood floor and dances alone in the living room, singing into a candlestick.",
+  "song": "Old Time Rock and Roll",
+  "song_artist": "Bob Seger",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1111990",
+  "title": "Gentle Heart",
+  "artist": "Podington Bear",
+  "moods": [
+   "emotional",
+   "nostalgic",
+   "sweet"
+  ],
+  "genres": [
+   "classical",
+   "electronic"
+  ],
+  "instruments": [
+   "glockenspiel",
+   "piano",
+   "synthesizer",
+   "viola"
+  ],
+  "energy": 0.4,
+  "page_url": "https://www.jamendo.com/track/1111990",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1111990&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "soul",
+   "punkrock"
+  ],
+  "brief_energy": 0.55
+ },
+ {
+  "pair_id": "baby-driver-coffee#6",
+  "scene_id": "baby-driver-coffee",
+  "film": "Baby Driver",
+  "year": 2017,
+  "scene": "In one long take a young man in earbuds bops down a busy city street on a coffee run, his steps landing on the beat as graffiti and passersby seem to sync to him.",
+  "song": "Harlem Shuffle",
+  "song_artist": "Bob & Earl",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1210720",
+  "title": "Rainbow Stone (instrumental)",
+  "artist": "Fresh Body Shop",
+  "moods": [
+   "catchy",
+   "cool",
+   "dynamic",
+   "fun",
+   "groovy",
+   "happy",
+   "upbeat"
+  ],
+  "genres": [
+   "electronic",
+   "pop",
+   "synthpop"
+  ],
+  "instruments": [],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1210720",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1210720&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "synthpop"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "top-gun-deck#1",
+  "scene_id": "top-gun-deck",
+  "film": "Top Gun",
+  "year": 1986,
+  "scene": "Fighter jets launch off an aircraft carrier deck at sunrise in silhouette, deck crews signaling, afterburners roaring.",
+  "song": "Danger Zone",
+  "song_artist": "Kenny Loggins",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1239471",
+  "title": "80s",
+  "artist": "Chill Carrier",
+  "moods": [
+   "uplifting"
+  ],
+  "genres": [
+   "80s",
+   "electronic",
+   "pop"
+  ],
+  "instruments": [
+   "vocoder"
+  ],
+  "energy": 0.65,
+  "page_url": "https://www.jamendo.com/track/1239471",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1239471&format=mp31",
+  "brief_moods": [
+   "heroic",
+   "powerful",
+   "uplifting"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthwave",
+   "electronic"
+  ],
+  "brief_energy": 0.9
+ },
+ {
+  "pair_id": "platoon-elias#6",
+  "scene_id": "platoon-elias",
+  "film": "Platoon",
+  "year": 1986,
+  "scene": "A wounded soldier is chased out of the jungle by enemy troops; from a departing helicopter his comrades watch him fall to his knees, arms raised, as he is shot.",
+  "song": "Adagio for Strings",
+  "song_artist": "Samuel Barber",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1340342",
+  "title": "Romance",
+  "artist": "Andrey_Serg",
+  "moods": [
+   "sad"
+  ],
+  "genres": [
+   "acidjazz",
+   "disco",
+   "pop"
+  ],
+  "instruments": [
+   "drums",
+   "harmonica",
+   "saxophone"
+  ],
+  "energy": 0.25,
+  "page_url": "https://www.jamendo.com/track/1340342",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1340342&format=mp31",
+  "brief_moods": [
+   "sad",
+   "emotional"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthwave",
+   "electronic"
+  ],
+  "brief_energy": 0.9
+ },
+ {
+  "pair_id": "fight-club-ending#6",
+  "scene_id": "fight-club-ending",
+  "film": "Fight Club",
+  "year": 1999,
+  "scene": "A man and a woman hold hands in an empty office tower at night and watch, through the window, as skyscrapers across the city collapse in controlled explosions.",
+  "song": "Where Is My Mind?",
+  "song_artist": "Pixies",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1250061",
+  "title": "Good Mood Ukulele Pop 13",
+  "artist": "Auditone Music Library",
+  "moods": [
+   "advertising",
+   "fun",
+   "happy"
+  ],
+  "genres": [
+   "easylistening",
+   "pop",
+   "poprock"
+  ],
+  "instruments": [
+   "guitar"
+  ],
+  "energy": 0.683,
+  "page_url": "https://www.jamendo.com/track/1250061",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1250061&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "goodfellas-layla#1",
+  "scene_id": "goodfellas-layla",
+  "film": "Goodfellas",
+  "year": 1990,
+  "scene": "After a big heist, the bodies of the crew are discovered one by one: in a car, in a garbage truck, hanging in a meat truck, in slow, mournful tracking shots.",
+  "song": "Layla (piano exit)",
+  "song_artist": "Derek and the Dominos",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1185784",
+  "title": "Sad piano",
+  "artist": "Matti Paalanen",
+  "moods": [
+   "corporate",
+   "emotional",
+   "sad",
+   "sentimental"
+  ],
+  "genres": [
+   "ambient",
+   "chillout",
+   "classical"
+  ],
+  "instruments": [
+   "piano"
+  ],
+  "energy": 0.4,
+  "page_url": "https://www.jamendo.com/track/1185784",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1185784&format=mp31",
+  "brief_moods": [
+   "sad",
+   "emotional",
+   "peaceful"
+  ],
+  "brief_genres": [
+   "classical",
+   "folk",
+   "ambient",
+   "soundtrack"
+  ],
+  "brief_energy": 0.15
+ },
+ {
+  "pair_id": "pulp-fiction-opening#6",
+  "scene_id": "pulp-fiction-opening",
+  "film": "Pulp Fiction",
+  "year": 1994,
+  "scene": "Two lovers in a diner leap onto their seats and announce a hold-up; the image freezes and bold opening titles slam onto the screen.",
+  "song": "Misirlou",
+  "song_artist": "Dick Dale & His Del-Tones",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "goodfellas-helicopter#1",
+  "scene_id": "goodfellas-helicopter",
+  "film": "Goodfellas",
+  "year": 1990,
+  "scene": "A paranoid, coke-fuelled day: a gangster races between drug deals and stirring a sauce at home, convinced a helicopter is following him.",
+  "song": "Jump into the Fire",
+  "song_artist": "Harry Nilsson",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "pulp-fiction-twist#6",
+  "scene_id": "pulp-fiction-twist",
+  "film": "Pulp Fiction",
+  "year": 1994,
+  "scene": "In a retro 1950s-themed restaurant, a hitman and his boss's wife kick off their shoes and do a playful, deadpan twist dance on a small stage for a trophy.",
+  "song": "You Never Can Tell",
+  "song_artist": "Chuck Berry",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "ouatih-neon#1",
+  "scene_id": "ouatih-neon",
+  "film": "Once Upon a Time in Hollywood",
+  "year": 2019,
+  "scene": "Dusk in 1969 Los Angeles: one by one, neon signs on movie theaters and diners flicker on while characters drive home, a wistful montage of a city at the end of an era.",
+  "song": "California Dreamin' (Jos\u00e9 Feliciano version)",
+  "song_artist": "Jos\u00e9 Feliciano",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:231569",
+  "title": "The Computer",
+  "artist": "Emorej",
+  "moods": [
+   "melodic"
+  ],
+  "genres": [
+   "electronic",
+   "hard"
+  ],
+  "instruments": [],
+  "energy": 0.45,
+  "page_url": "https://www.jamendo.com/track/231569",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=231569&format=mp31",
+  "brief_moods": [
+   "melodic",
+   "nostalgic",
+   "reflective"
+  ],
+  "brief_genres": [
+   "60s",
+   "synthpop",
+   "electronic"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "perks-tunnel#1",
+  "scene_id": "perks-tunnel",
+  "film": "The Perks of Being a Wallflower",
+  "year": 2012,
+  "scene": "A teenage girl stands up in the back of a pickup truck as it speeds through a tunnel at night, arms spread wide in the wind, while her friends watch in awe.",
+  "song": "Heroes",
+  "song_artist": "David Bowie",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1239471",
+  "title": "80s",
+  "artist": "Chill Carrier",
+  "moods": [
+   "uplifting"
+  ],
+  "genres": [
+   "80s",
+   "electronic",
+   "pop"
+  ],
+  "instruments": [
+   "vocoder"
+  ],
+  "energy": 0.65,
+  "page_url": "https://www.jamendo.com/track/1239471",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1239471&format=mp31",
+  "brief_moods": [
+   "optimistic",
+   "romantic",
+   "energetic"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "garden-state-headphones#1",
+  "scene_id": "garden-state-headphones",
+  "film": "Garden State",
+  "year": 2004,
+  "scene": "In a hospital waiting room, a quirky young woman hands a stranger her headphones and tells him a song will change his life; he listens, and something in his face softens.",
+  "song": "New Slang",
+  "song_artist": "The Shins",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1189913",
+  "title": "Expressive Piano Build",
+  "artist": "Seastock",
+  "moods": [
+   "corporate",
+   "hopeful",
+   "inspiring",
+   "motivational",
+   "uplifting"
+  ],
+  "genres": [
+   "easylistening",
+   "indie",
+   "rock"
+  ],
+  "instruments": [
+   "guitar",
+   "piano"
+  ],
+  "energy": 0.59,
+  "page_url": "https://www.jamendo.com/track/1189913",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1189913&format=mp31",
+  "brief_moods": [
+   "hopeful",
+   "inspiring",
+   "romantic"
+  ],
+  "brief_genres": [
+   "poprock",
+   "soul",
+   "easylistening"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "breakfast-club-fist#6",
+  "scene_id": "breakfast-club-fist",
+  "film": "The Breakfast Club",
+  "year": 1985,
+  "scene": "Saturday detention ends; the rebel walks across the empty school football field and punches his fist into the air as the image freezes.",
+  "song": "Don't You (Forget About Me)",
+  "song_artist": "Simple Minds",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1239471",
+  "title": "80s",
+  "artist": "Chill Carrier",
+  "moods": [
+   "uplifting"
+  ],
+  "genres": [
+   "80s",
+   "electronic",
+   "pop"
+  ],
+  "instruments": [
+   "vocoder"
+  ],
+  "energy": 0.65,
+  "page_url": "https://www.jamendo.com/track/1239471",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1239471&format=mp31",
+  "brief_moods": [
+   "optimistic",
+   "reflective",
+   "success"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "synthwave"
+  ],
+  "brief_energy": 0.9
+ },
+ {
+  "pair_id": "graduate-bus#1",
+  "scene_id": "graduate-bus",
+  "film": "The Graduate",
+  "year": 1967,
+  "scene": "A young couple who just fled her wedding sit at the back of a bus, giddy and laughing, until their smiles slowly fade into uncertainty.",
+  "song": "The Sound of Silence",
+  "song_artist": "Simon & Garfunkel",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:957461",
+  "title": "Slow",
+  "artist": "L\u00f6hstana David",
+  "moods": [
+   "sad"
+  ],
+  "genres": [
+   "folk",
+   "soundtrack"
+  ],
+  "instruments": [
+   "acousticguitar",
+   "electricguitar",
+   "piano"
+  ],
+  "energy": 0.25,
+  "page_url": "https://www.jamendo.com/track/957461",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=957461&format=mp31",
+  "brief_moods": [
+   "sad",
+   "anxious",
+   "emotional"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "soul",
+   "punkrock"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "garden-state-headphones#6",
+  "scene_id": "garden-state-headphones",
+  "film": "Garden State",
+  "year": 2004,
+  "scene": "In a hospital waiting room, a quirky young woman hands a stranger her headphones and tells him a song will change his life; he listens, and something in his face softens.",
+  "song": "New Slang",
+  "song_artist": "The Shins",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1087096",
+  "title": "Positive Optimistic Theme 11",
+  "artist": "Alexander Lisenkov",
+  "moods": [
+   "happy",
+   "inspiring",
+   "positive"
+  ],
+  "genres": [
+   "easylistening"
+  ],
+  "instruments": [
+   "electricguitar",
+   "piano",
+   "synthesizer"
+  ],
+  "energy": 0.65,
+  "page_url": "https://www.jamendo.com/track/1087096",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1087096&format=mp31",
+  "brief_moods": [
+   "hopeful",
+   "inspiring",
+   "romantic"
+  ],
+  "brief_genres": [
+   "poprock",
+   "soul",
+   "easylistening"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "silence-lambs-mirror#1",
+  "scene_id": "silence-lambs-mirror",
+  "film": "The Silence of the Lambs",
+  "year": 1991,
+  "scene": "In a dim basement lair, a serial killer applies makeup and dances slowly for a video camera in front of a mirror, wrapped in a shawl.",
+  "song": "Goodbye Horses",
+  "song_artist": "Q Lazzarus",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:945192",
+  "title": "Sunshine",
+  "artist": "Disconauts Music Production",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "dance",
+   "dancepop",
+   "house",
+   "pop"
+  ],
+  "instruments": [
+   "synthesizer"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/945192",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=945192&format=mp31",
+  "brief_moods": [
+   "happy",
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "django-flashback#6",
+  "scene_id": "django-flashback",
+  "film": "Django Unchained",
+  "year": 2012,
+  "scene": "A freed man remembers his wife trying to run away from a plantation and being whipped as punishment, the memories intercut with his ride across the snow.",
+  "song": "Freedom",
+  "song_artist": "Anthony Hamilton & Elayna Boynton",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1245171",
+  "title": "Soft",
+  "artist": "Matti Paalanen",
+  "moods": [
+   "drama",
+   "emotional",
+   "soft"
+  ],
+  "genres": [
+   "classical",
+   "easylistening"
+  ],
+  "instruments": [
+   "piano"
+  ],
+  "energy": 0.383,
+  "page_url": "https://www.jamendo.com/track/1245171",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1245171&format=mp31",
+  "brief_moods": [
+   "sad",
+   "nostalgic",
+   "emotional"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "punkrock",
+   "soul"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "say-anything-boombox#1",
+  "scene_id": "say-anything-boombox",
+  "film": "Say Anything...",
+  "year": 1989,
+  "scene": "At dawn, a heartbroken young man stands outside his girlfriend's bedroom window holding a boombox high above his head without saying a word.",
+  "song": "In Your Eyes",
+  "song_artist": "Peter Gabriel",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1056407",
+  "title": "Guitar Romantic",
+  "artist": "Plastic3",
+  "moods": [
+   "dream"
+  ],
+  "genres": [
+   "chillout",
+   "easylistening"
+  ],
+  "instruments": [
+   "acousticguitar",
+   "drums",
+   "electricguitar",
+   "piano",
+   "synthesizer"
+  ],
+  "energy": 0.3,
+  "page_url": "https://www.jamendo.com/track/1056407",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1056407&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "80s",
+   "poprock",
+   "synthwave"
+  ],
+  "brief_energy": 0.55
+ },
+ {
+  "pair_id": "little-miss-sunshine-dance#1",
+  "scene_id": "little-miss-sunshine-dance",
+  "film": "Little Miss Sunshine",
+  "year": 2006,
+  "scene": "At a children's beauty pageant, a little girl performs a wildly inappropriate dance routine her grandfather taught her, and her whole family jumps on stage to join her.",
+  "song": "Super Freak",
+  "song_artist": "Rick James",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1302668",
+  "title": "LA",
+  "artist": "Michael Ellis",
+  "moods": [
+   "driving",
+   "happy"
+  ],
+  "genres": [
+   "80s",
+   "pop"
+  ],
+  "instruments": [
+   "guitar"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1302668",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1302668&format=mp31",
+  "brief_moods": [
+   "happy",
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "silence-lambs-mirror#6",
+  "scene_id": "silence-lambs-mirror",
+  "film": "The Silence of the Lambs",
+  "year": 1991,
+  "scene": "In a dim basement lair, a serial killer applies makeup and dances slowly for a video camera in front of a mirror, wrapped in a shawl.",
+  "song": "Goodbye Horses",
+  "song_artist": "Q Lazzarus",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "jojo-rabbit-opening#6",
+  "scene_id": "jojo-rabbit-opening",
+  "film": "Jojo Rabbit",
+  "year": 2019,
+  "scene": "A ten-year-old boy runs excitedly through a small German town in 1945 in his youth uniform, intercut with archival footage of adoring crowds at Nazi rallies.",
+  "song": "Komm, gib mir deine Hand",
+  "song_artist": "The Beatles",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1244947",
+  "title": "01_A Colorful Spring",
+  "artist": "MFYM",
+  "moods": [
+   "happy",
+   "relaxing"
+  ],
+  "genres": [
+   "pop",
+   "popfolk",
+   "poprock"
+  ],
+  "instruments": [
+   "electricguitar",
+   "strings"
+  ],
+  "energy": 0.425,
+  "page_url": "https://www.jamendo.com/track/1244947",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1244947&format=mp31",
+  "brief_moods": [
+   "happy",
+   "nostalgic",
+   "romantic"
+  ],
+  "brief_genres": [
+   "80s",
+   "poprock",
+   "synthwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "lost-in-translation-goodbye#6",
+  "scene_id": "lost-in-translation-goodbye",
+  "film": "Lost in Translation",
+  "year": 2003,
+  "scene": "In a crowded Tokyo street, an older man catches up with a young woman, embraces her and whispers something we cannot hear before they part for good.",
+  "song": "Just Like Honey",
+  "song_artist": "The Jesus and Mary Chain",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1321079",
+  "title": "Ballad",
+  "artist": "Ludovico Gonzales",
+  "moods": [
+   "calm",
+   "soft"
+  ],
+  "genres": [
+   "ambient",
+   "downtempo",
+   "easylistening"
+  ],
+  "instruments": [
+   "piano"
+  ],
+  "energy": 0.175,
+  "page_url": "https://www.jamendo.com/track/1321079",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1321079&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "soul",
+   "punkrock"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "baby-driver-coffee#1",
+  "scene_id": "baby-driver-coffee",
+  "film": "Baby Driver",
+  "year": 2017,
+  "scene": "In one long take a young man in earbuds bops down a busy city street on a coffee run, his steps landing on the beat as graffiti and passersby seem to sync to him.",
+  "song": "Harlem Shuffle",
+  "song_artist": "Bob & Earl",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "synthpop"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "shaun-of-the-dead-pub#6",
+  "scene_id": "shaun-of-the-dead-pub",
+  "film": "Shaun of the Dead",
+  "year": 2004,
+  "scene": "Trapped in a pub, a group of friends beat a zombie landlord with pool cues in rhythm while the jukebox plays and the lights flash.",
+  "song": "Don't Stop Me Now",
+  "song_artist": "Queen",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "apocalypse-now-opening#1",
+  "scene_id": "apocalypse-now-opening",
+  "film": "Apocalypse Now",
+  "year": 1979,
+  "scene": "A jungle tree line explodes in napalm while helicopters drift through yellow smoke; a soldier lies sweating in a Saigon hotel room, ceiling fan dissolving into rotor blades.",
+  "song": "The End",
+  "song_artist": "The Doors",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:945192",
+  "title": "Sunshine",
+  "artist": "Disconauts Music Production",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "dance",
+   "dancepop",
+   "house",
+   "pop"
+  ],
+  "instruments": [
+   "synthesizer"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/945192",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=945192&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "guardians2-groot#6",
+  "scene_id": "guardians2-groot",
+  "film": "Guardians of the Galaxy Vol. 2",
+  "year": 2017,
+  "scene": "While a team of heroes battles a giant tentacled space monster in the background, a tiny tree creature dances obliviously in the foreground.",
+  "song": "Mr. Blue Sky",
+  "song_artist": "Electric Light Orchestra",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088582",
+  "title": "Kids Loop 2",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088582",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088582&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "synthwave"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "drive-canal#6",
+  "scene_id": "drive-canal",
+  "film": "Drive",
+  "year": 2011,
+  "scene": "A quiet stunt driver takes his neighbor and her young son for a drive along the Los Angeles river channel at golden hour, glances and small smiles instead of words.",
+  "song": "A Real Hero",
+  "song_artist": "College & Electric Youth",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1413269",
+  "title": "EIGHTIES (REMASTER)",
+  "artist": "LukHash",
+  "moods": [
+   "computers",
+   "party"
+  ],
+  "genres": [
+   "80s",
+   "8bit",
+   "club",
+   "electronic",
+   "house"
+  ],
+  "instruments": [],
+  "energy": 0.85,
+  "page_url": "https://www.jamendo.com/track/1413269",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1413269&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic",
+   "peaceful"
+  ],
+  "brief_genres": [
+   "80s",
+   "poprock",
+   "synthwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "reservoir-dogs-ear#6",
+  "scene_id": "reservoir-dogs-ear",
+  "film": "Reservoir Dogs",
+  "year": 1992,
+  "scene": "Alone in an empty warehouse with a cop who is tied to a chair and gagged, a gangster in a black suit saunters around him with breezy swagger, almost dancing, then pulls out a razor and slices off the cop's ear.",
+  "song": "Stuck in the Middle with You",
+  "song_artist": "Stealers Wheel",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "drive-opening#1",
+  "scene_id": "drive-opening",
+  "film": "Drive",
+  "year": 2011,
+  "scene": "After a tense nighttime getaway, a silent driver cruises the empty neon-lit freeways of Los Angeles as pink script opening credits appear.",
+  "song": "Nightcall",
+  "song_artist": "Kavinsky",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1416196",
+  "title": "Gentle",
+  "artist": "Macroform",
+  "moods": [
+   "calm",
+   "epic",
+   "sad",
+   "videogame",
+   "vintage"
+  ],
+  "genres": [
+   "ambient",
+   "electronic",
+   "lofi"
+  ],
+  "instruments": [
+   "synthesizer"
+  ],
+  "energy": 0.4,
+  "page_url": "https://www.jamendo.com/track/1416196",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1416196&format=mp31",
+  "brief_moods": [
+   "calm",
+   "reflective",
+   "cool"
+  ],
+  "brief_genres": [
+   "synthwave",
+   "electronic",
+   "80s"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "kill-bill-entourage#1",
+  "scene_id": "kill-bill-entourage",
+  "film": "Kill Bill: Vol. 1",
+  "year": 2003,
+  "scene": "A crime boss and her sword-carrying bodyguards stride in slow motion through a Tokyo restaurant, a wall of black suits, utterly in control.",
+  "song": "Battle Without Honor or Humanity",
+  "song_artist": "Tomoyasu Hotei",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "2001-docking#1",
+  "scene_id": "2001-docking",
+  "film": "2001: A Space Odyssey",
+  "year": 1968,
+  "scene": "A space shuttle slowly approaches a giant rotating wheel-shaped space station and docks with balletic grace against the stars.",
+  "song": "The Blue Danube",
+  "song_artist": "Johann Strauss II",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1329523",
+  "title": "Epic Piano Raise",
+  "artist": "Giuseppe Lorenzoni",
+  "moods": [
+   "epic"
+  ],
+  "genres": [
+   "classical",
+   "orchestral",
+   "soundtrack"
+  ],
+  "instruments": [
+   "percussion",
+   "piano",
+   "trumpet"
+  ],
+  "energy": 0.8,
+  "page_url": "https://www.jamendo.com/track/1329523",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1329523&format=mp31",
+  "brief_moods": [
+   "game",
+   "history"
+  ],
+  "brief_genres": [
+   "classical",
+   "orchestral"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "almost-famous-bus#1",
+  "scene_id": "almost-famous-bus",
+  "film": "Almost Famous",
+  "year": 2000,
+  "scene": "After a bitter fight, a sullen rock band sits in silence on their tour bus; one by one they start singing along to a song on the radio until everyone is smiling.",
+  "song": "Tiny Dancer",
+  "song_artist": "Elton John",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1239471",
+  "title": "80s",
+  "artist": "Chill Carrier",
+  "moods": [
+   "uplifting"
+  ],
+  "genres": [
+   "80s",
+   "electronic",
+   "pop"
+  ],
+  "instruments": [
+   "vocoder"
+  ],
+  "energy": 0.65,
+  "page_url": "https://www.jamendo.com/track/1239471",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1239471&format=mp31",
+  "brief_moods": [
+   "happy",
+   "nostalgic",
+   "romantic"
+  ],
+  "brief_genres": [
+   "80s",
+   "pop",
+   "synthwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "trainspotting-opening#1",
+  "scene_id": "trainspotting-opening",
+  "film": "Trainspotting",
+  "year": 1996,
+  "scene": "Young heroin addicts sprint down an Edinburgh street fleeing store security, one laughing as he's hit by a car, while a voiceover sneers about choosing life.",
+  "song": "Lust for Life",
+  "song_artist": "Iggy Pop",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "shawshank-opera#6",
+  "scene_id": "shawshank-opera",
+  "film": "The Shawshank Redemption",
+  "year": 1994,
+  "scene": "A prisoner locks himself in the warden's office and plays a record over the prison loudspeakers; in the yard every inmate stops and stares upward, transfixed.",
+  "song": "Sull'aria (Le nozze di Figaro)",
+  "song_artist": "Wolfgang Amadeus Mozart",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1081682",
+  "title": "Journey",
+  "artist": "Offenbach Project",
+  "moods": [
+   "relaxing",
+   "romantic"
+  ],
+  "genres": [
+   "ambient",
+   "easylistening",
+   "lounge"
+  ],
+  "instruments": [
+   "electricguitar",
+   "synthesizer"
+  ],
+  "energy": 0.25,
+  "page_url": "https://www.jamendo.com/track/1081682",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1081682&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "60s",
+   "poprock",
+   "classicrock"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "risky-business-socks#6",
+  "scene_id": "risky-business-socks",
+  "film": "Risky Business",
+  "year": 1983,
+  "scene": "With his parents away, a teenager in a shirt, socks and underwear slides across the hardwood floor and dances alone in the living room, singing into a candlestick.",
+  "song": "Old Time Rock and Roll",
+  "song_artist": "Bob Seger",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1387148",
+  "title": "Wings of soul",
+  "artist": "Fobos &amp; Deimos",
+  "moods": [
+   "love"
+  ],
+  "genres": [
+   "classicrock",
+   "hardrock",
+   "rock"
+  ],
+  "instruments": [
+   "guitar"
+  ],
+  "energy": 0.4,
+  "page_url": "https://www.jamendo.com/track/1387148",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1387148&format=mp31",
+  "brief_moods": [
+   "romantic",
+   "nostalgic"
+  ],
+  "brief_genres": [
+   "classicrock",
+   "soul",
+   "punkrock"
+  ],
+  "brief_energy": 0.55
+ },
+ {
+  "pair_id": "inglourious-makeup#1",
+  "scene_id": "inglourious-makeup",
+  "film": "Inglourious Basterds",
+  "year": 2009,
+  "scene": "A young woman prepares for revenge on the night of a Nazi film premiere: she applies red lipstick and war-paint rouge, loads a gun, and looks down at the crowd from a window.",
+  "song": "Cat People (Putting Out Fire)",
+  "song_artist": "David Bowie",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1089923",
+  "title": "Happy sunset",
+  "artist": "Bars&Beats Studio",
+  "moods": [
+   "happy",
+   "summer"
+  ],
+  "genres": [
+   "easylistening",
+   "instrumentalpop",
+   "pop"
+  ],
+  "instruments": [
+   "bass",
+   "drums",
+   "melodica",
+   "piano",
+   "saxophone",
+   "synthesizer",
+   "trumpet"
+  ],
+  "energy": 0.675,
+  "page_url": "https://www.jamendo.com/track/1089923",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1089923&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "60s",
+   "pop",
+   "soul"
+  ],
+  "brief_energy": 0.65
+ },
+ {
+  "pair_id": "easy-rider-highway#6",
+  "scene_id": "easy-rider-highway",
+  "film": "Easy Rider",
+  "year": 1969,
+  "scene": "Two bikers on chopper motorcycles ride along an open desert highway, free and wild, the landscape rolling past.",
+  "song": "Born to Be Wild",
+  "song_artist": "Steppenwolf",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:862834",
+  "title": "HAPPY",
+  "artist": "DANI LUCAS",
+  "moods": [
+   "energetic",
+   "fun",
+   "happy"
+  ],
+  "genres": [
+   "dance",
+   "electronic"
+  ],
+  "instruments": [
+   "piano",
+   "synthesizer"
+  ],
+  "energy": 0.783,
+  "page_url": "https://www.jamendo.com/track/862834",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=862834&format=mp31",
+  "brief_moods": [
+   "happy",
+   "romantic"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.75
+ },
+ {
+  "pair_id": "2001-docking#6",
+  "scene_id": "2001-docking",
+  "film": "2001: A Space Odyssey",
+  "year": 1968,
+  "scene": "A space shuttle slowly approaches a giant rotating wheel-shaped space station and docks with balletic grace against the stars.",
+  "song": "The Blue Danube",
+  "song_artist": "Johann Strauss II",
+  "rank": 6,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1082093",
+  "title": "DRAMATIC ORCHESTRAL",
+  "artist": "Iliakulakow",
+  "moods": [
+   "epic",
+   "movie",
+   "trailer"
+  ],
+  "genres": [
+   "classical",
+   "soundtrack"
+  ],
+  "instruments": [
+   "cello",
+   "clarinet",
+   "cymbal",
+   "doublebass",
+   "orchestra",
+   "timpani",
+   "trumpet",
+   "violin"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1082093",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1082093&format=mp31",
+  "brief_moods": [
+   "game",
+   "history"
+  ],
+  "brief_genres": [
+   "classical",
+   "orchestral"
+  ],
+  "brief_energy": 0.5
+ },
+ {
+  "pair_id": "guardians-opening#1",
+  "scene_id": "guardians-opening",
+  "film": "Guardians of the Galaxy",
+  "year": 2014,
+  "scene": "A space adventurer in a mask strolls through an abandoned alien ruin, dancing, kicking alien creatures aside and using one as a microphone as the title card appears.",
+  "song": "Come and Get Your Love",
+  "song_artist": "Redbone",
+  "rank": 1,
+  "variant": "llm_hybrid_v2",
+  "track_id": "jamendo:1088586",
+  "title": "Happy Game",
+  "artist": "Plastic3",
+  "moods": [
+   "fun",
+   "game",
+   "happy"
+  ],
+  "genres": [
+   "pop"
+  ],
+  "instruments": [
+   "bell",
+   "synthesizer",
+   "ukulele"
+  ],
+  "energy": 0.7,
+  "page_url": "https://www.jamendo.com/track/1088586",
+  "audio_url": "https://prod-1.storage.jamendo.com/?trackid=1088586&format=mp31",
+  "brief_moods": [
+   "happy",
+   "fun",
+   "retro"
+  ],
+  "brief_genres": [
+   "80s",
+   "synthpop",
+   "newwave"
+  ],
+  "brief_energy": 0.65
+ }
+]

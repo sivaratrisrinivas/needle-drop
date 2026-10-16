@@ -1,0 +1,7184 @@
+{
+ "variant": "direct_adapter",
+ "all": {
+  "n": 50,
+  "original@10": 0.0,
+  "similar@10": 0.28,
+  "P@10": 0.044000000000000004,
+  "MRR": 0.08885714285714288,
+  "brief_mood_recall": 0.115,
+  "brief_genre_recall": 0.03333333333333333,
+  "relationship_acc": 0.8,
+  "energy_mae": 0.20099999999999998,
+  "brief_valid": 1.0
+ },
+ "match": {
+  "n": 40,
+  "original@10": 0.0,
+  "similar@10": 0.275,
+  "P@10": 0.0475,
+  "MRR": 0.10194444444444443,
+  "brief_mood_recall": 0.12916666666666665,
+  "brief_genre_recall": 0.041666666666666664,
+  "relationship_acc": 1.0,
+  "energy_mae": 0.19,
+  "brief_valid": 1.0
+ },
+ "counterpoint": {
+  "n": 10,
+  "original@10": 0.0,
+  "similar@10": 0.3,
+  "P@10": 0.030000000000000006,
+  "MRR": 0.0365079365079365,
+  "brief_mood_recall": 0.05833333333333333,
+  "brief_genre_recall": 0.0,
+  "relationship_acc": 0.0,
+  "energy_mae": 0.24499999999999997,
+  "brief_valid": 1.0
+ },
+ "rows": [
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:855267",
+     "Gangster Wobble",
+     "Boss Bass",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1398421",
+     "Orchestral Gangsta",
+     "Porrazzo",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1076045",
+     "Daddy Clean & Rico-Made in N.O.R.D",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1061473",
+     "Director's Cut (instrumental)",
+     "Fresh Body Shop",
+     [],
+     [
+      "pop",
+      "rock"
+     ],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1238765",
+     "333_Dark Inside _B (No Beat - No Piano)",
+     "MFYM",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1420548",
+     "Dub in Argentine",
+     "Kingstone",
+     [],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:579643",
+     "Director's Cut",
+     "Fresh Body Shop",
+     [],
+     [
+      "pop",
+      "rock"
+     ],
+     0.875,
+     false
+    ],
+    [
+     "jamendo:1103303",
+     "Bionic Cop",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1125664",
+     "Blackanges - Mech Snake",
+     "Blackanges",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1077132",
+     "Don Garcia - Utopie",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "reservoir-dogs-ear",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "Alone in an empty warehouse with a cop who is tied to a chair and gagged, a gangster in a black suit saunters around him with breezy swagger, almost dancing, then pulls out a razor and slices off the ",
+    "relationship": "match",
+    "moods": [
+     "relaxing",
+     "melancholic",
+     "groovy",
+     "nice"
+    ],
+    "genres": [
+     "funk",
+     "chilloutlounge",
+     "chillout"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "panflute"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Alone in an empty warehouse with a cop who is tied to a chair and gagged, a gangster in a black suit saunters around him with breezy swagger, almost dancing, then pulls out a razor and slices off the ",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1274238",
+     "Joe s Diner",
+     "Matt Confusion",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1072233",
+     "Nobody will take our love",
+     "Thierry Link",
+     [],
+     [
+      "rock"
+     ],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1311203",
+     "just love me",
+     "Maurizio Mazzoli",
+     [],
+     [],
+     0.467,
+     false
+    ],
+    [
+     "jamendo:581705",
+     "Tomorrow Never Comes (Laugh Mix)",
+     "Shanel",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1298302",
+     "Hold You (Acoustic)",
+     "Nemo Wilson",
+     [],
+     [],
+     0.375,
+     false
+    ],
+    [
+     "jamendo:73151",
+     "make this end",
+     "Fresh Body Shop",
+     [],
+     [
+      "rock"
+     ],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1061460",
+     "Never End Up Like This (instrumental)",
+     "Fresh Body Shop",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1010982",
+     "Get On Up (Xtra Seasoning Version)",
+     "mGee",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1203194",
+     "Hold Fast",
+     "Kara Square and TheDICE",
+     [],
+     [],
+     0.379,
+     false
+    ],
+    [
+     "jamendo:1239507",
+     "LOVERS",
+     "Maurizio Mazzoli",
+     [],
+     [],
+     0.475,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Two lovers in a diner leap onto their seats and announce a hold-up; the image freezes and bold opening titles slam onto the screen.",
+    "relationship": "match",
+    "moods": [
+     "strong",
+     "love",
+     "bright",
+     "warm"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "country"
+    ],
+    "instruments": [
+     "panflute",
+     "flugelhorn"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Two lovers in a diner leap onto their seats and announce a hold-up; the image freezes and bold opening titles slam onto the screen.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:1010008",
+     "Bone hip shake",
+     "Conway Hambone",
+     [
+      "retro"
+     ],
+     [
+      "60s",
+      "rocknroll"
+     ],
+     0.55,
+     true
+    ],
+    [
+     "jamendo:662190",
+     "Jack And The Scandal Shop",
+     "JoosTVD",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:759886",
+     "LITTLE MONTEZUMA",
+     "Conway Hambone",
+     [
+      "retro"
+     ],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1407654",
+     "comedic spy theme loop",
+     "andy blackwood",
+     [],
+     [
+      "60s",
+      "rock"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1179607",
+     "I don't care remix ft Sandro Martelly",
+     "Steves J. Bryan",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1377211",
+     "Jack It Up One More Time feat Mr. Easy",
+     "Demo Delgado",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1353211",
+     "Da Mi Dinero",
+     "Bahia de Roses",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1311079",
+     "Striptease",
+     "Dobermens",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1137270",
+     "Old school Jazz Hip Hop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1099694",
+     "Retro Clubbing ",
+     "MFYM",
+     [
+      "happy"
+     ],
+     [],
+     0.775,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.04999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-twist",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In a retro 1950s-themed restaurant, a hitman and his boss's wife kick off their shoes and do a playful, deadpan twist dance on a small stage for a trophy.",
+    "relationship": "match",
+    "moods": [
+     "retro",
+     "nostalgic",
+     "oldschool",
+     "warm"
+    ],
+    "genres": [
+     "waltz",
+     "swing",
+     "60s"
+    ],
+    "instruments": [
+     "hammond",
+     "panflute"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In a retro 1950s-themed restaurant, a hitman and his boss's wife kick off their shoes and do a playful, deadpan twist dance on a small stage for a trophy.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:661601",
+     "Psychodad ",
+     "JoosTVD",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1096121",
+     "Radio Noiseville-The demon in my bathroom",
+     "Radio Noiseville",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1308616",
+     "The Drug",
+     "ZZZZZ",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:169270",
+     "Mixing With Lydia",
+     "Juice Connection",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:914576",
+     "alone with the drug",
+     "Torments Of My Life",
+     [],
+     [],
+     0.617,
+     false
+    ],
+    [
+     "jamendo:162592",
+     "Dirty Game",
+     "Juice Connection",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:984068",
+     "Out of my way fucker",
+     "Chili Con Coma ",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1081051",
+     "The vile person",
+     "Radio Noiseville",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:268311",
+     "Hard Club Toilet",
+     "SUR",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1409343",
+     "Smoke on Dim Light",
+     "Porrazzo",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.10000000000000003,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-mia",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Alone in her dim living room, a woman sways sensually to a record while her date argues with himself in the bathroom, moments before she snorts heroin by mistake.",
+    "relationship": "match",
+    "moods": [
+     "spacey",
+     "melancholic",
+     "bright",
+     "powerful"
+    ],
+    "genres": [
+     "psychedelic",
+     "disco",
+     "chilloutlounge"
+    ],
+    "instruments": [
+     "panflute",
+     "harmonium"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Alone in her dim living room, a woman sways sensually to a record while her date argues with himself in the bathroom, moments before she snorts heroin by mistake.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1068382",
+     "Facette Juorno",
+     "Massimo Kyo Di Nocera",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:73994",
+     "Toutoui",
+     "NICOCO",
+     [],
+     [
+      "soundtrack"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1021756",
+     "Bodyguard",
+     "Instantperson",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1149535",
+     "Nel tuo circo - maxmex [Pioggia e Cenere - 2014]",
+     "Maxmex",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:946416",
+     "Katatek",
+     "NICOCO",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1183076",
+     "Monaural Tokyo (Feat. Makoto Sawai)",
+     "DJ Gami.K",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1143939",
+     "Tsumugi (feat. Seimo Yamaguchi) [Dark Matter Remix] (Shakuhachi)",
+     "DJ Gami.K",
+     [],
+     [],
+     0.1,
+     false
+    ],
+    [
+     "jamendo:759717",
+     "Canta ta ta",
+     "Massimo Kyo Di Nocera",
+     [],
+     [
+      "soundtrack"
+     ],
+     0.217,
+     false
+    ],
+    [
+     "jamendo:1076759",
+     "Lord Bitum feat Senor Karo &amp; Shiva-Putain De Vie Brutale",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1398421",
+     "Orchestral Gangsta",
+     "Porrazzo",
+     [],
+     [],
+     0.55,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.45000000000000007,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-entourage",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A crime boss and her sword-carrying bodyguards stride in slow motion through a Tokyo restaurant, a wall of black suits, utterly in control.",
+    "relationship": "match",
+    "moods": [
+     "relaxing",
+     "crime",
+     "calm",
+     "business"
+    ],
+    "genres": [
+     "bossanova",
+     "chillout",
+     "chilloutlounge"
+    ],
+    "instruments": [
+     "panflute",
+     "koto"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A crime boss and her sword-carrying bodyguards stride in slow motion through a Tokyo restaurant, a wall of black suits, utterly in control.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:590270",
+     "Intro - Dark Symphonys",
+     "BLOOD ANGEL",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1232377",
+     "Marry Me, Girl",
+     "Rapid Pain Relief",
+     [],
+     [
+      "singersongwriter"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1308617",
+     "Bloody fuck",
+     "ZZZZZ",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1207997",
+     "She Buys Souls",
+     "Heifervescent",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1107267",
+     "A Place In Hell",
+     "Dave Imbern\u00f6n",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1276484",
+     "Woman In Black 2",
+     "Raul Cabezali",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1310529",
+     "Unforgettable Woman",
+     "BDKSonic",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:259559",
+     "absolution",
+     "Disappearance of Anna",
+     [
+      "dark"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1184483",
+     "Love Story (Dastane Eshgh)",
+     "Arashk Azizi",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1236408",
+     "Nothing But the Blood of Jesus",
+     "Myke Clements",
+     [],
+     [],
+     0.717,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.3,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-bang-bang",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A bloodied bride lies on a chapel floor; her former lover tells her this is him at his most masochistic and shoots her in the head. Black-and-white opening credits follow.",
+    "relationship": "match",
+    "moods": [
+     "melancholic",
+     "wedding",
+     "love",
+     "strong"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "waltz",
+     "chansonfrancaise"
+    ],
+    "instruments": [
+     "mellotron",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A bloodied bride lies on a chapel floor; her former lover tells her this is him at his most masochistic and shoots her in the head. Black-and-white opening credits follow.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1158370",
+     "The Final Battle (drums)",
+     "Akashic Records",
+     [
+      "epic"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:946416",
+     "Katatek",
+     "NICOCO",
+     [],
+     [
+      "disco"
+     ],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1236334",
+     "Johaness Gilther - Sakura",
+     "2Inventions",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1121821",
+     "Wooden Training Sword",
+     "Master of the Subway Ninjas",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1076591",
+     "Night in Tokyo",
+     "EIVISSA SALINAS feat. DJ HSERES",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1209644",
+     "Japan",
+     "Matti Paalanen",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1242794",
+     "Tsumugi feat. Seimo Yamaguchi (Dark Matter Remix) Shakuhachi",
+     "DJ Gami.K",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1173976",
+     "13 Fukuoka ( Japan House Mix )",
+     "Hasenchat",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:282626",
+     "Night In Asia",
+     "fridance",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:519770",
+     "Weapons Expo",
+     "Keshco",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-snow-duel",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In a snow-covered Japanese garden at night, two women face each other with katanas for a final duel, the fight building to a single fatal stroke.",
+    "relationship": "match",
+    "moods": [
+     "battle",
+     "japan",
+     "dramatic",
+     "winter"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "asian",
+     "chillout"
+    ],
+    "instruments": [
+     "taiko",
+     "panflute"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In a snow-covered Japanese garden at night, two women face each other with katanas for a final duel, the fight building to a single fatal stroke.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1057412",
+     "Airplane Mode (Instrumental Version)",
+     "Josh Woodward",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1149541",
+     "Gli aviatori - maxmex [Pioggia e Cenere - 2014]",
+     "Maxmex",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1128214",
+     "Airplane Mode",
+     "Josh Woodward",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:973253",
+     "Airports (Drama)",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1250200",
+     "Blue Sky (Loop)",
+     "Christoph Schade Composer",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1346189",
+     "Flight in the sky",
+     "Airmusic",
+     [],
+     [],
+     0.32,
+     false
+    ],
+    [
+     "jamendo:1061441",
+     "Brand New Wings (instrumental)",
+     "Fresh Body Shop",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1266589",
+     "SamudraVisions - Blue Angel",
+     "SamudraVisions",
+     [],
+     [],
+     0.267,
+     false
+    ],
+    [
+     "jamendo:1203931",
+     "Pointless air travel shot",
+     "osaeris",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1416335",
+     "Inspiring Ambient Corporate",
+     "Blue Giraffe",
+     [],
+     [],
+     0.625,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "jackie-brown-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A flight attendant in a blue uniform glides along an airport moving walkway in profile, cool and unhurried, then hurries to work as the credits roll.",
+    "relationship": "match",
+    "moods": [
+     "laidback",
+     "bright",
+     "relaxing",
+     "cheerful"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "atmospheric"
+    ],
+    "instruments": [
+     "slideguitar",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A flight attendant in a blue uniform glides along an airport moving walkway in profile, cool and unhurried, then hurries to work as the credits roll.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1198245",
+     "Female Agent in Red Square",
+     "Gaz K",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1284331",
+     "Jenny Ready Neyll",
+     "Federico Guglielmetti",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1010823",
+     "Revenge Assault",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1225159",
+     "09 - Darkness Takes Over - Gemafreie Filmmusik - Ronny Matthes",
+     "Ronny Matthes - Pianist und Komponist (GEMA-frei / Royalty Free)",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1109625",
+     "Prepared for All Things",
+     "Esther Garcia",
+     [
+      "powerful"
+     ],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:398180",
+     "3 minutes to midnight (remaster)",
+     "Greendjohn",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1074725",
+     "Hold up Plan with violence",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1235733",
+     "08 - Hope Is Rising - Gemafreie Filmusik - Ronny Matthes",
+     "Ronny Matthes - Pianist und Komponist (GEMA-frei / Royalty Free)",
+     [],
+     [
+      "rock"
+     ],
+     0.733,
+     false
+    ],
+    [
+     "jamendo:1313212",
+     "Armed and READY",
+     "Kara Square",
+     [],
+     [
+      "80s"
+     ],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1088631",
+     "Missah - La Guerre Des Nerfs",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "inglourious-makeup",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A young woman prepares for revenge on the night of a Nazi film premiere: she applies red lipstick and war-paint rouge, loads a gun, and looks down at the crowd from a window.",
+    "relationship": "match",
+    "moods": [
+     "video",
+     "film",
+     "winter",
+     "aggressive"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "rave"
+    ],
+    "instruments": [
+     "panflute",
+     "glockenspiel"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A young woman prepares for revenge on the night of a Nazi film premiere: she applies red lipstick and war-paint rouge, loads a gun, and looks down at the crowd from a window.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1076296",
+     "Obajah-Repression",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1076414",
+     "Scars & African Kid-Manque De Rep\u00e8res (Soldiah Beez Version)",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1034576",
+     "The march to Freedom",
+     "Maeces",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:459377",
+     "You have bound us to you",
+     "Tony Bardon",
+     [],
+     [
+      "gospel"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1079254",
+     "Train to freedom",
+     "PAIO",
+     [],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:908090",
+     "A day in the Sahara_a dream of freedom",
+     "Stefano mocini",
+     [],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:134777",
+     "Ballad Of The Regretful Sinner",
+     "Racecar",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1107279",
+     "Trapped In Freedom - 03 - Perpendicular Highway",
+     "Trapped In Freedom",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1107277",
+     "Trapped In Freedom - 01 - Chicken Fighter",
+     "Trapped In Freedom",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1216162",
+     "Winter Land (Melancholic Drama)",
+     "Lionel Desmond Schmitt",
+     [
+      "emotional",
+      "sad"
+     ],
+     [],
+     0.39,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "django-flashback",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A freed man remembers his wife trying to run away from a plantation and being whipped as punishment, the memories intercut with his ride across the snow.",
+    "relationship": "match",
+    "moods": [
+     "winter",
+     "warm",
+     "sentimental",
+     "melancholic"
+    ],
+    "genres": [
+     "americana",
+     "country",
+     "70s"
+    ],
+    "instruments": [
+     "hammond",
+     "panflute"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A freed man remembers his wife trying to run away from a plantation and being whipped as punishment, the memories intercut with his ride across the snow.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.125,
+   "top": [
+    [
+     "jamendo:1302668",
+     "LA",
+     "Michael Ellis",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1084817",
+     "The Noise Was Ended Now",
+     "Way Station",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1084814",
+     "Last Launch Part I",
+     "Way Station",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1162506",
+     "BANDOLEROS. Por la sierra",
+     "ANTONIO FONTALES",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:592188",
+     "White City",
+     "Vladimir Sterzer",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:806980",
+     "Annie",
+     "Sunset Boulevard",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:660442",
+     "City eyes ",
+     "Julien Boulier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:856755",
+     "Starlite Tonight",
+     "Brady Harris",
+     [
+      "nostalgic"
+     ],
+     [
+      "60s"
+     ],
+     0.45,
+     true
+    ],
+    [
+     "jamendo:1176716",
+     "A Morning In The City",
+     "Evgeny Teilor",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1177774",
+     "Stone Town",
+     "Mike Allen",
+     [],
+     [],
+     0.45,
+     false
+    ]
+   ],
+   "mood_recall": 1.0,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "ouatih-neon",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Dusk in 1969 Los Angeles: one by one, neon signs on movie theaters and diners flicker on while characters drive home, a wistful montage of a city at the end of an era.",
+    "relationship": "match",
+    "moods": [
+     "ethereal",
+     "nostalgic",
+     "melancholic",
+     "mellow"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "60s",
+     "chillout"
+    ],
+    "instruments": [
+     "mellotron",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Dusk in 1969 Los Angeles: one by one, neon signs on movie theaters and diners flicker on while characters drive home, a wistful montage of a city at the end of an era.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1406575",
+     "The scramble.",
+     "Roman Batyuk",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1342572",
+     "3- Got a Ticket (unplugged)",
+     "Marco Droetto",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1076762",
+     "Rico-On A La Rage",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:760909",
+     "Driver",
+     "Jahzzar",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1077153",
+     "Daddy Cookiz & Stoneman - Tu veux du feu 2012",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1419650",
+     "Separately (Demo version)",
+     "Roman Batyuk",
+     [
+      "energetic"
+     ],
+     [],
+     0.875,
+     false
+    ],
+    [
+     "jamendo:1329121",
+     "Funk Off, You Mustard!",
+     "Raul Cabezali",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1407653",
+     "car chase in the country loop",
+     "andy blackwood",
+     [
+      "fast"
+     ],
+     [],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:1414982",
+     "Lets Get Out (Instrumental)",
+     "The Moose",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1306848",
+     "Grab A Bargain",
+     "Scott Holmes",
+     [],
+     [],
+     0.65,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.1499999999999999,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-bellbottoms",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A getaway driver in sunglasses waits outside a bank, drumming on the wheel; when his crew bursts out he launches into a screeching, drifting car chase through Atlanta traffic.",
+    "relationship": "match",
+    "moods": [
+     "driving",
+     "groovy",
+     "laidback",
+     "melancholic"
+    ],
+    "genres": [
+     "glitch",
+     "chilloutlounge",
+     "groove"
+    ],
+    "instruments": [
+     "slideguitar",
+     "cvp509"
+    ],
+    "energy": 0.8,
+    "tempo": {
+     "min_bpm": 119,
+     "max_bpm": 149
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A getaway driver in sunglasses waits outside a bank, drumming on the wheel; when his crew bursts out he launches into a screeching, drifting car chase through Atlanta traffic.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1096077",
+     "One Direction Rock Loop 4 (30 sec)",
+     "Plastic3",
+     [],
+     [],
+     0.883,
+     false
+    ],
+    [
+     "jamendo:1096097",
+     "One Direction Rock Loop 2 (30 sec)",
+     "Plastic3",
+     [],
+     [],
+     0.883,
+     false
+    ],
+    [
+     "jamendo:1110493",
+     "Time Waste",
+     "Podington Bear",
+     [],
+     [
+      "rnb",
+      "soul"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1062584",
+     "Dj Rostej - Long Way",
+     "Dj Rostej",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1407374",
+     "grind loop",
+     "andy blackwood",
+     [],
+     [
+      "funk"
+     ],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:170949",
+     "04-Oneshot",
+     "Luc Bartoli",
+     [],
+     [
+      "funk"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1250235",
+     "Take It Easy (Loop)",
+     "Christoph Schade Composer",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353302",
+     "Take it to the Top ( Radio Edit )",
+     "Deep-X",
+     [
+      "happy"
+     ],
+     [],
+     0.583,
+     false
+    ],
+    [
+     "jamendo:1407658",
+     "picking up the pace loop",
+     "andy blackwood",
+     [],
+     [],
+     0.925,
+     false
+    ],
+    [
+     "jamendo:1215804",
+     "Take it",
+     "Manhat10",
+     [],
+     [
+      "rnb"
+     ],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-coffee",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In one long take a young man in earbuds bops down a busy city street on a coffee run, his steps landing on the beat as graffiti and passersby seem to sync to him.",
+    "relationship": "match",
+    "moods": [
+     "laidback",
+     "fast",
+     "warm",
+     "cool"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "funk",
+     "groove"
+    ],
+    "instruments": [
+     "panflute",
+     "pipeorgan"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In one long take a young man in earbuds bops down a busy city street on a coffee run, his steps landing on the beat as graffiti and passersby seem to sync to him.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1161201",
+     "Cinematic Percussion",
+     "Akashic Records",
+     [
+      "action"
+     ],
+     [],
+     0.812,
+     false
+    ],
+    [
+     "jamendo:1398417",
+     "Thriller Beat",
+     "Porrazzo",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:338079",
+     "Bombs, Guns And Ammunition",
+     "Cibernetica",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1190787",
+     "Meat",
+     "RoeAudionews",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1067268",
+     "Strike out",
+     "K\u00e4B",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:855267",
+     "Gangster Wobble",
+     "Boss Bass",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1349117",
+     "Griffage",
+     "Elecmutec",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:133657",
+     "Some Kind Of Hell ",
+     "Fresh Body Shop",
+     [
+      "energetic"
+     ],
+     [],
+     0.875,
+     false
+    ],
+    [
+     "jamendo:1294886",
+     "JAIL",
+     "Ju Bhota",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1398421",
+     "Orchestral Gangsta",
+     "Porrazzo",
+     [],
+     [],
+     0.55,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-shootout",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "A gun deal in a meat warehouse goes wrong and erupts into a shootout, every gunshot landing on the beat like a percussion section.",
+    "relationship": "match",
+    "moods": [
+     "thriller",
+     "business",
+     "melancholic",
+     "relaxing"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "glitch"
+    ],
+    "instruments": [
+     "percussion",
+     "drums"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A gun deal in a meat warehouse goes wrong and erupts into a shootout, every gunshot landing on the beat like a percussion section.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1111111111111111,
+   "top": [
+    [
+     "jamendo:1372085",
+     "Trapped (No Drums)",
+     "Tony Balaskas",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1372083",
+     "Trapped (Full Mix)",
+     "Tony Balaskas",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1107314",
+     "Trapped In Freedom - 04 - This Cumshot is your Gift",
+     "Trapped In Freedom",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1335152",
+     "Zombie Klub",
+     "Doctor Frost",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1155893",
+     "4_Gang Halloween AC2 441",
+     "MFYM",
+     [
+      "fun"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1107282",
+     "Trapped In Freedom - 06 - Incoming",
+     "Trapped In Freedom",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:965600",
+     "A girl and a dummy",
+     "Sergey Kovchik",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:868281",
+     "Trapped",
+     "Kellee Maize",
+     [],
+     [
+      "pop"
+     ],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:1203669",
+     "They Gunna Kill Me Tonight",
+     "Robkay",
+     [
+      "fun"
+     ],
+     [
+      "rock"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:1222901",
+     "Supermarket",
+     "Albionics",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.35,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "shaun-of-the-dead-pub",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "Trapped in a pub, a group of friends beat a zombie landlord with pool cues in rhythm while the jukebox plays and the lights flash.",
+    "relationship": "match",
+    "moods": [
+     "comedy",
+     "bouncy",
+     "funny",
+     "humor"
+    ],
+    "genres": [
+     "trap",
+     "chilloutlounge",
+     "rave"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "hammond"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Trapped in a pub, a group of friends beat a zombie landlord with pool cues in rhythm while the jukebox plays and the lights flash.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1111111111111111,
+   "top": [
+    [
+     "jamendo:1093545",
+     "Invasion",
+     "jean-pierre.saussac",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1296300",
+     "Space Invaders",
+     "magagog",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1087568",
+     "Invasion",
+     "Alexander Lisenkov",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1060668",
+     "Space Nomads",
+     "Pal Zoltan Illes",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1339627",
+     "Vomit\u00e9 lunares",
+     "Mitrof\u00e1n y la burbuja inmobiliaria",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1198260",
+     "Alternate Menu",
+     "Ulysse Manceron",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1165775",
+     "After The Space Debris Is Gone",
+     "Pal Zoltan Illes",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:984753",
+     "Europa",
+     "Ruined Machines",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1306844",
+     "Cosmic Shell Suit",
+     "Scott Holmes",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:1135079",
+     "Inner Aliens",
+     "Mischapex",
+     [],
+     [],
+     0.375,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "guardians-opening",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "A space adventurer in a mask strolls through an abandoned alien ruin, dancing, kicking alien creatures aside and using one as a microphone as the title card appears.",
+    "relationship": "match",
+    "moods": [
+     "spacey",
+     "space",
+     "hypnotic",
+     "scifi"
+    ],
+    "genres": [
+     "jungle",
+     "atmospheric",
+     "drone"
+    ],
+    "instruments": [
+     "pad",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A space adventurer in a mask strolls through an abandoned alien ruin, dancing, kicking alien creatures aside and using one as a microphone as the title card appears.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1163205",
+     "The Great Ukulele Space Spar",
+     "Kara Square",
+     [],
+     [
+      "pop"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1144752",
+     "Dramatic Space War Logo (30 sec)",
+     "Plastic3",
+     [],
+     [],
+     0.617,
+     false
+    ],
+    [
+     "jamendo:1163781",
+     "Lintu - Space Dragons",
+     "Linturaven",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1349964",
+     "The Argonauts",
+     "FiluAndDina",
+     [],
+     [],
+     0.817,
+     false
+    ],
+    [
+     "jamendo:169050",
+     "(They Won't Let Me Grow) My Favourite Tree",
+     "Stellar Art Wars",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1296300",
+     "Space Invaders",
+     "magagog",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1356874",
+     "Spacedust (Outro)",
+     "The Vow",
+     [],
+     [
+      "pop"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1281102",
+     "374_3_Epic Galactic Battle Ver 2",
+     "MFYM",
+     [],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1057257",
+     "Last battle",
+     "Space galaxy",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1052153",
+     "Space Frog",
+     "Disconauts Music Production",
+     [
+      "uplifting"
+     ],
+     [],
+     0.65,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.19999999999999996,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "guardians2-groot",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "While a team of heroes battles a giant tentacled space monster in the background, a tiny tree creature dances obliviously in the foreground.",
+    "relationship": "match",
+    "moods": [
+     "spacey",
+     "space",
+     "scifi",
+     "heroic"
+    ],
+    "genres": [
+     "jungle",
+     "dub",
+     "score"
+    ],
+    "instruments": [
+     "panflute",
+     "tinwhistle"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "While a team of heroes battles a giant tentacled space monster in the background, a tiny tree creature dances obliviously in the foreground.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1010826",
+     "The Big Heist",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1415995",
+     "The Heist Team",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:9833",
+     "Resurrection",
+     "Countdown",
+     [],
+     [
+      "rock"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1061440",
+     "Blame (trailer anthem)",
+     "Fresh Body Shop",
+     [],
+     [
+      "rock"
+     ],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1061375",
+     "One Last Coin",
+     "Fresh Body Shop",
+     [],
+     [
+      "rock"
+     ],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:699090",
+     "Highway Slaughter",
+     "Ozzed",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1089299",
+     "Part 3 (gospel and resurrection)",
+     "Radio Interior Fusion",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1116953",
+     "Bomber Robbery / Shorter Lament",
+     "Zeffon",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:809783",
+     "Karma In Remission (alternate version)",
+     "Ruined Machines",
+     [],
+     [
+      "rock"
+     ],
+     0.683,
+     false
+    ],
+    [
+     "jamendo:1231348",
+     "In The End",
+     "Fourteen Steps To Hell",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-layla",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "After a big heist, the bodies of the crew are discovered one by one: in a car, in a garbage truck, hanging in a meat truck, in slow, mournful tracking shots.",
+    "relationship": "match",
+    "moods": [
+     "fast",
+     "nostalgic",
+     "melancholic",
+     "beautiful"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "death"
+    ],
+    "instruments": [
+     "bassoon",
+     "bass"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "After a big heist, the bodies of the crew are discovered one by one: in a car, in a garbage truck, hanging in a meat truck, in slow, mournful tracking shots.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:855267",
+     "Gangster Wobble",
+     "Boss Bass",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1294621",
+     "She Gouyin (Prod. By Alcol Le Dj)",
+     "Steves J. Bryan",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:889184",
+     "S.. Track",
+     "Re-Drum",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1399783",
+     "Clubing Radio",
+     "BACKIT",
+     [
+      "love"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1294886",
+     "JAIL",
+     "Ju Bhota",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:728931",
+     "Rendezvous at the club",
+     "Fonogeri",
+     [
+      "romantic"
+     ],
+     [],
+     0.375,
+     false
+    ],
+    [
+     "jamendo:1313213",
+     "Armed and READY (No Drums)",
+     "Kara Square",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1312152",
+     "My Girl (A Few Dudes Dub)",
+     "Soundatelier",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1315511",
+     "The Party Went Bad When Jimmy Had Shot Down That Tall Guy",
+     "Dawncat",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:638062",
+     "S4E - Insertion Point (Intro)",
+     "S4E",
+     [],
+     [],
+     0.45,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-copa",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A young gangster takes his date through the back entrance of a nightclub in one long unbroken shot, down stairs and through the kitchen to a table set up just for them.",
+    "relationship": "match",
+    "moods": [
+     "clubbing",
+     "nice",
+     "relaxing",
+     "warm"
+    ],
+    "genres": [
+     "rave",
+     "club",
+     "chilloutlounge"
+    ],
+    "instruments": [
+     "conga",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A young gangster takes his date through the back entrance of a nightclub in one long unbroken shot, down stairs and through the kitchen to a table set up just for them.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1111111111111111,
+   "top": [
+    [
+     "jamendo:1320859",
+     "Astrofobiya",
+     "Dr.GROOVER",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1010820",
+     "Paranoia",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1180631",
+     "Set It Off Again",
+     "Cartel",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1145284",
+     "Road To Riches",
+     "JASON MILLER",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:855267",
+     "Gangster Wobble",
+     "Boss Bass",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1394904",
+     "Things to Know About G (PixyG2013)",
+     "PixyG",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1241227",
+     "Digital Nation (edit)",
+     "Aerologic",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1180613",
+     "Don't Keep Me Waiting",
+     "Cartel",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1072436",
+     "Mouth Money - Music, Drums, Bass",
+     "Professor Kliq",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:1354274",
+     "Funny Funk Disco Groove (Full version)",
+     "GarnaVutka",
+     [
+      "energetic"
+     ],
+     [],
+     0.783,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.35,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-helicopter",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A paranoid, coke-fuelled day: a gangster races between drug deals and stirring a sauce at home, convinced a helicopter is following him.",
+    "relationship": "match",
+    "moods": [
+     "groovy",
+     "driving",
+     "melancholic",
+     "clubbing"
+    ],
+    "genres": [
+     "glitch",
+     "groove",
+     "acidjazz"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "hammond"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A paranoid, coke-fuelled day: a gangster races between drug deals and stirring a sauce at home, convinced a helicopter is following him.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1076601",
+     "Little Amadeus",
+     "EIVISSA SALINAS feat. DJ HSERES",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1155156",
+     "O mio Babbino Caro, Giacomo Puccini",
+     "Esther Garcia",
+     [
+      "love"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:759886",
+     "LITTLE MONTEZUMA",
+     "Conway Hambone",
+     [],
+     [
+      "pop"
+     ],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1347804",
+     "Sweet Dreams of Love",
+     "Massimo Bosco",
+     [
+      "love"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1348126",
+     "Aria Fredda",
+     "Massimo Bosco",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1231715",
+     "Lo-fi divertimento",
+     "Ton",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1371778",
+     "Ladro di sogni (the robber of dreams)",
+     "Lorelayne",
+     [],
+     [
+      "pop"
+     ],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:882098",
+     "Little Christmas song",
+     "Stefano mocini",
+     [
+      "love",
+      "romantic"
+     ],
+     [],
+     0.43,
+     false
+    ],
+    [
+     "jamendo:966939",
+     "Happy Sinners",
+     "Gio Micheletti",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1151409",
+     "Sweet Dreams",
+     "Esther Garcia",
+     [],
+     [],
+     0.363,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "mean-streets-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A young man in Little Italy wakes from a bad dream, looks in the mirror and lies back down; grainy home movies of friends and a christening play over the titles.",
+    "relationship": "match",
+    "moods": [
+     "warm",
+     "sweet",
+     "light",
+     "melancholic"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "death",
+     "lofi"
+    ],
+    "instruments": [
+     "panflute",
+     "cimbalom"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A young man in Little Italy wakes from a bad dream, looks in the mirror and lies back down; grainy home movies of friends and a christening play over the titles.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1074733",
+     "Anibal House Brawl",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:855267",
+     "Gangster Wobble",
+     "Boss Bass",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:921757",
+     "Boston",
+     "Zell",
+     [],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:924962",
+     "Streets   ",
+     "Zell",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1199054",
+     "Gang Wars",
+     "Alexander Lisenkov",
+     [
+      "aggressive"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1076887",
+     "Police",
+     "DJ JUSTICE",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1374317",
+     "FIFA Broadside (slide chaos)",
+     "Keshco",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1012600",
+     " Les Rue de la Ville  / Streets of the City - AKL & Kien  - SMSO production",
+     "Kien91 RAP MC SLAM",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1308617",
+     "Bloody fuck",
+     "ZZZZZ",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1245889",
+     "Batman loves my dog (1999)",
+     "Mister Electric Demon",
+     [],
+     [],
+     0.55,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "departed-boston",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Gritty Boston streets: an undercover cop is pulled deeper into an Irish mob crew, shakedowns and brawls cut together at a rough, brawling pace.",
+    "relationship": "match",
+    "moods": [
+     "laidback",
+     "tension",
+     "groovy",
+     "melancholic"
+    ],
+    "genres": [
+     "chillout",
+     "chilloutlounge",
+     "drumnbass"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "brass"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Gritty Boston streets: an undercover cop is pulled deeper into an Irish mob crew, shakedowns and brawls cut together at a rough, brawling pace.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 0.2,
+   "top": [
+    [
+     "jamendo:1366346",
+     "Friday Night",
+     "The Neverending Youth",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1384552",
+     "Rockin The Party 45 sec NR",
+     "MFYM",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1155054",
+     "Hero",
+     "Cooper",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:482273",
+     "Fucked Up With Guitar",
+     "The Seventh Alchemy",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1203669",
+     "They Gunna Kill Me Tonight",
+     "Robkay",
+     [
+      "fun"
+     ],
+     [
+      "rock"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:1195882",
+     "Highway Rock",
+     "Matti Paalanen",
+     [],
+     [
+      "rock"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1037053",
+     "i run",
+     "Robert Braun",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1088578",
+     "Funny Children",
+     "Plastic3",
+     [
+      "fun"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1397151",
+     "Rock Party",
+     "Porrazzo",
+     [
+      "fun"
+     ],
+     [
+      "rock"
+     ],
+     0.8,
+     true
+    ],
+    [
+     "jamendo:1110066",
+     "Seven Up",
+     "Podington Bear",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "waynes-world-car",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Five friends cram into a beat-up car at night, sing along to a rock opera on the radio, then all headbang together in sync.",
+    "relationship": "match",
+    "moods": [
+     "bright",
+     "warm",
+     "love",
+     "night"
+    ],
+    "genres": [
+     "poprock",
+     "90s",
+     "rock"
+    ],
+    "instruments": [
+     "panflute",
+     "pipeorgan"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Five friends cram into a beat-up car at night, sing along to a rock opera on the radio, then all headbang together in sync.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:7364",
+     "Alone in a Room",
+     "Steven Dunston",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1274241",
+     "Sneaking Upstairs",
+     "Matt Confusion",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1231035",
+     "01 Falling Out",
+     "Ryan Little",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1420436",
+     "Bring Your Boot",
+     "Tedjep Soulful House",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1231037",
+     "03 Excuses",
+     "Ryan Little",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1179405",
+     "Coming Out To Play",
+     "Thomas Allan",
+     [
+      "fun"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1415550",
+     "Youth jingle pop",
+     "Tony Temp",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1110001",
+     "Twinkle Toes",
+     "Podington Bear",
+     [
+      "fun",
+      "happy"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1420420",
+     "Get Up",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [],
+     0.583,
+     false
+    ],
+    [
+     "jamendo:1308619",
+     "You gotta move that body",
+     "ZZZZZ",
+     [],
+     [],
+     0.4,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "risky-business-socks",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "With his parents away, a teenager in a shirt, socks and underwear slides across the hardwood floor and dances alone in the living room, singing into a candlestick.",
+    "relationship": "match",
+    "moods": [
+     "warm",
+     "bright",
+     "dancing",
+     "winter"
+    ],
+    "genres": [
+     "techhouse",
+     "chilloutlounge",
+     "waltz"
+    ],
+    "instruments": [
+     "pad",
+     "triangle"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "With his parents away, a teenager in a shirt, socks and underwear slides across the hardwood floor and dances alone in the living room, singing into a candlestick.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 0.5,
+   "top": [
+    [
+     "jamendo:582651",
+     "Kick Dem - Sir Hill & Don Valdes",
+     "DEVELOPMENT UNITY CREW",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:162026",
+     "Saturday",
+     "Josh Woodward",
+     [
+      "emotional"
+     ],
+     [
+      "pop",
+      "rock"
+     ],
+     0.383,
+     true
+    ],
+    [
+     "jamendo:74482",
+     "Cry From Africa feat CKLM",
+     "RIDDIMPERIALISM",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1237937",
+     "Mic Checka -The helish batch(Flash Fm prod.)",
+     "Mic Checka",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:159555",
+     "saturday bam",
+     "paniq",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1077143",
+     "CaSh Flow - Spliff time (Made in unity summer tape 2K12)",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:43413",
+     "Track F\u00fcr Track",
+     "K.Os Rhymes",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:149788",
+     "Saturday in Hell",
+     "Juice Connection",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1254935",
+     "To Belong",
+     "Greg Anderson",
+     [
+      "uplifting"
+     ],
+     [
+      "rock"
+     ],
+     0.65,
+     true
+    ],
+    [
+     "jamendo:6727",
+     "Resignation",
+     "Steven Dunston",
+     [],
+     [
+      "pop"
+     ],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "breakfast-club-fist",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Saturday detention ends; the rebel walks across the empty school football field and punches his fist into the air as the image freezes.",
+    "relationship": "match",
+    "moods": [
+     "chilled",
+     "dancing",
+     "drama",
+     "happy"
+    ],
+    "genres": [
+     "eurodance",
+     "disco",
+     "popfunk"
+    ],
+    "instruments": [
+     "conga",
+     "beat"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Saturday detention ends; the rebel walks across the empty school football field and punches his fist into the air as the image freezes.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.3,
+   "RR": 0.5,
+   "top": [
+    [
+     "jamendo:1329935",
+     "Sandbox Jingle (No Vocals)",
+     "Scott Holmes",
+     [],
+     [
+      "pop"
+     ],
+     0.68,
+     false
+    ],
+    [
+     "jamendo:1389580",
+     "Just You And Me",
+     "Shatterbox",
+     [
+      "love"
+     ],
+     [
+      "rock"
+     ],
+     0.4,
+     true
+    ],
+    [
+     "jamendo:1329934",
+     "Sandbox Jingle",
+     "Scott Holmes",
+     [],
+     [
+      "pop"
+     ],
+     0.688,
+     false
+    ],
+    [
+     "jamendo:1081000",
+     "Blessed Bliss",
+     "GingerTom",
+     [
+      "love"
+     ],
+     [
+      "pop"
+     ],
+     0.55,
+     true
+    ],
+    [
+     "jamendo:1231043",
+     "09 Dawn",
+     "Ryan Little",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1342572",
+     "3- Got a Ticket (unplugged)",
+     "Marco Droetto",
+     [
+      "love"
+     ],
+     [
+      "pop"
+     ],
+     0.55,
+     true
+    ],
+    [
+     "jamendo:1254937",
+     "Armed",
+     "Greg Anderson",
+     [],
+     [
+      "rock"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1189070",
+     "Man",
+     "Josh Bonanno",
+     [],
+     [
+      "pop"
+     ],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1114664",
+     "Sunrise (instrumental)",
+     "Kate Orange",
+     [],
+     [
+      "pop"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1054373",
+     "Morning Has Broken - Public Domain (02)",
+     "Ronny Matthes (Gemafreie Musik - Weihnachtsmusik)",
+     [],
+     [],
+     0.45,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "say-anything-boombox",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "At dawn, a heartbroken young man stands outside his girlfriend's bedroom window holding a boombox high above his head without saying a word.",
+    "relationship": "match",
+    "moods": [
+     "bright",
+     "warm",
+     "optimistic",
+     "happy"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "atmospheric",
+     "chillout"
+    ],
+    "instruments": [
+     "panflute",
+     "bongo"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "At dawn, a heartbroken young man stands outside his girlfriend's bedroom window holding a boombox high above his head without saying a word.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.125,
+   "top": [
+    [
+     "jamendo:1420585",
+     "Old Resort",
+     "Kingstone",
+     [],
+     [],
+     0.483,
+     false
+    ],
+    [
+     "jamendo:78735",
+     "Josie Has the Upper Hand",
+     "Josh Woodward",
+     [],
+     [
+      "pop"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1420495",
+     "I Went To The Doctor",
+     "Soulful Women",
+     [],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:1357234",
+     "Summer Day",
+     "Vicate Studio (royalty free music)",
+     [],
+     [
+      "pop"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1391680",
+     "SUMMER ( Euero version )",
+     "Agmamusic",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:354778",
+     "Skydiving (feat. Jasmine Kara)",
+     "Jonay",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1397859",
+     "Summertime Pop Dance",
+     "Porrazzo",
+     [],
+     [
+      "pop"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1270992",
+     "The Summer Is Mine (Extended Mix)",
+     "Etolie Vipe",
+     [
+      "uplifting"
+     ],
+     [
+      "pop"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:1357233",
+     "Summer Day (piano version)",
+     "Vicate Studio (royalty free music)",
+     [],
+     [
+      "pop"
+     ],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:951321",
+     "Caribbean Island Summer",
+     "Akashic Records",
+     [],
+     [],
+     0.55,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "dirty-dancing-lift",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "At a summer resort's end-of-season show, a dance instructor pulls a young woman on stage; they dance, she runs and he lifts her overhead as the whole room joins in.",
+    "relationship": "match",
+    "moods": [
+     "summer",
+     "dancing",
+     "bright",
+     "warm"
+    ],
+    "genres": [
+     "waltz",
+     "dance",
+     "swing"
+    ],
+    "instruments": [
+     "panflute",
+     "cimbalom"
+    ],
+    "energy": 0.8,
+    "tempo": {
+     "min_bpm": 119,
+     "max_bpm": 149
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "At a summer resort's end-of-season show, a dance instructor pulls a young woman on stage; they dance, she runs and he lifts her overhead as the whole room joins in.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1204471",
+     "In The Flight",
+     "The Clone Dj",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1217161",
+     "Ocean Jet - Stand The Night",
+     "Ocean Jet",
+     [],
+     [
+      "rock"
+     ],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1384401",
+     "Sunrise",
+     "Audioflair",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:840600",
+     "Xinewave Reunion",
+     "Floating Isle",
+     [],
+     [
+      "rock"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1073213",
+     "Dj Rostej - Flight to the Sun",
+     "Dj Rostej",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1057257",
+     "Last battle",
+     "Space galaxy",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:796005",
+     "DJ Fire-Black - Over The Birds (Original Mix)",
+     "DJ Fire-Black",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1239472",
+     "Turbulences",
+     "Chill Carrier",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:465914",
+     "Navy and Grey",
+     "Crete Boom",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:913695",
+     "Waves Of Tension (Pt. II Back To The Start)",
+     "Chill Carrier",
+     [],
+     [
+      "80s"
+     ],
+     0.55,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "top-gun-deck",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Fighter jets launch off an aircraft carrier deck at sunrise in silhouette, deck crews signaling, afterburners roaring.",
+    "relationship": "match",
+    "moods": [
+     "laidback",
+     "ethereal",
+     "battle",
+     "dancefloor"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "atmospheric",
+     "chillout"
+    ],
+    "instruments": [
+     "flugelhorn",
+     "trumpet"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Fighter jets launch off an aircraft carrier deck at sunrise in silhouette, deck crews signaling, afterburners roaring.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:774861",
+     "Champion",
+     "NICOCO",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1092245",
+     "WORLDCUP - PENALTY MUNDIAL",
+     "MARSHALL AQUICCI",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:908090",
+     "A day in the Sahara_a dream of freedom",
+     "Stefano mocini",
+     [],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:666115",
+     "Master Ultimate Funk (16 bits) procesado (Luis,Vicente,Pedro,Carlos)",
+     "Luis Zunel",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1403261",
+     "Sport Drum Dubstep",
+     "Matti Paalanen",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1365784",
+     "Over my limits",
+     "Shiva",
+     [
+      "motivational"
+     ],
+     [],
+     0.683,
+     false
+    ],
+    [
+     "jamendo:1103548",
+     "Zoning Out with India",
+     "Dj Quincy Ortiz",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1115568",
+     "Dj_Quincy_Ortiz_-_In_and_Out",
+     "Dj Quincy Ortiz",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1364462",
+     "A Day of Success-noVoices",
+     "MagikStudio",
+     [
+      "motivational"
+     ],
+     [],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:1315839",
+     "Victory",
+     "Onyi Only Onyi",
+     [],
+     [],
+     0.65,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.35,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "rocky-iii-training",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A boxer who has lost his edge trains to win back his title: sparring, running on the beach, sweating through punishing workouts in a montage.",
+    "relationship": "match",
+    "moods": [
+     "relaxing",
+     "motivational",
+     "tension",
+     "beach"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "jungle",
+     "newage"
+    ],
+    "instruments": [
+     "panflute",
+     "cymbal"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A boxer who has lost his edge trains to win back his title: sparring, running on the beach, sweating through punishing workouts in a montage.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1134850",
+     "7_Electronic News AC2",
+     "MFYM",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1134859",
+     "6_Breaking News AC2 LOOP",
+     "MFYM",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1072436",
+     "Mouth Money - Music, Drums, Bass",
+     "Professor Kliq",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1159687",
+     "Monetary Feedback",
+     "Ben K Adams",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:566730",
+     "Bank Rolled",
+     "Farmertan",
+     [],
+     [
+      "pop"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1072428",
+     "Mouth Money",
+     "Professor Kliq",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1277802",
+     "Garage Bank Rock",
+     "Pablo Samonta",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:900786",
+     "Money",
+     "Von Korf",
+     [],
+     [
+      "poprock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1083217",
+     "Today I've broken my guitar",
+     "Wallcrush",
+     [],
+     [
+      "pop"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1065647",
+     "RIP 2006",
+     "Ben K Adams",
+     [],
+     [],
+     0.6,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.19999999999999996,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "american-psycho-axe",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "An investment banker in a raincoat lectures his drunk colleague about a pop band's artistic growth while laying newspapers on the floor, then swings an axe into his head.",
+    "relationship": "match",
+    "moods": [
+     "political",
+     "rain",
+     "optimistic",
+     "news"
+    ],
+    "genres": [
+     "chillout",
+     "chilloutlounge",
+     "artrock"
+    ],
+    "instruments": [
+     "panflute",
+     "bass"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "An investment banker in a raincoat lectures his drunk colleague about a pop band's artistic growth while laying newspapers on the floor, then swings an axe into his head.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.25,
+   "top": [
+    [
+     "jamendo:1209453",
+     "Positive your life",
+     "ADDICT SOUND",
+     [],
+     [],
+     0.667,
+     false
+    ],
+    [
+     "jamendo:1373252",
+     "Best day (short edit)",
+     "ADDICT SOUND",
+     [],
+     [],
+     0.662,
+     false
+    ],
+    [
+     "jamendo:1232345",
+     "Wishing My Life On You",
+     "Rapid Pain Relief",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1281246",
+     "You Must Be Joking",
+     "The Hate Eighties",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:1395224",
+     "Action in the Streets Of Crime",
+     "Livyatan Music Pro",
+     [],
+     [
+      "rock"
+     ],
+     0.738,
+     false
+    ],
+    [
+     "jamendo:1397015",
+     "back to life",
+     "Transient",
+     [],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:884658",
+     "Welcome to Our Corner Shop",
+     "Keshco",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1307645",
+     "Save Our Souls",
+     "Sean T Wright",
+     [],
+     [
+      "rock"
+     ],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1231037",
+     "03 Excuses",
+     "Ryan Little",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1231041",
+     "07 Voice on Your Shoulder",
+     "Ryan Little",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.29999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "trainspotting-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Young heroin addicts sprint down an Edinburgh street fleeing store security, one laughing as he's hit by a car, while a voiceover sneers about choosing life.",
+    "relationship": "match",
+    "moods": [
+     "optimistic",
+     "driving",
+     "conscient",
+     "fast"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "glitch",
+     "acid"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "cvp509"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Young heroin addicts sprint down an Edinburgh street fleeing store security, one laughing as he's hit by a car, while a voiceover sneers about choosing life.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:809783",
+     "Karma In Remission (alternate version)",
+     "Ruined Machines",
+     [],
+     [
+      "rock"
+     ],
+     0.683,
+     false
+    ],
+    [
+     "jamendo:1065622",
+     "Heroin Chic",
+     "Ben K Adams",
+     [],
+     [],
+     0.575,
+     false
+    ],
+    [
+     "jamendo:1329828",
+     "Coma (Instrumental)",
+     "Fottuto Bianco",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1329825",
+     "Coma",
+     "Fottuto Bianco",
+     [],
+     [
+      "rock"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1215385",
+     "Fractures Rend",
+     "Ray Kosmick and his Porn Groove Crew",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:647536",
+     "Detox",
+     "Anitek",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1066803",
+     "No Use Crying",
+     "Mike Allen",
+     [],
+     [
+      "rock"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1230770",
+     "Abjection",
+     "Joseph Curwen",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1198577",
+     "CRIZ3Y - Your Death (Original Mix)",
+     "CRIZ3Y",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1171543",
+     "Undertaker",
+     "Holopsia",
+     [],
+     [],
+     0.9,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "trainspotting-overdose",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "A man overdoses on heroin and sinks into the red carpet as if into a grave, then is dragged to a taxi and dumped at a hospital.",
+    "relationship": "match",
+    "moods": [
+     "melancholic",
+     "happy",
+     "trippy",
+     "beautiful"
+    ],
+    "genres": [
+     "death",
+     "acid",
+     "glitch"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A man overdoses on heroin and sinks into the red carpet as if into a grave, then is dragged to a taxi and dumped at a hospital.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1151405",
+     "The Quiet Morning",
+     "Esther Garcia",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1277186",
+     "Obituary",
+     "Joseph Curwen",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1075455",
+     " a lost memory",
+     "Eric Bowers",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1314131",
+     "memories",
+     "kate in space",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:239950",
+     "tuesday",
+     "softspace",
+     [],
+     [],
+     0.1,
+     false
+    ],
+    [
+     "jamendo:1310115",
+     "Reminiscence",
+     "Scott Holmes",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:196555",
+     "Dick Dock Clock",
+     "SUR",
+     [],
+     [
+      "alternative"
+     ],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1235017",
+     "Empty Streets At 3AM (remaster)",
+     "Fortadelis",
+     [
+      "melancholic"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:268260",
+     "Morning Hell",
+     "SUR",
+     [],
+     [
+      "alternative"
+     ],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:205438",
+     "quiet nights",
+     "softspace",
+     [],
+     [],
+     0.3,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999995,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "donnie-darko-ending",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Dawn in a quiet suburb: a slow montage of people waking alone in their beds, each sensing something they cannot remember, after a boy has died.",
+    "relationship": "match",
+    "moods": [
+     "quiet",
+     "nostalgic",
+     "calm",
+     "peaceful"
+    ],
+    "genres": [
+     "drone",
+     "chilloutlounge",
+     "death"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "pad"
+    ],
+    "energy": 0.050000000000000044,
+    "tempo": {
+     "min_bpm": 59,
+     "max_bpm": 89
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Dawn in a quiet suburb: a slow montage of people waking alone in their beds, each sensing something they cannot remember, after a boy has died.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1267707",
+     "283_Happy Reunion No Lead",
+     "MFYM",
+     [],
+     [
+      "popfolk"
+     ],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:830771",
+     "Back In The Race",
+     "JoosTVD",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1357128",
+     "Back To Monday",
+     "The Vow",
+     [],
+     [
+      "popfolk"
+     ],
+     0.762,
+     false
+    ],
+    [
+     "jamendo:1033910",
+     "Don't fear us",
+     "Nachei",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1420638",
+     "Happy Not Lucky",
+     "Sideway",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1255638",
+     "Tiina Lillak",
+     "On returning",
+     [
+      "melancholic",
+      "sad"
+     ],
+     [],
+     0.425,
+     false
+    ],
+    [
+     "jamendo:373353",
+     "PRECARIETA",
+     "Collectif Kimbalajeuness",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1222008",
+     "291_Always Happy",
+     "MFYM",
+     [],
+     [
+      "folk"
+     ],
+     0.762,
+     false
+    ],
+    [
+     "jamendo:1142562",
+     "Prospective Wife",
+     "Mtsabha",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:965796",
+     "102410 (Bonus)",
+     "Zeffon",
+     [],
+     [],
+     0.425,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "graduate-bus",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A young couple who just fled her wedding sit at the back of a bus, giddy and laughing, until their smiles slowly fade into uncertainty.",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "anxious",
+     "joyful",
+     "optimistic"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "swing"
+    ],
+    "instruments": [
+     "cimbalom",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A young couple who just fled her wedding sit at the back of a bus, giddy and laughing, until their smiles slowly fade into uncertainty.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:403066",
+     "Highway",
+     "Maciej Bether",
+     [
+      "adventure"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1241792",
+     "Biker show",
+     "Stanislav Maksymov",
+     [],
+     [
+      "hardrock",
+      "rock"
+     ],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1074749",
+     "Outlaws Wild Ride",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1107279",
+     "Trapped In Freedom - 03 - Perpendicular Highway",
+     "Trapped In Freedom",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:129962",
+     "2.09 - ZEHL FREEBASS - Drug Dealahz Dub",
+     "Psicotropicodelia Music [netlabel]",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:807111",
+     "Desert Freeway",
+     "Axession",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:600112",
+     "Endless Driving",
+     "SONIC MYSTERY",
+     [
+      "adventure",
+      "driving"
+     ],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:110023",
+     "Duo - Monastiri - FREETUBE",
+     "ERMO",
+     [],
+     [],
+     0.567,
+     false
+    ],
+    [
+     "jamendo:1101379",
+     "In The Mountains (Loop)",
+     "Snabisch",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1306959",
+     "Red Dead Desert",
+     "The Kinky Fingers",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.35,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "easy-rider-highway",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Two bikers on chopper motorcycles ride along an open desert highway, free and wild, the landscape rolling past.",
+    "relationship": "match",
+    "moods": [
+     "ethereal",
+     "optimistic",
+     "trippy",
+     "crazy"
+    ],
+    "genres": [
+     "drone",
+     "acidjazz",
+     "jungle"
+    ],
+    "instruments": [
+     "drummachine",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Two bikers on chopper motorcycles ride along an open desert highway, free and wild, the landscape rolling past.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1295062",
+     "Dying War",
+     "HedaMusic",
+     [],
+     [],
+     0.738,
+     false
+    ],
+    [
+     "jamendo:1144750",
+     "Dramatic Space War Action",
+     "Plastic3",
+     [
+      "war"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1278746",
+     "Rain c",
+     "Pablo Samonta",
+     [
+      "war"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:477312",
+     "Mission Briefing",
+     "Marc Teichert",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1396712",
+     "Warrior's honor",
+     "Zero-project",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:823836",
+     "The deadly war",
+     "Julien Allioux",
+     [
+      "war"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1234332",
+     "213_Epic Warriors  version 1",
+     "MFYM",
+     [
+      "war"
+     ],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1281102",
+     "374_3_Epic Galactic Battle Ver 2",
+     "MFYM",
+     [
+      "war"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:477316",
+     "Space Ace",
+     "Marc Teichert",
+     [],
+     [],
+     0.817,
+     false
+    ],
+    [
+     "jamendo:1076330",
+     "Mec Low-Fout Le Camp Petit",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "apocalypse-now-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A jungle tree line explodes in napalm while helicopters drift through yellow smoke; a soldier lies sweating in a Saigon hotel room, ceiling fan dissolving into rotor blades.",
+    "relationship": "match",
+    "moods": [
+     "melancholic",
+     "laidback",
+     "tension",
+     "war"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "jungle",
+     "chillout"
+    ],
+    "instruments": [
+     "panflute",
+     "cymbal"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A jungle tree line explodes in napalm while helicopters drift through yellow smoke; a soldier lies sweating in a Saigon hotel room, ceiling fan dissolving into rotor blades.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.4,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:925524",
+     "The Soldier Sees the Dancer and Falls in Love",
+     "Aufklarung",
+     [
+      "emotional"
+     ],
+     [
+      "classical"
+     ],
+     0.375,
+     true
+    ],
+    [
+     "jamendo:925507",
+     "The Soldier Comes to Life",
+     "Aufklarung",
+     [
+      "emotional"
+     ],
+     [
+      "classical"
+     ],
+     0.375,
+     true
+    ],
+    [
+     "jamendo:823836",
+     "The deadly war",
+     "Julien Allioux",
+     [
+      "war"
+     ],
+     [
+      "orchestral"
+     ],
+     0.5,
+     true
+    ],
+    [
+     "jamendo:1295062",
+     "Dying War",
+     "HedaMusic",
+     [],
+     [
+      "classical",
+      "orchestral"
+     ],
+     0.738,
+     false
+    ],
+    [
+     "jamendo:1336216",
+     "The Unknown Soldier",
+     "Gr\u00e9goire Lourme",
+     [
+      "emotional",
+      "war"
+     ],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:973250",
+     "Troops on the move (Action)",
+     "Gr\u00e9goire Lourme",
+     [],
+     [
+      "orchestral"
+     ],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1022531",
+     "The Final Battle",
+     "Abel Quintero (TheQman)",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1277913",
+     "You're A Soldier Now",
+     "Marc Teichert",
+     [],
+     [
+      "classical"
+     ],
+     0.733,
+     false
+    ],
+    [
+     "jamendo:1417338",
+     "Drudging Soldier",
+     "Blank Cadenza",
+     [
+      "sad"
+     ],
+     [
+      "classical"
+     ],
+     0.25,
+     true
+    ],
+    [
+     "jamendo:1234311",
+     "37_Epic Battlefield",
+     "MFYM",
+     [
+      "war"
+     ],
+     [
+      "orchestral"
+     ],
+     0.817,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "platoon-elias",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A wounded soldier is chased out of the jungle by enemy troops; from a departing helicopter his comrades watch him fall to his knees, arms raised, as he is shot.",
+    "relationship": "match",
+    "moods": [
+     "heroic",
+     "war",
+     "battle",
+     "melancholic"
+    ],
+    "genres": [
+     "jungle",
+     "chilloutlounge",
+     "chillout"
+    ],
+    "instruments": [
+     "panflute",
+     "flugelhorn"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A wounded soldier is chased out of the jungle by enemy troops; from a departing helicopter his comrades watch him fall to his knees, arms raised, as he is shot.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:916090",
+     "09 - Into Space",
+     "MG-Rizzello",
+     [],
+     [
+      "orchestral"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:391373",
+     "spacewalk ",
+     "softspace",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1391265",
+     "An ocean of stars (Outer space)",
+     "Le choix d'Atropos",
+     [
+      "space"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1127399",
+     "Orbiter",
+     "timeless",
+     [
+      "space"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1391262",
+     "Imminent Collision (Meeting a Comet over Saturn)",
+     "Le choix d'Atropos",
+     [
+      "space"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1300019",
+     "Come into my space",
+     "SoLaRiS",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1129344",
+     "Exploring the Hot Surface of Kepler 78b",
+     "Ostenvegr",
+     [
+      "space"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1103580",
+     "MISSION II - Toward Alpha Centauri",
+     "Ostenvegr",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:376310",
+     "Stars",
+     "Projekt Ph\u00f6nix",
+     [
+      "space"
+     ],
+     [],
+     0.325,
+     false
+    ],
+    [
+     "jamendo:391425",
+     "cosmic space ",
+     "softspace",
+     [],
+     [],
+     0.3,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "2001-docking",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A space shuttle slowly approaches a giant rotating wheel-shaped space station and docks with balletic grace against the stars.",
+    "relationship": "match",
+    "moods": [
+     "spacey",
+     "space",
+     "relaxing",
+     "hypnotic"
+    ],
+    "genres": [
+     "swing",
+     "waltz",
+     "lounge"
+    ],
+    "instruments": [
+     "sitar",
+     "tuba"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A space shuttle slowly approaches a giant rotating wheel-shaped space station and docks with balletic grace against the stars.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1294886",
+     "JAIL",
+     "Ju Bhota",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1107282",
+     "Trapped In Freedom - 06 - Incoming",
+     "Trapped In Freedom",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1107281",
+     "Trapped In Freedom - 05 - Craddle of Fist",
+     "Trapped In Freedom",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1084382",
+     "Locked Up",
+     "Aleksey Chistilin",
+     [],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:1061457",
+     "Locked In (instrumental)",
+     "Fresh Body Shop",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1372085",
+     "Trapped (No Drums)",
+     "Tony Balaskas",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1372083",
+     "Trapped (Full Mix)",
+     "Tony Balaskas",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:207471",
+     "Unravel",
+     "Sean T Wright",
+     [
+      "emotional"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1395224",
+     "Action in the Streets Of Crime",
+     "Livyatan Music Pro",
+     [],
+     [],
+     0.738,
+     false
+    ],
+    [
+     "jamendo:73155",
+     "locked in",
+     "Fresh Body Shop",
+     [],
+     [],
+     0.6,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "shawshank-opera",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A prisoner locks himself in the warden's office and plays a record over the prison loudspeakers; in the yard every inmate stops and stares upward, transfixed.",
+    "relationship": "match",
+    "moods": [
+     "relaxing",
+     "hypnotic",
+     "calm",
+     "conscient"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "trap",
+     "chillout"
+    ],
+    "instruments": [
+     "woodblock",
+     "cvp509"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A prisoner locks himself in the warden's office and plays a record over the prison loudspeakers; in the yard every inmate stops and stares upward, transfixed.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:890456",
+     "zero-project - 02 - A forgotten promise",
+     "Zero-project",
+     [],
+     [],
+     0.467,
+     false
+    ],
+    [
+     "jamendo:890518",
+     "zero-project - 09 - The darkest hour",
+     "Zero-project",
+     [
+      "dream"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1060630",
+     "Fps (tech ; lounge) 1.08mn 130bpm",
+     "T.A.G.E.O.",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1022531",
+     "The Final Battle",
+     "Abel Quintero (TheQman)",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:618547",
+     "Abandoned City",
+     "Alexandr Ossipov production music",
+     [],
+     [],
+     0.575,
+     false
+    ],
+    [
+     "jamendo:1121402",
+     "Smoke man Master",
+     "Marco Margna",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1090469",
+     "WE TOGETHER TO THE END  (BLOCKBUSTER)",
+     "Iliakulakow",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:546115",
+     "A Man And A Woman (Instr)",
+     "Ant on Wax",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1323635",
+     "The Last Man In Space",
+     "Maik Thomas",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1415997",
+     "New Product - 30 seconds",
+     "Porrazzo",
+     [],
+     [],
+     0.55,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "fight-club-ending",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A man and a woman hold hands in an empty office tower at night and watch, through the window, as skyscrapers across the city collapse in controlled explosions.",
+    "relationship": "match",
+    "moods": [
+     "warm",
+     "cold",
+     "tension",
+     "relaxing"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "atmospheric"
+    ],
+    "instruments": [
+     "panflute",
+     "cvp509"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A man and a woman hold hands in an empty office tower at night and watch, through the window, as skyscrapers across the city collapse in controlled explosions.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1231294",
+     "Fight",
+     "BlackStar",
+     [
+      "happy"
+     ],
+     [],
+     0.825,
+     false
+    ],
+    [
+     "jamendo:984990",
+     "Bitter",
+     "DOWN TO NINE",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:959965",
+     "Je T'aime",
+     "Respect Your Mom",
+     [],
+     [
+      "rock"
+     ],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1049833",
+     "Crazy Bitch",
+     "Ted Is Dead",
+     [],
+     [
+      "rock"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1374332",
+     "Tyre Dirt (nasty growly pounding)",
+     "Keshco",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:16092",
+     "Hate Has No Face / Rude Awakening",
+     "OMA\u00cfNEN",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1397145",
+     "Ready to Fight",
+     "Porrazzo",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1232349",
+     "Radio Music Playing Loud",
+     "Rapid Pain Relief",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:417223",
+     "On the Road",
+     "Oursvince",
+     [],
+     [
+      "rock"
+     ],
+     0.567,
+     false
+    ],
+    [
+     "jamendo:1283767",
+     "Last battle",
+     "OnionAudioProduction",
+     [],
+     [
+      "rock"
+     ],
+     0.883,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "almost-famous-bus",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "After a bitter fight, a sullen rock band sits in silence on their tour bus; one by one they start singing along to a song on the radio until everyone is smiling.",
+    "relationship": "match",
+    "moods": [
+     "melancholic",
+     "calm",
+     "angry",
+     "strong"
+    ],
+    "genres": [
+     "chillout",
+     "chilloutlounge",
+     "rock"
+    ],
+    "instruments": [
+     "voice",
+     "beat"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "After a bitter fight, a sullen rock band sits in silence on their tour bus; one by one they start singing along to a song on the radio until everyone is smiling.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1033432",
+     "Little Princess",
+     "Dajte Grammy",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1359962",
+     "Let The Children Dance - Royalty Free Background Music",
+     "Ronny Matthes - Pianist und Komponist (GEMA-frei / Royalty Free)",
+     [
+      "funny"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1074894",
+     "No worries, no hassle",
+     "Dajte Grammy",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1076289",
+     "Daddy Clean-Mecontent",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1088617",
+     "Daddy Supa - Big Up",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:632094",
+     "Dancing Santa",
+     "Alexandr Ossipov production music",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1286490",
+     "Dance To Your Daddy",
+     "Solxis",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1188982",
+     "Little Girl With Dark Hair",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1165086",
+     "Juliette et le dragon-karaok\u00e9",
+     "Mes chansons chaussent du 24",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1232635",
+     "Little Nicholas",
+     "Esther Garcia",
+     [],
+     [],
+     0.667,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "little-miss-sunshine-dance",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "At a children's beauty pageant, a little girl performs a wildly inappropriate dance routine her grandfather taught her, and her whole family jumps on stage to join her.",
+    "relationship": "match",
+    "moods": [
+     "dancing",
+     "dramatic",
+     "children",
+     "cheerful"
+    ],
+    "genres": [
+     "jungle",
+     "dance",
+     "rnb"
+    ],
+    "instruments": [
+     "panflute",
+     "triangle"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "At a children's beauty pageant, a little girl performs a wildly inappropriate dance routine her grandfather taught her, and her whole family jumps on stage to join her.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:421639",
+     "Skinny Model (thin is in remix)",
+     "Emorej",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1076736",
+     "CleanKillah-Dem own Burial",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1089924",
+     "Her song",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:257205",
+     "level 3 studio32",
+     "c-sar",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1076345",
+     "Mael-Made In Unity",
+     "Soldiah Beez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1329913",
+     "The killer's song",
+     "waterpistol",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1088852",
+     "Imma Break It Down (S.l.i.m)",
+     "SLIM MARION",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1231042",
+     "08 Hometown",
+     "Ryan Little",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:949028",
+     "The cold spy Deva",
+     "Conway Hambone",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1116697",
+     "Deep Is My House",
+     "The Clone Dj",
+     [],
+     [],
+     0.4,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "silence-lambs-mirror",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In a dim basement lair, a serial killer applies makeup and dances slowly for a video camera in front of a mirror, wrapped in a shawl.",
+    "relationship": "match",
+    "moods": [
+     "video",
+     "chilled",
+     "hypnotic",
+     "cold"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "garage",
+     "rave"
+    ],
+    "instruments": [
+     "panflute",
+     "musicalsaw"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In a dim basement lair, a serial killer applies makeup and dances slowly for a video camera in front of a mirror, wrapped in a shawl.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1038157",
+     "Himitsu na Kataomoi (Secret Unrequited Love)",
+     "Mid",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1063175",
+     "Samurai Attack",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1253054",
+     "Tokyo City (Loop)",
+     "Christoph Schade Composer",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:653314",
+     "JP",
+     "Massimo Kyo Di Nocera",
+     [],
+     [],
+     0.1,
+     false
+    ],
+    [
+     "jamendo:1381008",
+     "\u6e0b\u8c37\u533a (Shibuya)",
+     "Nik Grey",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:959961",
+     "Japanese Girl",
+     "Respect Your Mom",
+     [],
+     [
+      "rock"
+     ],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1173986",
+     "05 I Love Japan",
+     "Hasenchat",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1384025",
+     "Ndiyakuthanda",
+     "ZORO",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1076591",
+     "Night in Tokyo",
+     "EIVISSA SALINAS feat. DJ HSERES",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1242794",
+     "Tsumugi feat. Seimo Yamaguchi (Dark Matter Remix) Shakuhachi",
+     "DJ Gami.K",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "lost-in-translation-goodbye",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In a crowded Tokyo street, an older man catches up with a young woman, embraces her and whispers something we cannot hear before they part for good.",
+    "relationship": "match",
+    "moods": [
+     "japan",
+     "peaceful",
+     "beautiful",
+     "ballad"
+    ],
+    "genres": [
+     "asian",
+     "oriental",
+     "70s"
+    ],
+    "instruments": [
+     "panflute",
+     "koto"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In a crowded Tokyo street, an older man catches up with a young woman, embraces her and whispers something we cannot hear before they part for good.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1,
+   "top": [
+    [
+     "jamendo:1232349",
+     "Radio Music Playing Loud",
+     "Rapid Pain Relief",
+     [],
+     [
+      "indie"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1232345",
+     "Wishing My Life On You",
+     "Rapid Pain Relief",
+     [],
+     [
+      "indie"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:785423",
+     "Demain je change de vie - INSTRUMENTAL VERSION",
+     "L\u00f6hstana David",
+     [],
+     [
+      "folk"
+     ],
+     0.375,
+     false
+    ],
+    [
+     "jamendo:1379188",
+     "Godforsaken old hospital",
+     "Mit-Rich",
+     [],
+     [],
+     0.575,
+     false
+    ],
+    [
+     "jamendo:450991",
+     "Doctor X",
+     "Fresh Body Shop",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:760896",
+     "Waiting Room",
+     "Jahzzar",
+     [],
+     [
+      "folk"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:718568",
+     "Waiting",
+     "Emorej",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:950933",
+     "Waiting",
+     "Charlotte Machut",
+     [],
+     [],
+     0.125,
+     false
+    ],
+    [
+     "jamendo:94760",
+     "weird medicine ",
+     "Fresh Body Shop",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:938331",
+     "I'll Wait",
+     "Jonathan Dimmel",
+     [
+      "mellow"
+     ],
+     [
+      "folk"
+     ],
+     0.35,
+     true
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "garden-state-headphones",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In a hospital waiting room, a quirky young woman hands a stranger her headphones and tells him a song will change his life; he listens, and something in his face softens.",
+    "relationship": "match",
+    "moods": [
+     "calm",
+     "optimistic",
+     "fast",
+     "melancholic"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "glitch",
+     "chillout"
+    ],
+    "instruments": [
+     "cvp509",
+     "flugelhorn"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In a hospital waiting room, a quirky young woman hands a stranger her headphones and tells him a song will change his life; he listens, and something in his face softens.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1407842",
+     "Beth takes a Picture",
+     "Michael Ellis",
+     [],
+     [
+      "alternative",
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1177783",
+     "Johnny's Undercover",
+     "Mike Allen",
+     [],
+     [
+      "rock"
+     ],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1052309",
+     "trunkj2 (atmospheric) 1.44mn 120bpm",
+     "T.A.G.E.O.",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1158966",
+     "Bible In A Hotel Drawer",
+     "Saint Jayne",
+     [],
+     [],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:743014",
+     "Long tunnel (Simple version)",
+     "Screw-Jay",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:403066",
+     "Highway",
+     "Maciej Bether",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1203657",
+     "She's A Cougar",
+     "Robkay",
+     [],
+     [
+      "rock"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1312071",
+     "Alina (Instrumental)",
+     "Soundatelier",
+     [],
+     [
+      "alternative"
+     ],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1114668",
+     "New pop song (instrumental)",
+     "Kate Orange",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1366343",
+     "Trap",
+     "The Neverending Youth",
+     [],
+     [],
+     0.4,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "perks-tunnel",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A teenage girl stands up in the back of a pickup truck as it speeds through a tunnel at night, arms spread wide in the wind, while her friends watch in awe.",
+    "relationship": "match",
+    "moods": [
+     "uplifting",
+     "optimistic",
+     "strong",
+     "bright"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "popfunk",
+     "90s"
+    ],
+    "instruments": [
+     "triangle",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A teenage girl stands up in the back of a pickup truck as it speeds through a tunnel at night, arms spread wide in the wind, while her friends watch in awe.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1096874",
+     "Zero Hour - The Golden Few (instrumental)",
+     "Steve Leyland",
+     [],
+     [
+      "electronic",
+      "electropop"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1074729",
+     "Anibal Commando Mission",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:975758",
+     "Empty Roads",
+     "FUNCTION X2DS",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1110087",
+     "Kid Is Frangin (Tight)",
+     "Podington Bear",
+     [],
+     [
+      "electronic"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1294768",
+     "Superman Kid (instrumental)",
+     "Fresh Body Shop",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1269563",
+     "Unexpected Directions",
+     "Esther Garcia",
+     [
+      "dream"
+     ],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1110073",
+     "Falcon Hood (Tight)",
+     "Podington Bear",
+     [],
+     [
+      "electronic"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:78733",
+     "Honcho Graham From Birmingham",
+     "Josh Woodward",
+     [],
+     [],
+     0.383,
+     false
+    ],
+    [
+     "jamendo:1329933",
+     "Sunday Funday",
+     "Scott Holmes",
+     [],
+     [],
+     0.688,
+     false
+    ],
+    [
+     "jamendo:1092252",
+     "Lass los!",
+     "Peter Pumberger",
+     [],
+     [],
+     0.65,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.10000000000000003,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "drive-canal",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A quiet stunt driver takes his neighbor and her young son for a drive along the Los Angeles river channel at golden hour, glances and small smiles instead of words.",
+    "relationship": "match",
+    "moods": [
+     "calm",
+     "optimistic",
+     "bright",
+     "happy"
+    ],
+    "genres": [
+     "atmospheric",
+     "chilloutlounge",
+     "glitch"
+    ],
+    "instruments": [
+     "panflute",
+     "cvp509"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A quiet stunt driver takes his neighbor and her young son for a drive along the Los Angeles river channel at golden hour, glances and small smiles instead of words.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1203972",
+     "Drive 8",
+     "Antonello Manca",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1084814",
+     "Last Launch Part I",
+     "Way Station",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1203974",
+     "Drive 10",
+     "Antonello Manca",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1084818",
+     "Last Launch Part II",
+     "Way Station",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1302668",
+     "LA",
+     "Michael Ellis",
+     [
+      "driving"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:759749",
+     "Pink",
+     "Massimo Kyo Di Nocera",
+     [],
+     [],
+     0.217,
+     false
+    ],
+    [
+     "jamendo:1090654",
+     "Pink lavender",
+     "RoeAudionews",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:902714",
+     "L'Absence",
+     "Badger",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1308822",
+     "Pink Slippers",
+     "Lunar Cape",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1151405",
+     "The Quiet Morning",
+     "Esther Garcia",
+     [],
+     [],
+     0.25,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "drive-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "After a tense nighttime getaway, a silent driver cruises the empty neon-lit freeways of Los Angeles as pink script opening credits appear.",
+    "relationship": "match",
+    "moods": [
+     "driving",
+     "quiet",
+     "calm",
+     "light"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "atmospheric",
+     "chillout"
+    ],
+    "instruments": [
+     "cvp509",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "After a tense nighttime getaway, a silent driver cruises the empty neon-lit freeways of Los Angeles as pink script opening credits appear.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.14285714285714285,
+   "top": [
+    [
+     "jamendo:1291559",
+     "O Little Town Of Bethlehem - Lewis Henry Redner (1831-1908) - Pianist: Ronny Matthes",
+     "Ronny Matthes (Gemafreie Musik - Weihnachtsmusik)",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:43412",
+     "Salutiert Vor Uns!",
+     "K.Os Rhymes",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1167076",
+     "Morgen, Kinder, wirds was geben",
+     "Ronny Matthes (Gemafreie Musik - Weihnachtsmusik)",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:43424",
+     "Lasst Mich Allein! (Stept Weg!)",
+     "K.Os Rhymes",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1396672",
+     "Ihr Kinderlein kommet - Oh come little children",
+     "Santa Clausy",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1225160",
+     "10 - The Good Shepherd - Gemafreie Filmmusik - Ronny Matthes",
+     "Ronny Matthes - Pianist und Komponist (GEMA-frei / Royalty Free)",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1078452",
+     "Adventskalender Der Deutschen Bahn",
+     "Michael Ellis",
+     [
+      "fun"
+     ],
+     [
+      "pop"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:1121429",
+     "Spring in Town",
+     "Marco Margna",
+     [],
+     [],
+     0.425,
+     false
+    ],
+    [
+     "jamendo:1193891",
+     "13-40. Symphony (W. A. Mozart 1756 - 1791) - Public Domain (Gemafreie Musik)",
+     "Ronny Matthes - Pianist und Komponist (GEMA-frei / Royalty Free)",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1142857",
+     "March!",
+     "dmitrij kazmin",
+     [],
+     [],
+     0.583,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "jojo-rabbit-opening",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "A ten-year-old boy runs excitedly through a small German town in 1945 in his youth uniform, intercut with archival footage of adoring crowds at Nazi rallies.",
+    "relationship": "match",
+    "moods": [
+     "nostalgic",
+     "cheerful",
+     "children",
+     "berlin"
+    ],
+    "genres": [
+     "70s",
+     "80s",
+     "popfunk"
+    ],
+    "instruments": [
+     "panflute",
+     "pipeorgan"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A ten-year-old boy runs excitedly through a small German town in 1945 in his youth uniform, intercut with archival footage of adoring crowds at Nazi rallies.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 0.16666666666666666,
+   "top": [
+    [
+     "jamendo:1305117",
+     "We Smell Dead People",
+     "Shopping Zombies",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1305120",
+     "This is not enough",
+     "Shopping Zombies",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1335152",
+     "Zombie Klub",
+     "Doctor Frost",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:698666",
+     "una_de_zombies",
+     "Cocktail lounge",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:699090",
+     "Highway Slaughter",
+     "Ozzed",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1397147",
+     "Trash Metal Baby!",
+     "Porrazzo",
+     [
+      "aggressive"
+     ],
+     [
+      "thrashmetal"
+     ],
+     0.5,
+     true
+    ],
+    [
+     "jamendo:1394421",
+     "Rotten Legion",
+     "Avenger Kills",
+     [
+      "heavy"
+     ],
+     [
+      "heavymetal",
+      "metal"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:1155900",
+     "This Is Halloween AC2 Aug 19 OK",
+     "MFYM",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1311240",
+     "Zombie (Instrumental)",
+     "Soundatelier",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1190166",
+     "BONUS - Civilzombies - Discarted Song 1",
+     "Gamesounds Foundry",
+     [
+      "dark"
+     ],
+     [],
+     0.325,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "zombieland-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Super-slow-motion carnage in an overrun America: zombies tear through a wedding, a strip club and a fire truck crash as the title fills the screen.",
+    "relationship": "match",
+    "moods": [
+     "fast",
+     "slow",
+     "trailer",
+     "loud"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "americana",
+     "glitch"
+    ],
+    "instruments": [
+     "panflute",
+     "horn"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Super-slow-motion carnage in an overrun America: zombies tear through a wedding, a strip club and a fire truck crash as the title fills the screen.",
+    "source": "heuristic"
+   }
+  }
+ ]
+}

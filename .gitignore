@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+models
+data/raw/
+data/cache/
+data/*.sqlite
+data/*.sqlite-*
+*.gguf
+.pytest_cache/
+node_modules/
+recordings/
+data/track_hub.npy
+data/uploads/
+evals/results/profiles_*.jsonl.tmp

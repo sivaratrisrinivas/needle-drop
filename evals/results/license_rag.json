@@ -1,0 +1,31 @@
+{
+ "recall@1": 0.4322916666666667,
+ "hit@1": 0.75,
+ "mrr@1": 0.75,
+ "recall@3": 0.6354166666666666,
+ "hit@3": 0.9375,
+ "mrr@3": 0.84375,
+ "misses@3": [
+  {
+   "q": "Is there any fee for using an NC track in a sponsored video?",
+   "got": [
+    [
+     "cc-by-nc-nd",
+     "Use in video"
+    ],
+    [
+     "cc-by",
+     "Cost"
+    ],
+    [
+     "cc-by-nc-nd",
+     "Cost"
+    ]
+   ],
+   "hit": false
+  }
+ ],
+ "recall@5": 0.7760416666666666,
+ "hit@5": 0.9375,
+ "mrr@5": 0.84375
+}

@@ -1,0 +1,602 @@
+[
+ {
+  "pair_id": "2001-docking#1",
+  "label": "Pass",
+  "note": "Classical and orchestral suit the grandeur of space; energy is a bit high but workable.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "2001-docking#6",
+  "label": "Fail",
+  "note": "Trailer-style dramatic orchestral is too bombastic for a slow, graceful docking.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "almost-famous-bus#1",
+  "label": "Pass",
+  "note": "An uplifting pop song is the kind of thing a band would sing along to.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "almost-famous-bus#6",
+  "label": "Pass",
+  "note": "Warm, happy folk-pop fits a reconciliation sing-along.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "american-psycho-axe#1",
+  "label": "Pass",
+  "note": "Breezy happy pop works as counterpoint to the axe murder, borderline.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "american-psycho-axe#6",
+  "label": "Fail",
+  "note": "A childish game jingle undercuts the yuppie 80s-pop satire.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "apocalypse-now-opening#1",
+  "label": "Fail",
+  "note": "Sunny summer house music under napalm and dread.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "apocalypse-now-opening#6",
+  "label": "Fail",
+  "note": "Danceable synthpop clashes with the hallucinatory, doom-laden opening.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "baby-driver-bellbottoms#1",
+  "label": "Fail",
+  "note": "Summery house lacks the driving intensity of a getaway chase.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "baby-driver-bellbottoms#6",
+  "label": "Fail",
+  "note": "A club dance loop under a screeching car chase feels wrong.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "baby-driver-coffee#1",
+  "label": "Pass",
+  "note": "Playful happy pop matches a bouncy coffee run.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "baby-driver-coffee#6",
+  "label": "Pass",
+  "note": "Groovy, catchy synthpop suits strutting on the beat.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "baby-driver-shootout#1",
+  "label": "Pass",
+  "note": "Upbeat dance pop could work as playful counterpoint to a rhythmic shootout, borderline.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "baby-driver-shootout#6",
+  "label": "Fail",
+  "note": "Laid-back easy listening is far too relaxed for a shootout.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "breakfast-club-fist#1",
+  "label": "Pass",
+  "note": "Fun rock/poprock suits the triumphant fist-pump ending.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "breakfast-club-fist#6",
+  "label": "Pass",
+  "note": "Uplifting 80s pop fits the period and the triumphant mood.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "departed-boston#1",
+  "label": "Fail",
+  "note": "Easy-listening summer pop has none of the grit of mob brawls.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "departed-boston#6",
+  "label": "Fail",
+  "note": "A cheerful game jingle undermines a gritty crime montage.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "dirty-dancing-lift#1",
+  "label": "Pass",
+  "note": "Energetic, optimistic pop fits a joyous final dance.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "dirty-dancing-lift#6",
+  "label": "Pass",
+  "note": "Happy motivational pop matches the celebratory lift.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "django-flashback#1",
+  "label": "Pass",
+  "note": "Emotional, nostalgic classical can underscore a painful memory.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "django-flashback#6",
+  "label": "Pass",
+  "note": "Soft, emotional classical fits a sorrowful flashback.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "donnie-darko-ending#1",
+  "label": "Pass",
+  "note": "Sad emotional piano suits the melancholy waking montage.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "donnie-darko-ending#6",
+  "label": "Pass",
+  "note": "Sad, slow folk/classical fits the quiet ending.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "drive-canal#1",
+  "label": "Pass",
+  "note": "Dreamy romantic guitar suits a tender golden-hour drive.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "drive-canal#6",
+  "label": "Fail",
+  "note": "High-energy 8-bit party music breaks the quiet intimacy.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "drive-opening#1",
+  "label": "Pass",
+  "note": "Moody ambient electronic can carry a night cruise, borderline.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "drive-opening#6",
+  "label": "Fail",
+  "note": "Sleepy lounge music drains the tension of the cruise.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "easy-rider-highway#1",
+  "label": "Pass",
+  "note": "Energetic upbeat poprock works for the freedom of the open road, borderline.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "easy-rider-highway#6",
+  "label": "Fail",
+  "note": "Generic EDM feels wrong for choppers on a desert highway.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "fight-club-ending#1",
+  "label": "Fail",
+  "note": "A happy game jingle trivialises the apocalyptic climax.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "fight-club-ending#6",
+  "label": "Fail",
+  "note": "Feel-good ukulele pop clashes with collapsing skyscrapers.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "garden-state-headphones#1",
+  "label": "Fail",
+  "note": "Corporate inspirational piano is not a life-changing indie song.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "garden-state-headphones#6",
+  "label": "Fail",
+  "note": "Generic positive easy listening has no emotional pull for the moment.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "goodfellas-copa#1",
+  "label": "Fail",
+  "note": "A Christmas track is wrong for a nightclub tracking shot.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "goodfellas-copa#6",
+  "label": "Fail",
+  "note": "A childish game theme misses the romance and glamour.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "goodfellas-helicopter#1",
+  "label": "Fail",
+  "note": "Relaxed summer pop has none of the paranoid, wired energy.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "goodfellas-helicopter#6",
+  "label": "Fail",
+  "note": "A cheerful game jingle misses the frantic paranoia.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "goodfellas-layla#1",
+  "label": "Pass",
+  "note": "Sad sentimental piano works as an elegiac counterpoint to the bodies.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "goodfellas-layla#6",
+  "label": "Pass",
+  "note": "Melancholic soundtrack suits the mournful discoveries.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "graduate-bus#1",
+  "label": "Pass",
+  "note": "Slow, sad folk fits the smiles fading into doubt.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "graduate-bus#6",
+  "label": "Pass",
+  "note": "Sad piano suits the dawning uncertainty.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "guardians-opening#1",
+  "label": "Pass",
+  "note": "Playful happy pop matches a dancing, goofy title sequence.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "guardians-opening#6",
+  "label": "Pass",
+  "note": "Fun upbeat pop fits the carefree dance.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "guardians2-groot#1",
+  "label": "Pass",
+  "note": "Bouncy happy music suits Groot dancing obliviously.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "guardians2-groot#6",
+  "label": "Pass",
+  "note": "A fun kids' loop matches the tiny dancer, cheerful counterpoint.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "inglourious-makeup#1",
+  "label": "Fail",
+  "note": "Easy-listening summer pop has nothing of the gathering menace.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "inglourious-makeup#6",
+  "label": "Fail",
+  "note": "A game jingle undercuts a tense revenge preparation.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "jackie-brown-opening#1",
+  "label": "Fail",
+  "note": "Sleepy background guitar is too passive for a cool, strutting opening.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "jackie-brown-opening#6",
+  "label": "Pass",
+  "note": "Groovy lounge with mid energy fits a cool, unhurried glide.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "jojo-rabbit-opening#1",
+  "label": "Pass",
+  "note": "Happy catchy rock works as cheerful counterpoint to the rallies.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "jojo-rabbit-opening#6",
+  "label": "Fail",
+  "note": "Relaxing spring pop undercuts the giddy, frantic energy.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "kill-bill-bang-bang#1",
+  "label": "Fail",
+  "note": "A happy game jingle after a shooting is wrong; the scene is tragic.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "kill-bill-bang-bang#6",
+  "label": "Fail",
+  "note": "Feel-good ukulele pop clashes with the tragic shooting.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "kill-bill-entourage#1",
+  "label": "Fail",
+  "note": "Breezy summer pop has none of the swagger and menace.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "kill-bill-entourage#6",
+  "label": "Fail",
+  "note": "A playful game jingle kills the cool, threatening walk.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "kill-bill-snow-duel#1",
+  "label": "Fail",
+  "note": "Sentimental piano lacks the drama of a sword duel.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "kill-bill-snow-duel#6",
+  "label": "Fail",
+  "note": "A peaceful lullaby is too gentle for a fatal duel.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "little-miss-sunshine-dance#1",
+  "label": "Pass",
+  "note": "Happy 80s pop fits a goofy pageant dance.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "little-miss-sunshine-dance#6",
+  "label": "Pass",
+  "note": "Festive happy pop suits the family joining in, borderline cheesy.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "lost-in-translation-goodbye#1",
+  "label": "Pass",
+  "note": "Emotional, nostalgic and sweet suits the bittersweet farewell.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "lost-in-translation-goodbye#6",
+  "label": "Pass",
+  "note": "A soft, calm ballad fits the quiet goodbye.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "mean-streets-opening#1",
+  "label": "Pass",
+  "note": "Nostalgic romantic piano suits home movies, borderline for the era.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "mean-streets-opening#6",
+  "label": "Fail",
+  "note": "Bright 80s electronic pop is wrong for 1970s Little Italy home movies.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "ouatih-neon#1",
+  "label": "Fail",
+  "note": "Hard electronic is wrong for a wistful 1969 dusk montage.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "ouatih-neon#6",
+  "label": "Fail",
+  "note": "Jungle-influenced electronic clashes with the period melancholy.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "perks-tunnel#1",
+  "label": "Pass",
+  "note": "Uplifting 80s pop suits the exhilarating tunnel moment.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "perks-tunnel#6",
+  "label": "Pass",
+  "note": "Energetic, inspiring pop-rock fits arms-wide freedom.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "platoon-elias#1",
+  "label": "Pass",
+  "note": "Melancholic, sad dark ambient fits the tragic death.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "platoon-elias#6",
+  "label": "Fail",
+  "note": "Acid jazz and disco feel wrong under a soldier's death.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "pulp-fiction-mia#1",
+  "label": "Pass",
+  "note": "Slow 70s psychedelic blues can carry a sultry, druggy sway, borderline.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "pulp-fiction-mia#6",
+  "label": "Fail",
+  "note": "Peaceful folk lacks the sensual, dangerous edge.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "pulp-fiction-opening#1",
+  "label": "Fail",
+  "note": "Easy-listening summer pop has none of the explosive energy of the titles.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "pulp-fiction-opening#6",
+  "label": "Fail",
+  "note": "A game jingle is wrong for the iconic hold-up freeze.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "pulp-fiction-twist#1",
+  "label": "Fail",
+  "note": "Laid-back easy listening is not danceable retro twist music.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "pulp-fiction-twist#6",
+  "label": "Fail",
+  "note": "A childish game theme is wrong for the retro dance contest.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "reservoir-dogs-ear#1",
+  "label": "Pass",
+  "note": "Breezy happy pop works as ironic counterpoint to the torture, borderline.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "reservoir-dogs-ear#6",
+  "label": "Fail",
+  "note": "A childish game jingle reads as parody, not swagger.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "risky-business-socks#1",
+  "label": "Fail",
+  "note": "Gentle sentimental classical is wrong for an exuberant solo dance.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "risky-business-socks#6",
+  "label": "Fail",
+  "note": "Classic rock genre fits but the low-energy love song does not.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "rocky-iii-training#1",
+  "label": "Fail",
+  "note": "Party dance-pop is festive, not gritty and determined.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "rocky-iii-training#6",
+  "label": "Pass",
+  "note": "High-energy hip-hop/electronic works for a modern training montage.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "say-anything-boombox#1",
+  "label": "Pass",
+  "note": "Dreamy romantic guitar suits the quiet, yearning gesture.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "say-anything-boombox#6",
+  "label": "Pass",
+  "note": "Dreamy 80s synthpop fits the era and the longing.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "shaun-of-the-dead-pub#1",
+  "label": "Fail",
+  "note": "Easy-listening summer pop lacks the rhythmic energy of the fight.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "shaun-of-the-dead-pub#6",
+  "label": "Fail",
+  "note": "A game jingle is too slight for the rhythmic pub brawl.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "shawshank-opera#1",
+  "label": "Pass",
+  "note": "Emotional classical suits the transcendent moment.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "shawshank-opera#6",
+  "label": "Fail",
+  "note": "Lounge-y relaxing ambient is not transcendent.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "silence-lambs-mirror#1",
+  "label": "Fail",
+  "note": "Sunny summer house is wrong for a disturbing, hypnotic dance.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "silence-lambs-mirror#6",
+  "label": "Fail",
+  "note": "Happy easy listening clashes with the creepy basement scene.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "top-gun-deck#1",
+  "label": "Pass",
+  "note": "Uplifting 80s pop fits the period and the sunrise launches, borderline energy.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "top-gun-deck#6",
+  "label": "Pass",
+  "note": "Powerful, uplifting atmospheric music suits the jets launching.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "trainspotting-opening#1",
+  "label": "Fail",
+  "note": "Relaxed summer pop has none of the manic chase energy.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "trainspotting-opening#6",
+  "label": "Fail",
+  "note": "A game jingle misses the punk, manic energy.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "trainspotting-overdose#1",
+  "label": "Fail",
+  "note": "Upbeat summer pop does not carry the woozy, tender overdose.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "trainspotting-overdose#6",
+  "label": "Fail",
+  "note": "A playful game jingle trivialises the overdose.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "waynes-world-car#1",
+  "label": "Fail",
+  "note": "Background poprock is too mild for a headbanging rock opera.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "waynes-world-car#6",
+  "label": "Pass",
+  "note": "Energetic rock suits friends rocking out in the car.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "zombieland-opening#1",
+  "label": "Fail",
+  "note": "A happy game jingle is wrong for slow-motion zombie carnage.",
+  "annotator": "claude-provisional"
+ },
+ {
+  "pair_id": "zombieland-opening#6",
+  "label": "Fail",
+  "note": "Feel-good ukulele pop clashes with heavy carnage, not a deliberate counterpoint.",
+  "annotator": "claude-provisional"
+ }
+]

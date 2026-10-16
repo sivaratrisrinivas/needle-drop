@@ -1,0 +1,7397 @@
+{
+ "variant": "llm_semantic_v2",
+ "all": {
+  "n": 50,
+  "original@10": 0.0,
+  "similar@10": 0.38,
+  "P@10": 0.09600000000000002,
+  "MRR": 0.15538095238095237,
+  "brief_mood_recall": 0.2533333333333333,
+  "brief_genre_recall": 0.17166666666666663,
+  "relationship_acc": 0.66,
+  "energy_mae": 0.17499999999999996,
+  "brief_valid": 1.0
+ },
+ "match": {
+  "n": 40,
+  "original@10": 0.0,
+  "similar@10": 0.325,
+  "P@10": 0.05500000000000001,
+  "MRR": 0.0900595238095238,
+  "brief_mood_recall": 0.2145833333333333,
+  "brief_genre_recall": 0.17916666666666664,
+  "relationship_acc": 0.65,
+  "energy_mae": 0.19125,
+  "brief_valid": 1.0
+ },
+ "counterpoint": {
+  "n": 10,
+  "original@10": 0.0,
+  "similar@10": 0.6,
+  "P@10": 0.26,
+  "MRR": 0.41666666666666663,
+  "brief_mood_recall": 0.4083333333333333,
+  "brief_genre_recall": 0.14166666666666666,
+  "relationship_acc": 0.7,
+  "energy_mae": 0.10999999999999999,
+  "brief_valid": 1.0
+ },
+ "rows": [
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.5,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.675,
+     true
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [
+      "happy"
+     ],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [
+      "happy"
+     ],
+     [
+      "pop",
+      "popfolk"
+     ],
+     0.633,
+     true
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.65,
+     true
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [
+      "happy"
+     ],
+     [
+      "popfolk"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [
+      "retro"
+     ],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.75,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "reservoir-dogs-ear",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful period song played against it.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [
+      "energetic",
+      "retro"
+     ],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.25,
+   "relationship_ok": false,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful period song played against it.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [
+      "happy"
+     ],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [
+      "happy"
+     ],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [
+      "happy"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [
+      "retro"
+     ],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.75,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": false,
+   "energy_err": 0.04999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-twist",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Ironic, darkly comic celebration; a cheerful song plays against the stylised violence and deadpan humor.",
+    "summary": "Ironic, breezy celebration",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1127796",
+     "A Certain Kind of Mood",
+     "timeless",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1255879",
+     "Melancholic blues",
+     "zerothehero",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1056391",
+     "Piano Chill Instrumental",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1244827",
+     "Lonely Robbie (Instrumental)",
+     "Davorman",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1348658",
+     "Claro",
+     "Solxis",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:790453",
+     "Psycholove",
+     "BOREA",
+     [],
+     [
+      "rock"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1396603",
+     "Be With You",
+     "Intrinsic Nature",
+     [],
+     [
+      "rock"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1078710",
+     "The Masquerade",
+     "Earth and Moon",
+     [],
+     [
+      "alternative",
+      "indie"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1353217",
+     "Your Soul",
+     "Bahia de Roses",
+     [],
+     [],
+     0.4,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-mia",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Grief and confusion; the song should be melancholic and slow.",
+    "summary": "Melancholic, confused solitude",
+    "relationship": "match",
+    "moods": [
+     "melancholic",
+     "weird"
+    ],
+    "genres": [
+     "classicrock",
+     "soul",
+     "punkrock"
+    ],
+    "instruments": [
+     "piano",
+     "strings",
+     "electricguitar"
+    ],
+    "energy": 0.15,
+    "tempo": {
+     "min_bpm": 60,
+     "max_bpm": 75
+    },
+    "vocals": "instrumental",
+    "avoid": [
+     "happy",
+     "energetic"
+    ],
+    "music_description": "Soft classicrock with melancholic guitar and soulful strings",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-entourage",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful period song played against it.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1218253",
+     "Happy Summer Dance 1min loop",
+     "Plastic3",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [
+      "pop"
+     ],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [],
+     [
+      "pop"
+     ],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [
+      "pop"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1088586",
+     "Happy Game",
+     "Plastic3",
+     [],
+     [
+      "pop"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1360562",
+     "Your Happy Face (loop)",
+     "alumo",
+     [],
+     [
+      "pop"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1231494",
+     "321_New Summer",
+     "MFYM",
+     [],
+     [
+      "pop"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1250063",
+     "Good Mood Ukulele Pop 8",
+     "Auditone Music Library",
+     [],
+     [
+      "pop"
+     ],
+     0.683,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [
+      "pop"
+     ],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149234",
+     "Maybe",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.45,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-bang-bang",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Violence and cruelty; a cheerful, stylized song plays against the dark scene.",
+    "summary": "Ironic, brutal masochism",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "80s",
+     "synthpop",
+     "newwave"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 80s synth-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1371330",
+     "Ballade / Soft Piano",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1310766",
+     "Elegia per Violino e Orchestra II",
+     "Aufklarung",
+     [],
+     [],
+     0.325,
+     false
+    ],
+    [
+     "jamendo:1039627",
+     "Melancholic Piano, Harp and Strings",
+     "Akashic Records",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1195890",
+     "Sad Piano",
+     "Matti Paalanen",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:700223",
+     "Tenderness",
+     "Pianochocolate",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1151569",
+     "Emotionnal Sad Piano, String & Voice",
+     "-Poul'H-",
+     [
+      "dramatic"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1209655",
+     "Sad Piano",
+     "Matti Paalanen",
+     [],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:1135221",
+     "Strings in the Earth and Air",
+     "Aufklarung",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1277842",
+     "Piece #3",
+     "Pablo Samonta",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1324770",
+     "Wedding Piano 12",
+     "BDKSonic",
+     [],
+     [],
+     0.25,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.65,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-snow-duel",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Grief and finality; the song should reflect a sense of quiet, almost reverent sadness.",
+    "summary": "Reverent, grieving duel",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "emotional",
+     "peaceful"
+    ],
+    "genres": [
+     "classical",
+     "folk",
+     "jazzfunk"
+    ],
+    "instruments": [
+     "piano",
+     "strings",
+     "violin"
+    ],
+    "energy": 0.15,
+    "tempo": {
+     "min_bpm": 60,
+     "max_bpm": 75
+    },
+    "vocals": "instrumental",
+    "avoid": [
+     "happy",
+     "energetic"
+    ],
+    "music_description": "Soft classical piano and strings with a melancholic violin melody",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1274099",
+     "Chill Easy Listening Guitar (Sister)",
+     "Plastic3",
+     [],
+     [],
+     0.267,
+     false
+    ],
+    [
+     "jamendo:953636",
+     "Soft Easy Rock",
+     "Plastic3",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1127796",
+     "A Certain Kind of Mood",
+     "timeless",
+     [
+      "groovy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1189963",
+     "Easy",
+     "Auquid",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353217",
+     "Your Soul",
+     "Bahia de Roses",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:644445",
+     "Easy Day (remastered)",
+     "SnakesArt",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:921755",
+     "Parachute",
+     "Zell",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1321079",
+     "Ballad",
+     "Ludovico Gonzales",
+     [],
+     [],
+     0.175,
+     false
+    ],
+    [
+     "jamendo:1169059",
+     "Daylight",
+     "Teresa",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1239109",
+     "Outside",
+     "NuJazz-Trio",
+     [],
+     [],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.04999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "jackie-brown-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Cool professionalism; the song should match her calm demeanor.",
+    "summary": "Professional, cool glide",
+    "relationship": "match",
+    "moods": [
+     "cool",
+     "commercial",
+     "calm"
+    ],
+    "genres": [
+     "classicrock",
+     "easylistening"
+    ],
+    "instruments": [
+     "piano",
+     "guitar"
+    ],
+    "energy": 0.55,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 100
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Soft rock with a touch of electric guitar and piano, cool and understated",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "inglourious-makeup",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful period song played against it.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1371330",
+     "Ballade / Soft Piano",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1194826",
+     "Heaven",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1255879",
+     "Melancholic blues",
+     "zerothehero",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1253146",
+     "Slow",
+     "Przemek Korzyniewski",
+     [
+      "sad"
+     ],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:957461",
+     "Slow",
+     "L\u00f6hstana David",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1194831",
+     "Memories",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1111990",
+     "Gentle Heart",
+     "Podington Bear",
+     [
+      "emotional"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1245171",
+     "Soft",
+     "Matti Paalanen",
+     [
+      "emotional"
+     ],
+     [],
+     0.383,
+     false
+    ],
+    [
+     "jamendo:349832",
+     "Soft",
+     "Project Divinity",
+     [
+      "emotional"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1277842",
+     "Piece #3",
+     "Pablo Samonta",
+     [],
+     [],
+     0.2,
+     false
+    ]
+   ],
+   "mood_recall": 0.6666666666666666,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "django-flashback",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Grief and nostalgia; the song should evoke a sense of longing and sadness.",
+    "summary": "Nostalgic, grieving journey",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "nostalgic",
+     "emotional"
+    ],
+    "genres": [
+     "classicrock",
+     "punkrock",
+     "soul"
+    ],
+    "instruments": [
+     "piano",
+     "strings",
+     "bass"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 100
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "energetic"
+    ],
+    "music_description": "Soft rock with piano and strings, slow and melancholic",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1056391",
+     "Piano Chill Instrumental",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1194831",
+     "Memories",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1353217",
+     "Your Soul",
+     "Bahia de Roses",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:976776",
+     "Piano Bar",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:357518",
+     "Meditation",
+     "Project Divinity",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:18234",
+     "Synthesizer",
+     "Project Divinity",
+     [],
+     [],
+     0.175,
+     false
+    ],
+    [
+     "jamendo:1113647",
+     "Timeless",
+     "SONIC MYSTERY",
+     [],
+     [],
+     0.125,
+     false
+    ],
+    [
+     "jamendo:976774",
+     "Moments",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:784085",
+     "The Secret Garden",
+     "AsRiLoS",
+     [],
+     [],
+     0.3,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "ouatih-neon",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Wistful nostalgia and fading light; the song should evoke a sense of melancholy and reflection.",
+    "summary": "Melancholic, wistful montage",
+    "relationship": "match",
+    "moods": [
+     "melodic",
+     "nostalgic",
+     "reflective"
+    ],
+    "genres": [
+     "60s",
+     "synthpop",
+     "electronic"
+    ],
+    "instruments": [
+     "piano",
+     "synthesizer",
+     "drums"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 100
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Soft synth pads and piano melodies with subtle drum beats, evoking a sense of quiet reflection",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1218253",
+     "Happy Summer Dance 1min loop",
+     "Plastic3",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1149234",
+     "Maybe",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1056380",
+     "Pop Background Loop 1",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1321719",
+     "Outro",
+     "Oilboy's Aftersun",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [],
+     [
+      "rock"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:725020",
+     "YOUTH",
+     "harmonie_mit_nichts",
+     [],
+     [],
+     0.3,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.29999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-bellbottoms",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful period song played against it.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "80s",
+     "synthpop",
+     "newwave"
+    ],
+    "instruments": [
+     "drums",
+     "synthesizer"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 80s synth-pop with handclaps and a sing-along chorus; drums and synthesizer create an upbeat, reckless energy",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:979225",
+     "Merry Christmas (Happy Santa)",
+     "Plastic3",
+     [
+      "fun"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1072126",
+     "Happy Catchy Rock",
+     "Plastic3",
+     [
+      "happy"
+     ],
+     [],
+     0.567,
+     false
+    ],
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [
+      "fun"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1043731",
+     "Happy-Go-Lucky",
+     "GingerTom",
+     [
+      "fun"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1360562",
+     "Your Happy Face (loop)",
+     "alumo",
+     [
+      "fun",
+      "happy",
+      "upbeat"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [
+      "funk"
+     ],
+     0.675,
+     true
+    ]
+   ],
+   "mood_recall": 0.5,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-coffee",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Cheerful, retro vibe; the song should match the upbeat and lively atmosphere of the scene.",
+    "summary": "Retro city dance",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "synthpop"
+    ],
+    "instruments": [
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Sunny 60s synth-pop with upbeat rhythms and a catchy chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1056398",
+     "Pop Background Loop 2",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1056380",
+     "Pop Background Loop 1",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1149234",
+     "Maybe",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1360560",
+     "Sunny Side Up (loop)",
+     "alumo",
+     [
+      "fun"
+     ],
+     [],
+     0.63,
+     false
+    ],
+    [
+     "jamendo:1250063",
+     "Good Mood Ukulele Pop 8",
+     "Auditone Music Library",
+     [
+      "fun"
+     ],
+     [],
+     0.683,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-shootout",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; the song should play against the stylized chaos.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "80s",
+     "synthpop",
+     "newwave"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 80s synth-pop with handclaps and a sing-along chorus; reminiscent of classic new wave soundtracks.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.4,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.675,
+     true
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [
+      "happy"
+     ],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.633,
+     true
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.65,
+     true
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.5,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.19999999999999996,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "shaun-of-the-dead-pub",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful period song played against it.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.4,
+   "RR": 0.3333333333333333,
+   "top": [
+    [
+     "jamendo:1357556",
+     "ALIEN",
+     "Golden Duck Orchestra",
+     [],
+     [
+      "rock"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1402853",
+     "Humanity (Dubstep mix)",
+     "J.O.R.B.I",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1088586",
+     "Happy Game",
+     "Plastic3",
+     [
+      "fun",
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:1342137",
+     "Video Game Background Loop 60s",
+     "Plastic3",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1078440",
+     "Bubbles",
+     "Michael Ellis",
+     [
+      "fun"
+     ],
+     [
+      "pop",
+      "rock"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:1149226",
+     "Save the planet",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1149238",
+     "My Friend Tom",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1271919",
+     "Stupid Things",
+     "Auquid",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1306844",
+     "Cosmic Shell Suit",
+     "Scott Holmes",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.675,
+     true
+    ]
+   ],
+   "mood_recall": 0.5,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "guardians-opening",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful period song played against it.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "80s",
+     "synthpop",
+     "newwave"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 80s synth-pop with handclaps and a sing-along chorus featuring an alien creature as the lead vocalist",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.4,
+   "RR": 0.5,
+   "top": [
+    [
+     "jamendo:1218253",
+     "Happy Summer Dance 1min loop",
+     "Plastic3",
+     [
+      "happy"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.675,
+     true
+    ],
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.675,
+     true
+    ],
+    [
+     "jamendo:979225",
+     "Merry Christmas (Happy Santa)",
+     "Plastic3",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.65,
+     true
+    ],
+    [
+     "jamendo:1321719",
+     "Outro",
+     "Oilboy's Aftersun",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1360562",
+     "Your Happy Face (loop)",
+     "alumo",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:1149234",
+     "Maybe",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.04999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "guardians2-groot",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "Ironic, darkly comic scene with a tiny creature dancing in the face of danger; a cheerful song plays against it.",
+    "summary": "Ironic, breezy bravery",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "80s",
+     "pop",
+     "synthwave"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 80s synthwave with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:25218",
+     "Sad Piano",
+     "Frozen Silence",
+     [
+      "emotional"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:259327",
+     "Sorrow",
+     "Frozen Silence",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:957461",
+     "Slow",
+     "L\u00f6hstana David",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1151569",
+     "Emotionnal Sad Piano, String & Voice",
+     "-Poul'H-",
+     [
+      "emotional",
+      "sad"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1209655",
+     "Sad Piano",
+     "Matti Paalanen",
+     [
+      "emotional"
+     ],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:1278731",
+     "Empty Hearts",
+     "Pablo Samonta",
+     [
+      "melancholic",
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1084387",
+     "Old Photo",
+     "Aleksey Chistilin",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1232050",
+     "The Hunt",
+     "Sapere Aude",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1195890",
+     "Sad Piano",
+     "Matti Paalanen",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1232048",
+     "Autumn",
+     "Sapere Aude",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ]
+   ],
+   "mood_recall": 0.6666666666666666,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.19999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-layla",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "Grief and loss; the song should be somber and reflective.",
+    "summary": "Mournful, grieving aftermath",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "emotional",
+     "peaceful"
+    ],
+    "genres": [
+     "classical",
+     "folk",
+     "ambient",
+     "soundtrack"
+    ],
+    "instruments": [
+     "piano",
+     "strings",
+     "violin"
+    ],
+    "energy": 0.15,
+    "tempo": {
+     "min_bpm": 60,
+     "max_bpm": 75
+    },
+    "vocals": "instrumental",
+    "avoid": [
+     "happy",
+     "energetic"
+    ],
+    "music_description": "Slow and somber classical or folk music with mournful strings and piano",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.4,
+   "RR": 0.5,
+   "top": [
+    [
+     "jamendo:1218253",
+     "Happy Summer Dance 1min loop",
+     "Plastic3",
+     [
+      "happy"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1236892",
+     "208_Happiness",
+     "MFYM",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1089143",
+     "The Happy Bride (Dance Loop)",
+     "Snabisch",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:979225",
+     "Merry Christmas (Happy Santa)",
+     "Plastic3",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1290558",
+     "47_So Happy - 30 secs",
+     "MFYM",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.675,
+     true
+    ],
+    [
+     "jamendo:862834",
+     "HAPPY",
+     "DANI LUCAS",
+     [
+      "happy"
+     ],
+     [],
+     0.783,
+     false
+    ],
+    [
+     "jamendo:1391337",
+     "Joy to the World",
+     "BDKSonic",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.625,
+     true
+    ],
+    [
+     "jamendo:1248106",
+     "EIGHTIES",
+     "LukHash",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1092251",
+     "Meine Matrix",
+     "Peter Pumberger",
+     [
+      "happy",
+      "love"
+     ],
+     [
+      "pop"
+     ],
+     0.55,
+     true
+    ]
+   ],
+   "mood_recall": 0.6666666666666666,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.19999999999999996,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-copa",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romantic and celebratory atmosphere; the song should match the joyous setting.",
+    "summary": "Romantic, celebratory date night",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "romantic",
+     "celebration"
+    ],
+    "genres": [
+     "80s",
+     "pop",
+     "synthwave"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Energetic 80s synthwave with catchy hooks and a lively beat",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.19999999999999996,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-helicopter",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful song plays against the paranoia and fuel of coke.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1111990",
+     "Gentle Heart",
+     "Podington Bear",
+     [
+      "nostalgic"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1371330",
+     "Ballade / Soft Piano",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1169059",
+     "Daylight",
+     "Teresa",
+     [],
+     [
+      "pop"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [],
+     [
+      "pop"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:360810",
+     "SPRING 2048",
+     "Guy Berrier",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1056391",
+     "Piano Chill Instrumental",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1353217",
+     "Your Soul",
+     "Bahia de Roses",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1164468",
+     "8_Sweet Dream AC2",
+     "MFYM",
+     [],
+     [],
+     0.175,
+     false
+    ],
+    [
+     "jamendo:847262",
+     "Small Nostalgia - 1) Barcarola",
+     "Aufklarung",
+     [],
+     [],
+     0.125,
+     false
+    ]
+   ],
+   "mood_recall": 0.6666666666666666,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "mean-streets-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romance and nostalgia; the scene evokes a warm, sentimental mood.",
+    "summary": "Nostalgic romance",
+    "relationship": "match",
+    "moods": [
+     "romantic",
+     "nostalgic"
+    ],
+    "genres": [
+     "80s",
+     "poprock",
+     "soul"
+    ],
+    "instruments": [
+     "piano",
+     "strings"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 90,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Soft 80s poprock with piano and strings, gentle and nostalgic",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "departed-boston",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful period song played against it.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1111111111111111,
+   "top": [
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1072126",
+     "Happy Catchy Rock",
+     "Plastic3",
+     [],
+     [],
+     0.567,
+     false
+    ],
+    [
+     "jamendo:1089914",
+     "Rockabilly",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1396603",
+     "Be With You",
+     "Intrinsic Nature",
+     [],
+     [
+      "rock"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:468036",
+     "Chance on the road",
+     "David\u00b4s Blue",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1127796",
+     "A Certain Kind of Mood",
+     "timeless",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1115697",
+     "Anniversary Song",
+     "Podington Bear",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1186165",
+     "Ballad (Instrumental)",
+     "Davorman",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [
+      "fun"
+     ],
+     [
+      "rock"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:1407657",
+     "melodic pop rock loop",
+     "andy blackwood",
+     [],
+     [],
+     0.65,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "waynes-world-car",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romantic and nostalgic energy; the song should be upbeat and melodic.",
+    "summary": "Synced car sing-along",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "romantic",
+     "nostalgic"
+    ],
+    "genres": [
+     "rocknroll",
+     "soul",
+     "popfolk"
+    ],
+    "instruments": [
+     "drums",
+     "electricguitar",
+     "piano"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Upbeat rock-n-roll with driving drums and electric guitar, melodic piano chords",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1169059",
+     "Daylight",
+     "Teresa",
+     [],
+     [
+      "rock"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1371330",
+     "Ballade / Soft Piano",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1111990",
+     "Gentle Heart",
+     "Podington Bear",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1353217",
+     "Your Soul",
+     "Bahia de Roses",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1244952",
+     "60_Good Feeling",
+     "MFYM",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1396603",
+     "Be With You",
+     "Intrinsic Nature",
+     [],
+     [
+      "rock"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1159615",
+     "sweet  thing",
+     "Ceil\u00ed Moss",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:349832",
+     "Soft",
+     "Project Divinity",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:18232",
+     "Soft",
+     "Project Divinity",
+     [],
+     [],
+     0.175,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.19999999999999996,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "risky-business-socks",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romantic and nostalgic; the song should evoke a sense of warmth and intimacy.",
+    "summary": "Nostalgic, romantic solo",
+    "relationship": "match",
+    "moods": [
+     "romantic",
+     "nostalgic"
+    ],
+    "genres": [
+     "classicrock",
+     "soul",
+     "punkrock"
+    ],
+    "instruments": [
+     "piano",
+     "guitar",
+     "voice"
+    ],
+    "energy": 0.55,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 100
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Soft rock with a gentle piano and acoustic guitar, warm vocals",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.14285714285714285,
+   "top": [
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [],
+     [
+      "rock"
+     ],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1109971",
+     "Positiveness Loop 5 (30 sec)",
+     "Plastic3",
+     [],
+     [
+      "rock"
+     ],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [],
+     [
+      "pop",
+      "rock"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:287786",
+     "808_Generator_RMX",
+     "Nationale2",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1236892",
+     "208_Happiness",
+     "MFYM",
+     [],
+     [
+      "pop"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [
+      "uplifting"
+     ],
+     [
+      "80s",
+      "pop"
+     ],
+     0.65,
+     true
+    ],
+    [
+     "jamendo:1021749",
+     "Another One",
+     "Instantperson",
+     [],
+     [
+      "pop"
+     ],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:1131442",
+     "WAVES",
+     "Meir Shitrit",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:945201",
+     "Ocean",
+     "Disconauts Music Production",
+     [],
+     [
+      "pop"
+     ],
+     0.675,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.5,
+   "relationship_ok": true,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "breakfast-club-fist",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Celebratory triumph and defiance; the song should be upbeat and inspiring.",
+    "summary": "Epic, uplifting celebration",
+    "relationship": "match",
+    "moods": [
+     "optimistic",
+     "reflective",
+     "success"
+    ],
+    "genres": [
+     "80s",
+     "pop",
+     "synthwave"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "slow"
+    ],
+    "music_description": "Energetic 80s synthwave with catchy hooks and a driving beat",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1111111111111111,
+   "top": [
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1056391",
+     "Piano Chill Instrumental",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1134031",
+     "Retro soundtrack",
+     "Dreamer",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1035757",
+     "Her Song",
+     "Dreamweaver",
+     [
+      "love"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [],
+     [
+      "pop"
+     ],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:725020",
+     "YOUTH",
+     "harmonie_mit_nichts",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:913697",
+     "Retronaut",
+     "Chill Carrier",
+     [],
+     [
+      "80s",
+      "pop"
+     ],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1035764",
+     "You and I",
+     "Dreamweaver",
+     [
+      "love"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:7395",
+     "The girl with the wings",
+     "Spleen-Musical",
+     [
+      "love"
+     ],
+     [
+      "pop",
+      "rock"
+     ],
+     0.4,
+     true
+    ],
+    [
+     "jamendo:1248106",
+     "EIGHTIES",
+     "LukHash",
+     [],
+     [],
+     0.85,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "say-anything-boombox",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romance and nostalgia; the song should evoke a sense of longing and intimacy.",
+    "summary": "Nostalgic, tender romance",
+    "relationship": "match",
+    "moods": [
+     "romantic",
+     "nostalgic"
+    ],
+    "genres": [
+     "80s",
+     "poprock",
+     "synthwave"
+    ],
+    "instruments": [
+     "piano",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.55,
+    "tempo": {
+     "min_bpm": 90,
+     "max_bpm": 110
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "dark"
+    ],
+    "music_description": "Soft synth-pop with piano and guitar, dreamy and nostalgic",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.25,
+   "top": [
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1236892",
+     "208_Happiness",
+     "MFYM",
+     [],
+     [
+      "pop"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [],
+     [],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1066500",
+     "So Happy",
+     "MFYM",
+     [
+      "uplifting"
+     ],
+     [
+      "pop"
+     ],
+     0.65,
+     true
+    ],
+    [
+     "jamendo:1218253",
+     "Happy Summer Dance 1min loop",
+     "Plastic3",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:862834",
+     "HAPPY",
+     "DANI LUCAS",
+     [],
+     [],
+     0.783,
+     false
+    ],
+    [
+     "jamendo:1337210",
+     "Happiness - 3",
+     "MuswayStudio",
+     [],
+     [
+      "pop"
+     ],
+     0.64,
+     false
+    ],
+    [
+     "jamendo:1189960",
+     "Happy",
+     "Auquid",
+     [],
+     [
+      "pop"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:496520",
+     "Happy",
+     "Project Divinity",
+     [],
+     [],
+     0.483,
+     false
+    ],
+    [
+     "jamendo:1163369",
+     "Hopeful Day (positive, bouncy)",
+     "Aufklarung",
+     [],
+     [
+      "pop"
+     ],
+     0.65,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 1.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "dirty-dancing-lift",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romance and triumph in a celebratory setting; the song should be uplifting and melodic.",
+    "summary": "Celebratory, triumphant dance moment",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "optimistic",
+     "celebration"
+    ],
+    "genres": [
+     "80s",
+     "pop",
+     "synthwave"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Upbeat synth-pop with catchy melodies and energetic beats",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 0.5,
+   "top": [
+    [
+     "jamendo:1131442",
+     "WAVES",
+     "Meir Shitrit",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1234387",
+     "14_Adrenaline Rush",
+     "MFYM",
+     [
+      "energetic"
+     ],
+     [
+      "hardrock",
+      "rock"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:287786",
+     "808_Generator_RMX",
+     "Nationale2",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [],
+     [
+      "80s"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1133348",
+     "Orange",
+     "Yoan Marin",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1244949",
+     "32_Destiny",
+     "MFYM",
+     [
+      "energetic"
+     ],
+     [],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1133342",
+     "Medusa",
+     "Yoan Marin",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1038511",
+     "Hypersonic",
+     "Oursvince",
+     [
+      "action"
+     ],
+     [],
+     0.825,
+     false
+    ],
+    [
+     "jamendo:1234703",
+     "Ravens Mood - Electro Shock",
+     "VolXcult",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:887208",
+     "My World",
+     "WE ARE FM",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.9,
+     true
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "top-gun-deck",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Heroic and powerful imagery; the song should be uplifting and inspiring.",
+    "summary": "Epic, heroic launch",
+    "relationship": "match",
+    "moods": [
+     "heroic",
+     "powerful",
+     "uplifting"
+    ],
+    "genres": [
+     "80s",
+     "synthwave",
+     "electronic"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Energetic 80s synthwave with soaring vocals and driving beats",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1,
+   "top": [
+    [
+     "jamendo:1133348",
+     "Orange",
+     "Yoan Marin",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:989872",
+     "12",
+     "Kellee Maize",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1250049",
+     "Electro Pop Dance Party 11",
+     "Auditone Music Library",
+     [
+      "energetic"
+     ],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:317678",
+     "Everything",
+     "Emorej",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1149208",
+     "Carmen",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1250046",
+     "Electro Pop Dance Party 12",
+     "Auditone Music Library",
+     [
+      "energetic"
+     ],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1254816",
+     "Dance Energetic Sport Loop 60s",
+     "Plastic3",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [],
+     [
+      "80s"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1125685",
+     "Energetic Rock Funk",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.625,
+     true
+    ]
+   ],
+   "mood_recall": 0.6666666666666666,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "rocky-iii-training",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The montage captures a grueling and intense training session; the song should match the grittiness and intensity of the scene.",
+    "summary": "Gritty, intense training montage",
+    "relationship": "match",
+    "moods": [
+     "energetic",
+     "motivational",
+     "upbeat"
+    ],
+    "genres": [
+     "80s",
+     "hiphop",
+     "electropop"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Energetic 80s electropop with pulsing beats and catchy hooks",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.4,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.675,
+     true
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [
+      "happy"
+     ],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.633,
+     true
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.65,
+     true
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.6666666666666666,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.04999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "american-psycho-axe",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful song plays against it.",
+    "summary": "Ironic, brutal humor",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.29999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "trainspotting-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful song plays against it.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353365",
+     "In the Groove",
+     "Soul-Ty",
+     [],
+     [],
+     0.66,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1353346",
+     "Happy Tuesday",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1068955",
+     "Happy birthday to me",
+     "Armando Lagozza",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "trainspotting-overdose",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "Violence and cruelty; a cheerful, stylized song plays against it.",
+    "summary": "Ironic, darkly comic farewell",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "60s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 60s soul-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:957461",
+     "Slow",
+     "L\u00f6hstana David",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:390004",
+     "Melancholy",
+     "Frozen Silence",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:259324",
+     "Sad Piano",
+     "Frozen Silence",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:680369",
+     "The Piano",
+     "Tomasz Bylina",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1278731",
+     "Empty Hearts",
+     "Pablo Samonta",
+     [
+      "melancholic",
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1195890",
+     "Sad Piano",
+     "Matti Paalanen",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1151569",
+     "Emotionnal Sad Piano, String & Voice",
+     "-Poul'H-",
+     [
+      "sad"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1084387",
+     "Old Photo",
+     "Aleksey Chistilin",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1277842",
+     "Piece #3",
+     "Pablo Samonta",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1232050",
+     "The Hunt",
+     "Sapere Aude",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "donnie-darko-ending",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Grief and reflection; the song should be tender and slow, allowing for introspection.",
+    "summary": "Tender, reflective wakefulness",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "emotional",
+     "peaceful"
+    ],
+    "genres": [
+     "classical",
+     "folk"
+    ],
+    "instruments": [
+     "piano",
+     "strings"
+    ],
+    "energy": 0.15,
+    "tempo": {
+     "min_bpm": 60,
+     "max_bpm": 75
+    },
+    "vocals": "instrumental",
+    "avoid": [
+     "happy",
+     "energetic"
+    ],
+    "music_description": "Sparse piano and strings, slow and aching",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:957461",
+     "Slow",
+     "L\u00f6hstana David",
+     [
+      "sad"
+     ],
+     [
+      "folk"
+     ],
+     0.25,
+     true
+    ],
+    [
+     "jamendo:1253146",
+     "Slow",
+     "Przemek Korzyniewski",
+     [
+      "sad"
+     ],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1371330",
+     "Ballade / Soft Piano",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1255879",
+     "Melancholic blues",
+     "zerothehero",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1056391",
+     "Piano Chill Instrumental",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1168014",
+     "Finger Ballad",
+     "JoosTVD",
+     [
+      "melancholic",
+      "sad"
+     ],
+     [],
+     0.283,
+     false
+    ],
+    [
+     "jamendo:1274099",
+     "Chill Easy Listening Guitar (Sister)",
+     "Plastic3",
+     [],
+     [],
+     0.267,
+     false
+    ],
+    [
+     "jamendo:1371378",
+     "Guitar Ballade",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1194831",
+     "Memories",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1164315",
+     "1_Lullaby 3 AC2",
+     "MFYM",
+     [],
+     [],
+     0.175,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "graduate-bus",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Grief and uncertainty; the song should reflect a sense of loss and reflection.",
+    "summary": "Reflective, uncertain laughter",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "anxious",
+     "emotional"
+    ],
+    "genres": [
+     "classicrock",
+     "soul",
+     "punkrock"
+    ],
+    "instruments": [
+     "piano",
+     "strings"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 100
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Soft rock-n-roll with acoustic guitar and piano, slow and contemplative",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1111111111111111,
+   "top": [
+    [
+     "jamendo:1236892",
+     "208_Happiness",
+     "MFYM",
+     [
+      "energetic"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1072126",
+     "Happy Catchy Rock",
+     "Plastic3",
+     [],
+     [],
+     0.567,
+     false
+    ],
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [],
+     [
+      "rock"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:945201",
+     "Ocean",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1250049",
+     "Electro Pop Dance Party 11",
+     "Auditone Music Library",
+     [
+      "energetic"
+     ],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:862834",
+     "HAPPY",
+     "DANI LUCAS",
+     [
+      "energetic"
+     ],
+     [],
+     0.783,
+     false
+    ],
+    [
+     "jamendo:1236870",
+     "112_A Happy New Day",
+     "MFYM",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.717,
+     true
+    ],
+    [
+     "jamendo:945200",
+     "Heartbeat",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.675,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "easy-rider-highway",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romantic and free spirit; the song should reflect their carefree journey.",
+    "summary": "Free-spirited, romantic ride",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "romantic"
+    ],
+    "genres": [
+     "80s",
+     "synthpop",
+     "newwave"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Energetic synth-pop with driving drums and catchy vocals",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420438",
+     "Come On Diana",
+     "Tedjep Soulful House",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:360810",
+     "SPRING 2048",
+     "Guy Berrier",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1131686",
+     "Hold me",
+     "Marco Buono",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1056398",
+     "Pop Background Loop 2",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1381257",
+     "Happy Corporate Background Loop 60s",
+     "Plastic3",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1303999",
+     "Close to You",
+     "Pablo Samonta",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1328505",
+     "Show Me The Way",
+     "The.madpix.project",
+     [],
+     [],
+     0.775,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "apocalypse-now-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Violence and horror with stylised, darkly comic elements; a cheerful song plays against it.",
+    "summary": "Ironic, brutal jungle scene",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "80s",
+     "synthpop",
+     "newwave"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 80s synth-pop with handclaps and a sing-along chorus; reminiscent of 'Don't Leave Me This Way' by Men at Work",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.14285714285714285,
+   "top": [
+    [
+     "jamendo:1205436",
+     "Dark Souls",
+     "Projekt Ph\u00f6nix",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1116952",
+     "#0_800003051757813",
+     "Zeffon",
+     [],
+     [
+      "orchestral"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1365210",
+     "amethyst",
+     "D27m",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1404044",
+     "The Flood",
+     "Arbeitsheld",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:919942",
+     "Darkness",
+     "StatueOfDiveo",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1116940",
+     "Valentine",
+     "Zeffon",
+     [],
+     [
+      "orchestral"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1311817",
+     "Dark Life Note - Shine",
+     "Dark Life Note",
+     [
+      "sad"
+     ],
+     [
+      "classical"
+     ],
+     0.25,
+     true
+    ],
+    [
+     "jamendo:1304481",
+     "Save Me",
+     "Fourteen Steps To Hell",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1047959",
+     "Dark dawn",
+     "Putsasoll",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1403975",
+     "Ambiance D (2005)",
+     "Elecmutec",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.5,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.6000000000000001,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "platoon-elias",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Violence and tragedy; a somber song to contrast the dark imagery.",
+    "summary": "Tragic farewell",
+    "relationship": "counterpoint",
+    "moods": [
+     "sad",
+     "emotional"
+    ],
+    "genres": [
+     "80s",
+     "synthwave",
+     "electronic"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "instrumental",
+    "avoid": [
+     "happy",
+     "energetic"
+    ],
+    "music_description": "Dark synthwave with pulsing beats and emotive synthesizer melodies",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1329523",
+     "Epic Piano Raise",
+     "Giuseppe Lorenzoni",
+     [],
+     [
+      "classical",
+      "orchestral"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1082105",
+     "EPIC ORCHESTRAL",
+     "Iliakulakow",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1082093",
+     "DRAMATIC ORCHESTRAL",
+     "Iliakulakow",
+     [],
+     [
+      "classical"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1196179",
+     "Ascending",
+     "Alexandr Ossipov production music",
+     [],
+     [
+      "orchestral"
+     ],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:798201",
+     "Eternity",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [
+      "classical",
+      "orchestral"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:799262",
+     "Fantasia",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [
+      "classical",
+      "orchestral"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:947022",
+     "A new game",
+     "Infinity",
+     [],
+     [
+      "classical"
+     ],
+     0.512,
+     false
+    ],
+    [
+     "jamendo:1221917",
+     "Soaring",
+     "C\u0152DES Pierre-Marie",
+     [],
+     [
+      "classical",
+      "orchestral"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1329498",
+     "CInematic Romantic Piano and Orchestra",
+     "Giuseppe Lorenzoni",
+     [],
+     [
+      "classical",
+      "orchestral"
+     ],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:961259",
+     "Doym\u00fcs",
+     "Infinity",
+     [],
+     [
+      "classical",
+      "orchestral"
+     ],
+     0.65,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.6666666666666666,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "2001-docking",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Grand, historic imagery; the song should be epic and reflective.",
+    "summary": "Epic, reflective docking",
+    "relationship": "match",
+    "moods": [
+     "game",
+     "history"
+    ],
+    "genres": [
+     "classical",
+     "orchestral"
+    ],
+    "instruments": [
+     "strings",
+     "piano",
+     "violin"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 60,
+     "max_bpm": 80
+    },
+    "vocals": "instrumental",
+    "avoid": [],
+    "music_description": "Epic orchestral score with soaring strings and a gentle piano melody",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 0.2,
+   "top": [
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1371330",
+     "Ballade / Soft Piano",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [
+      "classical"
+     ],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1277842",
+     "Piece #3",
+     "Pablo Samonta",
+     [],
+     [
+      "classical"
+     ],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1169059",
+     "Daylight",
+     "Teresa",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1111990",
+     "Gentle Heart",
+     "Podington Bear",
+     [
+      "emotional"
+     ],
+     [
+      "classical"
+     ],
+     0.4,
+     true
+    ],
+    [
+     "jamendo:1121459",
+     "Romance",
+     "Marco Margna",
+     [],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:1202102",
+     "Acoustic Nature Background Loop 30s",
+     "Plastic3",
+     [],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:799921",
+     "May Be",
+     "Alexander Franke",
+     [
+      "emotional"
+     ],
+     [
+      "classical"
+     ],
+     0.35,
+     true
+    ],
+    [
+     "jamendo:1355019",
+     "Bwv 526 Guitars",
+     "Re-Lab",
+     [],
+     [
+      "classical"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1159615",
+     "sweet  thing",
+     "Ceil\u00ed Moss",
+     [],
+     [],
+     0.9,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "shawshank-opera",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romance and nostalgia; the song should evoke a sense of longing or yearning.",
+    "summary": "Nostalgic, romantic prison break",
+    "relationship": "match",
+    "moods": [
+     "romantic",
+     "nostalgic"
+    ],
+    "genres": [
+     "60s",
+     "poprock",
+     "classicrock"
+    ],
+    "instruments": [
+     "piano",
+     "electricguitar",
+     "strings"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 100
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Soft rock with a piano and guitar melody, accompanied by strings for emotional depth",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1218253",
+     "Happy Summer Dance 1min loop",
+     "Plastic3",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1088586",
+     "Happy Game",
+     "Plastic3",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1360562",
+     "Your Happy Face (loop)",
+     "alumo",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1231494",
+     "321_New Summer",
+     "MFYM",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1250063",
+     "Good Mood Ukulele Pop 8",
+     "Auditone Music Library",
+     [],
+     [],
+     0.683,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149234",
+     "Maybe",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "fight-club-ending",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful song plays against it.",
+    "summary": "Ironic, breezy destruction",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "80s",
+     "synthpop",
+     "newwave"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 80s synth-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.5,
+   "RR": 0.3333333333333333,
+   "top": [
+    [
+     "jamendo:1218253",
+     "Happy Summer Dance 1min loop",
+     "Plastic3",
+     [
+      "happy"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1342137",
+     "Video Game Background Loop 60s",
+     "Plastic3",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [
+      "uplifting"
+     ],
+     [
+      "pop"
+     ],
+     0.65,
+     true
+    ],
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [],
+     [
+      "pop",
+      "rock"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1236892",
+     "208_Happiness",
+     "MFYM",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:1250063",
+     "Good Mood Ukulele Pop 8",
+     "Auditone Music Library",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.683,
+     true
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1360562",
+     "Your Happy Face (loop)",
+     "alumo",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:1285605",
+     "382_So Happy no leads - 60 secs",
+     "MFYM",
+     [
+      "happy",
+      "uplifting"
+     ],
+     [
+      "pop"
+     ],
+     0.675,
+     true
+    ]
+   ],
+   "mood_recall": 0.5,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "almost-famous-bus",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romance and nostalgia; the song should evoke a sense of camaraderie and happiness after conflict.",
+    "summary": "Nostalgic, romantic reunion",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "nostalgic",
+     "romantic"
+    ],
+    "genres": [
+     "80s",
+     "pop",
+     "synthwave"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "dark",
+     "horror"
+    ],
+    "music_description": "Upbeat synthwave-pop with catchy hooks and a warm chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [],
+     [
+      "80s"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1353217",
+     "Your Soul",
+     "Bahia de Roses",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1302668",
+     "LA",
+     "Michael Ellis",
+     [],
+     [
+      "80s"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1420704",
+     "La La La",
+     "Soul-Ty",
+     [
+      "funny"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1353357",
+     "Your Mind",
+     "Soul-Ty",
+     [],
+     [
+      "disco",
+      "funk"
+     ],
+     0.733,
+     false
+    ],
+    [
+     "jamendo:1420445",
+     "Get me Now",
+     "Tedjep Soulful House",
+     [],
+     [
+      "disco",
+      "funk"
+     ],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1236892",
+     "208_Happiness",
+     "MFYM",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1281240",
+     "The Beat of Your Heart",
+     "The Hate Eighties",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1267706",
+     "283_Happy Reunion",
+     "MFYM",
+     [],
+     [],
+     0.675,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": false,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "little-miss-sunshine-dance",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "Romantic and nostalgic celebration; the song should evoke a warm, joyful atmosphere.",
+    "summary": "Nostalgic, romantic family moment",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "romantic",
+     "nostalgic"
+    ],
+    "genres": [
+     "80s",
+     "pop",
+     "soul"
+    ],
+    "instruments": [
+     "piano",
+     "drums"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 90,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Upbeat 80s pop-soul with catchy melodies and a lively beat",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [],
+     [
+      "80s"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1218253",
+     "Happy Summer Dance 1min loop",
+     "Plastic3",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1056380",
+     "Pop Background Loop 1",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:360810",
+     "SPRING 2048",
+     "Guy Berrier",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149234",
+     "Maybe",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.75,
+   "relationship_ok": false,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "silence-lambs-mirror",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romance and nostalgia; the scene is stylized, darkly comic with a touch of sad humor.",
+    "summary": "Ironic, nostalgic seduction",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "romantic",
+     "nostalgic"
+    ],
+    "genres": [
+     "80s",
+     "synthpop",
+     "newwave"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 80s synth-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1169059",
+     "Daylight",
+     "Teresa",
+     [],
+     [
+      "rock"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [
+      "dream"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1371330",
+     "Ballade / Soft Piano",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1371378",
+     "Guitar Ballade",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1111990",
+     "Gentle Heart",
+     "Podington Bear",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1321079",
+     "Ballad",
+     "Ludovico Gonzales",
+     [],
+     [],
+     0.175,
+     false
+    ],
+    [
+     "jamendo:799921",
+     "May Be",
+     "Alexander Franke",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1168014",
+     "Finger Ballad",
+     "JoosTVD",
+     [
+      "melancholic"
+     ],
+     [],
+     0.283,
+     false
+    ],
+    [
+     "jamendo:1169081",
+     "Best For Us",
+     "Teresa",
+     [],
+     [
+      "rock"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1186165",
+     "Ballad (Instrumental)",
+     "Davorman",
+     [],
+     [],
+     0.7,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "lost-in-translation-goodbye",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romance and nostalgia; the song should be melodic and soothing.",
+    "summary": "Melodic, nostalgic farewells",
+    "relationship": "match",
+    "moods": [
+     "romantic",
+     "nostalgic"
+    ],
+    "genres": [
+     "classicrock",
+     "soul",
+     "punkrock"
+    ],
+    "instruments": [
+     "piano",
+     "guitar",
+     "strings"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 100
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "fast"
+    ],
+    "music_description": "Soft rock ballad with acoustic guitar and strings, gentle and heartfelt",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1121459",
+     "Romance",
+     "Marco Margna",
+     [],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:1189929",
+     "Hopeful Romantic",
+     "Seastock",
+     [],
+     [
+      "folk",
+      "indie"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1245171",
+     "Soft",
+     "Matti Paalanen",
+     [],
+     [],
+     0.383,
+     false
+    ],
+    [
+     "jamendo:1371330",
+     "Ballade / Soft Piano",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1221583",
+     "Happy",
+     "Matti Paalanen",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1312018",
+     "Romantic Piano - 2",
+     "MuswayStudio",
+     [],
+     [],
+     0.54,
+     false
+    ],
+    [
+     "jamendo:1376259",
+     "Happy People",
+     "meHiLove",
+     [],
+     [],
+     0.57,
+     false
+    ],
+    [
+     "jamendo:1095391",
+     "rainbow",
+     "Benjamin Lambert",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1194826",
+     "Heaven",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1355022",
+     "Bwv 526 Andante",
+     "Re-Lab",
+     [],
+     [],
+     0.7,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.45,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "garden-state-headphones",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romance and hope; the song should uplift and inspire.",
+    "summary": "Uplifting, hopeful encounter",
+    "relationship": "match",
+    "moods": [
+     "hopeful",
+     "inspiring",
+     "romantic"
+    ],
+    "genres": [
+     "poprock",
+     "soul",
+     "easylistening"
+    ],
+    "instruments": [
+     "piano",
+     "strings"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 100
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Soft piano and strings with a warm, uplifting melody",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [
+      "uplifting"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1133348",
+     "Orange",
+     "Yoan Marin",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1302668",
+     "LA",
+     "Michael Ellis",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [],
+     [
+      "rock"
+     ],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1109971",
+     "Positiveness Loop 5 (30 sec)",
+     "Plastic3",
+     [],
+     [
+      "rock"
+     ],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:287786",
+     "808_Generator_RMX",
+     "Nationale2",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [],
+     [
+      "rock"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1131442",
+     "WAVES",
+     "Meir Shitrit",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1250049",
+     "Electro Pop Dance Party 11",
+     "Auditone Music Library",
+     [],
+     [],
+     0.8,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "perks-tunnel",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romantic and exhilarating moment; the song should be uplifting and upbeat.",
+    "summary": "Epic, romantic drive",
+    "relationship": "match",
+    "moods": [
+     "optimistic",
+     "romantic",
+     "energetic"
+    ],
+    "genres": [
+     "80s",
+     "synthpop",
+     "newwave"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Energetic 80s synth-pop with driving beats and catchy hooks",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [
+      "dream"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1248106",
+     "EIGHTIES",
+     "LukHash",
+     [],
+     [
+      "electronic",
+      "electropop"
+     ],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1056382",
+     "Heaven Earth Time Loop",
+     "Plastic3",
+     [
+      "dream"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [],
+     [
+      "electronic"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [
+      "electronic"
+     ],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:828881",
+     "Aerotik Age",
+     "Danubio Rodriguez",
+     [],
+     [
+      "electronic"
+     ],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:913697",
+     "Retronaut",
+     "Chill Carrier",
+     [],
+     [
+      "electronic"
+     ],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1413269",
+     "EIGHTIES (REMASTER)",
+     "LukHash",
+     [],
+     [
+      "electronic"
+     ],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [],
+     [],
+     0.75,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.3,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "drive-canal",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Romantic and nostalgic; the song should evoke a sense of warmth and companionship.",
+    "summary": "Nostalgic, romantic drive",
+    "relationship": "match",
+    "moods": [
+     "romantic",
+     "nostalgic",
+     "peaceful"
+    ],
+    "genres": [
+     "80s",
+     "poprock",
+     "synthwave"
+    ],
+    "instruments": [
+     "electricguitar",
+     "drums"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "80s synthwave-pop with guitar riffs and driving beats",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1317220",
+     "Sonata - smile planet  X",
+     "Dr.GROOVER",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:18234",
+     "Synthesizer",
+     "Project Divinity",
+     [],
+     [],
+     0.175,
+     false
+    ],
+    [
+     "jamendo:357512",
+     "Relax",
+     "Project Divinity",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1157372",
+     "Calm down, you",
+     "Septi",
+     [],
+     [
+      "electronic"
+     ],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:36698",
+     "Sun System",
+     "eNoz",
+     [],
+     [
+      "electronic"
+     ],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:976777",
+     "Sun on my Skin",
+     "Disconauts Music Production",
+     [],
+     [
+      "electronic"
+     ],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:925609",
+     "Ground Swell",
+     "Son Electronique",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1113647",
+     "Timeless",
+     "SONIC MYSTERY",
+     [],
+     [],
+     0.125,
+     false
+    ],
+    [
+     "jamendo:95411",
+     "Be Calm",
+     "Giorgio Campagnano",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:952687",
+     "Enjoying Life",
+     "SONIC MYSTERY",
+     [],
+     [],
+     0.3,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.6666666666666666,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "drive-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is calm and reflective, with a sense of quiet tension as the credits roll.",
+    "summary": "Reflective, cool opening",
+    "relationship": "match",
+    "moods": [
+     "calm",
+     "reflective",
+     "cool"
+    ],
+    "genres": [
+     "synthwave",
+     "electronic",
+     "80s"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 90,
+     "max_bpm": 110
+    },
+    "vocals": "instrumental",
+    "avoid": [
+     "optimistic",
+     "energetic"
+    ],
+    "music_description": "Soft synth pads and subtle drum patterns, creating a cool, calm atmosphere",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.5,
+   "RR": 0.3333333333333333,
+   "top": [
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1056382",
+     "Heaven Earth Time Loop",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [
+      "fun"
+     ],
+     [
+      "pop",
+      "rock"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:840600",
+     "Xinewave Reunion",
+     "Floating Isle",
+     [
+      "happy"
+     ],
+     [
+      "rock"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.675,
+     true
+    ],
+    [
+     "jamendo:1035757",
+     "Her Song",
+     "Dreamweaver",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1205436",
+     "Dark Souls",
+     "Projekt Ph\u00f6nix",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1244947",
+     "01_A Colorful Spring",
+     "MFYM",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.425,
+     false
+    ],
+    [
+     "jamendo:95612",
+     "Once",
+     "Renich",
+     [
+      "happy"
+     ],
+     [
+      "rock"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:1080993",
+     "Afterglow",
+     "GingerTom",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.55,
+     true
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "jojo-rabbit-opening",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "Romance and nostalgia; the song should evoke a sense of pride and joy for his uniform, despite the historical context.",
+    "summary": "Proud, nostalgic boyhood",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "nostalgic",
+     "romantic"
+    ],
+    "genres": [
+     "80s",
+     "poprock",
+     "synthwave"
+    ],
+    "instruments": [
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.75,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Synthwave poprock with upbeat drums and electric guitar, nostalgic melody",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1218253",
+     "Happy Summer Dance 1min loop",
+     "Plastic3",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1089923",
+     "Happy sunset",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:945192",
+     "Sunshine",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1137782",
+     "Sunny Days Ukulele Pop",
+     "Auditone Music Library",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1088586",
+     "Happy Game",
+     "Plastic3",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1360562",
+     "Your Happy Face (loop)",
+     "alumo",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1231494",
+     "321_New Summer",
+     "MFYM",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1250063",
+     "Good Mood Ukulele Pop 8",
+     "Auditone Music Library",
+     [],
+     [],
+     0.683,
+     false
+    ],
+    [
+     "jamendo:1282296",
+     "Sunny Side Up",
+     "alumo",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149234",
+     "Maybe",
+     "Snabisch",
+     [],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "zombieland-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "Stylised, darkly comic violence; a cheerful song plays against it.",
+    "summary": "Ironic, breezy brutality",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "fun",
+     "retro"
+    ],
+    "genres": [
+     "80s",
+     "synthpop",
+     "newwave"
+    ],
+    "instruments": [
+     "voice",
+     "drums"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 110,
+     "max_bpm": 130
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "horror"
+    ],
+    "music_description": "Sunny 80s synth-pop with handclaps and a sing-along chorus",
+    "source": "llm"
+   }
+  }
+ ]
+}

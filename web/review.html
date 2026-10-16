@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Needle Drop Review</title>
+<meta name="description" content="Label whether each recommended track fits its scene. Labels calibrate the LLM judge.">
+<style>
+:root{--bg:#0d0f14;--panel:#151922;--panel2:#1b2030;--line:#2a3142;--text:#e8eaf0;--muted:#9aa3b5;--accent:#f5b642;--ok:#3ecf8e;--bad:#ff5c6c;--warn:#f5b642}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#f6f4ef;--panel:#fff;--panel2:#f1eee7;--line:#ddd7cb;--text:#1d1f24;--muted:#5f6573;--accent:#b9770e;--ok:#118a57;--bad:#c62838;--warn:#a86b00}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 ui-sans-serif,system-ui,sans-serif}
+header{max-width:900px;margin:0 auto;padding:18px 16px 4px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1{font-size:20px;margin:0}.muted{color:var(--muted);font-size:13px}
+main{max-width:900px;margin:0 auto;padding:8px 16px 40px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;margin-top:10px}
+.badge{display:inline-block;font-size:12px;padding:2px 9px;border-radius:99px;border:1px solid var(--line);color:var(--muted);margin-right:6px}
+.scene{font-size:18px;margin:6px 0 4px}
+.track{border-left:4px solid var(--accent);padding:10px 14px;background:var(--panel2);border-radius:8px;margin-top:14px}
+.track .t{font-size:18px;font-weight:600}
+.tags span{display:inline-block;font-size:12px;padding:1px 8px;border:1px solid var(--line);border-radius:99px;margin:4px 4px 0 0;color:var(--muted)}
+.tags span.hit{border-color:var(--accent);color:var(--text)}
+.actions{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+button{font:inherit;cursor:pointer;border-radius:10px;border:1px solid var(--line);background:transparent;color:var(--text);padding:9px 16px}
+.pass{background:var(--ok);border-color:var(--ok);color:#06150e;font-weight:700;padding:12px 28px}
+.fail{background:var(--bad);border-color:var(--bad);color:#1a0508;font-weight:700;padding:12px 28px}
+.on{outline:3px solid var(--accent);outline-offset:2px}
+textarea{width:100%;margin-top:12px;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:10px;font:inherit}
+details{margin-top:12px;font-size:13px;color:var(--muted)}
+.nav{display:flex;gap:8px;align-items:center;margin-top:14px;flex-wrap:wrap}
+.nav input{width:90px;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:6px}
+kbd{border:1px solid var(--line);border-radius:4px;padding:0 5px;font-size:12px}
+.rubric{font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Needle Drop · does this track fit the scene?</h1>
+  <span class="muted" id="progress"></span>
+</header>
+<main>
+  <details class="rubric" open><summary>Rubric</summary>
+    <p><b>Fits (Pass)</b>: an editor could plausibly cut this scene to this track. Mood and energy work with what's on screen, either by matching it or by deliberate, effective counterpoint.</p>
+    <p><b>Doesn't fit (Fail)</b>: the track would feel wrong under the scene: mood or energy clashes without purpose, or the genre is jarring for the setting.</p>
+    <p>Listen if you can. Judge the track, not its license. <kbd>1</kbd> Pass · <kbd>2</kbd> Fail · <kbd>D</kbd> Defer · <kbd>U</kbd> Undo · <kbd>←</kbd><kbd>→</kbd> navigate · <kbd>Ctrl</kbd>+<kbd>Enter</kbd> save note and next</p>
+  </details>
+  <div class="card" id="card"></div>
+  <div class="nav">
+    <button id="prev">← Previous</button><button id="next">Next →</button>
+    <label class="muted">Jump to <input id="jump" placeholder="id or #"></label>
+    <button id="export">Export labels (JSON)</button>
+    <label class="muted"><input type="checkbox" id="unlabeled"> Unlabeled only</label>
+  </div>
+</main>
+<script>
+const KEY = 'needle-review-labels-v1';
+let items = [], i = 0, labels = {}, history = [];
+try { labels = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(labels)); } catch (e) {} };
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+fetch(new URLSearchParams(location.search).get('src') || 'static/review_set.json').then(r => r.json()).then(d => { items = d; show(); });
+
+function show() {
+  if (!items.length) return;
+  const it = items[i], lab = labels[it.pair_id] || {};
+  const done = items.filter(x => labels[x.pair_id] && labels[x.pair_id].label).length;
+  document.getElementById('progress').textContent = `${i + 1} of ${items.length} · ${done} labeled · ${items.length - done} remaining`;
+  document.getElementById('card').innerHTML = `
+    <span class="badge">${esc(it.film)} (${esc(it.year)})</span><span class="badge">${esc(it.pair_id)}</span><span class="badge">rank ${it.rank} · ${esc(it.variant)}</span>
+    <p class="scene">${esc(it.scene)}</p>
+    <div class="track"><div class="t">${esc(it.title)} <span class="muted">· ${esc(it.artist)}</span></div>
+      <div class="tags">${it.moods.map(m => `<span>${esc(m)}</span>`).join('')}${it.genres.map(g => `<span>${esc(g)}</span>`).join('')}${it.instruments.map(g => `<span>${esc(g)}</span>`).join('')}</div>
+      <div class="muted">energy ${it.energy.toFixed(2)} · <a href="${esc(it.page_url)}" target="_blank" rel="noopener">open on Jamendo</a></div>
+      <audio controls preload="none" src="${esc(it.audio_url)}" style="width:100%;margin-top:8px"></audio></div>
+    <div class="actions">
+      <button class="pass ${lab.label === 'Pass' ? 'on' : ''}" id="bp">Fits (1)</button>
+      <button class="fail ${lab.label === 'Fail' ? 'on' : ''}" id="bf">Doesn't fit (2)</button>
+      <button id="bd" class="${lab.label === 'Defer' ? 'on' : ''}">Defer (D)</button></div>
+    <textarea id="note" rows="2" placeholder="Why? (optional)">${esc(lab.note || '')}</textarea>
+    <details><summary>Reference (hidden by default to avoid anchoring)</summary>
+      <p>Original needle drop: <b>${esc(it.song)}</b> by ${esc(it.song_artist)}</p>
+      <p>Pipeline brief: ${esc((it.brief_moods || []).join(', '))} · ${esc((it.brief_genres || []).join(', '))} · energy ${(it.brief_energy ?? 0).toFixed(2)}</p></details>`;
+  document.getElementById('bp').onclick = () => mark('Pass');
+  document.getElementById('bf').onclick = () => mark('Fail');
+  document.getElementById('bd').onclick = () => mark('Defer');
+  document.getElementById('note').oninput = e => { labels[it.pair_id] = {...(labels[it.pair_id] || {}), note: e.target.value, t: Date.now()}; save(); };
+}
+function mark(label) {
+  const it = items[i];
+  history.push([it.pair_id, labels[it.pair_id] ? {...labels[it.pair_id]} : null]);
+  labels[it.pair_id] = {...(labels[it.pair_id] || {}), label, note: document.getElementById('note').value, t: Date.now()};
+  save(); move(1);
+}
+function move(d) {
+  const only = document.getElementById('unlabeled').checked;
+  let j = i;
+  for (let n = 0; n < items.length; n++) { j = Math.min(items.length - 1, Math.max(0, j + d));
+    if (!only || !(labels[items[j].pair_id] || {}).label) break; }
+  i = j; show();
+}
+function undo() { const h = history.pop(); if (!h) return; if (h[1]) labels[h[0]] = h[1]; else delete labels[h[0]]; save();
+  i = items.findIndex(x => x.pair_id === h[0]); show(); }
+document.getElementById('prev').onclick = () => move(-1);
+document.getElementById('next').onclick = () => move(1);
+document.getElementById('jump').onchange = e => { const v = e.target.value.trim(); const n = /^\d+$/.test(v) ? +v - 1 : items.findIndex(x => x.pair_id === v); if (n >= 0 && n < items.length) { i = n; show(); } };
+document.getElementById('export').onclick = () => {
+  const out = items.map(x => ({pair_id: x.pair_id, ...(labels[x.pair_id] || {})})).filter(x => x.label);
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(out, null, 1)], {type: 'application/json'}));
+  a.download = 'needle-labels.json'; a.click();
+};
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'TEXTAREA') { if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); move(1); } return; }
+  if (e.target.tagName === 'INPUT') return;
+  if (e.key === '1') mark('Pass'); else if (e.key === '2') mark('Fail'); else if (e.key.toLowerCase() === 'd') mark('Defer');
+  else if (e.key.toLowerCase() === 'u') undo(); else if (e.key === 'ArrowRight') move(1); else if (e.key === 'ArrowLeft') move(-1);
+});
+</script>
+</body>
+</html>

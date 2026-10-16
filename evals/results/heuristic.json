@@ -1,0 +1,7129 @@
+{
+ "variant": "heuristic",
+ "all": {
+  "n": 50,
+  "original@10": 0.0,
+  "similar@10": 0.22,
+  "P@10": 0.032,
+  "MRR": 0.06388888888888888,
+  "brief_mood_recall": 0.115,
+  "brief_genre_recall": 0.03333333333333333,
+  "relationship_acc": 0.8,
+  "energy_mae": 0.20099999999999998,
+  "brief_valid": 1.0
+ },
+ "match": {
+  "n": 40,
+  "original@10": 0.0,
+  "similar@10": 0.25,
+  "P@10": 0.034999999999999996,
+  "MRR": 0.07569444444444444,
+  "brief_mood_recall": 0.12916666666666665,
+  "brief_genre_recall": 0.041666666666666664,
+  "relationship_acc": 1.0,
+  "energy_mae": 0.19,
+  "brief_valid": 1.0
+ },
+ "counterpoint": {
+  "n": 10,
+  "original@10": 0.0,
+  "similar@10": 0.1,
+  "P@10": 0.02,
+  "MRR": 0.016666666666666666,
+  "brief_mood_recall": 0.05833333333333333,
+  "brief_genre_recall": 0.0,
+  "relationship_acc": 0.0,
+  "energy_mae": 0.24499999999999997,
+  "brief_valid": 1.0
+ },
+ "rows": [
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1294883",
+     "JUMPYFUNKY",
+     "Ju Bhota",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1320948",
+     "White Smoke",
+     "JuanGa",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1321253",
+     "Funking ideas",
+     "JuanGa",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1333038",
+     "Waiting for You",
+     "Lobo Loco",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:810099",
+     "Funky Chill lovers",
+     "Danubio Rodriguez",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1181033",
+     "Funkore",
+     "The Funkastic Grooves",
+     [],
+     [
+      "rock"
+     ],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1107314",
+     "Trapped In Freedom - 04 - This Cumshot is your Gift",
+     "Trapped In Freedom",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1195129",
+     "LA SAUDADE",
+     "Francesco Carpena",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1211797",
+     "Out There Somewhere (Instrumental)",
+     "Kara Square and Piero Peluche",
+     [],
+     [
+      "pop"
+     ],
+     0.237,
+     false
+    ],
+    [
+     "jamendo:1420433",
+     "Get the Funk",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [],
+     0.583,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "reservoir-dogs-ear",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "Alone in an empty warehouse with a cop who is tied to a chair and gagged, a gangster in a black suit saunters around him with breezy swagger, almost dancing, then pulls out a razor and slices off the ",
+    "relationship": "match",
+    "moods": [
+     "relaxing",
+     "melancholic",
+     "groovy",
+     "nice"
+    ],
+    "genres": [
+     "funk",
+     "chilloutlounge",
+     "chillout"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "panflute"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Alone in an empty warehouse with a cop who is tied to a chair and gagged, a gangster in a black suit saunters around him with breezy swagger, almost dancing, then pulls out a razor and slices off the ",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1311203",
+     "just love me",
+     "Maurizio Mazzoli",
+     [],
+     [],
+     0.467,
+     false
+    ],
+    [
+     "jamendo:1239507",
+     "LOVERS",
+     "Maurizio Mazzoli",
+     [],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:1398100",
+     "You",
+     "Opposite Harmony",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:221366",
+     "That Universe In My Barn",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1239467",
+     "Outside The Window",
+     "Chill Carrier",
+     [],
+     [],
+     0.338,
+     false
+    ],
+    [
+     "jamendo:1204666",
+     "Open",
+     "Melanie Ungar",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1412813",
+     "Red Roses Love (ID 392)",
+     "Lobo Loco",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:946424",
+     "Relaxis",
+     "Pawe\u0142 Zach",
+     [],
+     [],
+     0.383,
+     false
+    ],
+    [
+     "jamendo:1361522",
+     "Rising Love",
+     "Fonogeri",
+     [],
+     [],
+     0.583,
+     false
+    ],
+    [
+     "jamendo:1358775",
+     "Horizon",
+     "FDUBX",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Two lovers in a diner leap onto their seats and announce a hold-up; the image freezes and bold opening titles slam onto the screen.",
+    "relationship": "match",
+    "moods": [
+     "strong",
+     "love",
+     "bright",
+     "warm"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "country"
+    ],
+    "instruments": [
+     "panflute",
+     "flugelhorn"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Two lovers in a diner leap onto their seats and announce a hold-up; the image freezes and bold opening titles slam onto the screen.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:1010008",
+     "Bone hip shake",
+     "Conway Hambone",
+     [
+      "retro"
+     ],
+     [
+      "60s",
+      "rocknroll"
+     ],
+     0.55,
+     true
+    ],
+    [
+     "jamendo:922941",
+     "Swing to 60\u00b4s",
+     "Marius Joppich",
+     [
+      "retro"
+     ],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:1190862",
+     "Herbert Fontaine",
+     "Conway Hambone",
+     [
+      "fun",
+      "retro"
+     ],
+     [
+      "60s"
+     ],
+     0.637,
+     true
+    ],
+    [
+     "jamendo:922940",
+     "My Love circles with the Hip",
+     "Marius Joppich",
+     [
+      "retro"
+     ],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:942722",
+     "Funky pan flute",
+     "Cyborgjeff",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1281238",
+     "Modern Life ft JP-E ft Bobby Raygun",
+     "The Hate Eighties",
+     [
+      "fun"
+     ],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1390338",
+     "Picture",
+     "Brady Harris",
+     [],
+     [
+      "60s"
+     ],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:913702",
+     "Back In The Days",
+     "Chill Carrier",
+     [
+      "retro"
+     ],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:991723",
+     "Old Time",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1168021",
+     "Latin Shake",
+     "JoosTVD",
+     [],
+     [],
+     0.55,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.04999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-twist",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In a retro 1950s-themed restaurant, a hitman and his boss's wife kick off their shoes and do a playful, deadpan twist dance on a small stage for a trophy.",
+    "relationship": "match",
+    "moods": [
+     "retro",
+     "nostalgic",
+     "oldschool",
+     "warm"
+    ],
+    "genres": [
+     "waltz",
+     "swing",
+     "60s"
+    ],
+    "instruments": [
+     "hammond",
+     "panflute"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In a retro 1950s-themed restaurant, a hitman and his boss's wife kick off their shoes and do a playful, deadpan twist dance on a small stage for a trophy.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:966864",
+     "On the Earth",
+     "Vilovery Landscape",
+     [
+      "melancholic"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:661601",
+     "Psychodad ",
+     "JoosTVD",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1314123",
+     "Loneliness",
+     "kate in space",
+     [],
+     [],
+     0.317,
+     false
+    ],
+    [
+     "jamendo:1211797",
+     "Out There Somewhere (Instrumental)",
+     "Kara Square and Piero Peluche",
+     [
+      "melancholic"
+     ],
+     [],
+     0.237,
+     false
+    ],
+    [
+     "jamendo:1383742",
+     "Out There",
+     "Numback",
+     [
+      "melancholic"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:859972",
+     "Psychosphere",
+     "SoLaRiS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1392126",
+     "Spectral harmony",
+     "Dr.GROOVER",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1011674",
+     "Psychedelic",
+     "Oursvince",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1117463",
+     "Cowboy In Your Room",
+     "JoosTVD",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1314132",
+     "meet you in the midnight",
+     "kate in space",
+     [],
+     [],
+     0.4,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.10000000000000003,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-mia",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Alone in her dim living room, a woman sways sensually to a record while her date argues with himself in the bathroom, moments before she snorts heroin by mistake.",
+    "relationship": "match",
+    "moods": [
+     "spacey",
+     "melancholic",
+     "bright",
+     "powerful"
+    ],
+    "genres": [
+     "psychedelic",
+     "disco",
+     "chilloutlounge"
+    ],
+    "instruments": [
+     "panflute",
+     "harmonium"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Alone in her dim living room, a woman sways sensually to a record while her date argues with himself in the bathroom, moments before she snorts heroin by mistake.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:897105",
+     "Adult Only & SaReGaMa - Afterzone",
+     "SaReGaMa",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1321241",
+     "Bossing",
+     "JuanGa",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1333038",
+     "Waiting for You",
+     "Lobo Loco",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1253040",
+     "Chillout BGM (Loop)",
+     "Christoph Schade Composer",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1411198",
+     "Koto",
+     "Alexey Baranov",
+     [],
+     [],
+     0.125,
+     false
+    ],
+    [
+     "jamendo:1049556",
+     "Arantzazu Part III",
+     "Rugi Estalagmita MidiMan",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1320959",
+     "Bon bon chill",
+     "JuanGa",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:127890",
+     "OBE#2",
+     "SaReGaMa",
+     [],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:78361",
+     "C'est l'amour",
+     "Matthieu",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1115680",
+     "Baile",
+     "Podington Bear",
+     [],
+     [],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.45000000000000007,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-entourage",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A crime boss and her sword-carrying bodyguards stride in slow motion through a Tokyo restaurant, a wall of black suits, utterly in control.",
+    "relationship": "match",
+    "moods": [
+     "relaxing",
+     "crime",
+     "calm",
+     "business"
+    ],
+    "genres": [
+     "bossanova",
+     "chillout",
+     "chilloutlounge"
+    ],
+    "instruments": [
+     "panflute",
+     "koto"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A crime boss and her sword-carrying bodyguards stride in slow motion through a Tokyo restaurant, a wall of black suits, utterly in control.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1,
+   "top": [
+    [
+     "jamendo:1214584",
+     "L'Harmonie des Anges",
+     "Esther Garcia",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:869207",
+     "Masquerade",
+     "Maciej Bether",
+     [
+      "melancholic"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1191330",
+     "Remember",
+     "Marc Teichert",
+     [
+      "melancholic",
+      "sad"
+     ],
+     [],
+     0.325,
+     false
+    ],
+    [
+     "jamendo:1048771",
+     "Partance virage",
+     "Julien Boulier",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1048363",
+     "Partance effacement",
+     "Julien Boulier",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1113994",
+     "Rainy Wedding",
+     "Yusuke Tsutsumi",
+     [
+      "melancholic"
+     ],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:477315",
+     "In The Name Of The Familie (Suite)",
+     "Marc Teichert",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1061297",
+     "E & B",
+     "F. T. G",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1085283",
+     "epilogue",
+     "Karol Orze\u0142",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:887986",
+     "Un jour trop tard",
+     "Samneighbour",
+     [
+      "sad"
+     ],
+     [
+      "pop"
+     ],
+     0.383,
+     true
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.3,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-bang-bang",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A bloodied bride lies on a chapel floor; her former lover tells her this is him at his most masochistic and shoots her in the head. Black-and-white opening credits follow.",
+    "relationship": "match",
+    "moods": [
+     "melancholic",
+     "wedding",
+     "love",
+     "strong"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "waltz",
+     "chansonfrancaise"
+    ],
+    "instruments": [
+     "mellotron",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A bloodied bride lies on a chapel floor; her former lover tells her this is him at his most masochistic and shoots her in the head. Black-and-white opening credits follow.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1076591",
+     "Night in Tokyo",
+     "EIVISSA SALINAS feat. DJ HSERES",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1242797",
+     "Natural Forest",
+     "DJ Gami.K",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1150123",
+     "Arcane Nobuyuki",
+     "Julien Boulier",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1049556",
+     "Arantzazu Part III",
+     "Rugi Estalagmita MidiMan",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1209644",
+     "Japan",
+     "Matti Paalanen",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1320957",
+     "Autumn Night",
+     "JuanGa",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1034239",
+     "The Battle",
+     "EGA",
+     [
+      "epic"
+     ],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1158370",
+     "The Final Battle (drums)",
+     "Akashic Records",
+     [
+      "epic"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:700220",
+     "Jean Honeymoon - Bang Bang (Pianochocolate Remix)",
+     "Pianochocolate",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:594263",
+     "Kaiken kauniin",
+     "Tapani Sysimets\u00e4",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-snow-duel",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In a snow-covered Japanese garden at night, two women face each other with katanas for a final duel, the fight building to a single fatal stroke.",
+    "relationship": "match",
+    "moods": [
+     "battle",
+     "japan",
+     "dramatic",
+     "winter"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "asian",
+     "chillout"
+    ],
+    "instruments": [
+     "taiko",
+     "panflute"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In a snow-covered Japanese garden at night, two women face each other with katanas for a final duel, the fight building to a single fatal stroke.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:372528",
+     "A New Day",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1346189",
+     "Flight in the sky",
+     "Airmusic",
+     [],
+     [],
+     0.32,
+     false
+    ],
+    [
+     "jamendo:221455",
+     "Winter Sunset",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1250197",
+     "Atmo Relaxation (Loop)",
+     "Christoph Schade Composer",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1318822",
+     "Arctic air",
+     "Dr.GROOVER",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1326422",
+     "The Flight",
+     "GG Digital Project",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:973253",
+     "Airports (Drama)",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1398800",
+     "Busy People",
+     "Porrazzo",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1285761",
+     "08 - Psychadelik Pedestrian - Departure Lounge",
+     "Psychadelik Pedestrian",
+     [],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1135470",
+     "Fly above",
+     "Libra Makowski",
+     [],
+     [],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "jackie-brown-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A flight attendant in a blue uniform glides along an airport moving walkway in profile, cool and unhurried, then hurries to work as the credits roll.",
+    "relationship": "match",
+    "moods": [
+     "laidback",
+     "bright",
+     "relaxing",
+     "cheerful"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "atmospheric"
+    ],
+    "instruments": [
+     "slideguitar",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A flight attendant in a blue uniform glides along an airport moving walkway in profile, cool and unhurried, then hurries to work as the credits roll.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:79745",
+     "Bambous sauterelle",
+     "Julien Boulier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1255965",
+     "Awakening - Gemafreie Filmmusik (Chillout Mix)",
+     "Ronny Matthes - Pianist und Komponist (GEMA-frei / Royalty Free)",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1329973",
+     "Daydreame",
+     "C.J.ROGERS",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:399500",
+     "Ambre Saule",
+     "Julien Boulier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:729299",
+     "3 Minutes Later",
+     "Greendjohn",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:398180",
+     "3 minutes to midnight (remaster)",
+     "Greendjohn",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1287888",
+     "The Cold Reprisal",
+     "Myke Clements",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1219601",
+     "11 - Greensleeves (Chillout - Loungeversion) - Public Domain - Ronny Matthes",
+     "Ronny Matthes - Pianist und Komponist (GEMA-frei / Royalty Free)",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:698636",
+     "terror_clase_B",
+     "Cocktail lounge",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1406366",
+     "29 de Noviembre",
+     "SnakesArt",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "inglourious-makeup",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A young woman prepares for revenge on the night of a Nazi film premiere: she applies red lipstick and war-paint rouge, loads a gun, and looks down at the crowd from a window.",
+    "relationship": "match",
+    "moods": [
+     "video",
+     "film",
+     "winter",
+     "aggressive"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "rave"
+    ],
+    "instruments": [
+     "panflute",
+     "glockenspiel"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A young woman prepares for revenge on the night of a Nazi film premiere: she applies red lipstick and war-paint rouge, loads a gun, and looks down at the crowd from a window.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:134739",
+     "Ballad Of Jim Jones",
+     "Racecar",
+     [
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1332222",
+     "A Novel and the Fireplace in Winter",
+     "Aufklarung",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1365359",
+     "2. Thinking of You",
+     "Leo Bowers",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:129967",
+     "Mary Lou",
+     "Racecar",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1079254",
+     "Train to freedom",
+     "PAIO",
+     [],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:1216162",
+     "Winter Land (Melancholic Drama)",
+     "Lionel Desmond Schmitt",
+     [
+      "emotional",
+      "sad"
+     ],
+     [],
+     0.39,
+     false
+    ],
+    [
+     "jamendo:1146531",
+     "Winter",
+     "Renatus Cartesius",
+     [
+      "sad"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:770491",
+     "Country",
+     "Annita Frisina",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1128209",
+     "Memory Replaced",
+     "Josh Woodward",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1223765",
+     "I Hope She's Not Cold",
+     "andy blackwood",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "django-flashback",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A freed man remembers his wife trying to run away from a plantation and being whipped as punishment, the memories intercut with his ride across the snow.",
+    "relationship": "match",
+    "moods": [
+     "winter",
+     "warm",
+     "sentimental",
+     "melancholic"
+    ],
+    "genres": [
+     "americana",
+     "country",
+     "70s"
+    ],
+    "instruments": [
+     "hammond",
+     "panflute"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A freed man remembers his wife trying to run away from a plantation and being whipped as punishment, the memories intercut with his ride across the snow.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:221455",
+     "Winter Sunset",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1119813",
+     "Los Angeles",
+     "Solxis",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:372978",
+     "The Long Way Home",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1277763",
+     "Thick Air",
+     "Pablo Samonta",
+     [
+      "melancholic"
+     ],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1119809",
+     "St. Tropez",
+     "Solxis",
+     [
+      "mellow"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:340878",
+     "Cool & Fresh",
+     "Tymphony",
+     [
+      "mellow"
+     ],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1346878",
+     "Mendelsshon - Barcarola op. 30 n. 6",
+     "Aufklarung",
+     [
+      "melancholic"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1346876",
+     "Mendelsshon - Barcarola op. 19 n. 6",
+     "Aufklarung",
+     [
+      "melancholic"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:962582",
+     "Moonstruck",
+     "Anitek",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:202784",
+     "Noticing You",
+     "Emorej",
+     [
+      "mellow"
+     ],
+     [],
+     0.25,
+     false
+    ]
+   ],
+   "mood_recall": 1.0,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "ouatih-neon",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Dusk in 1969 Los Angeles: one by one, neon signs on movie theaters and diners flicker on while characters drive home, a wistful montage of a city at the end of an era.",
+    "relationship": "match",
+    "moods": [
+     "ethereal",
+     "nostalgic",
+     "melancholic",
+     "mellow"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "60s",
+     "chillout"
+    ],
+    "instruments": [
+     "mellotron",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Dusk in 1969 Los Angeles: one by one, neon signs on movie theaters and diners flicker on while characters drive home, a wistful montage of a city at the end of an era.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1100971",
+     "Its Been Done Before",
+     "Ben K Adams",
+     [
+      "driving"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1203972",
+     "Drive 8",
+     "Antonello Manca",
+     [],
+     [
+      "rock"
+     ],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:872001",
+     "Twist Turn Slide (album mix)",
+     "Psychadelik Pedestrian",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:372711",
+     "An Endless Road",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1406575",
+     "The scramble.",
+     "Roman Batyuk",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:801407",
+     "Make It Look Like An Accident",
+     "Creo",
+     [
+      "driving",
+      "energetic"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1066205",
+     "A Relaxed Drive",
+     "Udo Vismann",
+     [
+      "driving"
+     ],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1408963",
+     "Round Around",
+     "Alexey Baranov",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1331597",
+     "Ride_away_1998_edit",
+     "Liquid Frame",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1239326",
+     "On The Road",
+     "Chill Carrier",
+     [],
+     [],
+     0.675,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.1499999999999999,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-bellbottoms",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A getaway driver in sunglasses waits outside a bank, drumming on the wheel; when his crew bursts out he launches into a screeching, drifting car chase through Atlanta traffic.",
+    "relationship": "match",
+    "moods": [
+     "driving",
+     "groovy",
+     "laidback",
+     "melancholic"
+    ],
+    "genres": [
+     "glitch",
+     "chilloutlounge",
+     "groove"
+    ],
+    "instruments": [
+     "slideguitar",
+     "cvp509"
+    ],
+    "energy": 0.8,
+    "tempo": {
+     "min_bpm": 119,
+     "max_bpm": 149
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A getaway driver in sunglasses waits outside a bank, drumming on the wheel; when his crew bursts out he launches into a screeching, drifting car chase through Atlanta traffic.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:372978",
+     "The Long Way Home",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1407374",
+     "grind loop",
+     "andy blackwood",
+     [],
+     [
+      "funk"
+     ],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1234989",
+     "Heatblur Funk",
+     "Fortadelis",
+     [],
+     [
+      "funk"
+     ],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:170949",
+     "04-Oneshot",
+     "Luc Bartoli",
+     [],
+     [
+      "funk"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:372602",
+     "Taking Off",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:158351",
+     "Urbanafrik",
+     "Tom La Meche",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1414396",
+     "Solemn Euphoria",
+     "Fottuto Bianco",
+     [],
+     [
+      "funk"
+     ],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:925608",
+     "The Long Leg (Summer Breeze)",
+     "Son Electronique",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1274100",
+     "Dreaming Chill Music (Lonely Mars) Loop 60s",
+     "Plastic3",
+     [],
+     [],
+     0.175,
+     false
+    ],
+    [
+     "jamendo:11751",
+     "Urban",
+     "Tom La Meche",
+     [],
+     [],
+     0.55,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-coffee",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In one long take a young man in earbuds bops down a busy city street on a coffee run, his steps landing on the beat as graffiti and passersby seem to sync to him.",
+    "relationship": "match",
+    "moods": [
+     "laidback",
+     "fast",
+     "warm",
+     "cool"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "funk",
+     "groove"
+    ],
+    "instruments": [
+     "panflute",
+     "pipeorgan"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In one long take a young man in earbuds bops down a busy city street on a coffee run, his steps landing on the beat as graffiti and passersby seem to sync to him.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1311239",
+     "Gas Chamber (Instrumental)",
+     "Soundatelier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1121426",
+     "Thriller moments",
+     "Marco Margna",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1312107",
+     "Maybe",
+     "Karmuazine",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:671174",
+     "chillout in india",
+     "MG-Rizzello",
+     [],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1333038",
+     "Waiting for You",
+     "Lobo Loco",
+     [],
+     [
+      "jazz",
+      "latin"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1398417",
+     "Thriller Beat",
+     "Porrazzo",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1416001",
+     "New Product",
+     "Porrazzo",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1116953",
+     "Bomber Robbery / Shorter Lament",
+     "Zeffon",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1321244",
+     "Chill Location",
+     "JuanGa",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1239383",
+     "Plasma",
+     "Chill Carrier",
+     [],
+     [],
+     0.317,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-shootout",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "A gun deal in a meat warehouse goes wrong and erupts into a shootout, every gunshot landing on the beat like a percussion section.",
+    "relationship": "match",
+    "moods": [
+     "thriller",
+     "business",
+     "melancholic",
+     "relaxing"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "glitch"
+    ],
+    "instruments": [
+     "percussion",
+     "drums"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A gun deal in a meat warehouse goes wrong and erupts into a shootout, every gunshot landing on the beat like a percussion section.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1398415",
+     "Easy Comedy",
+     "Porrazzo",
+     [],
+     [
+      "pop"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1107314",
+     "Trapped In Freedom - 04 - This Cumshot is your Gift",
+     "Trapped In Freedom",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1372083",
+     "Trapped (Full Mix)",
+     "Tony Balaskas",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1372085",
+     "Trapped (No Drums)",
+     "Tony Balaskas",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1057804",
+     "Trick",
+     "Sergey Kovchik",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:93421",
+     "Regina",
+     "Jailson Brito Jr.",
+     [],
+     [
+      "pop"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:182161",
+     "Magma Ghost",
+     "KRUSTY",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:830788",
+     "Pukeman",
+     "JoosTVD",
+     [],
+     [
+      "pop",
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1107282",
+     "Trapped In Freedom - 06 - Incoming",
+     "Trapped In Freedom",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1374304",
+     "Intoxicated",
+     "Mattias Phillips",
+     [],
+     [],
+     0.7,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.35,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "shaun-of-the-dead-pub",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "Trapped in a pub, a group of friends beat a zombie landlord with pool cues in rhythm while the jukebox plays and the lights flash.",
+    "relationship": "match",
+    "moods": [
+     "comedy",
+     "bouncy",
+     "funny",
+     "humor"
+    ],
+    "genres": [
+     "trap",
+     "chilloutlounge",
+     "rave"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "hammond"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Trapped in a pub, a group of friends beat a zombie landlord with pool cues in rhythm while the jukebox plays and the lights flash.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1415339",
+     "Space Wanderer",
+     "Julian Ray",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1042087",
+     "Cosmos (universal mix)",
+     "Psychadelik Pedestrian",
+     [],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1296300",
+     "Space Invaders",
+     "magagog",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1087568",
+     "Invasion",
+     "Alexander Lisenkov",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1032224",
+     "Underground Sky (Claustrophobic | Rust | Tunnels)",
+     "Modus Null",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1060668",
+     "Space Nomads",
+     "Pal Zoltan Illes",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:258098",
+     "The Mist",
+     "SoLaRiS",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1315106",
+     "Looking into infinity",
+     "Dr.GROOVER",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1415342",
+     "Hibernation",
+     "Julian Ray",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:379766",
+     "The Astronaut",
+     "P.a.p.",
+     [],
+     [],
+     0.35,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "guardians-opening",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "A space adventurer in a mask strolls through an abandoned alien ruin, dancing, kicking alien creatures aside and using one as a microphone as the title card appears.",
+    "relationship": "match",
+    "moods": [
+     "spacey",
+     "space",
+     "hypnotic",
+     "scifi"
+    ],
+    "genres": [
+     "jungle",
+     "atmospheric",
+     "drone"
+    ],
+    "instruments": [
+     "pad",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A space adventurer in a mask strolls through an abandoned alien ruin, dancing, kicking alien creatures aside and using one as a microphone as the title card appears.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1371971",
+     "Sci-Fi Jungle Chase (loop)",
+     "Exalted Dirt",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1296300",
+     "Space Invaders",
+     "magagog",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1144750",
+     "Dramatic Space War Action",
+     "Plastic3",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1052153",
+     "Space Frog",
+     "Disconauts Music Production",
+     [
+      "uplifting"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:911674",
+     "Speedy Spider",
+     "Freestyle Percussion Magik",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1135079",
+     "Inner Aliens",
+     "Mischapex",
+     [],
+     [],
+     0.375,
+     false
+    ],
+    [
+     "jamendo:1163205",
+     "The Great Ukulele Space Spar",
+     "Kara Square",
+     [],
+     [
+      "pop"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1357556",
+     "ALIEN",
+     "Golden Duck Orchestra",
+     [],
+     [
+      "poprock",
+      "rock"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1128658",
+     "Nebula UF-005 (Music - New Age, Ambient, Space, Instrumental, Soundtrack)",
+     "Ufancy",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1349964",
+     "The Argonauts",
+     "FiluAndDina",
+     [],
+     [],
+     0.817,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.19999999999999996,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "guardians2-groot",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "While a team of heroes battles a giant tentacled space monster in the background, a tiny tree creature dances obliviously in the foreground.",
+    "relationship": "match",
+    "moods": [
+     "spacey",
+     "space",
+     "scifi",
+     "heroic"
+    ],
+    "genres": [
+     "jungle",
+     "dub",
+     "score"
+    ],
+    "instruments": [
+     "panflute",
+     "tinwhistle"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "While a team of heroes battles a giant tentacled space monster in the background, a tiny tree creature dances obliviously in the foreground.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1116953",
+     "Bomber Robbery / Shorter Lament",
+     "Zeffon",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1420692",
+     "Think About Her",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:1239475",
+     "Memory Reset",
+     "Chill Carrier",
+     [
+      "melancholic"
+     ],
+     [],
+     0.567,
+     false
+    ],
+    [
+     "jamendo:1239321",
+     "Gravity",
+     "Chill Carrier",
+     [],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:1353343",
+     "Think About You",
+     "Soulful-Cafe",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1398799",
+     "Smile after Melancholy",
+     "Porrazzo",
+     [
+      "melancholic"
+     ],
+     [],
+     0.283,
+     false
+    ],
+    [
+     "jamendo:1010826",
+     "The Big Heist",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1164466",
+     "1_Yours AC2 Oct 7 441",
+     "MFYM",
+     [
+      "melancholic"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1148778",
+     "LoudMouth",
+     "Anitek",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1125402",
+     "Creek Funeral",
+     "Zeffon",
+     [],
+     [],
+     0.3,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-layla",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "After a big heist, the bodies of the crew are discovered one by one: in a car, in a garbage truck, hanging in a meat truck, in slow, mournful tracking shots.",
+    "relationship": "match",
+    "moods": [
+     "fast",
+     "nostalgic",
+     "melancholic",
+     "beautiful"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "death"
+    ],
+    "instruments": [
+     "bassoon",
+     "bass"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "After a big heist, the bodies of the crew are discovered one by one: in a car, in a garbage truck, hanging in a meat truck, in slow, mournful tracking shots.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1111111111111111,
+   "top": [
+    [
+     "jamendo:549522",
+     "The Irish Girl",
+     "Dr. Pimp",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1122913",
+     "The Pianist",
+     "Dee Yan-Key",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1304001",
+     "French Seduction",
+     "Pablo Samonta",
+     [],
+     [
+      "pop"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1361537",
+     "Wannabe",
+     "Fonogeri",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:698620",
+     "dance_with_a_perfect_human",
+     "Cocktail lounge",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:810099",
+     "Funky Chill lovers",
+     "Danubio Rodriguez",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1121459",
+     "Romance",
+     "Marco Margna",
+     [],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:1420699",
+     "Bad Man",
+     "Soul-Ty",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1303999",
+     "Close to You",
+     "Pablo Samonta",
+     [
+      "love"
+     ],
+     [
+      "pop"
+     ],
+     0.45,
+     true
+    ],
+    [
+     "jamendo:1335113",
+     "Deboite le club",
+     "Doctor Frost",
+     [],
+     [],
+     0.85,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-copa",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A young gangster takes his date through the back entrance of a nightclub in one long unbroken shot, down stairs and through the kitchen to a table set up just for them.",
+    "relationship": "match",
+    "moods": [
+     "clubbing",
+     "nice",
+     "relaxing",
+     "warm"
+    ],
+    "genres": [
+     "rave",
+     "club",
+     "chilloutlounge"
+    ],
+    "instruments": [
+     "conga",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A young gangster takes his date through the back entrance of a nightclub in one long unbroken shot, down stairs and through the kitchen to a table set up just for them.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1267769",
+     "Confuse",
+     "JoosTVD",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1354274",
+     "Funny Funk Disco Groove (Full version)",
+     "GarnaVutka",
+     [
+      "energetic"
+     ],
+     [],
+     0.783,
+     false
+    ],
+    [
+     "jamendo:1320858",
+     "Happy Birthday",
+     "Dr.GROOVER",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1354273",
+     "Funny Funk Disco Groove (Short version 1)",
+     "GarnaVutka",
+     [
+      "energetic"
+     ],
+     [],
+     0.783,
+     false
+    ],
+    [
+     "jamendo:1315511",
+     "The Party Went Bad When Jimmy Had Shot Down That Tall Guy",
+     "Dawncat",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1368299",
+     "Hyperbolic",
+     "Pablo G\u00f3mez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1378473",
+     "CENTRAL PARK",
+     "scary-world",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1368298",
+     "Parabolic",
+     "Pablo G\u00f3mez",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1100971",
+     "Its Been Done Before",
+     "Ben K Adams",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:662089",
+     "Fat Check",
+     "JoosTVD",
+     [],
+     [
+      "70s"
+     ],
+     0.7,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.35,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-helicopter",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A paranoid, coke-fuelled day: a gangster races between drug deals and stirring a sauce at home, convinced a helicopter is following him.",
+    "relationship": "match",
+    "moods": [
+     "groovy",
+     "driving",
+     "melancholic",
+     "clubbing"
+    ],
+    "genres": [
+     "glitch",
+     "groove",
+     "acidjazz"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "hammond"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A paranoid, coke-fuelled day: a gangster races between drug deals and stirring a sauce at home, convinced a helicopter is following him.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1121455",
+     "Little One",
+     "Marco Margna",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1231715",
+     "Lo-fi divertimento",
+     "Ton",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1076601",
+     "Little Amadeus",
+     "EIVISSA SALINAS feat. DJ HSERES",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1284355",
+     "UN ATTIMO",
+     "Federico Guglielmetti",
+     [],
+     [
+      "pop"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:750679",
+     "Giardino",
+     "Massimo Kyo Di Nocera",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1306065",
+     "Carillon",
+     "Maurizio Mazzoli",
+     [],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:1310231",
+     "Sunday Rain",
+     "Luno",
+     [],
+     [
+      "60s"
+     ],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1085283",
+     "epilogue",
+     "Karol Orze\u0142",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1419229",
+     "Rain Like Tears",
+     "Marco Martini",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1113993",
+     "Heaven",
+     "Yusuke Tsutsumi",
+     [],
+     [],
+     0.225,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "mean-streets-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A young man in Little Italy wakes from a bad dream, looks in the mirror and lies back down; grainy home movies of friends and a christening play over the titles.",
+    "relationship": "match",
+    "moods": [
+     "warm",
+     "sweet",
+     "light",
+     "melancholic"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "death",
+     "lofi"
+    ],
+    "instruments": [
+     "panflute",
+     "cimbalom"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A young man in Little Italy wakes from a bad dream, looks in the mirror and lies back down; grainy home movies of friends and a christening play over the titles.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1280422",
+     "Broome",
+     "Solxis",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1247373",
+     "Franco Frunky",
+     "Boom Boom Beckett",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1119813",
+     "Los Angeles",
+     "Solxis",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:921757",
+     "Boston",
+     "Zell",
+     [],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:549522",
+     "The Irish Girl",
+     "Dr. Pimp",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:221387",
+     "Druckverlust",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1420546",
+     "Smooth Mama",
+     "Kingstone",
+     [],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:855267",
+     "Gangster Wobble",
+     "Boss Bass",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1278745",
+     "Rain b",
+     "Pablo Samonta",
+     [],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1073154",
+     "Trump3t5",
+     "Re-Drum",
+     [],
+     [],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "departed-boston",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Gritty Boston streets: an undercover cop is pulled deeper into an Irish mob crew, shakedowns and brawls cut together at a rough, brawling pace.",
+    "relationship": "match",
+    "moods": [
+     "laidback",
+     "tension",
+     "groovy",
+     "melancholic"
+    ],
+    "genres": [
+     "chillout",
+     "chilloutlounge",
+     "drumnbass"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "brass"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Gritty Boston streets: an undercover cop is pulled deeper into an Irish mob crew, shakedowns and brawls cut together at a rough, brawling pace.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.3,
+   "RR": 0.5,
+   "top": [
+    [
+     "jamendo:1313870",
+     "Boyfriend",
+     "Four",
+     [],
+     [
+      "rock"
+     ],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1229175",
+     "Rock Summer Instrumental",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.71,
+     true
+    ],
+    [
+     "jamendo:1243198",
+     "Hey",
+     "Four",
+     [],
+     [],
+     0.583,
+     false
+    ],
+    [
+     "jamendo:1284330",
+     "Quattro",
+     "Federico Guglielmetti",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1149221",
+     "Friends",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1066302",
+     "Telephone Call",
+     "An Amerikan Automobile Company",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.617,
+     true
+    ],
+    [
+     "jamendo:1057425",
+     "Imaginary Best Friend",
+     "Dayung",
+     [],
+     [],
+     0.425,
+     false
+    ],
+    [
+     "jamendo:1109971",
+     "Positiveness Loop 5 (30 sec)",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.775,
+     true
+    ],
+    [
+     "jamendo:875386",
+     "Tonight",
+     "An Amerikan Automobile Company",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1396603",
+     "Be With You",
+     "Intrinsic Nature",
+     [],
+     [
+      "rock"
+     ],
+     0.8,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "waynes-world-car",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Five friends cram into a beat-up car at night, sing along to a rock opera on the radio, then all headbang together in sync.",
+    "relationship": "match",
+    "moods": [
+     "bright",
+     "warm",
+     "love",
+     "night"
+    ],
+    "genres": [
+     "poprock",
+     "90s",
+     "rock"
+    ],
+    "instruments": [
+     "panflute",
+     "pipeorgan"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Five friends cram into a beat-up car at night, sing along to a rock opera on the radio, then all headbang together in sync.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:349289",
+     "Winter Glow",
+     "D1sh1tu",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:64078",
+     "Winter",
+     "Dzynek",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1314124",
+     "Cold winter",
+     "kate in space",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1420484",
+     "Shaking Me Back Now",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1110001",
+     "Twinkle Toes",
+     "Podington Bear",
+     [
+      "fun",
+      "happy"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1352124",
+     "Snow Waltz",
+     "FiluAndDina",
+     [],
+     [],
+     0.583,
+     false
+    ],
+    [
+     "jamendo:1352123",
+     "Snow Waltz - Edit",
+     "FiluAndDina",
+     [],
+     [],
+     0.583,
+     false
+    ],
+    [
+     "jamendo:1420420",
+     "Get Up",
+     "Tedjep Soulful House",
+     [
+      "happy"
+     ],
+     [],
+     0.583,
+     false
+    ],
+    [
+     "jamendo:1254634",
+     "Winter Chill",
+     "Color Out",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:221366",
+     "That Universe In My Barn",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "risky-business-socks",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "With his parents away, a teenager in a shirt, socks and underwear slides across the hardwood floor and dances alone in the living room, singing into a candlestick.",
+    "relationship": "match",
+    "moods": [
+     "warm",
+     "bright",
+     "dancing",
+     "winter"
+    ],
+    "genres": [
+     "techhouse",
+     "chilloutlounge",
+     "waltz"
+    ],
+    "instruments": [
+     "pad",
+     "triangle"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "With his parents away, a teenager in a shirt, socks and underwear slides across the hardwood floor and dances alone in the living room, singing into a candlestick.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.2,
+   "top": [
+    [
+     "jamendo:1254810",
+     "Dancing Summer Club",
+     "Plastic3",
+     [],
+     [
+      "pop"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1218249",
+     "Happy Summer Dance",
+     "Plastic3",
+     [],
+     [],
+     0.713,
+     false
+    ],
+    [
+     "jamendo:1321732",
+     "I wanna dance with you",
+     "Oilboy's Aftersun",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1152032",
+     "Dance And Relax",
+     "Serge Ozeryan",
+     [],
+     [
+      "pop"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:162026",
+     "Saturday",
+     "Josh Woodward",
+     [
+      "emotional"
+     ],
+     [
+      "pop",
+      "rock"
+     ],
+     0.383,
+     true
+    ],
+    [
+     "jamendo:1287892",
+     "The Dance (with March Interlude)",
+     "Myke Clements",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1136339",
+     "Sunday at the disco (Dance Loop)",
+     "Snabisch",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1321715",
+     "Shake it, dont break it",
+     "Oilboy's Aftersun",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1377209",
+     "Last Laugh",
+     "Demo Delgado",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1394784",
+     "Leprechauns Dance",
+     "ebunny",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "breakfast-club-fist",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Saturday detention ends; the rebel walks across the empty school football field and punches his fist into the air as the image freezes.",
+    "relationship": "match",
+    "moods": [
+     "chilled",
+     "dancing",
+     "drama",
+     "happy"
+    ],
+    "genres": [
+     "eurodance",
+     "disco",
+     "popfunk"
+    ],
+    "instruments": [
+     "conga",
+     "beat"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Saturday detention ends; the rebel walks across the empty school football field and punches his fist into the air as the image freezes.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1384401",
+     "Sunrise",
+     "Audioflair",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1197088",
+     "Happy Acoustic Theme 5",
+     "Alexander Lisenkov",
+     [],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:1239467",
+     "Outside The Window",
+     "Chill Carrier",
+     [],
+     [],
+     0.338,
+     false
+    ],
+    [
+     "jamendo:221455",
+     "Winter Sunset",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1346571",
+     "The morning after",
+     "Cloudjumper",
+     [],
+     [],
+     0.325,
+     false
+    ],
+    [
+     "jamendo:1197084",
+     "Happy Acoustic Theme 4",
+     "Alexander Lisenkov",
+     [],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:1257047",
+     "Morning",
+     "Ithar",
+     [],
+     [],
+     0.425,
+     false
+    ],
+    [
+     "jamendo:1384405",
+     "Fall",
+     "Audioflair",
+     [
+      "emotional"
+     ],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:1314132",
+     "meet you in the midnight",
+     "kate in space",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1210605",
+     "Grand Father Memories",
+     "Aufklarung",
+     [
+      "romantic"
+     ],
+     [],
+     0.475,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "say-anything-boombox",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "At dawn, a heartbroken young man stands outside his girlfriend's bedroom window holding a boombox high above his head without saying a word.",
+    "relationship": "match",
+    "moods": [
+     "bright",
+     "warm",
+     "optimistic",
+     "happy"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "atmospheric",
+     "chillout"
+    ],
+    "instruments": [
+     "panflute",
+     "bongo"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "At dawn, a heartbroken young man stands outside his girlfriend's bedroom window holding a boombox high above his head without saying a word.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1397859",
+     "Summertime Pop Dance",
+     "Porrazzo",
+     [],
+     [
+      "pop"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1371097",
+     "Summertime",
+     "meHiLove",
+     [],
+     [],
+     0.562,
+     false
+    ],
+    [
+     "jamendo:1352124",
+     "Snow Waltz",
+     "FiluAndDina",
+     [],
+     [],
+     0.583,
+     false
+    ],
+    [
+     "jamendo:1357234",
+     "Summer Day",
+     "Vicate Studio (royalty free music)",
+     [],
+     [
+      "pop"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1047436",
+     "this is the end of summer",
+     "DJ Mircomix",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1122913",
+     "The Pianist",
+     "Dee Yan-Key",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1352123",
+     "Snow Waltz - Edit",
+     "FiluAndDina",
+     [],
+     [],
+     0.583,
+     false
+    ],
+    [
+     "jamendo:1053223",
+     "Dancing in the Sunset [Live your Life and Rejoice]]",
+     "SBUT",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:718300",
+     "Summer Evening",
+     "Oleg O. Kachanko",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1218253",
+     "Happy Summer Dance 1min loop",
+     "Plastic3",
+     [],
+     [],
+     0.65,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "dirty-dancing-lift",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "At a summer resort's end-of-season show, a dance instructor pulls a young woman on stage; they dance, she runs and he lifts her overhead as the whole room joins in.",
+    "relationship": "match",
+    "moods": [
+     "summer",
+     "dancing",
+     "bright",
+     "warm"
+    ],
+    "genres": [
+     "waltz",
+     "dance",
+     "swing"
+    ],
+    "instruments": [
+     "panflute",
+     "cimbalom"
+    ],
+    "energy": 0.8,
+    "tempo": {
+     "min_bpm": 119,
+     "max_bpm": 149
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "At a summer resort's end-of-season show, a dance instructor pulls a young woman on stage; they dance, she runs and he lifts her overhead as the whole room joins in.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:221455",
+     "Winter Sunset",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:221351",
+     "Beyond Space",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1384401",
+     "Sunrise",
+     "Audioflair",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1326422",
+     "The Flight",
+     "GG Digital Project",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1358775",
+     "Horizon",
+     "FDUBX",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1321239",
+     "Birds",
+     "JuanGa",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1131570",
+     "zero-project - 02 - Santorini (chillout version)",
+     "Zero-project",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1384406",
+     "Fargas",
+     "Audioflair",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1056395",
+     "Chill Background Loop 2",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:472082",
+     "Deep FIre",
+     "HawkWave",
+     [],
+     [],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "top-gun-deck",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Fighter jets launch off an aircraft carrier deck at sunrise in silhouette, deck crews signaling, afterburners roaring.",
+    "relationship": "match",
+    "moods": [
+     "laidback",
+     "ethereal",
+     "battle",
+     "dancefloor"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "atmospheric",
+     "chillout"
+    ],
+    "instruments": [
+     "flugelhorn",
+     "trumpet"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Fighter jets launch off an aircraft carrier deck at sunrise in silhouette, deck crews signaling, afterburners roaring.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:832061",
+     "Closing In",
+     "Tomasz Bylina",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:387421",
+     "Relaxing",
+     "Matti Paalanen",
+     [],
+     [],
+     0.483,
+     false
+    ],
+    [
+     "jamendo:1251815",
+     "Serenity",
+     "Sergey Gulevich",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1168489",
+     "Like Pepples on the Beach",
+     "Steve Raphael",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1247308",
+     "To Be a Master P.",
+     "Boom Boom Beckett",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1218918",
+     "Milky Way",
+     "Alvaro Galan",
+     [
+      "motivational"
+     ],
+     [],
+     0.425,
+     false
+    ],
+    [
+     "jamendo:1326623",
+     "Animal Secrets",
+     "JuanGa",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1277091",
+     "Farewell by Talcaguas Shoreline",
+     "Pablo Samonta",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1386746",
+     "Sensual Summer Breeze",
+     "Steve Raphael",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:261743",
+     "Like a Seagull",
+     "Enzo Carlino",
+     [],
+     [],
+     0.45,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.35,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "rocky-iii-training",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A boxer who has lost his edge trains to win back his title: sparring, running on the beach, sweating through punishing workouts in a montage.",
+    "relationship": "match",
+    "moods": [
+     "relaxing",
+     "motivational",
+     "tension",
+     "beach"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "jungle",
+     "newage"
+    ],
+    "instruments": [
+     "panflute",
+     "cymbal"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A boxer who has lost his edge trains to win back his title: sparring, running on the beach, sweating through punishing workouts in a montage.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1408517",
+     "Friends",
+     "CASTRO ITTE",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1119746",
+     "Background Chillout",
+     "Plastic3",
+     [],
+     [],
+     0.125,
+     false
+    ],
+    [
+     "jamendo:1420616",
+     "Rain Drops",
+     "Dreadboxx",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1056402",
+     "Chill Easy Listening",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1383744",
+     "Rain Inside",
+     "Numback",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1278745",
+     "Rain b",
+     "Pablo Samonta",
+     [],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1278746",
+     "Rain c",
+     "Pablo Samonta",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:671175",
+     "rainy summer",
+     "MG-Rizzello",
+     [],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1134859",
+     "6_Breaking News AC2 LOOP",
+     "MFYM",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1227102",
+     "Hip to the Rain",
+     "Jazz Mind Duo",
+     [
+      "happy"
+     ],
+     [],
+     0.55,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.19999999999999996,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "american-psycho-axe",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "An investment banker in a raincoat lectures his drunk colleague about a pop band's artistic growth while laying newspapers on the floor, then swings an axe into his head.",
+    "relationship": "match",
+    "moods": [
+     "political",
+     "rain",
+     "optimistic",
+     "news"
+    ],
+    "genres": [
+     "chillout",
+     "chilloutlounge",
+     "artrock"
+    ],
+    "instruments": [
+     "panflute",
+     "bass"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "An investment banker in a raincoat lectures his drunk colleague about a pop band's artistic growth while laying newspapers on the floor, then swings an axe into his head.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1,
+   "top": [
+    [
+     "jamendo:1239326",
+     "On The Road",
+     "Chill Carrier",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1100971",
+     "Its Been Done Before",
+     "Ben K Adams",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1329970",
+     "Homeless",
+     "C.J.ROGERS",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:372711",
+     "An Endless Road",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1290876",
+     "Into The Ether",
+     "Psychadelik Pedestrian",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1397015",
+     "back to life",
+     "Transient",
+     [],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:782494",
+     "Edinburgh",
+     "Micka FRENCH",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1046964",
+     "Acid Human (Original Mix)",
+     "Ivonne Carinni",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1192105",
+     "03 - Re\u0300ve Psycotrip",
+     "Linstable Officiel",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1290952",
+     "Driving Guitar Theme 1",
+     "Alexander Lisenkov",
+     [
+      "energetic"
+     ],
+     [
+      "rock",
+      "rocknroll"
+     ],
+     0.725,
+     true
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.29999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "trainspotting-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Young heroin addicts sprint down an Edinburgh street fleeing store security, one laughing as he's hit by a car, while a voiceover sneers about choosing life.",
+    "relationship": "match",
+    "moods": [
+     "optimistic",
+     "driving",
+     "conscient",
+     "fast"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "glitch",
+     "acid"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "cvp509"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Young heroin addicts sprint down an Edinburgh street fleeing store security, one laughing as he's hit by a car, while a voiceover sneers about choosing life.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1367882",
+     "Acid Clown (Instrumental)",
+     "Fottuto Bianco",
+     [],
+     [
+      "rock"
+     ],
+     0.617,
+     false
+    ],
+    [
+     "jamendo:1385298",
+     "Depression",
+     "Julien Lussiez",
+     [
+      "sad"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1367881",
+     "Acid Clown",
+     "Fottuto Bianco",
+     [],
+     [
+      "rock"
+     ],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1121395",
+     "Demon",
+     "Marco Margna",
+     [
+      "melancholic"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1234069",
+     "the humans are shallow",
+     "Transient",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1384825",
+     "Harmonic Suicide",
+     "J.O.R.B.I",
+     [],
+     [],
+     0.317,
+     false
+    ],
+    [
+     "jamendo:1329970",
+     "Homeless",
+     "C.J.ROGERS",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1223074",
+     "A Depressing Song About Single Life (instrumental)",
+     "andy blackwood",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1380975",
+     "Despair",
+     "Nik Grey",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1352252",
+     "Triphonic and a tear",
+     "Joseph Curwen",
+     [],
+     [],
+     0.325,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "trainspotting-overdose",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "A man overdoses on heroin and sinks into the red carpet as if into a grave, then is dragged to a taxi and dumped at a hospital.",
+    "relationship": "match",
+    "moods": [
+     "melancholic",
+     "happy",
+     "trippy",
+     "beautiful"
+    ],
+    "genres": [
+     "death",
+     "acid",
+     "glitch"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A man overdoses on heroin and sinks into the red carpet as if into a grave, then is dragged to a taxi and dumped at a hospital.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1416142",
+     "Before Sunrise",
+     "BDKSonic",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1277186",
+     "Obituary",
+     "Joseph Curwen",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1277767",
+     "Feel My Empty Silence",
+     "Pablo Samonta",
+     [
+      "melancholic"
+     ],
+     [],
+     0.217,
+     false
+    ],
+    [
+     "jamendo:1151405",
+     "The Quiet Morning",
+     "Esther Garcia",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1416137",
+     "Before Sunrise 60 sec Background Version",
+     "BDKSonic",
+     [],
+     [],
+     0.27,
+     false
+    ],
+    [
+     "jamendo:1277091",
+     "Farewell by Talcaguas Shoreline",
+     "Pablo Samonta",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1164315",
+     "1_Lullaby 3 AC2",
+     "MFYM",
+     [],
+     [],
+     0.175,
+     false
+    ],
+    [
+     "jamendo:556951",
+     "Dark cacophonous meditation (part 4)",
+     "Radio Noiseville",
+     [],
+     [],
+     0.1,
+     false
+    ],
+    [
+     "jamendo:1257047",
+     "Morning",
+     "Ithar",
+     [],
+     [],
+     0.425,
+     false
+    ],
+    [
+     "jamendo:1299810",
+     "Chords of Silence",
+     "Udo Vismann",
+     [],
+     [],
+     0.217,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999995,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "donnie-darko-ending",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Dawn in a quiet suburb: a slow montage of people waking alone in their beds, each sensing something they cannot remember, after a boy has died.",
+    "relationship": "match",
+    "moods": [
+     "quiet",
+     "nostalgic",
+     "calm",
+     "peaceful"
+    ],
+    "genres": [
+     "drone",
+     "chilloutlounge",
+     "death"
+    ],
+    "instruments": [
+     "pipeorgan",
+     "pad"
+    ],
+    "energy": 0.050000000000000044,
+    "tempo": {
+     "min_bpm": 59,
+     "max_bpm": 89
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Dawn in a quiet suburb: a slow montage of people waking alone in their beds, each sensing something they cannot remember, after a boy has died.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1239326",
+     "On The Road",
+     "Chill Carrier",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1290558",
+     "47_So Happy - 30 secs",
+     "MFYM",
+     [],
+     [
+      "popfolk"
+     ],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1222008",
+     "291_Always Happy",
+     "MFYM",
+     [],
+     [
+      "folk"
+     ],
+     0.762,
+     false
+    ],
+    [
+     "jamendo:608913",
+     "Tomorrow",
+     "Aleksey Chistilin",
+     [],
+     [],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:1076596",
+     "After and Back [Chill Jazzy Mellow Mix]",
+     "EIVISSA SALINAS feat. DJ HSERES",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1268084",
+     "Sun is Out",
+     "Sideway",
+     [],
+     [
+      "popfolk"
+     ],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:341568",
+     "Here we go with the same old feeling",
+     "Tymphony",
+     [],
+     [],
+     0.483,
+     false
+    ],
+    [
+     "jamendo:1185779",
+     "Happy",
+     "Matti Paalanen",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:399197",
+     "Happy",
+     "Matti Paalanen",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:549524",
+     "Happiness",
+     "Dr. Pimp",
+     [],
+     [],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "graduate-bus",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A young couple who just fled her wedding sit at the back of a bus, giddy and laughing, until their smiles slowly fade into uncertainty.",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "anxious",
+     "joyful",
+     "optimistic"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "swing"
+    ],
+    "instruments": [
+     "cimbalom",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A young couple who just fled her wedding sit at the back of a bus, giddy and laughing, until their smiles slowly fade into uncertainty.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1,
+   "top": [
+    [
+     "jamendo:403066",
+     "Highway",
+     "Maciej Bether",
+     [
+      "adventure"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1409390",
+     "Drones",
+     "Psychadelik Pedestrian",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1038510",
+     "Aerial",
+     "Oursvince",
+     [
+      "adventure"
+     ],
+     [],
+     0.825,
+     false
+    ],
+    [
+     "jamendo:1164207",
+     "Under Clouds (Loop)",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1267757",
+     "On Top Of A Mountain Wave",
+     "JoosTVD",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:807111",
+     "Desert Freeway",
+     "Axession",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1371971",
+     "Sci-Fi Jungle Chase (loop)",
+     "Exalted Dirt",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1251848",
+     "Joyride the Hearse INSTRUMENTAL",
+     "Heifervescent",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:952690",
+     "Something Dangerous",
+     "SONIC MYSTERY",
+     [
+      "adventure"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1147338",
+     "Cycle Track",
+     "Serge Ozeryan",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.75,
+     true
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.35,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "easy-rider-highway",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Two bikers on chopper motorcycles ride along an open desert highway, free and wild, the landscape rolling past.",
+    "relationship": "match",
+    "moods": [
+     "ethereal",
+     "optimistic",
+     "trippy",
+     "crazy"
+    ],
+    "genres": [
+     "drone",
+     "acidjazz",
+     "jungle"
+    ],
+    "instruments": [
+     "drummachine",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Two bikers on chopper motorcycles ride along an open desert highway, free and wild, the landscape rolling past.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1239467",
+     "Outside The Window",
+     "Chill Carrier",
+     [
+      "dark"
+     ],
+     [],
+     0.338,
+     false
+    ],
+    [
+     "jamendo:221455",
+     "Winter Sunset",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1278746",
+     "Rain c",
+     "Pablo Samonta",
+     [
+      "war"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1277763",
+     "Thick Air",
+     "Pablo Samonta",
+     [],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1119746",
+     "Background Chillout",
+     "Plastic3",
+     [],
+     [],
+     0.125,
+     false
+    ],
+    [
+     "jamendo:1119813",
+     "Los Angeles",
+     "Solxis",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1119815",
+     "Brussels",
+     "Solxis",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:29869",
+     "Chillout me (2004)",
+     "Antony Raijekov",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1056395",
+     "Chill Background Loop 2",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:671174",
+     "chillout in india",
+     "MG-Rizzello",
+     [],
+     [],
+     0.275,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "apocalypse-now-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A jungle tree line explodes in napalm while helicopters drift through yellow smoke; a soldier lies sweating in a Saigon hotel room, ceiling fan dissolving into rotor blades.",
+    "relationship": "match",
+    "moods": [
+     "melancholic",
+     "laidback",
+     "tension",
+     "war"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "jungle",
+     "chillout"
+    ],
+    "instruments": [
+     "panflute",
+     "cymbal"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A jungle tree line explodes in napalm while helicopters drift through yellow smoke; a soldier lies sweating in a Saigon hotel room, ceiling fan dissolving into rotor blades.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 0.5,
+   "top": [
+    [
+     "jamendo:1277798",
+     "After Battle",
+     "Pablo Samonta",
+     [],
+     [
+      "classical"
+     ],
+     0.533,
+     false
+    ],
+    [
+     "jamendo:925524",
+     "The Soldier Sees the Dancer and Falls in Love",
+     "Aufklarung",
+     [
+      "emotional"
+     ],
+     [
+      "classical"
+     ],
+     0.375,
+     true
+    ],
+    [
+     "jamendo:925507",
+     "The Soldier Comes to Life",
+     "Aufklarung",
+     [
+      "emotional"
+     ],
+     [
+      "classical"
+     ],
+     0.375,
+     true
+    ],
+    [
+     "jamendo:1085283",
+     "epilogue",
+     "Karol Orze\u0142",
+     [],
+     [
+      "orchestral"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1239467",
+     "Outside The Window",
+     "Chill Carrier",
+     [],
+     [],
+     0.338,
+     false
+    ],
+    [
+     "jamendo:1277917",
+     "Descending",
+     "Marc Teichert",
+     [],
+     [
+      "classical"
+     ],
+     0.817,
+     false
+    ],
+    [
+     "jamendo:1277913",
+     "You're A Soldier Now",
+     "Marc Teichert",
+     [],
+     [
+      "classical"
+     ],
+     0.733,
+     false
+    ],
+    [
+     "jamendo:1239331",
+     "Chasing Sleep",
+     "Chill Carrier",
+     [],
+     [],
+     0.283,
+     false
+    ],
+    [
+     "jamendo:1371970",
+     "Jungle Chase (with fadeout)",
+     "Exalted Dirt",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1273147",
+     "A Melancholical Hero",
+     "Daniel Bautista",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "platoon-elias",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A wounded soldier is chased out of the jungle by enemy troops; from a departing helicopter his comrades watch him fall to his knees, arms raised, as he is shot.",
+    "relationship": "match",
+    "moods": [
+     "heroic",
+     "war",
+     "battle",
+     "melancholic"
+    ],
+    "genres": [
+     "jungle",
+     "chilloutlounge",
+     "chillout"
+    ],
+    "instruments": [
+     "panflute",
+     "flugelhorn"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A wounded soldier is chased out of the jungle by enemy troops; from a departing helicopter his comrades watch him fall to his knees, arms raised, as he is shot.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1090546",
+     "Spacewalk",
+     "Adult Only",
+     [
+      "space"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1318820",
+     "Waltz planets",
+     "Dr.GROOVER",
+     [
+      "space"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1317220",
+     "Sonata - smile planet  X",
+     "Dr.GROOVER",
+     [
+      "space"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1127399",
+     "Orbiter",
+     "timeless",
+     [
+      "space"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:379766",
+     "The Astronaut",
+     "P.a.p.",
+     [
+      "space"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1168494",
+     "Apollo 14",
+     "Steve Raphael",
+     [
+      "space"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:725228",
+     "Paradise on Earth",
+     "Satya",
+     [],
+     [],
+     0.125,
+     false
+    ],
+    [
+     "jamendo:1371039",
+     "Gemini",
+     "SoLaRiS",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1392672",
+     "1 - Goodbye Sun",
+     "Le choix d'Atropos",
+     [
+      "space"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1107582",
+     "Pedestal",
+     "Nicolas Falcon",
+     [],
+     [],
+     0.225,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "2001-docking",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A space shuttle slowly approaches a giant rotating wheel-shaped space station and docks with balletic grace against the stars.",
+    "relationship": "match",
+    "moods": [
+     "spacey",
+     "space",
+     "relaxing",
+     "hypnotic"
+    ],
+    "genres": [
+     "swing",
+     "waltz",
+     "lounge"
+    ],
+    "instruments": [
+     "sitar",
+     "tuba"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A space shuttle slowly approaches a giant rotating wheel-shaped space station and docks with balletic grace against the stars.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1239467",
+     "Outside The Window",
+     "Chill Carrier",
+     [],
+     [],
+     0.338,
+     false
+    ],
+    [
+     "jamendo:549522",
+     "The Irish Girl",
+     "Dr. Pimp",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1239328",
+     "144",
+     "Chill Carrier",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1257050",
+     "Souls",
+     "Ithar",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1250197",
+     "Atmo Relaxation (Loop)",
+     "Christoph Schade Composer",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1160234",
+     "Documentary",
+     "Akashic Records",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1333038",
+     "Waiting for You",
+     "Lobo Loco",
+     [
+      "emotional"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:921856",
+     "Forget the Pain (Instrumental Mix)",
+     "Robert Chac\u00f3n",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1190163",
+     "Closer to you",
+     "Libra Makowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1346672",
+     "Orca (Cloudjumper live remix)",
+     "Cloudjumper",
+     [],
+     [],
+     0.325,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "shawshank-opera",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A prisoner locks himself in the warden's office and plays a record over the prison loudspeakers; in the yard every inmate stops and stares upward, transfixed.",
+    "relationship": "match",
+    "moods": [
+     "relaxing",
+     "hypnotic",
+     "calm",
+     "conscient"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "trap",
+     "chillout"
+    ],
+    "instruments": [
+     "woodblock",
+     "cvp509"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A prisoner locks himself in the warden's office and plays a record over the prison loudspeakers; in the yard every inmate stops and stares upward, transfixed.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1119746",
+     "Background Chillout",
+     "Plastic3",
+     [],
+     [],
+     0.125,
+     false
+    ],
+    [
+     "jamendo:223567",
+     "Warmth",
+     "Emorej",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1358775",
+     "Horizon",
+     "FDUBX",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1131570",
+     "zero-project - 02 - Santorini (chillout version)",
+     "Zero-project",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1198745",
+     "Winter Day",
+     "Martin Eigenmann",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1314124",
+     "Cold winter",
+     "kate in space",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:29869",
+     "Chillout me (2004)",
+     "Antony Raijekov",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1119740",
+     "Background Chillout Logo",
+     "Plastic3",
+     [],
+     [],
+     0.125,
+     false
+    ],
+    [
+     "jamendo:832061",
+     "Closing In",
+     "Tomasz Bylina",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1384405",
+     "Fall",
+     "Audioflair",
+     [],
+     [],
+     0.475,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "fight-club-ending",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A man and a woman hold hands in an empty office tower at night and watch, through the window, as skyscrapers across the city collapse in controlled explosions.",
+    "relationship": "match",
+    "moods": [
+     "warm",
+     "cold",
+     "tension",
+     "relaxing"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "chillout",
+     "atmospheric"
+    ],
+    "instruments": [
+     "panflute",
+     "cvp509"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A man and a woman hold hands in an empty office tower at night and watch, through the window, as skyscrapers across the city collapse in controlled explosions.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1239374",
+     "Rumbling Lights",
+     "Chill Carrier",
+     [],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1239331",
+     "Chasing Sleep",
+     "Chill Carrier",
+     [],
+     [],
+     0.283,
+     false
+    ],
+    [
+     "jamendo:1232472",
+     "04 Bitterness",
+     "Roman Grau",
+     [],
+     [
+      "pop"
+     ],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1283767",
+     "Last battle",
+     "OnionAudioProduction",
+     [],
+     [
+      "rock"
+     ],
+     0.883,
+     false
+    ],
+    [
+     "jamendo:1098162",
+     "The Others",
+     "Przemek Korzyniewski",
+     [],
+     [
+      "rock"
+     ],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1119810",
+     "Barcelona",
+     "Solxis",
+     [],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1385577",
+     "Happy that you tried",
+     "Matt Confusion",
+     [],
+     [
+      "rock",
+      "singersongwriter"
+     ],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1236403",
+     "Rest",
+     "Myke Clements",
+     [],
+     [
+      "rock"
+     ],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1251038",
+     "Bomb the cunts",
+     "Louis Lingg and the Bombs",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:82629",
+     "Lemonade",
+     "autonomadic",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "almost-famous-bus",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "After a bitter fight, a sullen rock band sits in silence on their tour bus; one by one they start singing along to a song on the radio until everyone is smiling.",
+    "relationship": "match",
+    "moods": [
+     "melancholic",
+     "calm",
+     "angry",
+     "strong"
+    ],
+    "genres": [
+     "chillout",
+     "chilloutlounge",
+     "rock"
+    ],
+    "instruments": [
+     "voice",
+     "beat"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "After a bitter fight, a sullen rock band sits in silence on their tour bus; one by one they start singing along to a song on the radio until everyone is smiling.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1402653",
+     "Chinese Dance, The Nutcracker Suite, Op 71a (Piotr Ilitch Tchaikovsky)",
+     "Esther Garcia",
+     [
+      "funny"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1232635",
+     "Little Nicholas",
+     "Esther Garcia",
+     [],
+     [],
+     0.667,
+     false
+    ],
+    [
+     "jamendo:911666",
+     "Jungle Tribe",
+     "Freestyle Percussion Magik",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1405230",
+     "D\u00e9j\u00e0 Vu",
+     "Jos\u00e9 Manuel Gonz\u00e1lez N\u00fa\u00f1ez",
+     [],
+     [],
+     0.47,
+     false
+    ],
+    [
+     "jamendo:1174197",
+     "Hare",
+     "Dajte Grammy",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:911674",
+     "Speedy Spider",
+     "Freestyle Percussion Magik",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1218249",
+     "Happy Summer Dance",
+     "Plastic3",
+     [],
+     [],
+     0.713,
+     false
+    ],
+    [
+     "jamendo:1314924",
+     "Ukulele Children_s Day",
+     "BDKSonic",
+     [],
+     [],
+     0.562,
+     false
+    ],
+    [
+     "jamendo:1033432",
+     "Little Princess",
+     "Dajte Grammy",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1352579",
+     "Halloween Dance",
+     "FiluAndDina",
+     [
+      "fun"
+     ],
+     [],
+     0.65,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "little-miss-sunshine-dance",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "At a children's beauty pageant, a little girl performs a wildly inappropriate dance routine her grandfather taught her, and her whole family jumps on stage to join her.",
+    "relationship": "match",
+    "moods": [
+     "dancing",
+     "dramatic",
+     "children",
+     "cheerful"
+    ],
+    "genres": [
+     "jungle",
+     "dance",
+     "rnb"
+    ],
+    "instruments": [
+     "panflute",
+     "triangle"
+    ],
+    "energy": 0.65,
+    "tempo": {
+     "min_bpm": 107,
+     "max_bpm": 137
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "At a children's beauty pageant, a little girl performs a wildly inappropriate dance routine her grandfather taught her, and her whole family jumps on stage to join her.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:949028",
+     "The cold spy Deva",
+     "Conway Hambone",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:698636",
+     "terror_clase_B",
+     "Cocktail lounge",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1330884",
+     "The Dancing Beauty (Chillout / Loungeversion)",
+     "Ronny Matthes - Pianist und Komponist (GEMA-frei / Royalty Free)",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1219601",
+     "11 - Greensleeves (Chillout - Loungeversion) - Public Domain - Ronny Matthes",
+     "Ronny Matthes - Pianist und Komponist (GEMA-frei / Royalty Free)",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:29869",
+     "Chillout me (2004)",
+     "Antony Raijekov",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1149573",
+     "I run in the woods infinite",
+     "DJ Mircomix",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1257277",
+     "70s Chillout Room",
+     "Master of the Subway Ninjas",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1186027",
+     "Fashion Nostalgic Funk",
+     "Plastic3",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:698620",
+     "dance_with_a_perfect_human",
+     "Cocktail lounge",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1371814",
+     "Redone",
+     "JoosTVD",
+     [],
+     [],
+     0.55,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "silence-lambs-mirror",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In a dim basement lair, a serial killer applies makeup and dances slowly for a video camera in front of a mirror, wrapped in a shawl.",
+    "relationship": "match",
+    "moods": [
+     "video",
+     "chilled",
+     "hypnotic",
+     "cold"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "garage",
+     "rave"
+    ],
+    "instruments": [
+     "panflute",
+     "musicalsaw"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In a dim basement lair, a serial killer applies makeup and dances slowly for a video camera in front of a mirror, wrapped in a shawl.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1384025",
+     "Ndiyakuthanda",
+     "ZORO",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1195864",
+     "Oriental Emotion",
+     "Matti Paalanen",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1209644",
+     "Japan",
+     "Matti Paalanen",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:402059",
+     "Oriental",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1384027",
+     "Monkey tears",
+     "ZORO",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1255882",
+     "To a distant friend",
+     "zerothehero",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1113992",
+     "Sunset In Tokyo",
+     "Yusuke Tsutsumi",
+     [
+      "melancholic"
+     ],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1326528",
+     "Please watch over me",
+     "Crayon Tabibito",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:653314",
+     "JP",
+     "Massimo Kyo Di Nocera",
+     [],
+     [],
+     0.1,
+     false
+    ],
+    [
+     "jamendo:662086",
+     "Extend Your Life",
+     "JoosTVD",
+     [],
+     [],
+     0.45,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "lost-in-translation-goodbye",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In a crowded Tokyo street, an older man catches up with a young woman, embraces her and whispers something we cannot hear before they part for good.",
+    "relationship": "match",
+    "moods": [
+     "japan",
+     "peaceful",
+     "beautiful",
+     "ballad"
+    ],
+    "genres": [
+     "asian",
+     "oriental",
+     "70s"
+    ],
+    "instruments": [
+     "panflute",
+     "koto"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In a crowded Tokyo street, an older man catches up with a young woman, embraces her and whispers something we cannot hear before they part for good.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1239467",
+     "Outside The Window",
+     "Chill Carrier",
+     [
+      "melancholic"
+     ],
+     [],
+     0.338,
+     false
+    ],
+    [
+     "jamendo:1239328",
+     "144",
+     "Chill Carrier",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1190163",
+     "Closer to you",
+     "Libra Makowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1333038",
+     "Waiting for You",
+     "Lobo Loco",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1253040",
+     "Chillout BGM (Loop)",
+     "Christoph Schade Composer",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1135473",
+     "Questions and answers",
+     "Libra Makowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1398799",
+     "Smile after Melancholy",
+     "Porrazzo",
+     [
+      "melancholic"
+     ],
+     [],
+     0.283,
+     false
+    ],
+    [
+     "jamendo:341563",
+     "Thrilled hands holding",
+     "Tymphony",
+     [
+      "mellow"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:340878",
+     "Cool & Fresh",
+     "Tymphony",
+     [
+      "mellow"
+     ],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1119810",
+     "Barcelona",
+     "Solxis",
+     [
+      "mellow"
+     ],
+     [],
+     0.225,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "garden-state-headphones",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "In a hospital waiting room, a quirky young woman hands a stranger her headphones and tells him a song will change his life; he listens, and something in his face softens.",
+    "relationship": "match",
+    "moods": [
+     "calm",
+     "optimistic",
+     "fast",
+     "melancholic"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "glitch",
+     "chillout"
+    ],
+    "instruments": [
+     "cvp509",
+     "flugelhorn"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "In a hospital waiting room, a quirky young woman hands a stranger her headphones and tells him a song will change his life; he listens, and something in his face softens.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1239326",
+     "On The Road",
+     "Chill Carrier",
+     [
+      "uplifting"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1239471",
+     "80s",
+     "Chill Carrier",
+     [
+      "uplifting"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:727908",
+     "Uplifting",
+     "Celestial Aeon Project",
+     [
+      "emotional",
+      "inspiring",
+      "uplifting"
+     ],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1125673",
+     "Uplifting Rock",
+     "Plastic3",
+     [],
+     [
+      "rock"
+     ],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:264275",
+     "Night Rise",
+     "Donny Redd",
+     [
+      "uplifting"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1125690",
+     "Uplifting Rock (1 min loop)",
+     "Plastic3",
+     [],
+     [
+      "rock"
+     ],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:1021749",
+     "Another One",
+     "Instantperson",
+     [
+      "inspiring"
+     ],
+     [],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:1246292",
+     "Fifteen",
+     "Elenesski",
+     [
+      "uplifting"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1189940",
+     "Looking Up",
+     "Seastock",
+     [
+      "inspiring",
+      "uplifting"
+     ],
+     [],
+     0.575,
+     false
+    ],
+    [
+     "jamendo:1366343",
+     "Trap",
+     "The Neverending Youth",
+     [],
+     [],
+     0.4,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "perks-tunnel",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A teenage girl stands up in the back of a pickup truck as it speeds through a tunnel at night, arms spread wide in the wind, while her friends watch in awe.",
+    "relationship": "match",
+    "moods": [
+     "uplifting",
+     "optimistic",
+     "strong",
+     "bright"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "popfunk",
+     "90s"
+    ],
+    "instruments": [
+     "triangle",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A teenage girl stands up in the back of a pickup truck as it speeds through a tunnel at night, arms spread wide in the wind, while her friends watch in awe.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.16666666666666666,
+   "top": [
+    [
+     "jamendo:1341304",
+     "Pleasant emotions, sunny day",
+     "Sergey Gulevich",
+     [
+      "dream"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1239326",
+     "On The Road",
+     "Chill Carrier",
+     [],
+     [
+      "electronic"
+     ],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1317595",
+     "The Arrival at the golden gate",
+     "Paolo Orecchia",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:25237",
+     "Joy",
+     "Frozen Silence",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:25220",
+     "Happy",
+     "Frozen Silence",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1239467",
+     "Outside The Window",
+     "Chill Carrier",
+     [
+      "melancholic"
+     ],
+     [
+      "electronic"
+     ],
+     0.338,
+     true
+    ],
+    [
+     "jamendo:1234246",
+     "236_A Warm Journey",
+     "MFYM",
+     [],
+     [],
+     0.412,
+     false
+    ],
+    [
+     "jamendo:1079256",
+     "Happy Day",
+     "PAIO",
+     [],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:1236632",
+     "329_Happy On The Edge Full",
+     "MFYM",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:267762",
+     "Easy Going",
+     "SONIC MYSTERY",
+     [],
+     [],
+     0.63,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.10000000000000003,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "drive-canal",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "A quiet stunt driver takes his neighbor and her young son for a drive along the Los Angeles river channel at golden hour, glances and small smiles instead of words.",
+    "relationship": "match",
+    "moods": [
+     "calm",
+     "optimistic",
+     "bright",
+     "happy"
+    ],
+    "genres": [
+     "atmospheric",
+     "chilloutlounge",
+     "glitch"
+    ],
+    "instruments": [
+     "panflute",
+     "cvp509"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A quiet stunt driver takes his neighbor and her young son for a drive along the Los Angeles river channel at golden hour, glances and small smiles instead of words.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.25,
+   "top": [
+    [
+     "jamendo:1239473",
+     "Driving",
+     "Chill Carrier",
+     [],
+     [
+      "electronic"
+     ],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:1190163",
+     "Closer to you",
+     "Libra Makowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1203974",
+     "Drive 10",
+     "Antonello Manca",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1239467",
+     "Outside The Window",
+     "Chill Carrier",
+     [
+      "dark"
+     ],
+     [
+      "electronic"
+     ],
+     0.338,
+     true
+    ],
+    [
+     "jamendo:1203972",
+     "Drive 8",
+     "Antonello Manca",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1135473",
+     "Questions and answers",
+     "Libra Makowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1257052",
+     "california",
+     "Ithar",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1310107",
+     "Chasing Shadows",
+     "Scott Holmes",
+     [
+      "dark"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1361573",
+     "Going Nowhere Fast",
+     "Sideway",
+     [
+      "driving"
+     ],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1119813",
+     "Los Angeles",
+     "Solxis",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "drive-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "After a tense nighttime getaway, a silent driver cruises the empty neon-lit freeways of Los Angeles as pink script opening credits appear.",
+    "relationship": "match",
+    "moods": [
+     "driving",
+     "quiet",
+     "calm",
+     "light"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "atmospheric",
+     "chillout"
+    ],
+    "instruments": [
+     "cvp509",
+     "panflute"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "After a tense nighttime getaway, a silent driver cruises the empty neon-lit freeways of Los Angeles as pink script opening credits appear.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 0.16666666666666666,
+   "top": [
+    [
+     "jamendo:1186020",
+     "Fashion Nostalgic Funk Loop 30s",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1401591",
+     "Happy Party Children Game Loop 60s",
+     "Plastic3",
+     [],
+     [
+      "pop"
+     ],
+     0.583,
+     false
+    ],
+    [
+     "jamendo:969349",
+     "Childish Nostalgia",
+     "Aufklarung",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1292123",
+     "Thema aus Brandenburgisches Konzert Nr. 2 - Johann Sebastian Bach",
+     "Ronny Matthes (Gemafreie Musik - Weihnachtsmusik)",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1340340",
+     "Nostalgia (piano improvisation)",
+     "Andrey_Serg",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1343298",
+     "Back to School - 60secs",
+     "MFYM",
+     [
+      "fun",
+      "happy"
+     ],
+     [
+      "pop",
+      "rock"
+     ],
+     0.725,
+     true
+    ],
+    [
+     "jamendo:1407656",
+     "happy childrens loop",
+     "andy blackwood",
+     [
+      "happy",
+      "upbeat"
+     ],
+     [
+      "pop"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:951887",
+     "A Memory",
+     "Aufklarung",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1123787",
+     "Springtime Memories",
+     "J.C.Vogt",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1115914",
+     "The Story of my Life",
+     "Rainy Tuesday",
+     [],
+     [
+      "pop"
+     ],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "jojo-rabbit-opening",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "",
+    "summary": "A ten-year-old boy runs excitedly through a small German town in 1945 in his youth uniform, intercut with archival footage of adoring crowds at Nazi rallies.",
+    "relationship": "match",
+    "moods": [
+     "nostalgic",
+     "cheerful",
+     "children",
+     "berlin"
+    ],
+    "genres": [
+     "70s",
+     "80s",
+     "popfunk"
+    ],
+    "instruments": [
+     "panflute",
+     "pipeorgan"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 95,
+     "max_bpm": 125
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A ten-year-old boy runs excitedly through a small German town in 1945 in his youth uniform, intercut with archival footage of adoring crowds at Nazi rallies.",
+    "source": "heuristic"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1247371",
+     "After All",
+     "Boom Boom Beckett",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:512153",
+     "She Slowly Crawled",
+     "Shanel",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1311240",
+     "Zombie (Instrumental)",
+     "Soundatelier",
+     [],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1190166",
+     "BONUS - Civilzombies - Discarted Song 1",
+     "Gamesounds Foundry",
+     [
+      "dark"
+     ],
+     [],
+     0.325,
+     false
+    ],
+    [
+     "jamendo:1084191",
+     "TIME",
+     "Iliakulakow",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:284172",
+     "zombie",
+     "Efiel",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1305117",
+     "We Smell Dead People",
+     "Shopping Zombies",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:698666",
+     "una_de_zombies",
+     "Cocktail lounge",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1190167",
+     "BONUS - Civilzombies - Discarted Song 2",
+     "Gamesounds Foundry",
+     [
+      "dark"
+     ],
+     [],
+     0.325,
+     false
+    ],
+    [
+     "jamendo:1078437",
+     "Rain",
+     "Michael Ellis",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "zombieland-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "",
+    "summary": "Super-slow-motion carnage in an overrun America: zombies tear through a wedding, a strip club and a fire truck crash as the title fills the screen.",
+    "relationship": "match",
+    "moods": [
+     "fast",
+     "slow",
+     "trailer",
+     "loud"
+    ],
+    "genres": [
+     "chilloutlounge",
+     "americana",
+     "glitch"
+    ],
+    "instruments": [
+     "panflute",
+     "horn"
+    ],
+    "energy": 0.35,
+    "tempo": {
+     "min_bpm": 83,
+     "max_bpm": 113
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "Super-slow-motion carnage in an overrun America: zombies tear through a wedding, a strip club and a fire truck crash as the title fills the screen.",
+    "source": "heuristic"
+   }
+  }
+ ]
+}

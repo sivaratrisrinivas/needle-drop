@@ -1,0 +1,74 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style></head>
+<body><canvas id="c" width="960" height="540"></canvas>
+<script>
+// Procedural 30-second test clips for Needle Drop (no stock footage needed).
+// ?scene=chase : night pursuit, rapid cuts, cold neon, rain.
+// ?scene=dawn  : quiet sunrise over water, long takes, warm palette.
+const scene = new URLSearchParams(location.search).get('scene') || 'chase';
+const c = document.getElementById('c'), g = c.getContext('2d');
+const W = c.width, H = c.height;
+let rnd = (s => () => (s = (s * 16807) % 2147483647) / 2147483647)(42);
+const drops = Array.from({length: 400}, () => [rnd() * W, rnd() * H, 6 + rnd() * 14]);
+const lights = Array.from({length: 60}, () => [rnd(), rnd(), rnd()]);
+
+const chaseShots = [ // [start, kind]
+  [0, 'window'], [3.2, 'road'], [5.4, 'alley'], [7.1, 'road'], [8.6, 'sirens'], [10.2, 'alley'],
+  [11.6, 'road'], [13.0, 'window'], [15.5, 'sirens'], [17.0, 'road'], [18.2, 'alley'], [19.5, 'sirens'],
+  [20.6, 'road'], [22.0, 'alley'], [23.4, 'sirens'], [24.6, 'road'], [26.0, 'window'], [30, 'end']];
+const dawnShots = [[0, 'horizon'], [11, 'water'], [21, 'figure'], [30, 'end']];
+
+function rain(t, speed, alpha) {
+  g.strokeStyle = `rgba(180,200,255,${alpha})`; g.lineWidth = 1.2; g.beginPath();
+  for (const d of drops) { const y = (d[1] + t * speed * 60) % H; g.moveTo(d[0], y); g.lineTo(d[0] - 2, y + d[2]); }
+  g.stroke();
+}
+function draw(t) {
+  const shots = scene === 'chase' ? chaseShots : dawnShots;
+  let kind = shots[0][1], t0 = 0;
+  for (const [s, k] of shots) if (t >= s) { kind = k; t0 = s; }
+  const lt = t - t0;
+  if (kind === 'window') {
+    g.fillStyle = '#05070d'; g.fillRect(0, 0, W, H);
+    for (const [x, y, z] of lights) { g.fillStyle = `hsla(${200 + z * 120},90%,${40 + z * 20}%,0.55)`;
+      g.beginPath(); g.arc(x * W, y * H, 6 + z * 26, 0, 7); g.fill(); }
+    g.fillStyle = 'rgba(0,0,0,0.35)'; g.fillRect(0, 0, W, H);
+    g.fillStyle = '#000'; g.beginPath(); g.ellipse(W * 0.32, H * 0.75, 90, 140, 0, 0, 7); g.fill();
+    rain(t, 4, 0.35);
+  } else if (kind === 'road') {
+    const grd = g.createLinearGradient(0, 0, 0, H); grd.addColorStop(0, '#02030a'); grd.addColorStop(1, '#0c1630');
+    g.fillStyle = grd; g.fillRect(0, 0, W, H);
+    for (let i = 0; i < 40; i++) { const z = ((i / 40 + lt * 1.8) % 1); const s = z * z;
+      g.strokeStyle = i % 3 ? `rgba(255,40,60,${s})` : `rgba(255,255,230,${s})`; g.lineWidth = 2 + s * 10;
+      g.beginPath(); g.moveTo(W / 2 + (i % 2 ? -1 : 1) * s * W * 0.6, H * 0.45 + s * H * 0.5);
+      g.lineTo(W / 2 + (i % 2 ? -1 : 1) * s * W * 0.75, H * 0.45 + s * H * 0.55); g.stroke(); }
+    rain(t, 9, 0.25);
+  } else if (kind === 'alley') {
+    g.fillStyle = '#07040c'; g.fillRect(0, 0, W, H);
+    ['#ff2bd6', '#2bf3ff', '#ffe02b'].forEach((col, i) => { g.shadowBlur = 30; g.shadowColor = col; g.fillStyle = col;
+      g.globalAlpha = 0.6 + 0.4 * Math.sin(t * 9 + i); g.fillRect(120 + i * 260, 80 + i * 30, 160, 26); });
+    g.globalAlpha = 1; g.shadowBlur = 0;
+    const x = (lt * 520) % (W + 200) - 100; g.fillStyle = '#000';
+    g.beginPath(); g.ellipse(x, H * 0.7, 40, 110, Math.sin(t * 14) * 0.15, 0, 7); g.fill();
+    rain(t, 6, 0.3);
+  } else if (kind === 'sirens') {
+    const on = Math.floor(t * 6) % 2; g.fillStyle = on ? '#1b0208' : '#020a1f'; g.fillRect(0, 0, W, H);
+    const grd = g.createRadialGradient(on ? W * 0.3 : W * 0.7, H * 0.4, 10, W / 2, H / 2, W * 0.7);
+    grd.addColorStop(0, on ? 'rgba(255,0,40,0.9)' : 'rgba(0,80,255,0.9)'); grd.addColorStop(1, 'rgba(0,0,0,0)');
+    g.fillStyle = grd; g.fillRect(0, 0, W, H); rain(t, 8, 0.3);
+  } else if (kind === 'horizon' || kind === 'water' || kind === 'figure') {
+    const k = Math.min(1, t / 30);
+    const grd = g.createLinearGradient(0, 0, 0, H);
+    grd.addColorStop(0, `hsl(${25 + k * 15},70%,${55 + k * 15}%)`); grd.addColorStop(0.55, `hsl(35,90%,${70 + k * 10}%)`);
+    grd.addColorStop(0.56, '#c58a5a'); grd.addColorStop(1, '#5a3b2e'); g.fillStyle = grd; g.fillRect(0, 0, W, H);
+    g.fillStyle = 'rgba(255,240,200,0.95)'; g.beginPath(); g.arc(W / 2, H * 0.55 - k * 90, 60, 0, 7); g.fill();
+    for (let i = 0; i < 18; i++) { g.strokeStyle = 'rgba(255,230,190,0.35)'; g.lineWidth = 2;
+      const y = H * 0.6 + i * 12, off = Math.sin(t * 0.8 + i) * 20; g.beginPath(); g.moveTo(W / 2 - 160 + off, y); g.lineTo(W / 2 + 160 + off, y); g.stroke(); }
+    if (kind === 'figure') { g.fillStyle = '#2a1a14'; g.beginPath(); g.ellipse(W * 0.25 + lt * 6, H * 0.6, 18, 60, 0, 0, 7); g.fill(); }
+    if (kind === 'water') { g.fillStyle = 'rgba(60,40,30,0.8)'; g.fillRect(0, H * 0.82, W, H * 0.18); }
+  } else { g.fillStyle = '#000'; g.fillRect(0, 0, W, H); }
+}
+let start = null;
+function loop(ts) { if (start === null) start = ts; draw((ts - start) / 1000); requestAnimationFrame(loop); }
+requestAnimationFrame(loop);
+</script></body></html>

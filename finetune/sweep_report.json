@@ -1,0 +1,62 @@
+[
+ {
+  "cfg": "identity",
+  "cv_similar@10": 0.2483483483483484
+ },
+ {
+  "cfg": "lr=0.003 reg=0.5 epochs=10",
+  "lr": 0.003,
+  "reg": 0.5,
+  "epochs": 10,
+  "cv_similar@10": 0.2648648648648649
+ },
+ {
+  "cfg": "lr=0.003 reg=0.5 epochs=30",
+  "lr": 0.003,
+  "reg": 0.5,
+  "epochs": 30,
+  "cv_similar@10": 0.29834834834834834
+ },
+ {
+  "cfg": "lr=0.003 reg=2.0 epochs=10",
+  "lr": 0.003,
+  "reg": 2.0,
+  "epochs": 10,
+  "cv_similar@10": 0.25390390390390394
+ },
+ {
+  "cfg": "lr=0.003 reg=2.0 epochs=30",
+  "lr": 0.003,
+  "reg": 2.0,
+  "epochs": 30,
+  "cv_similar@10": 0.2539039039039039
+ },
+ {
+  "cfg": "lr=0.01 reg=0.5 epochs=10",
+  "lr": 0.01,
+  "reg": 0.5,
+  "epochs": 10,
+  "cv_similar@10": 0.22117117117117116
+ },
+ {
+  "cfg": "lr=0.01 reg=0.5 epochs=30",
+  "lr": 0.01,
+  "reg": 0.5,
+  "epochs": 30,
+  "cv_similar@10": 0.2430930930930931
+ },
+ {
+  "cfg": "lr=0.01 reg=2.0 epochs=10",
+  "lr": 0.01,
+  "reg": 2.0,
+  "epochs": 10,
+  "cv_similar@10": 0.2648648648648649
+ },
+ {
+  "cfg": "lr=0.01 reg=2.0 epochs=30",
+  "lr": 0.01,
+  "reg": 2.0,
+  "epochs": 30,
+  "cv_similar@10": 0.2648648648648649
+ }
+]
