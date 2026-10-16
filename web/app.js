@@ -62,9 +62,9 @@ function setClip(file, sampleName = null) {
 
 async function useSample(name) {
   setStatus(`Loading sample clip…`, true);
-  const r = await fetch(`samples/${name}.mp4`);
+  const r = await fetch(`samples/${name}.webm`);
   const b = await r.blob();
-  setClip(new File([b], `${name}.mp4`, {type: 'video/mp4'}), name);
+  setClip(new File([b], `${name}.webm`, {type: 'video/webm'}), name);
   try { const s = await fetch(`samples/${name}.srt`); if (s.ok) state.srtFile = new File([await s.blob()], `${name}.srt`); } catch (e) {}
   setStatus('');
 }
