@@ -1,0 +1,7440 @@
+{
+ "variant": "llm_semantic_v3",
+ "all": {
+  "n": 50,
+  "original@10": 0.0,
+  "similar@10": 0.4,
+  "P@10": 0.092,
+  "MRR": 0.22057142857142856,
+  "brief_mood_recall": 0.17833333333333332,
+  "brief_genre_recall": 0.05,
+  "relationship_acc": 0.74,
+  "energy_mae": 0.22000000000000003,
+  "brief_valid": 1.0
+ },
+ "match": {
+  "n": 40,
+  "original@10": 0.0,
+  "similar@10": 0.4,
+  "P@10": 0.1,
+  "MRR": 0.24988095238095237,
+  "brief_mood_recall": 0.19583333333333333,
+  "brief_genre_recall": 0.05,
+  "relationship_acc": 0.775,
+  "energy_mae": 0.22999999999999998,
+  "brief_valid": 1.0
+ },
+ "counterpoint": {
+  "n": 10,
+  "original@10": 0.0,
+  "similar@10": 0.4,
+  "P@10": 0.06,
+  "MRR": 0.10333333333333332,
+  "brief_mood_recall": 0.10833333333333332,
+  "brief_genre_recall": 0.05,
+  "relationship_acc": 0.6,
+  "energy_mae": 0.18,
+  "brief_valid": 1.0
+ },
+ "rows": [
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:132205",
+     "perturbation \u00e9lectrique",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1394779",
+     "Cyberpunk",
+     "ebunny",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:965797",
+     "Another Psychotic Thing (Old Outro, Bonus)",
+     "Zeffon",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1403975",
+     "Ambiance D (2005)",
+     "Elecmutec",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:919942",
+     "Darkness",
+     "StatueOfDiveo",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:710695",
+     "Dark",
+     "Fabrizio Brugnera",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:146596",
+     "Energie OF",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1349109",
+     "Jamais Enerv\u00e9, Mais La...",
+     "Elecmutec",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:23863",
+     "Delirium",
+     "Nocreeps",
+     [],
+     [
+      "rock"
+     ],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1116948",
+     "A Mysterious Distorted Guest",
+     "Zeffon",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.04999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "reservoir-dogs-ear",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "The scene is dark and tense, with a sense of danger and the gangster's confident yet menacing demeanor. The song should reflect this by being dark but also maintaining an air of confidence or even amusement in his actions.",
+    "summary": "Darkly comedic with a touch of menace",
+    "relationship": "counterpoint",
+    "moods": [
+     "dark",
+     "comedy"
+    ],
+    "genres": [
+     "electronic",
+     "hardrock"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.7,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "melodic",
+     "positive",
+     "uplifting"
+    ],
+    "music_description": "Dark electronic beats with distorted synthesizer melodies and a gritty electric guitar riff, creating an unsettling yet confident atmosphere.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:1397852",
+     "Energizer",
+     "Porrazzo",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.875,
+     true
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1038511",
+     "Hypersonic",
+     "Oursvince",
+     [
+      "action"
+     ],
+     [],
+     0.825,
+     false
+    ],
+    [
+     "jamendo:1349109",
+     "Jamais Enerv\u00e9, Mais La...",
+     "Elecmutec",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1396976",
+     "Spend My Time",
+     "Intrinsic Nature",
+     [],
+     [
+      "rock"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:316204",
+     "Heartbeat",
+     "Creo",
+     [
+      "energetic"
+     ],
+     [
+      "instrumentalrock",
+      "rock"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:1078710",
+     "The Masquerade",
+     "Earth and Moon",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1400501",
+     "Energie Noire",
+     "Elecmutec",
+     [
+      "energetic"
+     ],
+     [],
+     0.467,
+     false
+    ],
+    [
+     "jamendo:146596",
+     "Energie OF",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:991717",
+     "The Bull",
+     "Bars&Beats Studio",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is a bold and dramatic introduction to the film, setting up the stakes for the action that follows. The music should be energetic and exciting to match the sense of urgency and excitement in the moment.",
+    "summary": "Energetic and Exciting Action Introduction",
+    "relationship": "match",
+    "moods": [
+     "action",
+     "heroic"
+    ],
+    "genres": [
+     "electronic",
+     "hardrock"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar",
+     "bass"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "melodic"
+    ],
+    "music_description": "An electrifying electronic beat with driving guitars and a powerful bass line, punctuated by sharp piano chords and dynamic percussion to convey the urgency of the situation.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [
+      "fun"
+     ],
+     [
+      "rock"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1340337",
+     "Dance Song",
+     "Andrey_Serg",
+     [],
+     [],
+     0.537,
+     false
+    ],
+    [
+     "jamendo:1381922",
+     "Electra",
+     "Nubra",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1136344",
+     "The Sax (Electro House Loop)",
+     "Snabisch",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1396603",
+     "Be With You",
+     "Intrinsic Nature",
+     [],
+     [
+      "rock"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [],
+     [
+      "rock"
+     ],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1088388",
+     "Comically Romantic",
+     "Efrem Scacco",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1149205",
+     "Always Smiling",
+     "Snabisch",
+     [
+      "retro"
+     ],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-twist",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is playful and nostalgic, with a touch of dark humor. The dance is deadpan and serious, which contrasts with the celebratory nature of the trophy awarding.",
+    "summary": "Playful twist dance in a 1950s-themed restaurant leading up to a trophy awarding ceremony.",
+    "relationship": "counterpoint",
+    "moods": [
+     "funny",
+     "romantic"
+    ],
+    "genres": [
+     "electrorock",
+     "80s"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.7,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "entertainment"
+    ],
+    "music_description": "An upbeat electroswing track with playful synthesizer melodies and electric guitar riffs. The vocals add a touch of romance and humor to the scene.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1056391",
+     "Piano Chill Instrumental",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1056395",
+     "Chill Background Loop 2",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:378474",
+     "2012 - The Enigma",
+     "SoLaRiS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:15167",
+     "experience II",
+     "Grace Valhalla",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:824632",
+     "The garden ",
+     "Electron7",
+     [],
+     [],
+     0.1,
+     false
+    ],
+    [
+     "jamendo:1349122",
+     "Touch\u00e9",
+     "Elecmutec",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1078710",
+     "The Masquerade",
+     "Earth and Moon",
+     [],
+     [
+      "alternative",
+      "indie"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:784085",
+     "The Secret Garden",
+     "AsRiLoS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1035757",
+     "Her Song",
+     "Dreamweaver",
+     [],
+     [],
+     0.4,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.45,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "pulp-fiction-mia",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is tense and intimate, with a mix of sensuality and tension. The woman's actions are risky and the music should reflect her vulnerability and danger.",
+    "summary": "Sensual woman snorting heroin in a dimly lit room",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "melodic"
+    ],
+    "genres": [
+     "electronic",
+     "ambient"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums",
+     "bass"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "energetic",
+     "uplifting",
+     "positive"
+    ],
+    "music_description": "Sensual electronic and ambient music with piano, synthesizer, and electric guitar. Vocal lines add a touch of vulnerability.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.5,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:1329523",
+     "Epic Piano Raise",
+     "Giuseppe Lorenzoni",
+     [
+      "epic"
+     ],
+     [
+      "soundtrack"
+     ],
+     0.8,
+     true
+    ],
+    [
+     "jamendo:1209638",
+     "Dark Villain",
+     "Matti Paalanen",
+     [
+      "epic"
+     ],
+     [
+      "soundtrack"
+     ],
+     0.65,
+     true
+    ],
+    [
+     "jamendo:824301",
+     "Criminal Fandango",
+     "Christoph Burghardt",
+     [
+      "epic",
+      "powerful"
+     ],
+     [
+      "soundtrack"
+     ],
+     0.85,
+     true
+    ],
+    [
+     "jamendo:1279624",
+     "Dark Piano",
+     "Draganov Veaceslav (Draganov89)",
+     [],
+     [
+      "soundtrack"
+     ],
+     0.483,
+     false
+    ],
+    [
+     "jamendo:710695",
+     "Dark",
+     "Fabrizio Brugnera",
+     [],
+     [
+      "soundtrack"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:883578",
+     "01 - Tronical Prelude",
+     "MG-Rizzello",
+     [
+      "epic"
+     ],
+     [
+      "soundtrack"
+     ],
+     0.8,
+     true
+    ],
+    [
+     "jamendo:1116953",
+     "Bomber Robbery / Shorter Lament",
+     "Zeffon",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1082105",
+     "EPIC ORCHESTRAL",
+     "Iliakulakow",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:95400",
+     "The Darkness",
+     "Giorgio Campagnano",
+     [],
+     [
+      "soundtrack"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1315910",
+     "Satan",
+     "Mirko Viscuso",
+     [
+      "epic"
+     ],
+     [
+      "soundtrack"
+     ],
+     0.8,
+     true
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-entourage",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is filled with a sense of grandeur and control, evoking the power and elegance of a crime boss in a high-stakes setting. The music should reflect this by being epic and slightly dark to match the tense yet confident atmosphere.",
+    "summary": "Epic, dark orchestral score",
+    "relationship": "match",
+    "moods": [
+     "epic",
+     "dark"
+    ],
+    "genres": [
+     "orchestral",
+     "classicrock"
+    ],
+    "instruments": [
+     "strings",
+     "piano",
+     "electricguitar",
+     "drums"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "An epic orchestral score with dark strings and electric guitar interludes, complemented by a powerful piano melody that underscores the crime boss's control over the scene.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:710695",
+     "Dark",
+     "Fabrizio Brugnera",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:965797",
+     "Another Psychotic Thing (Old Outro, Bonus)",
+     "Zeffon",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1315910",
+     "Satan",
+     "Mirko Viscuso",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1116953",
+     "Bomber Robbery / Shorter Lament",
+     "Zeffon",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1283769",
+     "Horror",
+     "OnionAudioProduction",
+     [
+      "dark"
+     ],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1403975",
+     "Ambiance D (2005)",
+     "Elecmutec",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:710697",
+     "Revelations",
+     "Fabrizio Brugnera",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1404044",
+     "The Flood",
+     "Arbeitsheld",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1394779",
+     "Cyberpunk",
+     "ebunny",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1289370",
+     "Sadness",
+     "Movie Theater",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.6666666666666666,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.7,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-bang-bang",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is dark and violent, with a sense of masochism and cruelty. The song should counterpoint this by being darkly comic or stylized to balance the grim reality of the scene.",
+    "summary": "Darkly comedic score for the bloodied bride's fate.",
+    "relationship": "counterpoint",
+    "moods": [
+     "sad",
+     "dark"
+    ],
+    "genres": [
+     "electronic",
+     "hardrock"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "A darkly comedic electronic score with distorted synthesizer tones and heavy guitar riffs, emphasizing the stylized violence of the scene.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:26439",
+     "Sad",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1275609",
+     "Darkest Days",
+     "Sapere Aude",
+     [],
+     [],
+     0.375,
+     false
+    ],
+    [
+     "jamendo:1078710",
+     "The Masquerade",
+     "Earth and Moon",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1414691",
+     "Emma",
+     "Chris K.",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1289370",
+     "Sadness",
+     "Movie Theater",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:710695",
+     "Dark",
+     "Fabrizio Brugnera",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1078711",
+     "Till the End of Time",
+     "Earth and Moon",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1312995",
+     "Bones (My Elegy of Emptiness)",
+     "Zeffon",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1187642",
+     "Today",
+     "Marc Reeves",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1289381",
+     "Sadness (Raw Version)",
+     "Movie Theater",
+     [],
+     [],
+     0.25,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "kill-bill-snow-duel",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is intense and somber, with a sense of finality and tragedy. The duel feels like a moment of catharsis for the characters, even as it leads to their demise.",
+    "summary": "Final duel in a snow-covered garden",
+    "relationship": "counterpoint",
+    "moods": [
+     "sad",
+     "dramatic"
+    ],
+    "genres": [
+     "classicrock",
+     "electrorock"
+    ],
+    "instruments": [
+     "piano",
+     "drums",
+     "electricguitar",
+     "strings"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "A dark and brooding rock song with piano and electric guitar, featuring a powerful vocal performance that mirrors the intensity of the scene.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1326422",
+     "The Flight",
+     "GG Digital Project",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:372528",
+     "A New Day",
+     "Chill Carrier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1174156",
+     "Waiting ( Juliana's Theme )",
+     "Luminance Factor",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1346189",
+     "Flight in the sky",
+     "Airmusic",
+     [],
+     [],
+     0.32,
+     false
+    ],
+    [
+     "jamendo:973253",
+     "Airports (Drama)",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:771293",
+     "Welcome",
+     "Anitek",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1277763",
+     "Thick Air",
+     "Pablo Samonta",
+     [],
+     [],
+     0.225,
+     false
+    ],
+    [
+     "jamendo:1371701",
+     "The flight simulator",
+     "Dj-J@M",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:379766",
+     "The Astronaut",
+     "P.a.p.",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:941855",
+     "FLY22 (piano version)",
+     "DJ DOS",
+     [],
+     [],
+     0.3,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "jackie-brown-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene depicts a calm and professional flight attendant, creating an air of efficiency and professionalism. The song should match this mood by being cool, unhurried, and perhaps slightly reflective or inspiring.",
+    "summary": "Cool, professional airport setting",
+    "relationship": "match",
+    "moods": [
+     "cool",
+     "commercial"
+    ],
+    "genres": [
+     "soundtrack",
+     "electronic"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "piano"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "A cool and professional soundtrack featuring synthesizer pads, piano chords, and a steady drum beat to match the calm demeanor of the flight attendant.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:919942",
+     "Darkness",
+     "StatueOfDiveo",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:710695",
+     "Dark",
+     "Fabrizio Brugnera",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:132205",
+     "perturbation \u00e9lectrique",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:146596",
+     "Energie OF",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1403975",
+     "Ambiance D (2005)",
+     "Elecmutec",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1029949",
+     "Blue Moon",
+     "Zeffon",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:378474",
+     "2012 - The Enigma",
+     "SoLaRiS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1078710",
+     "The Masquerade",
+     "Earth and Moon",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1365210",
+     "amethyst",
+     "D27m",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "inglourious-makeup",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is intense and dark, with a sense of revenge and danger. The woman's preparation for the night ahead suggests a somber yet determined mood.",
+    "summary": "A tense, darkly romantic moment leading up to revenge on a Nazi film premiere.",
+    "relationship": "match",
+    "moods": [
+     "dark",
+     "romantic"
+    ],
+    "genres": [
+     "electronic",
+     "hardrock"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Dark electronic beats with distorted electric guitar and synthesizer tones, creating a tense and ominous atmosphere. Vocal lines are minimalistic and haunting.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1275613",
+     "Forever Lost",
+     "Sapere Aude",
+     [
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:26439",
+     "Sad",
+     "Celestial Aeon Project",
+     [
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1151569",
+     "Emotionnal Sad Piano, String & Voice",
+     "-Poul'H-",
+     [
+      "emotional",
+      "sad"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:352927",
+     "LoveTheme",
+     "Soul in Sadness",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1232050",
+     "The Hunt",
+     "Sapere Aude",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1277824",
+     "Beautiful Shame",
+     "Pablo Samonta",
+     [
+      "sad"
+     ],
+     [],
+     0.325,
+     false
+    ],
+    [
+     "jamendo:1340342",
+     "Romance",
+     "Andrey_Serg",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1278731",
+     "Empty Hearts",
+     "Pablo Samonta",
+     [
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1209655",
+     "Sad Piano",
+     "Matti Paalanen",
+     [
+      "emotional"
+     ],
+     [],
+     0.475,
+     false
+    ],
+    [
+     "jamendo:1299816",
+     "For You and You Alone",
+     "Udo Vismann",
+     [
+      "sad"
+     ],
+     [],
+     0.267,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "django-flashback",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is a somber reflection on past trauma, with the memories of his wife's mistreatment juxtaposed against his current journey. The music should evoke a sense of grief and longing.",
+    "summary": "Grief, romance",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "romantic"
+    ],
+    "genres": [
+     "classicrock",
+     "punkrock"
+    ],
+    "instruments": [
+     "piano",
+     "strings",
+     "voice"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 60,
+     "max_bpm": 80
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "energetic",
+     "uplifting"
+    ],
+    "music_description": "A melancholic classical rock track with piano and strings, featuring a solo voice singing about lost love and sorrow.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:951",
+     "Nostalgia",
+     "Alexander Blu",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:784085",
+     "The Secret Garden",
+     "AsRiLoS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1292387",
+     "You",
+     "Gr\u00e9goire Lourme",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1165173",
+     "Paradise",
+     "Offenbach Project",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1199568",
+     "The Dawn",
+     "Andrey Avkhimovich",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:378474",
+     "2012 - The Enigma",
+     "SoLaRiS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1134031",
+     "Retro soundtrack",
+     "Dreamer",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1056391",
+     "Piano Chill Instrumental",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1194831",
+     "Memories",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [],
+     0.2,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "ouatih-neon",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene evokes a sense of nostalgia and wistfulness as the characters reflect on the end of an era in Los Angeles. The music should complement this sentiment without overpowering the visuals.",
+    "summary": "Nostalgic, wistful montage of 1960s LA at dusk.",
+    "relationship": "match",
+    "moods": [
+     "melodic",
+     "romantic"
+    ],
+    "genres": [
+     "electronic",
+     "ambient"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums",
+     "keyboard"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "entertainment",
+     "heavy"
+    ],
+    "music_description": "A soft, melancholic electronic and ambient score with piano and synthesizer melodies, evoking a sense of nostalgia for the end of an era in 1960s Los Angeles.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.3,
+   "RR": 0.3333333333333333,
+   "top": [
+    [
+     "jamendo:1100971",
+     "Its Been Done Before",
+     "Ben K Adams",
+     [
+      "driving"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:968976",
+     "On The Road",
+     "PhaZer",
+     [],
+     [
+      "rock"
+     ],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1261459",
+     "Afronaut Doe",
+     "EspantoMusic",
+     [
+      "fast"
+     ],
+     [
+      "rock"
+     ],
+     0.95,
+     true
+    ],
+    [
+     "jamendo:1248252",
+     "Cheetah Chase",
+     "Anitek",
+     [
+      "fast"
+     ],
+     [],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:1125685",
+     "Energetic Rock Funk",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:1159659",
+     "Hot Asphalt",
+     "Ceil\u00ed Moss",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1125677",
+     "Energetic Lite Rock (30 sec loop)",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:1072431",
+     "Wire & Flashing Lights",
+     "Professor Kliq",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:1072432",
+     "Wire & Flashing Lights (Osheaga Version)",
+     "Professor Kliq",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:403066",
+     "Highway",
+     "Maciej Bether",
+     [],
+     [],
+     0.75,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.04999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-bellbottoms",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is a high-energy chase through Atlanta traffic, which should be matched with an energetic and exciting song that captures the thrill and urgency of the moment.",
+    "summary": "Energetic car chase music",
+    "relationship": "match",
+    "moods": [
+     "energetic",
+     "upbeat"
+    ],
+    "genres": [
+     "electronic",
+     "hardrock",
+     "hiphop"
+    ],
+    "instruments": [
+     "drums",
+     "bass",
+     "electricguitar",
+     "synthesizer"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "melancholic"
+    ],
+    "music_description": "Energetic electronic and hard rock with driving bass and guitar, featuring vocals for a thrilling chase through Atlanta traffic.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [],
+     [],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1056380",
+     "Pop Background Loop 1",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:872001",
+     "Twist Turn Slide (album mix)",
+     "Psychadelik Pedestrian",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [
+      "fun"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:103599",
+     "Electricity",
+     "Alexander Blu",
+     [],
+     [
+      "funk"
+     ],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:945194",
+     "Streets",
+     "Disconauts Music Production",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:11751",
+     "Urban",
+     "Tom La Meche",
+     [],
+     [],
+     0.55,
+     false
+    ],
+    [
+     "jamendo:1290882",
+     "Hit The Deck",
+     "Psychadelik Pedestrian",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1340337",
+     "Dance Song",
+     "Andrey_Serg",
+     [],
+     [],
+     0.537,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ]
+   ],
+   "mood_recall": 0.5,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.04999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-coffee",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene captures a lively, upbeat moment with the man's steps in sync with his music and the city environment. The song should reflect this energy and rhythm.",
+    "summary": "Lyrical coffee run",
+    "relationship": "match",
+    "moods": [
+     "upbeat",
+     "fun"
+    ],
+    "genres": [
+     "electronic",
+     "poprock",
+     "chillout"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar",
+     "bass"
+    ],
+    "energy": 0.7,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "sad"
+    ],
+    "music_description": "An energetic electronic-pop rock track with a steady beat and catchy guitar riff. The vocals are upbeat and rhythmic, mirroring the man's steps on the street.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:807111",
+     "Desert Freeway",
+     "Axession",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:599222",
+     "Look inside",
+     "Jahzzar",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1414119",
+     "Every Time",
+     "John Russell",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1189915",
+     "Folk Rock Anthem",
+     "Seastock",
+     [],
+     [],
+     0.533,
+     false
+    ],
+    [
+     "jamendo:1380659",
+     "Concrete Jungle",
+     "John Russell",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:377448",
+     "Die zwei Raben",
+     "Marijanh",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:566730",
+     "Bank Rolled",
+     "Farmertan",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:944971",
+     "La paix",
+     "Burnogson",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1195916",
+     "Folk Rock",
+     "Matti Paalanen",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:991725",
+     "Rock yourself ",
+     "Bars&Beats Studio",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "baby-driver-shootout",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "The scene's chaotic and violent nature is mirrored by a rock anthem that amplifies the intensity of the shootout.",
+    "summary": "Rage Rock",
+    "relationship": "counterpoint",
+    "moods": [
+     "folkrock"
+    ],
+    "genres": [
+     "electronic",
+     "soundtrack"
+    ],
+    "instruments": [
+     "drums",
+     "electricguitar",
+     "bass",
+     "synthesizer"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 125,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "melodic"
+    ],
+    "music_description": "A frenetic rock anthem with pounding drums and distorted electric guitar, capturing the raw intensity of a chaotic shootout.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.5,
+   "top": [
+    [
+     "jamendo:1072126",
+     "Happy Catchy Rock",
+     "Plastic3",
+     [
+      "happy"
+     ],
+     [],
+     0.567,
+     false
+    ],
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.775,
+     true
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1248257",
+     "The Same",
+     "Anitek",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1117575",
+     "Funky And Happy",
+     "FJGI",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:34517",
+     "Around",
+     "Piergiorgio Lucidi",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1230999",
+     "Pa gozar",
+     "owem_g",
+     [
+      "happy"
+     ],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:34520",
+     "Critic",
+     "Piergiorgio Lucidi",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:771285",
+     "Blueprint",
+     "Anitek",
+     [],
+     [],
+     0.8,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "shaun-of-the-dead-pub",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "The scene is chaotic and rhythmic, with the friends using pool cues to beat a zombie landlord. The jukebox music should match this energy and rhythm.",
+    "summary": "Rhythmic pub fight with zombies",
+    "relationship": "counterpoint",
+    "moods": [
+     "happy",
+     "movie"
+    ],
+    "genres": [
+     "electronic",
+     "poprock",
+     "hardrock",
+     "punkrock"
+    ],
+    "instruments": [
+     "drums",
+     "electricguitar",
+     "bass",
+     "synthesizer"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "melodic",
+     "ambiental",
+     "chilled"
+    ],
+    "music_description": "Rhythmic electronic beats with distorted guitar and bass, adding to the chaotic energy of the scene.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.3,
+   "RR": 0.3333333333333333,
+   "top": [
+    [
+     "jamendo:1038511",
+     "Hypersonic",
+     "Oursvince",
+     [],
+     [],
+     0.825,
+     false
+    ],
+    [
+     "jamendo:1094519",
+     "Ethereal Pulsation",
+     "Aufklarung",
+     [],
+     [
+      "pop"
+     ],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1250049",
+     "Electro Pop Dance Party 11",
+     "Auditone Music Library",
+     [
+      "fun",
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.8,
+     true
+    ],
+    [
+     "jamendo:1250052",
+     "Electro Pop Dance Party 9",
+     "Auditone Music Library",
+     [
+      "fun",
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.8,
+     true
+    ],
+    [
+     "jamendo:1131442",
+     "WAVES",
+     "Meir Shitrit",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:945201",
+     "Ocean",
+     "Disconauts Music Production",
+     [
+      "happy"
+     ],
+     [
+      "pop"
+     ],
+     0.675,
+     true
+    ],
+    [
+     "jamendo:981229",
+     "Re-play (Bonus track)",
+     "Human",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1300000",
+     "Luminiferous Aether",
+     "SoLaRiS",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1136344",
+     "The Sax (Electro House Loop)",
+     "Snabisch",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:875384",
+     "Waves ",
+     "SoLaRiS",
+     [],
+     [],
+     0.3,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "guardians-opening",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "The scene is energetic and adventurous, with a touch of dark humor as the space adventurer uses an alien creature for entertainment. The music should reflect this by being upbeat yet playful.",
+    "summary": "Energetic dance track with sci-fi elements",
+    "relationship": "match",
+    "moods": [
+     "upbeat",
+     "scifi"
+    ],
+    "genres": [
+     "electronic",
+     "poprock",
+     "edm"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar",
+     "bass"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "dark"
+    ],
+    "music_description": "An upbeat electronic dance track with sci-fi elements, featuring synthesizer melodies and a driving bass line. The music is playful and energetic, with the occasional alien creature sound effects to add to the fun atmosphere.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1056380",
+     "Pop Background Loop 1",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1056398",
+     "Pop Background Loop 2",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1078431",
+     "Trendstranded",
+     "Michael Ellis",
+     [],
+     [
+      "pop",
+      "poprock",
+      "rock"
+     ],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1057481",
+     "Only Human",
+     "Dayung",
+     [],
+     [
+      "pop",
+      "poprock"
+     ],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:919931",
+     "Whatever You Want",
+     "StatueOfDiveo",
+     [],
+     [],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1357556",
+     "ALIEN",
+     "Golden Duck Orchestra",
+     [],
+     [
+      "poprock",
+      "rock"
+     ],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1129935",
+     "Simple melody",
+     "Ordinarypeople",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1089141",
+     "Pretty Thing (Electro Loop)",
+     "Snabisch",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1164203",
+     "Eternal Wishes (Loop)",
+     "Snabisch",
+     [
+      "happy"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.25,
+   "relationship_ok": false,
+   "energy_err": 0.20000000000000007,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "guardians2-groot",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "The scene is a whimsical and light-hearted moment amidst intense action, requiring a song that balances the heroics with the absurdity of the situation.",
+    "summary": "A tiny tree creature dances obliviously in a world of giant space monsters.",
+    "relationship": "match",
+    "moods": [
+     "funny",
+     "fantasy"
+    ],
+    "genres": [
+     "electronic",
+     "poprock",
+     "minimalism",
+     "chiptune"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drummachine",
+     "computer",
+     "voice"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "An upbeat electronic-pop rock track with playful synthesizer melodies and quirky chiptune samples. The vocals add a whimsical touch to the scene.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:26439",
+     "Sad",
+     "Celestial Aeon Project",
+     [
+      "melancholic",
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1232050",
+     "The Hunt",
+     "Sapere Aude",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1417346",
+     "Mourning Morning",
+     "Blank Cadenza",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:667863",
+     "BWV171 Piano - Largo",
+     "Re-Lab",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1275613",
+     "Forever Lost",
+     "Sapere Aude",
+     [
+      "melancholic",
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:259327",
+     "Sorrow",
+     "Frozen Silence",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:25240",
+     "Sadness",
+     "Frozen Silence",
+     [
+      "melancholic",
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1289370",
+     "Sadness",
+     "Movie Theater",
+     [],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1185784",
+     "Sad piano",
+     "Matti Paalanen",
+     [
+      "emotional",
+      "sad"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:957461",
+     "Slow",
+     "L\u00f6hstana David",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.25,
+   "relationship_ok": false,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-layla",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "The scene is somber and reflective, with a sense of loss and discovery. The bodies are discovered in slow, mournful tracking shots, which suggests a contemplative mood rather than immediate action or celebration.",
+    "summary": "Slow, mournful heist aftermath discovery sequence",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "melodic"
+    ],
+    "genres": [
+     "classicrock",
+     "ambient"
+    ],
+    "instruments": [
+     "piano",
+     "strings",
+     "orchestra"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 60,
+     "max_bpm": 80
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "energetic",
+     "upbeat",
+     "positive"
+    ],
+    "music_description": "A slow, melancholic classical rock composition with mournful strings and piano, evoking a sense of loss and discovery.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1035757",
+     "Her Song",
+     "Dreamweaver",
+     [
+      "love"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1329498",
+     "CInematic Romantic Piano and Orchestra",
+     "Giuseppe Lorenzoni",
+     [
+      "love"
+     ],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:1165173",
+     "Paradise",
+     "Offenbach Project",
+     [
+      "romantic"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1241781",
+     "Romance",
+     "Stanislav Maksymov",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:467954",
+     "platine ",
+     "Sapiens FX",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:661314",
+     "Masure evening",
+     "Julien Boulier",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:858781",
+     "Answer",
+     "Sergey Kovchik",
+     [
+      "romantic"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:976776",
+     "Piano Bar",
+     "Disconauts Music Production",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1121459",
+     "Romance",
+     "Marco Margna",
+     [],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:1340342",
+     "Romance",
+     "Andrey_Serg",
+     [],
+     [
+      "pop"
+     ],
+     0.25,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.1499999999999999,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-copa",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is intimate and celebratory, despite the gangster's tough exterior. The music should reflect this duality.",
+    "summary": "Intimate nightclub encounter",
+    "relationship": "match",
+    "moods": [
+     "romantic",
+     "movie"
+    ],
+    "genres": [
+     "electronic",
+     "poprock"
+    ],
+    "instruments": [
+     "piano",
+     "synthesizer"
+    ],
+    "energy": 0.7,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "heavy",
+     "scifi"
+    ],
+    "music_description": "An electronic and poprock blend with piano and synthesizer melodies that evoke a warm, intimate nightclub atmosphere. The music is upbeat yet tender, reflecting the couple's joyous encounter.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:1253142",
+     "Delusion",
+     "Przemek Korzyniewski",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.625,
+     true
+    ],
+    [
+     "jamendo:1371869",
+     "The Keeper",
+     "Dangerous Visions",
+     [],
+     [
+      "rock"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:361701",
+     "My Own Hell",
+     "CAUTIVA",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1230854",
+     "Evil Heart",
+     "BlackStar",
+     [],
+     [],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:968976",
+     "On The Road",
+     "PhaZer",
+     [],
+     [
+      "hardrock",
+      "rock"
+     ],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:23863",
+     "Delirium",
+     "Nocreeps",
+     [],
+     [
+      "hardrock",
+      "rock"
+     ],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1078710",
+     "The Masquerade",
+     "Earth and Moon",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:710697",
+     "Revelations",
+     "Fabrizio Brugnera",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1231675",
+     "Scream",
+     "BlackStar",
+     [],
+     [],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:710695",
+     "Dark",
+     "Fabrizio Brugnera",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": false,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "goodfellas-helicopter",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is filled with paranoia and urgency, suggesting a tense yet somewhat chaotic energy. The character's delusional state adds an element of dark comedy to the mix.",
+    "summary": "A paranoid gangster racing between drug deals and stirring sauce at home.",
+    "relationship": "counterpoint",
+    "moods": [
+     "dark",
+     "dramatic"
+    ],
+    "genres": [
+     "hardrock",
+     "punkrock"
+    ],
+    "instruments": [
+     "drums",
+     "electricguitar",
+     "bass"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "upbeat",
+     "melodic"
+    ],
+    "music_description": "A frenzied hard rock track with distorted guitars and pounding drums, capturing the character's paranoia and urgency. The vocals are raw and intense.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1121459",
+     "Romance",
+     "Marco Margna",
+     [],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:1371330",
+     "Ballade / Soft Piano",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1191330",
+     "Remember",
+     "Marc Teichert",
+     [
+      "love",
+      "romantic"
+     ],
+     [],
+     0.325,
+     false
+    ],
+    [
+     "jamendo:1121503",
+     "Love song",
+     "Marco Margna",
+     [
+      "romantic"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1329498",
+     "CInematic Romantic Piano and Orchestra",
+     "Giuseppe Lorenzoni",
+     [
+      "love"
+     ],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:352927",
+     "LoveTheme",
+     "Soul in Sadness",
+     [
+      "romantic"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1084387",
+     "Old Photo",
+     "Aleksey Chistilin",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1077051",
+     "Lovers Rhapsody",
+     "GingerTom",
+     [
+      "love"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1403730",
+     "Piano Passacaglia / Soft Version",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:959156",
+     "20junio2012",
+     "Dave Imbern\u00f6n",
+     [
+      "nostalgic",
+      "romantic"
+     ],
+     [],
+     0.35,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "mean-streets-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is set in a nostalgic and tender moment, with home movies playing. The young man waking up from a bad dream reflects a somber mood that needs to be balanced by something uplifting or comforting.",
+    "summary": "Young man wakes from a nightmare, comforted by home movies of friends and his christening.",
+    "relationship": "match",
+    "moods": [
+     "romantic",
+     "movie"
+    ],
+    "genres": [
+     "poprock",
+     "classicrock"
+    ],
+    "instruments": [
+     "piano",
+     "strings",
+     "voice"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 72,
+     "max_bpm": 84
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "heavy",
+     "dark"
+    ],
+    "music_description": "A soft piano melody with strings and a gentle voice singing a nostalgic love song.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:968976",
+     "On The Road",
+     "PhaZer",
+     [
+      "powerful"
+     ],
+     [
+      "rock"
+     ],
+     0.85,
+     true
+    ],
+    [
+     "jamendo:1230854",
+     "Evil Heart",
+     "BlackStar",
+     [],
+     [],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:1231675",
+     "Scream",
+     "BlackStar",
+     [],
+     [],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:1371869",
+     "The Keeper",
+     "Dangerous Visions",
+     [],
+     [
+      "rock"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:361701",
+     "My Own Hell",
+     "CAUTIVA",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:23863",
+     "Delirium",
+     "Nocreeps",
+     [],
+     [
+      "rock"
+     ],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1149223",
+     "The Hard",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ],
+    [
+     "jamendo:1307852",
+     "Beyond The Line",
+     "Dirty Dukes",
+     [
+      "aggressive"
+     ],
+     [
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1190792",
+     "Lightning",
+     "RoeAudionews",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:953635",
+     "Hard Rock Life",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.8,
+     true
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": false,
+   "energy_err": 0.20000000000000007,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "departed-boston",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene depicts a gritty, intense environment with physical confrontations and tense interactions. The music should reflect the raw energy and intensity of the action while also hinting at the Irish cultural elements present in the setting.",
+    "summary": "Gritty Boston street brawls",
+    "relationship": "counterpoint",
+    "moods": [
+     "dark",
+     "action"
+    ],
+    "genres": [
+     "hardrock",
+     "punkrock"
+    ],
+    "instruments": [
+     "drums",
+     "electricguitar",
+     "bass"
+    ],
+    "energy": 0.7,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "A fast-paced hard rock track with distorted electric guitars and pounding drums that mirrors the chaotic energy of the scene. The vocals are raw and intense, adding to the gritty feel.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.5,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.775,
+     true
+    ],
+    [
+     "jamendo:807111",
+     "Desert Freeway",
+     "Axession",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1109991",
+     "Positiveness Loop 3 (30 sec)",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.775,
+     true
+    ],
+    [
+     "jamendo:316204",
+     "Heartbeat",
+     "Creo",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:316203",
+     "Live",
+     "Creo",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.7,
+     true
+    ],
+    [
+     "jamendo:1155058",
+     "Its Not",
+     "Cooper",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1100971",
+     "Its Been Done Before",
+     "Ben K Adams",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1340343",
+     "Somebody",
+     "Andrey_Serg",
+     [
+      "fun"
+     ],
+     [
+      "rock"
+     ],
+     0.75,
+     true
+    ],
+    [
+     "jamendo:1164249",
+     "Non-violent INSTRUMENTAL",
+     "L\u00f6hstana David",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "waynes-world-car",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is energetic and celebratory, with the friends singing along to a rock opera. The beat of their heads aligns in sync, creating a powerful communal moment.",
+    "summary": "Synced headbangs during a car ride",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "movie"
+    ],
+    "genres": [
+     "rock",
+     "electronic"
+    ],
+    "instruments": [
+     "drums",
+     "bass",
+     "electricguitar",
+     "synthesizer"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "any",
+    "avoid": [],
+    "music_description": "A driving rock track with powerful drums and electric guitar riffs, punctuated by synthesizer stabs that sync with the headbangs. The vocals are raw and passionate, mirroring the energy of the scene.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1056380",
+     "Pop Background Loop 1",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1169059",
+     "Daylight",
+     "Teresa",
+     [],
+     [
+      "rock"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1121459",
+     "Romance",
+     "Marco Margna",
+     [],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:1057423",
+     "Heard it in a Whisper",
+     "Dayung",
+     [],
+     [],
+     0.425,
+     false
+    ],
+    [
+     "jamendo:1057427",
+     "My All",
+     "Dayung",
+     [],
+     [],
+     0.425,
+     false
+    ],
+    [
+     "jamendo:1164315",
+     "1_Lullaby 3 AC2",
+     "MFYM",
+     [],
+     [],
+     0.175,
+     false
+    ],
+    [
+     "jamendo:1035757",
+     "Her Song",
+     "Dreamweaver",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1165173",
+     "Paradise",
+     "Offenbach Project",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1371330",
+     "Ballade / Soft Piano",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "risky-business-socks",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is intimate and nostalgic, with the teenager singing alone in a homey setting. The candlelight adds to the warm, cozy feeling.",
+    "summary": "Teenager dancing solo at home",
+    "relationship": "match",
+    "moods": [
+     "melodic",
+     "romantic"
+    ],
+    "genres": [
+     "poprock",
+     "easylistening"
+    ],
+    "instruments": [
+     "piano",
+     "synthesizer",
+     "voice"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "heavy",
+     "dark"
+    ],
+    "music_description": "A soft, melodic pop-rock track with piano and synthesizer melodies, complemented by gentle vocals that evoke a sense of nostalgia and intimacy.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.3,
+   "RR": 0.2,
+   "top": [
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [],
+     [
+      "rock"
+     ],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1125690",
+     "Uplifting Rock (1 min loop)",
+     "Plastic3",
+     [],
+     [
+      "rock"
+     ],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:727908",
+     "Uplifting",
+     "Celestial Aeon Project",
+     [
+      "emotional",
+      "uplifting"
+     ],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:948",
+     "Victory",
+     "Alexander Blu",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1057483",
+     "ThankYou",
+     "Dayung",
+     [
+      "hopeful"
+     ],
+     [
+      "pop"
+     ],
+     0.45,
+     true
+    ],
+    [
+     "jamendo:25381",
+     "Uplifting",
+     "Celestial Aeon Project",
+     [
+      "uplifting"
+     ],
+     [],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:368160",
+     "opening song",
+     "Alexander Franke",
+     [
+      "emotional"
+     ],
+     [
+      "pop"
+     ],
+     0.4,
+     true
+    ],
+    [
+     "jamendo:1021749",
+     "Another One",
+     "Instantperson",
+     [],
+     [
+      "pop"
+     ],
+     0.625,
+     false
+    ],
+    [
+     "jamendo:1163982",
+     "2_Epicly Positive AC2 oct 31",
+     "MFYM",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1057486",
+     "With You",
+     "Dayung",
+     [
+      "hopeful"
+     ],
+     [
+      "pop"
+     ],
+     0.45,
+     true
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.30000000000000004,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "breakfast-club-fist",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene captures a moment of triumph and celebration after overcoming adversity, which aligns with the celebratory nature of the action. The freeze frame emphasizes this moment of victory.",
+    "summary": "Celebratory punch in an empty school field",
+    "relationship": "match",
+    "moods": [
+     "uplifting",
+     "movie"
+    ],
+    "genres": [
+     "electronic",
+     "poprock"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "entertainment"
+    ],
+    "music_description": "An uplifting electronic-pop rock track with synthesizer melodies and electric guitar riffs celebrating victory.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:957461",
+     "Slow",
+     "L\u00f6hstana David",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1187642",
+     "Today",
+     "Marc Reeves",
+     [],
+     [
+      "pop"
+     ],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1169059",
+     "Daylight",
+     "Teresa",
+     [],
+     [
+      "pop",
+      "rock"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:26439",
+     "Sad",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1078710",
+     "The Masquerade",
+     "Earth and Moon",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1186845",
+     "Why?",
+     "Aufklarung",
+     [],
+     [
+      "pop"
+     ],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1127796",
+     "A Certain Kind of Mood",
+     "timeless",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1368979",
+     "Way Home",
+     "Mit-Rich",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1278719",
+     "Bombs to the Heart",
+     "Pablo Samonta",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1255879",
+     "Melancholic blues",
+     "zerothehero",
+     [],
+     [],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "say-anything-boombox",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is somber and reflective, with the young man's silent grief. The song should mirror this emotion.",
+    "summary": "Heartbroken young man at dawn",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "melodic"
+    ],
+    "genres": [
+     "classicrock",
+     "punkrock",
+     "alternative"
+    ],
+    "instruments": [
+     "piano",
+     "drums",
+     "electricguitar",
+     "voice"
+    ],
+    "energy": 0.1,
+    "tempo": {
+     "min_bpm": 60,
+     "max_bpm": 75
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "upbeat",
+     "energetic",
+     "entertainment"
+    ],
+    "music_description": "A slow, melancholic classic rock or folkrock track with a piano and acoustic guitar, featuring emotive vocals. The music gently swells as the scene progresses.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.14285714285714285,
+   "top": [
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [],
+     [],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1109980",
+     "Positiveness Loop 4 (30 sec)",
+     "Plastic3",
+     [],
+     [],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1057486",
+     "With You",
+     "Dayung",
+     [],
+     [
+      "pop"
+     ],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1089143",
+     "The Happy Bride (Dance Loop)",
+     "Snabisch",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1416385",
+     "Hopeful - 90 sec Background Version",
+     "BDKSonic",
+     [
+      "uplifting"
+     ],
+     [
+      "pop"
+     ],
+     0.68,
+     true
+    ],
+    [
+     "jamendo:368160",
+     "opening song",
+     "Alexander Franke",
+     [],
+     [
+      "pop"
+     ],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:807111",
+     "Desert Freeway",
+     "Axession",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1396603",
+     "Be With You",
+     "Intrinsic Nature",
+     [],
+     [
+      "80s"
+     ],
+     0.8,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.5,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "dirty-dancing-lift",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is celebratory and joyful, with a sense of triumph and romance. The dance instructor's action is heroic and romantic.",
+    "summary": "Summer resort show climax - dance instructor lifts young woman overhead as the room joins in.",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "romantic",
+     "movie"
+    ],
+    "genres": [
+     "electronic",
+     "poprock",
+     "edm",
+     "80s"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 125,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "dark",
+     "dramatic"
+    ],
+    "music_description": "Upbeat electronic track with soaring synthesizers and electric guitar. Vocalist belts out a triumphant chorus.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:368160",
+     "opening song",
+     "Alexander Franke",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:727908",
+     "Uplifting",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:21509",
+     "Ernst",
+     "Olga Scotland",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:25254",
+     "Uplifting",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1329523",
+     "Epic Piano Raise",
+     "Giuseppe Lorenzoni",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:916086",
+     "01 - Sopranic Rush",
+     "MG-Rizzello",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1081691",
+     "eclipse",
+     "Offenbach Project",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:762192",
+     "industrial epic choir",
+     "MG-Rizzello",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1034240",
+     "The Boat",
+     "EGA",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1221917",
+     "Soaring",
+     "C\u0152DES Pierre-Marie",
+     [],
+     [],
+     0.8,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "top-gun-deck",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is intense and visually striking, with the focus on the power and majesty of fighter jets. The energy should be uplifting yet focused to match the grand imagery.",
+    "summary": "Uplifting orchestral music to emphasize the scale and excitement of the launch.",
+    "relationship": "match",
+    "moods": [
+     "uplifting",
+     "epic"
+    ],
+    "genres": [
+     "orchestral",
+     "electronic"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 128,
+     "max_bpm": 145
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "entertainment",
+     "horror",
+     "heavy"
+    ],
+    "music_description": "Uplifting orchestral music with electric guitar and strings to emphasize the scale of the launch.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.3,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:991725",
+     "Rock yourself ",
+     "Bars&Beats Studio",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:1066807",
+     "Ready to Roll",
+     "Mike Allen",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:1221565",
+     "Rough",
+     "Matti Paalanen",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:209151",
+     "Johnny The Boxer",
+     "Sean T Wright",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1394781",
+     "Heart of the Tango",
+     "ebunny",
+     [],
+     [
+      "hardrock"
+     ],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1397145",
+     "Ready to Fight",
+     "Porrazzo",
+     [],
+     [
+      "hardrock",
+      "rock"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1253144",
+     "P.",
+     "Przemek Korzyniewski",
+     [
+      "energetic",
+      "motivational"
+     ],
+     [
+      "rock"
+     ],
+     0.738,
+     true
+    ],
+    [
+     "jamendo:1394785",
+     "Life",
+     "ebunny",
+     [],
+     [
+      "hardrock",
+      "rock"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:991717",
+     "The Bull",
+     "Bars&Beats Studio",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1110498",
+     "Roscoe",
+     "Podington Bear",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.3333333333333333,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "rocky-iii-training",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene depicts a gritty, intense training montage for a boxer trying to regain his title. The energy is focused and driven, with moments of intense physical exertion interspersed with brief moments of reflection and recovery.",
+    "summary": "Intense training montage",
+    "relationship": "match",
+    "moods": [
+     "movie",
+     "drama"
+    ],
+    "genres": [
+     "rocknroll",
+     "hardrock",
+     "punkrock"
+    ],
+    "instruments": [
+     "drums",
+     "bass",
+     "electricguitar",
+     "voice"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "upbeat",
+     "funny",
+     "romantic"
+    ],
+    "music_description": "A raw and intense rocknroll anthem with pounding drums and distorted electric guitar, featuring gritty vocals that mirror the boxer's determination and resilience.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1277802",
+     "Garage Bank Rock",
+     "Pablo Samonta",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:566730",
+     "Bank Rolled",
+     "Farmertan",
+     [],
+     [
+      "pop"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:991717",
+     "The Bull",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1136297",
+     "DIFFRACTION",
+     "Guy Berrier",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1371869",
+     "The Keeper",
+     "Dangerous Visions",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:968978",
+     "Dear Foe",
+     "PhaZer",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1058327",
+     "To the Core",
+     "Dave Imbern\u00f6n",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1072428",
+     "Mouth Money",
+     "Professor Kliq",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1394762",
+     "The Hard Facts",
+     "Raul Cabezali",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1307852",
+     "Beyond The Line",
+     "Dirty Dukes",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.20000000000000007,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "american-psycho-axe",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "The scene is intense and dark, with a violent action element. The banker's stern lecture contrasts with the brutal act of violence, creating a stark juxtaposition.",
+    "summary": "Investment banker lectures while swinging an axe.",
+    "relationship": "counterpoint",
+    "moods": [
+     "sad",
+     "dramatic"
+    ],
+    "genres": [
+     "hardrock",
+     "punkrock"
+    ],
+    "instruments": [
+     "electricguitar",
+     "drums",
+     "bass"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "upbeat",
+     "melodic"
+    ],
+    "music_description": "A gritty hardrock or punkrock track with heavy electric guitar riffs and pounding drums to match the violent action. The vocals are intense and confrontational, mirroring the banker's stern lecture.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.14285714285714285,
+   "top": [
+    [
+     "jamendo:1394779",
+     "Cyberpunk",
+     "ebunny",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:965797",
+     "Another Psychotic Thing (Old Outro, Bonus)",
+     "Zeffon",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1078710",
+     "The Masquerade",
+     "Earth and Moon",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1125404",
+     "Baracuthal",
+     "Zeffon",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:132205",
+     "perturbation \u00e9lectrique",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:23863",
+     "Delirium",
+     "Nocreeps",
+     [],
+     [
+      "rock"
+     ],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1136297",
+     "DIFFRACTION",
+     "Guy Berrier",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:1344446",
+     "Headhunter",
+     "OnionAudioProduction",
+     [],
+     [],
+     0.733,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1149223",
+     "The Hard",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.725,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.04999999999999993,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "trainspotting-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is chaotic and darkly comic, with the laughter of a character in danger juxtaposed against the harsh reality of the situation. The song should reflect this mix of humor and tragedy.",
+    "summary": "Darkly comedic chase music",
+    "relationship": "counterpoint",
+    "moods": [
+     "dark",
+     "comedy"
+    ],
+    "genres": [
+     "electronic",
+     "hardrock"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "A fast-paced electronic-hardrock hybrid with distorted synthesizers and heavy guitar riffs, mirroring the chaotic chase while adding a darkly comedic edge through offbeat rhythms and unexpected pauses.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:26439",
+     "Sad",
+     "Celestial Aeon Project",
+     [
+      "melancholic",
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1039627",
+     "Melancholic Piano, Harp and Strings",
+     "Akashic Records",
+     [
+      "sad"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:35173",
+     "melancoly",
+     "Grace Valhalla",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:402053",
+     "Sorrow",
+     "Celestial Aeon Project",
+     [
+      "melancholic"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:349835",
+     "Mellow",
+     "Project Divinity",
+     [
+      "mellow"
+     ],
+     [],
+     0.283,
+     false
+    ],
+    [
+     "jamendo:1185784",
+     "Sad piano",
+     "Matti Paalanen",
+     [
+      "sad"
+     ],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1320479",
+     "Music Chimes for the Experimental",
+     "Zeffon",
+     [
+      "sad"
+     ],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:646804",
+     "Inanna",
+     "Re-Lab",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1159369",
+     "Sad happiness",
+     "Putsasoll",
+     [],
+     [],
+     0.4,
+     false
+    ]
+   ],
+   "mood_recall": 0.5,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.65,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "trainspotting-overdose",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "The scene depicts a somber and tragic moment, with the man sinking into despair. The song should reflect this mood while also providing some levity to counteract the gravity of the situation.",
+    "summary": "Overdose Tragedy",
+    "relationship": "counterpoint",
+    "moods": [
+     "sad",
+     "melancholic"
+    ],
+    "genres": [
+     "electronic",
+     "ambient"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums",
+     "bass"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "uplifting",
+     "positive"
+    ],
+    "music_description": "An electronic ballad with melancholic piano melodies and a driving bass line, featuring subtle synthesizer pads that evoke feelings of sorrow and resignation.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1255881",
+     "Questions",
+     "zerothehero",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1278744",
+     "Rain",
+     "Pablo Samonta",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1289370",
+     "Sadness",
+     "Movie Theater",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:577971",
+     "Statica II",
+     "Re-Lab",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:957461",
+     "Slow",
+     "L\u00f6hstana David",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1275150",
+     "Each Time",
+     "Razvan Veina",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:95537",
+     "Life",
+     "Giorgio Campagnano",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:577972",
+     "Statica III",
+     "Re-Lab",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1194826",
+     "Heaven",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1046463",
+     "Similar",
+     "kerodean",
+     [],
+     [],
+     0.15,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.35,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "donnie-darko-ending",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is set in a quiet suburban setting, with people waking up alone after the death of a boy. The mood should be somber and reflective.",
+    "summary": "Slow montage of people waking up alone in their beds, each sensing something they cannot remember.",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "meditative"
+    ],
+    "genres": [
+     "soundtrack",
+     "ambient",
+     "classicrock"
+    ],
+    "instruments": [
+     "piano",
+     "drums",
+     "bass",
+     "electricguitar"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "tech",
+     "traditional"
+    ],
+    "music_description": "A slow and reflective soundtrack featuring piano, guitar, and bass, with a subtle electronic undercurrent.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.14285714285714285,
+   "top": [
+    [
+     "jamendo:26439",
+     "Sad",
+     "Celestial Aeon Project",
+     [
+      "melancholic",
+      "sad"
+     ],
+     [],
+     0.275,
+     false
+    ],
+    [
+     "jamendo:1340342",
+     "Romance",
+     "Andrey_Serg",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1035757",
+     "Her Song",
+     "Dreamweaver",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1159369",
+     "Sad happiness",
+     "Putsasoll",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1278719",
+     "Bombs to the Heart",
+     "Pablo Samonta",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1187642",
+     "Today",
+     "Marc Reeves",
+     [
+      "sad"
+     ],
+     [
+      "popfolk"
+     ],
+     0.25,
+     true
+    ],
+    [
+     "jamendo:402053",
+     "Sorrow",
+     "Celestial Aeon Project",
+     [
+      "melancholic"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1043529",
+     "Positive and Relaxing Music",
+     "Plastic3",
+     [],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:349835",
+     "Mellow",
+     "Project Divinity",
+     [],
+     [],
+     0.283,
+     false
+    ]
+   ],
+   "mood_recall": 0.6666666666666666,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.2,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "graduate-bus",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene transitions from joy to uncertainty, mirroring the couple's emotional shift. The song should reflect this change in mood and energy.",
+    "summary": "Couple on a bus ride home after fleeing their wedding.",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "melancholic"
+    ],
+    "genres": [
+     "poprock",
+     "electropop"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "uplifting",
+     "energetic"
+    ],
+    "music_description": "A melancholic poprock/electropop track with a slow-paced electric guitar and synthesizer melody that reflects the couple's shifting emotions.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.2,
+   "RR": 0.5,
+   "top": [
+    [
+     "jamendo:807111",
+     "Desert Freeway",
+     "Axession",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.775,
+     true
+    ],
+    [
+     "jamendo:1089143",
+     "The Happy Bride (Dance Loop)",
+     "Snabisch",
+     [
+      "energetic"
+     ],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1109991",
+     "Positiveness Loop 3 (30 sec)",
+     "Plastic3",
+     [
+      "energetic"
+     ],
+     [
+      "rock"
+     ],
+     0.775,
+     true
+    ],
+    [
+     "jamendo:1100971",
+     "Its Been Done Before",
+     "Ben K Adams",
+     [
+      "driving"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1328470",
+     "Happy Journey_60secs",
+     "MFYM",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1189960",
+     "Happy",
+     "Auquid",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1300307",
+     "Happy Ride NR",
+     "MFYM",
+     [
+      "energetic"
+     ],
+     [],
+     0.783,
+     false
+    ],
+    [
+     "jamendo:862834",
+     "HAPPY",
+     "DANI LUCAS",
+     [
+      "energetic"
+     ],
+     [],
+     0.783,
+     false
+    ],
+    [
+     "jamendo:387422",
+     "Happy",
+     "Matti Paalanen",
+     [],
+     [],
+     0.683,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "easy-rider-highway",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene depicts freedom, adventure, and a carefree spirit of two bikers on the open desert highway. The music should reflect this sense of joy and motion without being too aggressive or violent.",
+    "summary": "Biker Ride in Open Desert",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "movie"
+    ],
+    "genres": [
+     "electronic",
+     "poprock"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.7,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "An upbeat electronic-pop rock track with synthesizers and electric guitar providing a driving rhythm. The melody is light and catchy, mirroring the carefree spirit of the bikers on their open desert ride.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:966563",
+     "Burning Earth",
+     "Zeffon",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:919942",
+     "Darkness",
+     "StatueOfDiveo",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:378474",
+     "2012 - The Enigma",
+     "SoLaRiS",
+     [],
+     [
+      "psychedelic"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:146596",
+     "Energie OF",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:824636",
+     "The desert",
+     "Electron7",
+     [],
+     [],
+     0.1,
+     false
+    ],
+    [
+     "jamendo:1417041",
+     "ELECTROMAGNETIC",
+     "scary-world",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:132205",
+     "perturbation \u00e9lectrique",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1365210",
+     "amethyst",
+     "D27m",
+     [
+      "dark"
+     ],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1312996",
+     "Ancient Human",
+     "Zeffon",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1400501",
+     "Energie Noire",
+     "Elecmutec",
+     [],
+     [],
+     0.467,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.55,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "apocalypse-now-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene's intense visuals of napalm and helicopters contrast with the soldier's vulnerable state, creating a juxtaposition that hints at both horror and resilience.",
+    "summary": "Explosive jungle combat and hotel room relaxation",
+    "relationship": "counterpoint",
+    "moods": [
+     "sad",
+     "scifi"
+    ],
+    "genres": [
+     "electronic",
+     "hardrock"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 125,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "An intense electronic beat with heavy guitar riffs and synthesizer tones, mirroring the chaotic jungle combat but contrasting with the soldier's quiet hotel room. The music is dark yet powerful, capturing both the horror of war and the soldier's internal struggle.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.4,
+   "RR": 1.0,
+   "top": [
+    [
+     "jamendo:925507",
+     "The Soldier Comes to Life",
+     "Aufklarung",
+     [
+      "emotional"
+     ],
+     [
+      "classical"
+     ],
+     0.375,
+     true
+    ],
+    [
+     "jamendo:26439",
+     "Sad",
+     "Celestial Aeon Project",
+     [
+      "sad"
+     ],
+     [
+      "classical"
+     ],
+     0.275,
+     true
+    ],
+    [
+     "jamendo:1194826",
+     "Heaven",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [
+      "classical",
+      "orchestral"
+     ],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:925524",
+     "The Soldier Sees the Dancer and Falls in Love",
+     "Aufklarung",
+     [
+      "emotional"
+     ],
+     [
+      "classical"
+     ],
+     0.375,
+     true
+    ],
+    [
+     "jamendo:1151569",
+     "Emotionnal Sad Piano, String & Voice",
+     "-Poul'H-",
+     [
+      "dramatic",
+      "emotional",
+      "sad"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1116953",
+     "Bomber Robbery / Shorter Lament",
+     "Zeffon",
+     [],
+     [
+      "orchestral"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:577972",
+     "Statica III",
+     "Re-Lab",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1379974",
+     "Electronic / Rondo Contredanse",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1417338",
+     "Drudging Soldier",
+     "Blank Cadenza",
+     [
+      "sad"
+     ],
+     [
+      "classical"
+     ],
+     0.25,
+     true
+    ],
+    [
+     "jamendo:1278719",
+     "Bombs to the Heart",
+     "Pablo Samonta",
+     [
+      "sad"
+     ],
+     [],
+     0.25,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.6000000000000001,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "platoon-elias",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene depicts a moment of vulnerability and danger, with the soldier's fall mirroring his emotional state. The music should reflect this tension and sadness.",
+    "summary": "Soldier falling from helicopter",
+    "relationship": "match",
+    "moods": [
+     "sad",
+     "melancholic"
+    ],
+    "genres": [
+     "electronic",
+     "ambient"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "An emotional electronic score with piano and synthesizer melodies that evoke sadness and melancholy. The music gently swells as the soldier falls, then fades away as he hits the ground.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:378474",
+     "2012 - The Enigma",
+     "SoLaRiS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:146596",
+     "Energie OF",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:250748",
+     "Electronvolt",
+     "Joost Egelie",
+     [
+      "space"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:26434",
+     "Epic",
+     "Celestial Aeon Project",
+     [],
+     [
+      "classical"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:859974",
+     "Enchantment ",
+     "SoLaRiS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:818603",
+     "Epic",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:916090",
+     "09 - Into Space",
+     "MG-Rizzello",
+     [],
+     [
+      "orchestral"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:741321",
+     "Spaceship ",
+     "Fresh Body Shop",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:132217",
+     "\u00e9nergie pur",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1241411",
+     "Outer Space",
+     "Renatus Cartesius",
+     [
+      "space"
+     ],
+     [],
+     0.35,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.55,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "2001-docking",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is grand and historic, set in a futuristic space setting. The docking of the shuttle with a giant rotating wheel-shaped station against the stars evokes awe and majesty.",
+    "summary": "Space Station Docking",
+    "relationship": "match",
+    "moods": [
+     "epic",
+     "fantasy"
+    ],
+    "genres": [
+     "electronic",
+     "soundtrack"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "romantic",
+     "sad",
+     "funny"
+    ],
+    "music_description": "An epic electronic soundtrack with soaring synthesizers and powerful drums, featuring electric guitar and orchestral elements to evoke the grandeur of space docking.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:132217",
+     "\u00e9nergie pur",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:916398",
+     "I Love You",
+     "Elecmutec",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:146596",
+     "Energie OF",
+     " ENIGMA63",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1283745",
+     "Epic",
+     "OnionAudioProduction",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1261459",
+     "Afronaut Doe",
+     "EspantoMusic",
+     [],
+     [],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:1349109",
+     "Jamais Enerv\u00e9, Mais La...",
+     "Elecmutec",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:378474",
+     "2012 - The Enigma",
+     "SoLaRiS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:818608",
+     "Intense",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1225040",
+     "Fragments 03",
+     "Equalypse",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.65,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "shawshank-opera",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is tense and dramatic with a sense of awe and reverence. The prisoner's act of defiance and the inmates' reaction suggest a moment of collective triumph or revelation.",
+    "summary": "Prisoners transfixed by a record in a warden's office",
+    "relationship": "match",
+    "moods": [
+     "emotional",
+     "epic",
+     "romantic"
+    ],
+    "genres": [
+     "electronic",
+     "ambient",
+     "poprock",
+     "soundtrack"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "piano",
+     "voice"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "sad",
+     "dark",
+     "uplifting"
+    ],
+    "music_description": "An intense electronic track with pulsing synthesizers and a dramatic piano melody, accompanied by raw vocal delivery. The music builds to an explosive climax as the prisoners are transfixed.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1056391",
+     "Piano Chill Instrumental",
+     "Plastic3",
+     [
+      "dream"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1056395",
+     "Chill Background Loop 2",
+     "Plastic3",
+     [
+      "dream"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:169268",
+     "Melancholisch",
+     "Juice Connection",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1035757",
+     "Her Song",
+     "Dreamweaver",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:818613",
+     "Mellow",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1094519",
+     "Ethereal Pulsation",
+     "Aufklarung",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:25247",
+     "Mellow",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1403973",
+     "Ambiance C (2002)",
+     "Elecmutec",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:378474",
+     "2012 - The Enigma",
+     "SoLaRiS",
+     [],
+     [],
+     0.3,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.19999999999999996,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "fight-club-ending",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is set in a controlled environment with a sense of impending doom and destruction, which creates an eerie yet somewhat hopeful atmosphere. The man and woman are holding hands, suggesting a moment of intimacy amidst the chaos.",
+    "summary": "Eerie romantic tension during a surreal night scene.",
+    "relationship": "counterpoint",
+    "moods": [
+     "romantic",
+     "melancholic"
+    ],
+    "genres": [
+     "electronic",
+     "ambient",
+     "chillout"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.7,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "energetic",
+     "uplifting",
+     "positive"
+    ],
+    "music_description": "An electronic ambient track with melancholic piano and guitar melodies, interspersed with eerie synth sounds. The vocals are soft and whispery.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.2,
+   "top": [
+    [
+     "jamendo:1396603",
+     "Be With You",
+     "Intrinsic Nature",
+     [],
+     [
+      "rock"
+     ],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1221915",
+     "Open Door",
+     "C\u0152DES Pierre-Marie",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1169059",
+     "Daylight",
+     "Teresa",
+     [],
+     [
+      "pop",
+      "rock"
+     ],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1187322",
+     "Heart",
+     "Macroform",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1189913",
+     "Expressive Piano Build",
+     "Seastock",
+     [
+      "uplifting"
+     ],
+     [
+      "rock"
+     ],
+     0.59,
+     true
+    ],
+    [
+     "jamendo:858781",
+     "Answer",
+     "Sergey Kovchik",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:799921",
+     "May Be",
+     "Alexander Franke",
+     [
+      "emotional"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:377446",
+     "Angel",
+     "Marijanh",
+     [],
+     [
+      "pop"
+     ],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:7395",
+     "The girl with the wings",
+     "Spleen-Musical",
+     [],
+     [
+      "pop",
+      "rock"
+     ],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:1127796",
+     "A Certain Kind of Mood",
+     "timeless",
+     [],
+     [],
+     0.7,
+     false
+    ]
+   ],
+   "mood_recall": 0.5,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "almost-famous-bus",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene depicts a transformation from anger to joy, with the band members starting off sullen and ending up smiling. The song should reflect this emotional shift by moving from somber to uplifting.",
+    "summary": "Transformational ballad",
+    "relationship": "match",
+    "moods": [
+     "emotional",
+     "melodic",
+     "uplifting"
+    ],
+    "genres": [
+     "poprock",
+     "classicrock"
+    ],
+    "instruments": [
+     "piano",
+     "strings",
+     "voice"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 85,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "dark",
+     "entertainment",
+     "folkrock",
+     "heavy"
+    ],
+    "music_description": "A gentle pop-rock/classical hybrid with emotive piano and strings supporting the singer's heartfelt vocals, creating a uplifting and transformative atmosphere.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1,
+   "top": [
+    [
+     "jamendo:862834",
+     "HAPPY",
+     "DANI LUCAS",
+     [
+      "fun"
+     ],
+     [],
+     0.783,
+     false
+    ],
+    [
+     "jamendo:24017",
+     "A smile on your face",
+     "Cyborgjeff",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:991719",
+     "Dancing Smiling",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1072126",
+     "Happy Catchy Rock",
+     "Plastic3",
+     [],
+     [],
+     0.567,
+     false
+    ],
+    [
+     "jamendo:1089143",
+     "The Happy Bride (Dance Loop)",
+     "Snabisch",
+     [],
+     [],
+     0.9,
+     false
+    ],
+    [
+     "jamendo:1189960",
+     "Happy",
+     "Auquid",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1376259",
+     "Happy People",
+     "meHiLove",
+     [],
+     [],
+     0.57,
+     false
+    ],
+    [
+     "jamendo:1048230",
+     "We are Happy (cheerful pop rock)",
+     "Akashic Records",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:1149469",
+     "Happy People",
+     "Marco Margna",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:387422",
+     "Happy",
+     "Matti Paalanen",
+     [
+      "groovy"
+     ],
+     [
+      "funk"
+     ],
+     0.683,
+     true
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.09999999999999998,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "little-miss-sunshine-dance",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "The scene is joyful and celebratory, with a family bonding moment at a children's event. The dance is energetic and full of joy.",
+    "summary": "Family celebration at a beauty pageant",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "movie"
+    ],
+    "genres": [
+     "electronic",
+     "poprock",
+     "chillout"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "sad",
+     "dramatic",
+     "dark"
+    ],
+    "music_description": "Upbeat electronic and pop-rock music with a lively dance beat. Vocalists sing joyfully along with the dancers.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1255881",
+     "Questions",
+     "zerothehero",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:378474",
+     "2012 - The Enigma",
+     "SoLaRiS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1360537",
+     "Dark Transparency",
+     "Enearth",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1314989",
+     "07 Northern Light",
+     "EthnoSoulSoundSystem",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:784085",
+     "The Secret Garden",
+     "AsRiLoS",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1307264",
+     "empirical",
+     "Djavam R. Silva",
+     [],
+     [
+      "darkwave"
+     ],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1377078",
+     "Dimensional Drift",
+     "Phase IV",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1105675",
+     "Just the Tones",
+     "Master of the Subway Ninjas",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1096057",
+     "Mist",
+     "Empiric",
+     [],
+     [],
+     0.3,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.0,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "silence-lambs-mirror",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is dark and unsettling, with the killer's slow movements mirroring a detached, almost clinical demeanor. The makeup application suggests a calculated, almost ritualistic act.",
+    "summary": "Slowly paced scene of a serial killer applying makeup in a dim basement.",
+    "relationship": "match",
+    "moods": [
+     "dark",
+     "melodic"
+    ],
+    "genres": [
+     "electronic",
+     "ambient"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "upbeat",
+     "melodic",
+     "positive"
+    ],
+    "music_description": "Slow, ambient electronic and piano tones with a subtle, almost unsettling melody. Vocal elements are minimal or absent.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1056391",
+     "Piano Chill Instrumental",
+     "Plastic3",
+     [
+      "dream"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1035757",
+     "Her Song",
+     "Dreamweaver",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:597322",
+     "P\u00e9p\u00e9",
+     "Elecmutec",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:349832",
+     "Soft",
+     "Project Divinity",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1110513",
+     "Daydream Heartbeat",
+     "Podington Bear",
+     [],
+     [],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1194826",
+     "Heaven",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:15166",
+     "empty",
+     "Grace Valhalla",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:916398",
+     "I Love You",
+     "Elecmutec",
+     [],
+     [],
+     0.4,
+     false
+    ],
+    [
+     "jamendo:15167",
+     "experience II",
+     "Grace Valhalla",
+     [],
+     [],
+     0.4,
+     false
+    ]
+   ],
+   "mood_recall": 0.3333333333333333,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "lost-in-translation-goodbye",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is intimate and bittersweet, with a sense of closure. The older man's whispering suggests something significant but private between them.",
+    "summary": "A moment of tender farewell in Tokyo.",
+    "relationship": "match",
+    "moods": [
+     "romantic",
+     "sad"
+    ],
+    "genres": [
+     "electronic",
+     "ambient"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 80,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "heavy",
+     "dark"
+    ],
+    "music_description": "Soft electronic and ambient tones with piano and synthesizer melodies, accompanied by a gentle drum beat. The vocals are soft and emotive.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1376259",
+     "Happy People",
+     "meHiLove",
+     [],
+     [],
+     0.57,
+     false
+    ],
+    [
+     "jamendo:1057486",
+     "With You",
+     "Dayung",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1056407",
+     "Guitar Romantic",
+     "Plastic3",
+     [
+      "dream"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1056391",
+     "Piano Chill Instrumental",
+     "Plastic3",
+     [
+      "dream"
+     ],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:25254",
+     "Uplifting",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:727908",
+     "Uplifting",
+     "Celestial Aeon Project",
+     [],
+     [],
+     0.6,
+     false
+    ],
+    [
+     "jamendo:1340334",
+     "Beauty",
+     "Andrey_Serg",
+     [],
+     [],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1396603",
+     "Be With You",
+     "Intrinsic Nature",
+     [],
+     [],
+     0.8,
+     false
+    ],
+    [
+     "jamendo:1165174",
+     "Gloryday",
+     "Offenbach Project",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1189963",
+     "Easy",
+     "Auquid",
+     [],
+     [],
+     0.7,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.6000000000000001,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "garden-state-headphones",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is tender and emotional, with a sense of hope and change. The song should reflect the optimism and healing qualities of the moment.",
+    "summary": "A hopeful, uplifting ballad that captures moments of transformation and renewal.",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "romantic",
+     "inspiring"
+    ],
+    "genres": [
+     "poprock",
+     "electronic",
+     "hardrock"
+    ],
+    "instruments": [
+     "piano",
+     "drums",
+     "electricguitar",
+     "voice"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 85,
+     "max_bpm": 120
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "A blend of acoustic guitar and piano melodies with uplifting vocals that evoke hope and transformation.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1072126",
+     "Happy Catchy Rock",
+     "Plastic3",
+     [],
+     [],
+     0.567,
+     false
+    ],
+    [
+     "jamendo:1109984",
+     "Positiveness Loop 6 (30 sec)",
+     "Plastic3",
+     [],
+     [
+      "rock"
+     ],
+     0.775,
+     false
+    ],
+    [
+     "jamendo:1189960",
+     "Happy",
+     "Auquid",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:807111",
+     "Desert Freeway",
+     "Axession",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1236892",
+     "208_Happiness",
+     "MFYM",
+     [
+      "inspiring"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1100971",
+     "Its Been Done Before",
+     "Ben K Adams",
+     [],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:1048230",
+     "We are Happy (cheerful pop rock)",
+     "Akashic Records",
+     [],
+     [],
+     0.633,
+     false
+    ],
+    [
+     "jamendo:862834",
+     "HAPPY",
+     "DANI LUCAS",
+     [],
+     [],
+     0.783,
+     false
+    ],
+    [
+     "jamendo:387422",
+     "Happy",
+     "Matti Paalanen",
+     [],
+     [],
+     0.683,
+     false
+    ],
+    [
+     "jamendo:1402101",
+     "Happy Days",
+     "BACKIT",
+     [
+      "inspiring"
+     ],
+     [],
+     0.517,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.25,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "perks-tunnel",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene captures a moment of freedom and exhilaration, with the girl embodying youthful exuberance. The energy is upbeat and celebratory.",
+    "summary": "A teenage girl's joyride through a tunnel at night.",
+    "relationship": "match",
+    "moods": [
+     "happy",
+     "movie"
+    ],
+    "genres": [
+     "electronic",
+     "poprock"
+    ],
+    "instruments": [
+     "synthesizer",
+     "drums",
+     "electricguitar"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 128,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "Upbeat electronic-pop rock with synthesizer-driven beats and guitar solos, capturing the thrill of a night-time road trip.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1329498",
+     "CInematic Romantic Piano and Orchestra",
+     "Giuseppe Lorenzoni",
+     [],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:858781",
+     "Answer",
+     "Sergey Kovchik",
+     [
+      "romantic"
+     ],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:257181",
+     "Romantic Piano",
+     "Frozen Silence",
+     [],
+     [],
+     0.525,
+     false
+    ],
+    [
+     "jamendo:646653",
+     "Emotive Sunset",
+     "Marius Joppich",
+     [],
+     [],
+     0.5,
+     false
+    ],
+    [
+     "jamendo:1165173",
+     "Paradise",
+     "Offenbach Project",
+     [
+      "romantic"
+     ],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1194831",
+     "Memories",
+     "Wizart Music / Alexandre Guiraud",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:231569",
+     "The Computer",
+     "Emorej",
+     [],
+     [
+      "electronic"
+     ],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1357401",
+     "Piano (Romantic)",
+     "Matti Paalanen",
+     [
+      "romantic"
+     ],
+     [],
+     0.375,
+     false
+    ],
+    [
+     "jamendo:1121459",
+     "Romance",
+     "Marco Margna",
+     [],
+     [],
+     0.333,
+     false
+    ],
+    [
+     "jamendo:811124",
+     "Clock",
+     "Infinity",
+     [],
+     [],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.25,
+   "genre_recall": 0.25,
+   "relationship_ok": true,
+   "energy_err": 0.04999999999999999,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "drive-canal",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is intimate and visually beautiful, with a sense of joy and connection between the characters. The golden hour setting adds to the serene atmosphere.",
+    "summary": "A quiet car ride along the Los Angeles river channel at sunset.",
+    "relationship": "match",
+    "moods": [
+     "romantic",
+     "movie"
+    ],
+    "genres": [
+     "electronic",
+     "ambient"
+    ],
+    "instruments": [
+     "piano",
+     "synthesizer",
+     "drummachine"
+    ],
+    "energy": 0.5,
+    "tempo": {
+     "min_bpm": 82,
+     "max_bpm": 100
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "heavy",
+     "dark"
+    ],
+    "music_description": "A soft piano and synthesizer melody with gentle drum machine beats. The music is warm and inviting, enhancing the romantic and cinematic feel of the scene.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": false,
+   "P@10": 0.0,
+   "RR": 0,
+   "top": [
+    [
+     "jamendo:1255879",
+     "Melancholic blues",
+     "zerothehero",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1089914",
+     "Rockabilly",
+     "Bars&Beats Studio",
+     [],
+     [],
+     0.7,
+     false
+    ],
+    [
+     "jamendo:1058226",
+     "Mr Funk ",
+     "N\u00eeco",
+     [],
+     [],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1240072",
+     "Sad funk",
+     "Joseph Curwen",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1255881",
+     "Questions",
+     "zerothehero",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1181033",
+     "Funkore",
+     "The Funkastic Grooves",
+     [],
+     [],
+     0.2,
+     false
+    ],
+    [
+     "jamendo:1254441",
+     "Dissonant bop",
+     "Joseph Curwen",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:172817",
+     "Rock you",
+     "RudySeb",
+     [],
+     [
+      "electronic"
+     ],
+     0.45,
+     false
+    ],
+    [
+     "jamendo:1371378",
+     "Guitar Ballade",
+     "Micha\u0142 Ja\u0142ochowski",
+     [],
+     [],
+     0.15,
+     false
+    ],
+    [
+     "jamendo:1078436",
+     "Within A Groove",
+     "Michael Ellis",
+     [],
+     [],
+     0.2,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.4,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "drive-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene is set in the neon-lit freeways of Los Angeles, suggesting a 1950s-70s vibe with rock and funk elements. The quiet, reflective nature of the driver's journey through empty streets requires a song that complements this stillness and calm.",
+    "summary": "Reflective driving scene over open highways at night",
+    "relationship": "match",
+    "moods": [
+     "melodic",
+     "sad"
+    ],
+    "genres": [
+     "rocknroll",
+     "funk"
+    ],
+    "instruments": [
+     "piano",
+     "drums",
+     "electricguitar",
+     "bass"
+    ],
+    "energy": 0.1,
+    "tempo": {
+     "min_bpm": 60,
+     "max_bpm": 75
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "energetic",
+     "upbeat",
+     "positive"
+    ],
+    "music_description": "A slow, melancholic piano-driven rocknroll song with a funky bassline and guitar riffs that evoke the quiet, reflective nature of the scene.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.1,
+   "RR": 0.1,
+   "top": [
+    [
+     "jamendo:1186845",
+     "Why?",
+     "Aufklarung",
+     [],
+     [
+      "pop"
+     ],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1340342",
+     "Romance",
+     "Andrey_Serg",
+     [],
+     [
+      "pop"
+     ],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1100971",
+     "Its Been Done Before",
+     "Ben K Adams",
+     [
+      "happy",
+      "upbeat"
+     ],
+     [],
+     0.75,
+     false
+    ],
+    [
+     "jamendo:951",
+     "Nostalgia",
+     "Alexander Blu",
+     [],
+     [],
+     0.35,
+     false
+    ],
+    [
+     "jamendo:1208598",
+     "Memories of atomfear",
+     "BFJazz",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1278719",
+     "Bombs to the Heart",
+     "Pablo Samonta",
+     [],
+     [],
+     0.25,
+     false
+    ],
+    [
+     "jamendo:1056380",
+     "Pop Background Loop 1",
+     "Plastic3",
+     [],
+     [],
+     0.3,
+     false
+    ],
+    [
+     "jamendo:1007836",
+     "Optimistic Feelings (Corporate Music)",
+     "Plastic3",
+     [
+      "happy"
+     ],
+     [],
+     0.675,
+     false
+    ],
+    [
+     "jamendo:1163369",
+     "Hopeful Day (positive, bouncy)",
+     "Aufklarung",
+     [],
+     [
+      "pop",
+      "rock"
+     ],
+     0.65,
+     false
+    ],
+    [
+     "jamendo:1407656",
+     "happy childrens loop",
+     "andy blackwood",
+     [
+      "happy",
+      "upbeat"
+     ],
+     [
+      "pop"
+     ],
+     0.75,
+     true
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": true,
+   "energy_err": 0.050000000000000044,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "jojo-rabbit-opening",
+   "relationship": "counterpoint",
+   "profile": {
+    "reasoning": "The scene captures the boy's youthful exuberance and contrast with the historical context of Nazi rallies, creating a sense of nostalgia mixed with sadness.",
+    "summary": "Boy running through 1945 German town",
+    "relationship": "counterpoint",
+    "moods": [
+     "sad",
+     "romantic"
+    ],
+    "genres": [
+     "electronic",
+     "poprock",
+     "ambient"
+    ],
+    "instruments": [
+     "synthesizer",
+     "piano",
+     "drums",
+     "bass"
+    ],
+    "energy": 0.7,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [
+     "happy",
+     "energetic",
+     "melodic",
+     "dark"
+    ],
+    "music_description": "Excited boy running through town with ambient electronic and pop rock interludes, evoking nostalgia for the past while highlighting the harsh reality of Nazi rallies.",
+    "source": "llm"
+   }
+  },
+  {
+   "original@10": false,
+   "similar@10": true,
+   "P@10": 0.5,
+   "RR": 0.3333333333333333,
+   "top": [
+    [
+     "jamendo:968976",
+     "On The Road",
+     "PhaZer",
+     [],
+     [],
+     0.85,
+     false
+    ],
+    [
+     "jamendo:1230854",
+     "Evil Heart",
+     "BlackStar",
+     [],
+     [
+      "heavymetal",
+      "metal"
+     ],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:1371869",
+     "The Keeper",
+     "Dangerous Visions",
+     [
+      "heavy"
+     ],
+     [
+      "heavymetal"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:1231675",
+     "Scream",
+     "BlackStar",
+     [],
+     [
+      "heavymetal",
+      "metal"
+     ],
+     0.95,
+     false
+    ],
+    [
+     "jamendo:356469",
+     "Human",
+     "CAUTIVA",
+     [
+      "heavy"
+     ],
+     [
+      "metal",
+      "thrashmetal"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:1228628",
+     "02 - HEY",
+     "Fourteen Steps To Hell",
+     [
+      "dark"
+     ],
+     [],
+     0.375,
+     false
+    ],
+    [
+     "jamendo:1094953",
+     "Hard And Heavy",
+     "Robert80z",
+     [
+      "heavy"
+     ],
+     [
+      "heavymetal"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:1226705",
+     "Now It's Over",
+     "Aygan",
+     [
+      "heavy"
+     ],
+     [
+      "metal"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:361701",
+     "My Own Hell",
+     "CAUTIVA",
+     [
+      "heavy"
+     ],
+     [
+      "metal",
+      "thrashmetal"
+     ],
+     0.9,
+     true
+    ],
+    [
+     "jamendo:25401",
+     "Fantastic Train",
+     "DEREK",
+     [],
+     [
+      "metal"
+     ],
+     0.5,
+     false
+    ]
+   ],
+   "mood_recall": 0.0,
+   "genre_recall": 0.0,
+   "relationship_ok": false,
+   "energy_err": 0.15000000000000002,
+   "valid": true,
+   "valid_reason": "ok",
+   "id": "zombieland-opening",
+   "relationship": "match",
+   "profile": {
+    "reasoning": "The scene depicts chaos and destruction, with a somber tone as the zombies tear through various establishments.",
+    "summary": "Super-slow-motion carnage in an overrun America",
+    "relationship": "counterpoint",
+    "moods": [
+     "sad",
+     "melancholic"
+    ],
+    "genres": [
+     "hardrock",
+     "punkrock"
+    ],
+    "instruments": [
+     "drums",
+     "electricguitar",
+     "bass"
+    ],
+    "energy": 0.9,
+    "tempo": {
+     "min_bpm": 120,
+     "max_bpm": 140
+    },
+    "vocals": "vocal",
+    "avoid": [],
+    "music_description": "A fast-paced hard rock or punk rock track with distorted guitars and heavy drums to match the chaotic scene.",
+    "source": "llm"
+   }
+  }
+ ]
+}

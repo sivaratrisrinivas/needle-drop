@@ -16,6 +16,24 @@ in this pass. Counts are from the v1 prompt run (`results/llm_hybrid_v1.json`).
 | F5 | **Mood copying.** "uplifting" appears in 22/50 briefs, copied from the example. | — | ~15 | v2: new examples, no "uplifting" |
 | C1 | **Catalog gap, not a pipeline bug.** Decade tags (60s/70s) are rare in Jamendo, and there is almost no surf, soul-era or classic rock. Some references cannot be matched by any query. | 60s: 78 tracks, 70s: 92, surf: ~20 | — | Document; consider adding FMA as a second catalog |
 
+## Round 2: v2 and v3 (same 50 scenes, so optimistic)
+
+| # | Failure mode | Evidence | Outcome |
+|---|---|---|---|
+| F7 | **Example copying.** With two JSON examples in the prompt, the 3B model copied the counterpoint example's moods and genres verbatim. | 20 of 50 v2 briefs | v3 removed all JSON examples (zero-shot, guidance in prose only) |
+| F8 | **Zero-shot genre drift.** Without examples, genres revert to electronic and counterpoint-flavoured picks; brief genre recall falls back to 0.05-0.06 (v2: 0.17). | v3 brief genre recall 0.06 | Open. Mood and genre tags from a 3B model are weak; retrieval leans on the semantic query text |
+| F9 | **Energy still high.** | v3 energy MAE 0.20-0.22 vs 0.17 in v1/v2 | Open |
+
+| prompt | relationship acc | similar@10 hybrid (95% CI) | genre recall |
+|---|---|---|---|
+| v1 | 0.56 | 0.42 (0.28-0.56) | 0.05 |
+| v2 | 0.66 | 0.40 (0.28-0.54) | 0.17 |
+| v3 | 0.72 | 0.46 (0.32-0.60) | 0.06 |
+
+All three similar@10 intervals overlap almost entirely, so the ranking of prompts by retrieval is not
+established. v3 is kept because it has the best counterpoint accuracy, no example copying, and the
+highest point estimate. A larger model (for example a 7B) is the obvious next experiment; it would be about 2x slower on this CPU.
+
 ## What we did not find
 - No invalid JSON reached the search step (schema-constrained decoding plus pydantic validation and one retry).
 - No out-of-vocabulary tags after snapping (`brief_valid` = 1.0).
