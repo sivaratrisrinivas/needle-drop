@@ -149,6 +149,15 @@ Not verified:
 - **The Docker image on a hosted Space.** It builds locally from the same steps but was not deployed,
   since that needs your own Hugging Face account.
 
+## Speed and cost
+
+On a 4-core CPU with no GPU the local 3B model makes a scene search take roughly 2 to 5 minutes (three LLM calls
+plus the per-pick explanations) and a clip takes about 6 minutes; the demo video speeds those waits up. Results
+are cached by content hash, so repeating a scene or clip returns instantly (verified: the second identical request
+was a cache hit). Spend is tracked per request: API spend is $0 (local model), and the trace also shows what the same
+tokens would cost at a configured hosted-model price. A faster host or a hosted free-tier model via
+`NEEDLE_LLM_BASE_URL` cuts the wait sharply.
+
 ## Run it
 
 ```bash

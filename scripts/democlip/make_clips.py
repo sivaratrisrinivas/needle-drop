@@ -1,6 +1,6 @@
 """Render the two procedural test clips (chase, dawn) with Playwright + ffmpeg.
 
-Video: the canvas animation in scene.html recorded by Chromium.
+Video: the canvas animation in scene.html recorded by Chromium, encoded as VP9 WebM (plays in every browser; H.264 does not play in open-source Chromium).
 Audio: synthesized with ffmpeg (rain + 128 BPM pulse + siren sweep for chase; soft surf for dawn).
 Subtitles: a small .srt muxed in as a subtitle stream.
 """
@@ -41,11 +41,11 @@ with sync_playwright() as p:
         ctx.close()
         srt = OUT / f"{name}.srt"
         srt.write_text(SRT[name])
-        out = OUT / f"{name}.mp4"
+        out = OUT / f"{name}.webm"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "0.5", "-t", "30", "-i", str(raw),
                         "-f", "lavfi", "-t", "30", "-i", "anullsrc=r=44100:cl=mono",
-                        "-i", str(srt), "-filter_complex", AUDIO[name], "-map", "0:v", "-map", "[a]", "-map", "2:s",
-                        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", "25", "-c:a", "aac", "-c:s", "mov_text",
+                        "-filter_complex", AUDIO[name], "-map", "0:v", "-map", "[a]",
+                        "-c:v", "libvpx-vp9", "-b:v", "0", "-crf", "36", "-deadline", "realtime", "-cpu-used", "6", "-pix_fmt", "yuv420p", "-r", "25", "-c:a", "libopus",
                         "-t", "30", str(out)], check=True)
         print("wrote", out)
     b.close()

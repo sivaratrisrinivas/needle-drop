@@ -50,7 +50,7 @@ with sync_playwright() as p:
     pg.locator("#trace summary").click(); pg.wait_for_timeout(500)
     caption(pg, "Every run is traced: steps, tokens, and spend (local model, $0)"); pg.wait_for_timeout(4500)
 
-    caption(pg, "2. Switch the intended use: monetized video, so NC tracks are not cleared")
+    caption(pg, "Verdicts follow the chosen use (monetized video): NC and ND tracks are never cleared")
     pg.evaluate("window.scrollTo(0,0)"); pg.wait_for_timeout(1500)
 
     pg.click(".tab[data-tab=clip]"); pg.wait_for_timeout(800)
@@ -75,6 +75,6 @@ with sync_playwright() as p:
     pg.goto(BASE + "/review.html"); pg.wait_for_timeout(2500)
     pg.keyboard.press("1"); pg.wait_for_timeout(1200); pg.keyboard.press("2"); pg.wait_for_timeout(2500)
     caption(pg, "github.com/sivaratrisrinivas/needle-drop"); pg.wait_for_timeout(3500)
-    vid = pg.video.path(); ctx.close(); b.close()
-(OUT / "marks.json").write_text(json.dumps({"video": str(vid), "marks": marks}))
+    end = now(); vid = pg.video.path(); ctx.close(); b.close()
+(OUT / "marks.json").write_text(json.dumps({"video": str(vid), "marks": marks, "end": end}))
 print("recorded", vid, marks)

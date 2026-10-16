@@ -52,7 +52,7 @@ def showcase():
         out["scenes"].append({"text": text, "result": r})
         print("scene done", text[:40], flush=True)
     for name in examples["clips"]:
-        r = agent.run(clip_path=f"web/samples/{name}.mp4", srt_path=f"web/samples/{name}.srt", use="monetized")
+        r = agent.run(clip_path=f"web/samples/{name}.webm", srt_path=f"web/samples/{name}.srt", use="monetized")
         r["cost"] = get_trace(r["trace_id"])["totals"]
         out["clips"][name] = inline_keyframes(r)
         print("clip done", name, flush=True)
