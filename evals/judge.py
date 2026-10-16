@@ -43,6 +43,10 @@ counterpoint (a breezy upbeat pop song over stylised violence).
 FAIL: the track would feel wrong under the scene: its mood or energy clashes with no purpose (a calm
 meditative track under a frantic car chase), or its genre is jarring for the setting.
 Judge the fit only. Ignore licensing and track popularity.
+Editors have no perfect track: the tags are a rough description, so a track that is close in mood or
+energy, or that shares a mood with the scene, is a PASS. Choose FAIL only when the clash is clear
+(opposite mood, or energy far off, or a jarring genre). Do not fail a track just because it is not the
+ideal one.
 
 Write a detailed critique that names the specific tags and scene details you relied on, then the result."""
 

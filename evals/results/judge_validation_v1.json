@@ -1,0 +1,207 @@
+{
+ "labels": 100,
+ "pass": 45,
+ "fail": 55,
+ "split_sizes": {
+  "train": 15,
+  "dev": 45,
+  "test": 40
+ },
+ "few_shot": [
+  "goodfellas-layla#1",
+  "graduate-bus#6",
+  "shaun-of-the-dead-pub#6",
+  "ouatih-neon#6"
+ ],
+ "dev": {
+  "n": 45,
+  "TPR": 0.45,
+  "TNR": 0.88,
+  "disagreements": [
+   {
+    "pair_id": "mean-streets-opening#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The scene involves a young man waking from a bad dream and reflecting on home movies, evoking feelings of nostalgia and perhaps some romantic sentiment. The track 'Nostalgia (piano improvisation)' by Andrey_Serg combines nostalgic and romantic moods with an atmospheric classical touch. However, the genre is more aligned with classical and improvisation rather than the chillout/easylistening style typically associated with such a scene. Additionally, the energy level of 0.35 suggests it might be too subdued for the dynamic montage of home movies that play over the titles. The grainy nature of the home movies could benefit from a more energetic track to contrast and emphasize the emotional weight of the moment."
+   },
+   {
+    "pair_id": "american-psycho-axe#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Happy sunset' by Bars&Beats Studio has a predominantly happy and summer-oriented mood, which contrasts sharply with the dark and violent scene of an axe swing. The upbeat easylistening genre would not fit as counterpoint to the brutal action taking place on screen. Instead, it would clash with the grim atmosphere created by the violence and the somber tone set by the investment banker's lecture. Furthermore, the track contains elements like a melodica, piano, and synthesizer that do not align well with the visual setting of newspapers being laid out as background for the violent act."
+   },
+   {
+    "pair_id": "perks-tunnel#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track '80s' by Chill Carrier has an uplifting and energetic vibe, which does not align well with the scene's somber and awe-inspiring atmosphere. The teenage girl standing in a speeding truck is likely experiencing fear or exhilaration rather than joy, making the upbeat 80s pop feel jarring and out of place. Furthermore, the track's electronic elements clash with the potential period-specific sounds one might expect for a scene set in the late 1960s to early 1970s (the era often associated with the 80s sound), which could be considered historically inaccurate or jarring."
+   },
+   {
+    "pair_id": "baby-driver-coffee#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Happy Game' by Plastic3 has a predominantly upbeat and playful energy, which contrasts sharply with the contemplative and syncopated mood of the scene. The young man is walking down a busy city street on a coffee run, his steps landing on the beat as if in harmony with his surroundings. However, the cheerful vibe of 'Happy Game' does not align well with this serene yet slightly wistful moment. Instead, it feels jarring and out of place given the scene's focus on the man\u2019s rhythmically paced walk and the seemingly harmonious interaction between him and his urban environment."
+   },
+   {
+    "pair_id": "waynes-world-car#6",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Rock' by Matti Paalanen has a high energy level of 0.72, which is quite upbeat and positive. The scene involves five friends singing along to a rock opera on the radio while headbanging together in sync. While the energetic nature of the song could potentially complement the lively atmosphere of the scene, it might feel jarring given the intense physical activity (headbanging) that requires focused energy and coordination. A more subdued or upbeat track would likely be more fitting for this scene as the high energy of 'Rock' could overshadow the synchronized headbanging effort. Therefore, I lean towards a FAIL judgment."
+   },
+   {
+    "pair_id": "guardians2-groot#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Happy Game' by Plastic3 has a playful and upbeat energy that would clash with the serious and tense scene of a team battling a giant space monster. The happy, game-oriented vibe does not match the gravity of the action taking place in the background, making it feel out of place."
+   },
+   {
+    "pair_id": "jackie-brown-opening#6",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'A Certain Kind of Mood' by timeless has a groovy energy and easylistening, lounge genres that are generally upbeat and laid-back. The scene depicts the flight attendant as cool and unhurried on the moving walkway, which aligns with the calm demeanor suggested by the character's profiled movement. However, when transitioning to hurried work as the credits roll, there is a mismatch between the track\u2019s energy (which feels more relaxed and less urgent) and the scene's progression from unhurried to hurried. The genre of easylistening/lounge might be too light for the urgency implied by hurrying to work. Therefore, while the initial part fits well with the character's calm demeanor, the transition into a hurried scene does not align effectively with the track\u2019s energy and genre."
+   },
+   {
+    "pair_id": "say-anything-boombox#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The scene depicts a heartbroken young man standing outside his girlfriend's bedroom window, holding a boombox without speaking. The recommended track 'Guitar Romantic' by Plastic3 has chillout and easylistening genres with dream moods. While the mood of being lost in thought or daydreaming could be fitting for such a silent moment, the energy level (0.30) is quite low compared to the scene's potential for quiet contemplation. The track\u2019s instruments include acoustic guitar, electric guitar, piano, and synthesizer, which might add too much noise for a silent scene where the focus should be on the man\u2019s emotional state rather than auditory details."
+   },
+   {
+    "pair_id": "little-miss-sunshine-dance#6",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Happy Day' by MFYM has a festive and upbeat energy that contrasts sharply with the inappropriate and potentially disturbing scene of a little girl performing an inappropriate dance routine in front of her family. The genre is also jarring for such a serious and sensitive setting, as pop music often associated with advertisements or celebrations does not align well with the solemnity and potential shock value of the situation. Furthermore, the track's positive and uplifting moods do not counterbalance the inappropriate content but rather reinforce it by providing an overly cheerful backdrop."
+   },
+   {
+    "pair_id": "guardians2-groot#6",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Kids Loop 2' by Plastic3 has a fun, game-oriented mood and energy of 0.70, which is decidedly upbeat and playful. This does not align with the somber scene of a tiny tree creature dancing obliviously amidst a battle between heroes and a giant space monster. The background sounds suggest an energetic, perhaps even frantic, battle scenario, while the foreground character appears detached from this action, seemingly oblivious to the chaos around them. An upbeat pop track would clash sharply with the gravity and tension of the scene's core elements. Therefore, it is not suitable for this context."
+   },
+   {
+    "pair_id": "guardians-opening#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Happy Game' by Plastic3 has a playful and upbeat energy that is inconsistent with the somber, alien atmosphere of the scene. The protagonist's actions in an abandoned alien ruin are serious and menacing, not jovial or game-like as suggested by the track's mood and genre. Furthermore, the inclusion of pop instruments like bell, synthesizer, and ukulele does not align with the futuristic and mysterious setting of the space adventure. Therefore, the energy and atmosphere clash without any purpose."
+   },
+   {
+    "pair_id": "garden-state-headphones#6",
+    "human": "Fail",
+    "judge": "Pass",
+    "critique": "The scene in the hospital waiting room depicts a moment of hope and transformation, where a song is believed to change someone's life. The recommended track 'Positive Optimistic Theme 11' by Alexander Lisenkov has moods that are happy, inspiring, and positive, which align well with the uplifting nature of the scene. However, the energy level (0.65) leans towards an upbeat and lively feel, which might not fully capture the quiet, hopeful atmosphere of a hospital waiting room where people often experience a mix of hope and melancholy. The genre of easylistening is appropriate for its soothing quality, but the track's energetic nature could slightly disrupt the serene setting. Therefore, while the mood fits well, the energy level feels somewhat off."
+   },
+   {
+    "pair_id": "jackie-brown-opening#1",
+    "human": "Fail",
+    "judge": "Pass",
+    "critique": "The flight attendant's cool and unhurried demeanor suggests a calm, thoughtful mood that aligns well with the 'Chill Easy Listening Guitar (Sister)' by Plastic3. The track\u2019s moods of background, calm, dream, and thoughtful all fit this scene where the focus is on the character's composed state rather than action or excitement. However, the genre blend of chillout, easylistening, lounge, and electronic might be slightly jarring given the setting of a professional airport environment. While not as clear-cut as in previous examples, the track still manages to complement the scene without causing immediate dissonance."
+   },
+   {
+    "pair_id": "kill-bill-snow-duel#1",
+    "human": "Fail",
+    "judge": "Pass",
+    "critique": "The scene depicts a solemn and tragic moment in a Japanese garden setting, with two women facing off for their lives. The track 'Sad piano' by Matti Paalanen has moods of corporate, emotional, sad, and sentimental, along with genres of ambient, chillout, and classical music. Its energy level is at 0.40, which aligns well with the somber mood of the scene. However, the genre clash could be jarring given the traditional and solemn atmosphere of a Japanese garden setting. The track's calm and reflective nature might not effectively counterpoint or enhance the intense and tragic moment of the duel."
+   }
+  ]
+ },
+ "test": {
+  "n": 39,
+  "TPR": 0.29411764705882354,
+  "TNR": 0.9090909090909091,
+  "disagreements": [
+   {
+    "pair_id": "drive-opening#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Gentle' by Macroform has a mix of moods and genres that could potentially work with the scene, but it leans heavily towards sad, videogame, vintage, and electronic elements. The calm and epic qualities might complement the quiet, tense atmosphere of the getaway, while the vintage and electronic aspects could be jarring given the modern setting (neon-lit freeways). However, the track's primary mood is 'sad,' which does not align well with the expected tension and resolution implied by a silent driver cruising through empty streets. The genre mix also includes lofi, which might feel too relaxed for the tense scene of a getaway."
+   },
+   {
+    "pair_id": "reservoir-dogs-ear#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Happy sunset' by Bars&Beats Studio has a happy and summer vibe, which is in direct opposition to the tense and violent scene of a gangster casually dancing near an injured cop. The genre mix of easylistening, instrumentalpop, and pop does not align with the gritty realism required for this scene. Furthermore, the track's energy level (0.68) suggests it would be too upbeat and playful under such intense and disturbing circumstances."
+   },
+   {
+    "pair_id": "platoon-elias#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The scene depicts a tragic moment of violence and loss, with the soldier being shot while his comrades watch. The recommended track 'Autumn Melancholy' by VocalMix has moods that are emotional, melancholic, and sad, which align well with the somber tone of the scene. However, the energy level (0.32) is quite low, suggesting a very subdued or slow-paced music. Given the intense and violent nature of the scene, even if it's meant to be effective counterpoint, the track might feel too understated for the gravity of the moment. The genre blend of darkambient, electronic, and experimental could also seem jarring in this context."
+   },
+   {
+    "pair_id": "top-gun-deck#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track '80s' by Chill Carrier has an uplifting and energetic vibe, which contrasts with the tense and dramatic scene of fighter jets launching at sunrise. The energy level is too high for the low-key, action-packed setting. Additionally, the 80s electronic-pop genre might feel out of place in a contemporary military context, especially given that the track's influence seems to be more on retro aesthetics rather than modern military sounds. Therefore, the mood and energy clash without any effective counterpoint or purpose."
+   },
+   {
+    "pair_id": "almost-famous-bus#6",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Your Happy Face (loop)' by alumo has a high energy level of 0.75, which is decidedly upbeat and happy. This contrasts sharply with the scene's somber tone following a bitter fight. The characters start smiling after singing along to a radio song, indicating an uplifting moment. However, their initial sullen state on the tour bus suggests they are still in a negative emotional state. An upbeat track would not effectively counterpoint or enhance this scene\u2019s mood of sadness and bitterness. Therefore, it feels jarring for the setting."
+   },
+   {
+    "pair_id": "jojo-rabbit-opening#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Happy Catchy Rock' by Plastic3 has a poprock genre that is upbeat and positive, with moods of happy and positive. This does not align well with the somber scene of a ten-year-old boy running through a small German town in 1945 amidst archival footage of Nazi rallies. The energy level (0.57) suggests an energetic track, which would clash with the subdued and tragic atmosphere of the scene. Furthermore, the genre of poprock is jarring for the setting as it does not capture the historical gravity or the emotional weight of the period. Therefore, the mood and energy do not fit the scene effectively."
+   },
+   {
+    "pair_id": "baby-driver-coffee#6",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Rainbow Stone (instrumental)' by Fresh Body Shop has a high energy level of 0.70, which is quite upbeat and fun. Given the scene description of a young man bopping down a busy city street on a coffee run with graffiti and passersby seemingly syncing to him, the energetic and catchy nature of this track would likely clash with the natural flow and spontaneous rhythm of the scene. The upbeat tempo could feel jarring against the casual, almost effortless pace of the character's walk. Moreover, the genre mix of electronic and pop might not align well with the urban street setting unless there is a deliberate artistic choice to contrast or highlight this aspect. Therefore, it seems unlikely that this track would fit seamlessly into the scene as intended."
+   },
+   {
+    "pair_id": "baby-driver-shootout#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Sunshine' by Disconauts Music Production has a happy, summer vibe with dance, dancepop, and house genres. Its energy level is at 0.68, indicating an upbeat and lively sound. However, the scene described involves a shootout in a meat warehouse, which is characterized by intense gunfire and chaos. The mood of 'Sunshine' does not align with the violent and chaotic nature of the scene. Instead, it would clash with the energy and atmosphere of the gunfight, making it feel out of place and jarring under such a high-energy and tense scenario."
+   },
+   {
+    "pair_id": "breakfast-club-fist#6",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track '80s' by Chill Carrier has an uplifting and energetic vibe, which contrasts with the somber and frozen moment depicted in the scene. The character is celebrating the end of detention, but the image freezes, suggesting a momentary stillness or contemplation rather than exuberance. An 80s pop track would feel jarring against the static freeze frame, as it implies movement and energy that does not align with the frozen imagery. Furthermore, the scene's context is one of relief and reflection, which an upbeat 80s pop song would not effectively counterpoint or enhance."
+   },
+   {
+    "pair_id": "easy-rider-highway#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track '208_Happiness' by MFYM has an energetic and upbeat vibe, which contrasts with the scene of two bikers riding freely through a desert landscape. The scene is characterized by freedom, wildness, and the serene rolling of the desert, suggesting a more laid-back and natural atmosphere rather than one that requires high energy or excitement. The track's happy and inspiring moods do not align well with the calm and expansive setting of the open desert highway. Therefore, it feels jarring under this scene."
+   },
+   {
+    "pair_id": "almost-famous-bus#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track '80s' by Chill Carrier has an uplifting and electronic vibe, which contrasts with the somber scene of a rock band regaining their spirits through music. The energy level is also higher than what would be expected for this quiet, healing moment on a tour bus. An 80s synth-pop track does not effectively counter or complement the melancholy situation described; it feels jarring and out of place."
+   },
+   {
+    "pair_id": "breakfast-club-fist#1",
+    "human": "Pass",
+    "judge": "Fail",
+    "critique": "The track 'Trendstranded' by Michael Ellis has a high energy level of 0.75, which is quite upbeat and fun. The scene described involves the rebel walking across an empty school football field after Saturday detention ends, with a moment of triumph marked by him punching his fist into the air. This freeze frame suggests a celebratory or triumphant mood rather than one that requires a more subdued or reflective tone. Given the high energy of the track, it would feel jarring and out of place for this scene, as the music does not match the calm, victorious moment depicted in the scene. The upbeat nature of the song's energy contrasts sharply with the freeze frame of triumph, making it seem inappropriate to use such a lively track over what is likely a solemn or reflective moment."
+   },
+   {
+    "pair_id": "garden-state-headphones#1",
+    "human": "Fail",
+    "judge": "Pass",
+    "critique": "The scene in the hospital waiting room is characterized by a hopeful and inspiring narrative, where a young woman's song has the potential to change someone's life. The recommended track 'Expressive Piano Build' by Seastock combines corporate, hopeful, inspirational, motivational, and uplifting moods with easylistening, indie, rock genres, and features piano as an instrument. While the energy (0.59) is moderate, it aligns well with the scene\u2019s hopeful undertones. The track's upbeat yet thoughtful nature can serve as a fitting counterpoint to the emotional journey of the scene, where something positive and uplifting could indeed change someone's life perspective."
+   },
+   {
+    "pair_id": "risky-business-socks#1",
+    "human": "Fail",
+    "judge": "Pass",
+    "critique": "The scene depicts a poignant and nostalgic moment of a teenager alone in the living room, singing into a candlestick. The recommended track 'Gentle Heart' by Podington Bear has emotional, nostalgic, and sweet moods which align well with the intimate and sentimental nature of the scene. However, the genre blend of classical and electronic could be seen as slightly jarring given the traditional setting (living room) and the use of a candlestick for singing. The track's energy level is also quite low at 0.40, which might not fully capture the lively or energetic aspects that one would expect from such a scene. Despite these minor genre and energy mismatches, the emotional core of the song fits well with the nostalgic atmosphere."
+   }
+  ]
+ },
+ "unlabeled": {
+  "n": 50,
+  "raw_pass_rate": 0.32,
+  "corrected_pass_rate": 1.0,
+  "ci95": [
+   0.0,
+   1.0
+  ]
+ }
+}
