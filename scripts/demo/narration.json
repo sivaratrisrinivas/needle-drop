@@ -1,0 +1,16 @@
+{
+ "intro": "Needle Drop finds the right song for a scene, and tells you whether you are actually allowed to use it.",
+ "describe": "Start by describing a scene. A small language model, running locally, turns it into a structured music brief.",
+ "fast1": "While it works, an agent writes the brief, searches more than twenty thousand Creative Commons tracks, and checks every license. On this small CPU that takes a few minutes, so we are speeding it up.",
+ "shortlist": "Here is the shortlist, ranked, with a cleared or not cleared flag on every track.",
+ "picks": "Each pick explains why it fits, quotes the license text, and shows what it costs.",
+ "trace": "Every run is traced, with steps, tokens and spend. Running locally, that spend is zero.",
+ "use": "Verdicts follow your intended use. For monetized video, non-commercial and no-derivatives tracks are never marked cleared.",
+ "clipdrop": "Next, drop in a clip. This sample has hard cuts, rain, and subtitles.",
+ "fast2": "The clip goes through cut detection, audio tempo, subtitles and keyframe captions, and then the same agent loop.",
+ "analysis": "The analysis reports pacing, cuts, tempo and palette, and feeds them into the music brief.",
+ "play": "Play any pick against the clip. Audio streams from Jamendo in a normal browser.",
+ "rate": "Rate whether it fits, and those labels calibrate the judge.",
+ "review": "There is also a labeling screen with keyboard shortcuts, for quick review.",
+ "github": "The code, the evals, and honest notes on what is verified are on GitHub. Thanks for watching."
+}
