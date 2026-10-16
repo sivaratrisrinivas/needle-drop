@@ -61,7 +61,19 @@ major-label recordings and are not in a CC catalog, so **original@10 is 0 by con
 headline metric is **similar@10**: at least one top-10 track shares a genre and a mood with the
 reference and is within 0.25 energy.
 
-{{RETRIEVAL_TABLE}}
+| variant | similar@10 (95% CI) | P@10 | MRR | brief mood recall | brief genre recall | counterpoint acc | energy MAE |
+|---|---|---|---|---|---|---|---|
+| heuristic | 0.22 (0.10-0.34) | 0.03 | 0.06 | 0.12 | 0.03 | 0.80 | 0.20 |
+| llm_semantic_v1 | 0.40 (0.26-0.54) | 0.09 | 0.18 | 0.23 | 0.05 | 0.56 | 0.17 |
+| llm_hybrid_v1 | 0.42 (0.28-0.56) | 0.15 | 0.22 | 0.23 | 0.05 | 0.56 | 0.17 |
+| llm_semantic_v2 | 0.38 (0.26-0.52) | 0.10 | 0.16 | 0.25 | 0.17 | 0.66 | 0.17 |
+| llm_hybrid_v2 | 0.40 (0.28-0.54) | 0.18 | 0.24 | 0.25 | 0.17 | 0.66 | 0.17 |
+| llm_semantic_v3 | 0.40 (0.28-0.54) | 0.09 | 0.22 | 0.18 | 0.05 | 0.74 | 0.22 |
+| llm_hybrid_v3 | 0.46 (0.32-0.60) | 0.14 | 0.18 | 0.17 | 0.06 | 0.72 | 0.20 |
+| direct_baseline | 0.26 (0.14-0.38) | 0.04 | 0.08 | – | – | – | – |
+| direct_adapter | 0.28 (0.16-0.42) | 0.04 | 0.09 | – | – | – | – |
+
+The heuristic's 0.80 counterpoint accuracy is an artifact: it always answers "match", and 40 of 50 scenes are matches. The adapter row is the phase-7 comparison (raw scene text, no LLM).
 
 What this says: the LLM brief roughly doubles similar@10 over the no-LLM keyword baseline, and the
 hybrid ranker improves precision and MRR over pure semantic search. With 50 scenes the confidence
@@ -73,7 +85,7 @@ Every v1 trace was read and open-coded, then grouped into failure modes: genre c
 prompt example, era ignored, counterpoint over-predicted (30 of 50 vs 10 of 50 true), energy too high
 for quiet scenes, mood copying, and a catalog gap (almost no 60s/70s, surf or soul tags in Jamendo).
 v2 fixed genre recall (0.05 to 0.17) but the 3B model copied a prompt example verbatim in 20 of 50
-briefs; v3 removed the examples. {{PROMPT_DECISION}}
+briefs; v3 removed the examples. v3 is the shipped prompt: it has the best counterpoint accuracy and no copying, and its retrieval is statistically indistinguishable from v1 and v2 on 50 scenes.
 
 ### License RAG (`python evals/license_rag_eval.py`)
 
@@ -88,8 +100,8 @@ genre x setting, then a separate call writes a scene that never mentions music).
 
 | Model (raw scene text, semantic search only) | Held-out synthetic pairs, similar@10 (5-fold CV) | 50 iconic scenes, similar@10 (95% CI) |
 |---|---|---|
-| Off-the-shelf nomic-embed | 0.25 | {{DB}} |
-| Fine-tuned adapter | 0.30 | {{DA}} |
+| Off-the-shelf nomic-embed | 0.25 | 0.26 |
+| Fine-tuned adapter | 0.30 | 0.28 |
 
 The adapter's gain is within noise on the real scenes (one or two scenes out of 50), and both are well
 below the LLM-brief pipeline. Honest read: 181 synthetic pairs from a 3B model are not enough signal,
@@ -102,7 +114,16 @@ A binary Pass/Fail judge ("does this track fit the scene?") with critique before
 examples from the train split only, and dev/test TPR and TNR, followed by the Rogan-Gladen corrected
 pass rate with a bootstrap CI on unlabeled top-10 pairs.
 
-{{JUDGE}}
+Result: **the local 3B judge does not agree well enough with the labels to be used as an automatic grader yet.**
+
+| judge prompt | dev TPR / TNR (n=45) | test TPR / TNR (n=40) |
+|---|---|---|
+| v1 | 0.45 / 0.88 | 0.29 / 0.91 |
+| v2 (prompt told to fail only clear clashes; did not help) | 0.35 / 0.88 | 0.28 / 0.91 |
+
+It rarely fails good tracks (TNR about 0.9) but passes only about a quarter to a third of the tracks the labels call good. TPR + TNR is only
+about 1.2, so the Rogan-Gladen correction is unstable (the corrected pass rate hit 1.0 with a 0-1 confidence interval), and I do not report a
+corrected fit rate. Next steps: a larger judge model, or more labeled data.
 
 **These labels are provisional.** They were written by Claude from tags, not by a person listening to
 the audio. To calibrate properly, open `web/review.html`, label the 100 pairs (keys 1, 2, D, U), click

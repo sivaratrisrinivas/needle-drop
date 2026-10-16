@@ -55,7 +55,8 @@ with sync_playwright() as p:
 
     pg.click(".tab[data-tab=clip]"); pg.wait_for_timeout(800)
     caption(pg, "3. Drop in a clip (here a 30 s sample with hard cuts and subtitles)")
-    pg.click("#sample-chase"); pg.wait_for_selector("#preview:not(.hidden)", timeout=30000); pg.wait_for_timeout(3000)
+    pg.click("#sample-chase"); pg.wait_for_selector("#preview:not(.hidden)", timeout=30000); pg.wait_for_timeout(1500)
+    pg.evaluate("document.querySelector('#preview').currentTime = 3"); pg.wait_for_timeout(1500)
     pg.click("#go")
     fast(pg, "Analyzing frames, cuts, audio tempo, subtitles; then the same agent loop",
          lambda: pg.wait_for_selector("#analysis:not(.hidden)", timeout=1500000))
