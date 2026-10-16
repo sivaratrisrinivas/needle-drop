@@ -7,7 +7,7 @@
  "trace": "Every run is traced, with steps, tokens and spend. Running locally, that spend is zero.",
  "use": "Verdicts follow your intended use. For monetized video, non-commercial and no-derivatives tracks are never marked cleared.",
  "clipdrop": "Next, drop in a clip. This sample has hard cuts, rain, and subtitles.",
- "fast2": "The clip goes through cut detection, audio tempo, subtitles and keyframe captions, and then the same agent loop.",
+ "fast2": "The clip goes through cut detection, audio tempo, subtitles and keyframe captions, and then the same agent loop. This is the slowest step on a small CPU, because the local model has to read everything it found before it can write the brief.",
  "analysis": "The analysis reports pacing, cuts, tempo and palette, and feeds them into the music brief.",
  "play": "Play any pick against the clip. Audio streams from Jamendo in a normal browser.",
  "rate": "Rate whether it fits, and those labels calibrate the judge.",
