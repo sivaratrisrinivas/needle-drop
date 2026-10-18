@@ -43,7 +43,7 @@ for i, (n, t0, real) in enumerate(beats):
     if n.startswith("end_"):
         fast = False
     if n in ("fast1", "fast2"):
-        D = max(real / 12, L + 0.6); speed = real / D; pad = 0.0
+        D = max(L + 0.6, min(real / 12, L + 6.0)); speed = real / D; pad = 0.0  # at most 6 s of waiting beyond the narration
     else:
         D = max(real, L + 0.5); speed = 1.0; pad = max(0.0, D - real)
     f = take / f"nseg{i}.mp4"
