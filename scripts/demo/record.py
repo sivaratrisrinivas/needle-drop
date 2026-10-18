@@ -40,6 +40,14 @@ def caption(pg, text, name=None):
       d.style.cssText = 'position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:99999;background:rgba(10,12,18,.92);color:#fff;font:600 18px system-ui;padding:10px 18px;border-radius:10px;border:1px solid #f5b642;max-width:90vw;text-align:center'; document.body.appendChild(d);} d.textContent = t; }""", text)
 
 
+def card(pg, text, name, hold):
+    """Full-screen story card: the why comes before the product."""
+    ev(pg, name)
+    pg.evaluate("""t => { let d = document.getElementById('story'); if (!d) { d = document.createElement('div'); d.id = 'story';
+      d.style.cssText = 'position:fixed;inset:0;z-index:99990;background:#0c0c0b;color:#ece6d8;display:flex;align-items:center;justify-content:center;padding:0 12vw;text-align:left;font:400 44px/1.25 ui-serif,Georgia,serif;letter-spacing:-.01em'; document.body.appendChild(d);} d.textContent = t; }""", text)
+    pg.wait_for_timeout(hold)
+
+
 def fast(pg, label, wait_fn, name):
     start = now(); caption(pg, label + " (sped up 12x)", name); wait_fn(); marks.append([start, now()]); ev(pg, "end_" + name)
 
@@ -48,10 +56,15 @@ with sync_playwright() as p:
     b = p.chromium.launch(executable_path="/opt/pw-browsers/chromium", args=["--autoplay-policy=no-user-gesture-required"])
     ctx = b.new_context(viewport={"width": 1280, "height": 800}, record_video_dir=str(OUT), record_video_size={"width": 1280, "height": 800})
     pg = ctx.new_page(); t0 = time.time()
-    # The build sandbox cannot reach jamendo.com, so a stand-in tone replaces the stream in this recording (the video says so).
-    tone = (Path(__file__).parent / "standin_tone.wav").read_bytes()
-    pg.route("**/*.jamendo.com/**", lambda r: r.fulfill(status=200, body=tone, headers={"content-type": "audio/wav", "access-control-allow-origin": "*"}))
+    # The build sandbox cannot reach jamendo.com, so a real music clip (Kevin MacLeod, Outfoxing the Fox, CC BY 3.0, incompetech.com) replaces the stream in this recording (the video says so).
+    tone = (Path(__file__).parent / "standin_music.mp3").read_bytes()
+    pg.route("**/*.jamendo.com/**", lambda r: r.fulfill(status=200, body=tone, headers={"content-type": "audio/mpeg", "access-control-allow-origin": "*"}))
     pg.goto(BASE); pg.wait_for_selector("#scene"); pg.wait_for_timeout(1500)
+    card(pg, "It is 2 a.m. The edit is locked. The scene needs one more thing: the right song.", "why1", 1500)
+    card(pg, "So you scroll a library for hours. Then you find the one, and wonder if you are even allowed to use it.", "why2", 1500)
+    card(pg, "A wrong guess means a takedown, a demonetized video, or an awkward email to a client.", "why3", 1500)
+    card(pg, "Needle Drop finds the song that fits the scene, and says plainly whether you may use it.", "why4", 1500)
+    pg.evaluate("document.getElementById('story').remove()")
     caption(pg, "Needle Drop: one field. Everything else appears only when you need it", "intro"); pg.wait_for_timeout(3500)
 
     caption(pg, "1. Describe a scene (Tab uses the suggestion). A local 3B LLM writes the music brief", "describe")
@@ -75,8 +88,8 @@ with sync_playwright() as p:
     pg.locator("#clipline").click()
     caption(pg, "Clip analysis: cuts, tempo, pacing, palette. It feeds the brief", "analysis"); pg.wait_for_timeout(5500)
     pg.locator("#clipline").click()
-    caption(pg, "Tap a title to drop the needle: it plays against your clip (stand-in tone here: the sandbox can't reach Jamendo)", "play")
-    pg.locator("#crate .ti").first.click(); pg.wait_for_timeout(7000)
+    caption(pg, "Tap a title to drop the needle: it plays against your clip (stand-in clip: Kevin MacLeod, CC BY 3.0; sandbox can't reach Jamendo)", "play")
+    pg.locator("#crate .ti").first.click(); pg.wait_for_timeout(12000)
     pg.locator("#crate .exp").first.click()
     caption(pg, "Rate the fit: labels calibrate the judge", "rate")
     pg.locator(".rate button").first.click(); pg.wait_for_timeout(3500)
@@ -84,6 +97,9 @@ with sync_playwright() as p:
     caption(pg, "4. Labeling screen: Pass / Fail with keyboard shortcuts, export JSON for judge calibration", "review")
     pg.goto(BASE + "/review.html"); pg.wait_for_timeout(2500)
     pg.keyboard.press("1"); pg.wait_for_timeout(1200); pg.keyboard.press("2"); pg.wait_for_timeout(2500)
+    pg.goto(BASE); pg.wait_for_timeout(500)
+    card(pg, "The right song, and a straight answer about whether you can use it. Nothing more on screen than you need.", "close", 1500)
+    pg.evaluate("document.getElementById('story').remove()")
     caption(pg, "github.com/sivaratrisrinivas/needle-drop", "github"); pg.wait_for_timeout(3500)
     end = now(); vid = pg.video.path(); ctx.close(); b.close()
 (OUT / "marks.json").write_text(json.dumps({"video": str(vid), "marks": marks, "end": end, "events": events}))

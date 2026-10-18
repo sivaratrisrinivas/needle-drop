@@ -56,6 +56,27 @@ for i, (n, t0, real) in enumerate(beats):
 (take / "nlist.txt").write_text("\n".join(segs))
 speech = np.concatenate(audio)
 speech = speech / max(1e-6, np.abs(speech).max()) * 0.9
+# the recording has no sound, so lay the real stand-in music under the beats where the player is on
+# (it is quieter while the voice speaks, and comes up once the voice stops)
+mp = take / "music.wav"
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(Path(__file__).parent / "standin_music.mp3"), "-ac", "1", "-ar", str(SR), str(mp)], check=True)
+music, _ = sf.read(mp, dtype="float32")
+off, bounds = 0, {}
+for i, (n, t0, real) in enumerate(beats):
+    bounds[n] = (off, len(audio[i])); off += len(audio[i])
+if "play" in bounds:
+    a0 = bounds["play"][0] + int(0.9 * SR)
+    end = bounds["rate"][0] + bounds["rate"][1] if "rate" in bounds else bounds["play"][0] + bounds["play"][1]
+    n_m = min(len(music), end - a0)
+    env = np.full(n_m, 0.55, np.float32)
+    voice_end = bounds["play"][0] + int((len(wav["play"]) / SR + 0.3) * SR) - a0
+    env[: max(0, min(n_m, voice_end))] = 0.16
+    ramp = int(0.8 * SR)
+    if 0 < voice_end < n_m - ramp:
+        env[voice_end: voice_end + ramp] = np.linspace(0.16, 0.55, ramp)
+    env[-int(0.6 * SR):] *= np.linspace(1, 0, int(0.6 * SR))
+    speech[a0:a0 + n_m] += music[:n_m] * env
+speech = np.clip(speech, -1, 1)
 sf.write(take / "narration.wav", speech, SR)
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-i", str(take / "nlist.txt"), "-i", str(take / "narration.wav"),
                 "-c:v", "copy", "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", str(take / "needle-drop-demo-narrated.mp4")], check=True)

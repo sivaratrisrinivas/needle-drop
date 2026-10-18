@@ -140,7 +140,7 @@ Verified in the build environment:
   driven with Playwright in live and static modes at desktop and phone widths.
 
 Not verified:
-- **Audio playback of real Jamendo tracks.** The build environment could not reach jamendo.com, so no real stream was played here. The URLs match Jamendo's documented format, and the player tries three URL variants. The player logic was tested in a browser with the Jamendo requests intercepted: it plays when audio loads, falls back to the next URL, and reports a failure honestly when none load.
+- **Audio playback of real Jamendo tracks.** The build environment could not reach jamendo.com, so no real stream was played here. The URLs match Jamendo's documented format, and the player tries three URL variants. The player logic was tested in a browser with the Jamendo requests intercepted: it plays when audio loads, falls back to the next URL, and reports a failure honestly when none load. In the demo video the Jamendo request is answered with a real music clip instead (Kevin MacLeod, "Outfoxing the Fox", CC BY 3.0, incompetech.com, from the MDN webaudio-examples repo), so the audio you hear is that stand-in, not the shortlisted track; the caption and narration say so.
 - **Licenses are as of the 2019 snapshot**, not checked live against Jamendo's API.
 - **Clip analysis on real film footage.** It was tested on two generated sample clips (a night chase
   with hard cuts and a quiet dawn) and checked for cut count and tempo, not on real movies.
