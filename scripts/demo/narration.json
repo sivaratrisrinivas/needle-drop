@@ -1,8 +1,8 @@
 {
- "why1": "It is two in the morning. The edit is locked, and the scene needs one more thing: the right song.",
- "why2": "So you scroll a music library for hours. Then you find the one, and wonder whether you are even allowed to use it.",
- "why3": "A wrong guess means a takedown, a demonetized video, or an awkward email to a client. The answer is buried in license text nobody reads.",
- "why4": "Needle Drop does both jobs at once. It finds the song that fits your scene, and tells you plainly whether you may use it.",
+ "why1": "I kept watching my friends hunt for the right song for an Instagram post or story.",
+ "why2": "They scroll, try one, try another. The moment passes, and the song still never quite fits.",
+ "why3": "And a song picked in a hurry may be one they are not allowed to use. The answer hides in license text nobody reads.",
+ "why4": "So I built Needle Drop. It finds the song that fits the scene, and tells you plainly whether you may use it.",
  "intro": "Here is how it works. There is one field, and everything else appears only when you need it.",
  "describe": "Describe your scene in your own words. A small language model, running on this machine, turns it into a music brief.",
  "fast1": "While it works, it searches more than twenty thousand Creative Commons tracks and checks every license. On this small computer that takes a few minutes, so we are speeding it up.",
@@ -16,6 +16,6 @@
  "play": "Tap a title to drop the needle, and the music plays against your clip. This sandbox can not reach Jamendo, so a stand-in track by Kevin MacLeod, licensed Creative Commons attribution, plays instead.",
  "rate": "Say whether it fits. Those ratings help check how well the system judges its own picks.",
  "review": "There is also a quick labeling screen with keyboard shortcuts.",
- "close": "That is the point. The right song for the scene, and a straight answer about whether you can use it.",
+ "close": "No more scrolling for the song. Describe the scene, get the right one, and know whether you can use it.",
  "github": "The code, the evals, and honest notes on what is verified are on GitHub. Thanks for watching."
 }
